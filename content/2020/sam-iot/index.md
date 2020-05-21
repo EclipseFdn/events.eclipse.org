@@ -26,9 +26,9 @@ With the ever increasing adoption of IoT technologies in every application domai
 
 ## Technical topics of interest  
 
-* [logo] Security and Privacy for IoT
-* [logo] Artificial Intelligencefor IoT
-* [logo] Modelling for IoT
+* Security and Privacy for IoT
+* Artificial Intelligencefor IoT
+* Modelling for IoT
 
 {{</ grid/section-container >}}
 
@@ -77,7 +77,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 
 {{</ grid/section-container >}}
 
-{{< grid/section-container id="organizing-committee" class="featured-section-row featured-section-row-lighter-bg" isMarkdown="true">}}
+{{< grid/section-container id="organizing-committee" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 
 ## Organizing Committee 
 
@@ -85,8 +85,8 @@ The Technical Program Committee is an independent panel of expert volunteers and
 The Eclipse Foundation is pleased to be cooperating on this event with the LINKS Foundation.  
 
 ### General Chairs:  
-Philippe Krief (Eclipse Foundation)
 
+Philippe Krief (Eclipse Foundation) \
 Enrico Ferrera (LINKS Foundation)
 
 ### Program Committee Chair:  
@@ -94,21 +94,27 @@ Rosaria Rossini (LINKS Foundation)
 
 ### Publicity  
 Susan Iwai  (Eclipse Foundation) 
-
-![alt text](images/eclipse_logo.png)
-![alt text](images/brain_iot_logo.png)
-![alt text](images/links_foundation_logo.png)
-
-
-Link to: http://eclipse.org/research 
-
-Link to: http://brain-iot.eu 
-
-Link to: https://linksfoundation.com/ 
-
 {{</ grid/section-container >}}
 
-{{< grid/section-container id="location" class="featured-section-row featured-section-row-dark-bg" isMarkdown="true">}}
+{{< grid/section-container id="organizing-orgs" class="featured-section-row featured-section-row-lighter-bg text-center">}}
+{{< grid/div class="row" isMarkdown="false">}}
+
+{{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
+  [![Eclipse Research](images/eclipse_logo.png)](http://eclipse.org/research)
+{{</ grid/div >}}
+
+{{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
+  [![Brain IoT](images/brain_iot_logo.png)](http://brain-iot.eu)
+{{</ grid/div >}}
+
+{{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
+  [![Linux Foundation](images/links_foundation_logo.png)](https://linksfoundation.com/)
+{{</ grid/div >}}
+
+{{</ grid/div >}}
+{{</ grid/section-container >}}
+
+{{< grid/section-container id="location" class="featured-section-row featured-section-row-dark-bg text-center" isMarkdown="true">}}
 
 ## Location and Registration
 
@@ -117,10 +123,9 @@ Registration will open in the next weeks. Please watch this space for updates. I
 
 {{</ grid/section-container >}}
 
-{{< grid/section-container id="contact" class="featured-section-row featured-section-row-lighter-bg" isMarkdown="true">}}
+{{< grid/section-container id="contact" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 ## Contact us
 
-If you have questions about the conference or the Call for Papers, please contact research@eclipse.org. 
-Conference Website: https://events.eclipse.org/2020/sam-iot/
+If you have questions about the conference or the Call for Papers, please contact research@eclipse.org.
 
 {{</ grid/section-container >}}
