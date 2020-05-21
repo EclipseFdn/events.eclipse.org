@@ -44,11 +44,10 @@ With the ever increasing adoption of IoT technologies in every application domai
 
 {{</ grid/section-container >}}
 
-{{< grid/section-container id="guidelines" class="featured-section-row featured-section-row-lighter-bg" isMarkdown="true">}}
+{{< grid/section-container id="guidelines" class="featured-section-row featured-section-row-lighter-bg">}}
 
-## Call for Papers & Submission Guidelines
-
-tbd
+<h2>Call for Papers & Submission Guidelines</h2>
+{{< bootstrap/button title="Call For Papers" href="sam-iot-cfp.pdf" pClass="text-center">}}Call For Papers{{</ bootstrap/button >}}
 
 {{</ grid/section-container >}}
 
