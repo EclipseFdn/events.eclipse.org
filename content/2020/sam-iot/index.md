@@ -39,7 +39,7 @@ Security and Privacy for IoT
 {{</ grid/div >}}
 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
-![Artificial Intelligencefor IoT](images/ai.png)
+![Artificial Intelligence for IoT](images/ai.png)
 
 Artificial Intelligencefor IoT
 {{</ grid/div >}}
@@ -78,7 +78,9 @@ Modelling for IoT
 
 The Technical Program Committee is an independent panel of expert volunteers and as such will do their best to judge papers objectively and on the principle of a level playing field for all. 
 
+
 * Luca Anselma, University of Turin
+* Paolo Azzoni, Eurotech
 * Ilaria Bosi, LINKS Foundation
 * Paolo Brizzi, Competence Center Industry Manufacturing 4.0
 * Benoit Combemale, University of Toulouse INRIA
@@ -87,14 +89,15 @@ The Technical Program Committee is an independent panel of expert volunteers and
 * Maria Teresa Delgado, Eclipse Foundation
 * Frederic Desbiens, Eclipse Foundation
 * Marco Jahn, Eclipse Foundation
-* Prabhakaran Kasinatha, Siemens AG - Cybersecurity Technologies
+* Prabhakaran Kasinathan, Siemens AG - Corporate Technology, Cybersecurity Technology
 * Zakaria Laaroussi, Ericsson Finland
 * Cesar Martin, Information Catalyst for Enterprise - ICE
 * Claudio Pastrone, LINKS Foundation
 * Mohammad Rifat Ahmmad Rashid, University of Liberal Arts Bangladesh – ULAB
 * Alejandra Ruiz Lopez, Tecnalia
-* Xu Tao,  LINKS Foundation
+* Xu Tao, LINKS Foundation
 * Massimo Vecchio, Università degli Studi eCampus
+
 
 {{</ grid/section-container >}}
 
