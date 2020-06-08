@@ -29,7 +29,7 @@ The Eclipse SAM IoT conference will bring together industry experts and research
 ## Important Dates
 
 | Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission | Conference Dates |
-|---|---|---|---|
+| :---: | :---: | :---: | :---: |
 | Jul. 22, 2020 | Aug. 10, 2020 | Aug. 30, 2020 | Sep. 17-18, 2020 |
 
 {{</ grid/section-container >}}

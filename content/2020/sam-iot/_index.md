@@ -66,14 +66,12 @@ Modelling for IoT
 {{</ grid/section-container >}}
 
 
-{{< grid/section-container id="dates" class="featured-section-row featured-section-row-light-bg" isMarkdown="true">}}
-
+{{< grid/section-container class="featured-section-row" isMarkdown="true">}}
 ## Important Dates
 
-* Paper submission deadline  - July 22, 2020
-* Acceptance Notification - August 10, 2020
-* Camera-Ready Paper Submission - August 30, 2020
-* Conference Dates - September 17-18, 2020
+| Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission | Conference Dates |
+| :---: | :---: | :---: | :---: |
+| Jul. 22, 2020 | Aug. 10, 2020 | Aug. 30, 2020 | Sep. 17-18, 2020 |
 
 {{</ grid/section-container >}}
 
