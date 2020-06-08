@@ -89,34 +89,24 @@ Modelling for IoT
 
 The Technical Program Committee is an independent panel of expert volunteers and as such will do their best to judge papers objectively and on the principle of a level playing field for all. 
 
-* Alessio Angius, ISI Foundation
 * Luca Anselma, University of Turin
-* Paolo Azzoni, Eurotech
 * Peter Bednár, Technická univerzita v Košiciach
 * Ilaria Bosi, LINKS Foundation
 * Paolo Brizzi, Competence Center Industry Manufacturing 4.0
 * Benoit Combemale, University of Toulouse INRIA
 * Davide Conzon, LINKS Foundation
 * João Pedro Correia dos Reis, Faculty of Engineering, University of Porto - FEUP
-* Maria Teresa Delgado, Eclipse Foundation
 * Frederic Desbiens, Eclipse Foundation
-* Charalampos Doukas, Amazon Web Services
 * Juliver Gil, Universidad de Antioquia
-* Laurent Gomez, SAP Security Research
 * Gil Gonçalves, Faculty of Engineering, University of Porto - FEUP
 * Marco Jahn, Eclipse Foundation
 * Prabhakaran Kasinathan, Siemens AG - Cybersecurity Technologies
 * Zakaria Laaroussi, Ericsson Finland
 * Cesar Marin, Information Catalyst for Enterprise - ICE
-* Yod Samuel Martín, Universidad Politécnica de Madrid
 * Claudio Pastrone, LINKS Foundation
 * Ivana Podnar Žarko, University of Zagreb, Faculty of Electrical Engineering and Computing
-* Mohammad Rifat Ahmmad Rashid, University of Liberal Arts Bangladesh – ULAB
 * Alejandra Ruiz Lopez, Tecnalia
-* Julian Schütte, Fraunhofer AISEC
-* Tomáš Sabol, Technická univerzita v Košiciach
 * Xu Tao, LINKS Foundation
-* Massimo Vecchio, Università degli Studi eCampus
 * Mark Vinkovits, Pasero
 
 
