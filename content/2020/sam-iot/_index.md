@@ -80,7 +80,7 @@ Modelling for IoT
 {{< grid/section-container id="guidelines" class="featured-section-row featured-section-row-lighter-bg">}}
 
 <h2>Call for Papers & Submission Guidelines</h2>
-{{< bootstrap/button title="Call For Papers" href="call-for-papers" pClass="text-center">}}Learn how to submit your paper{{</ bootstrap/button >}}
+{{< bootstrap/button title="Call For Papers" href="call-for-papers" pClass="text-center">}}Call for Papers{{</ bootstrap/button >}}
 
 {{</ grid/section-container >}}
 
