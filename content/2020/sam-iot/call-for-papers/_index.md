@@ -9,7 +9,6 @@ hide_page_title: true
 hide_breadcrumb: true
 header_wrapper_class: "header-default-event"
 container: "container-fluid"
-links: 
 ---
 {{< grid/section-container id="background" class="featured-section-row text-center" isMarkdown="true">}}
 **SAM IoT is the first virtual Eclipse Conference on Security, Artificial Intelligence, and Modeling for the next generation Internet of Things**
