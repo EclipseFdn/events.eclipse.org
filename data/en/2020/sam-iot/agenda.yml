@@ -2,37 +2,124 @@ complete: false
 types:
     - name: Keynote 
       id: keynote 
-      color: "#a0a"
+      color: "#f79623"
+    - name: Session
+      id: session
+      color: "#8d1d2d4"
+    - name: Break
+      id: break
+      color: "#fff"
+    - name: Open Channel
+      id: open_channel
+      color: "#fff"
+    - name: Evenening BOFs
+      id: bof
+      color: "#fff"
 
 items:
-    - name: Welcome 1
-      presenter: Gaël Blondelle
+    - name: Introduction & welcome
+      presenter: Enrico Ferrera
+      type: session
+      time: 17/09 - 13:00 - 13:10
+    - name: Keynote Keynote Keynote Keynote Keynote Keynote Keynote Keynote 
+      presenter: Henrik Plate, SAP
       type: keynote
-#     vod: "#1"
-      time: 10:00 - 10:30 (EDT)
-      abstract: <p>Abstract goes here...</p>
-    - name: Welcome 2
-      presenter: Gaël Blondelle
+      time: 17/09 - 13:10 - 13:40
+    - name: Paper #1
+      presenter: Author #1
+      type: session
+      time: 17/09 - 13:40 - 14:00
+    - name: Paper #2
+      presenter: Author #2
+      type: session
+      time: 17/09 - 14:00 - 14:20
+    - name: Break
+      type: break
+      time: 17/09 - 14:20 - 14:30
+    - name: Paper #3
+      presenter: Author #3
+      type: session
+      time: 17/09 - 14:30 - 14:50
+    - name: Paper #4
+      presenter: Author #4
+      type: session
+      time: 17/09 - 14:50 -  15:10
+    - name: Paper #5
+      presenter: Author #5
+      type: session
+      time: 17/09 - 15:10 - 15:30
+    - name: Paper #6
+      presenter: Author #6
+      type: session
+      time: 17/09 - 15:30 - 15:50
+    - name: Break
+      type: break
+      time: 17/09 - 15:50 - 16:00
+    - name: Paper #7
+      presenter: Author #7
+      type: session
+      time: 17/09 - 16:00 - 16:20
+    - name: Paper #8
+      presenter: Author #8
+      type: session
+      time: 17/09 - 16:20 - 16:40
+    - name: Paper #9
+      presenter: Author #9
+      type: session
+      time: 17/09 - 16:40 - 17:00
+    - name: Open channel discussion - topic suggested by participants to all experts present; eg. what will be the gamechanger for the next generation IoT
+      presenter: Philippe Krief, Eclipse Foundation
+      type: open_channel
+      time: 17/09 - 17:00 - 17:30
+    - name: Evening BoFs - parallel discussion rooms (Security, AI, Modelling)
+      presenter: Rosaria 
+      type: bof
+      time: 17/09 - 17:30 - 18:00
+      
+    - name: Introduction Day #2
+      presenter: Ovidiu Vermesan
       type: keynote
-#     vod: "#1"
-      time: 10:00 - 10:30 (EDT)
-      abstract: <p>Abstract goes here...</p>
-    - name: Welcome 3
-      presenter: Gaël Blondelle
-      type: keynote
-#     vod: "#1"
-      time: 10:00 - 10:30 (EDT)
-      abstract: <p>Abstract goes here...</p>
-    - name: Welcome 4
-      presenter: Gaël Blondelle
-      type: keynote
-#     vod: "#1"
-      time: 10:00 - 10:30 (EDT)
-      abstract: <p>Abstract goes here...</p>
-    - name: Welcome 5
-      presenter: Gaël Blondelle
-      type: keynote
-#      vod: "#1"
-      time: 10:00 - 10:30 (EDT)
-      abstract: <p>Abstract goes here...</p>
-
+      time: 18/09 - 09:15 - 09:30
+    - name: Paper #10
+      presenter: Author #10
+      type: session
+      time: 18/09 - 09:30 - 09:50
+    - name: Paper #11
+      presenter: Author #11
+      type: session
+      time: 18/09 - 09:50 - 10:10
+    - name: Paper #12
+      presenter: Author #12
+      type: session
+      time: 18/09 - 10:10 - 10:30
+    - name: Paper #13
+      presenter: Author #13
+      type: session
+      time: 18/09 - 10:30 - 10:50
+    - name: Break
+      type: break
+      time: 18/09 - 10:50 - 11:00
+    - name: Paper #14
+      presenter: Author #14
+      type: session
+      time: 18/09 - 11:00 - 11:20
+    - name: Paper #15
+      presenter: Author #15
+      type: session
+      time: 18/09 - 11:20 - 11:40
+    - name: Paper #16
+      presenter: Author #16
+      type: session
+      time: 18/09 - 11:40 - 12:00
+    - name: Paper #17
+      presenter: Author #17
+      type: session
+      time: 18/09 - 12:00 - 12:20
+    - name: Paper #18
+      presenter: Author #18
+      type: session
+      time: 18/09 - 12:20 - 12:40
+    - name: Open channle and discussion
+      presenter: Enrico Ferrera, LINKS Foundation
+      type: open_channel
+      time: 18/09 - 12:40 - 13:00

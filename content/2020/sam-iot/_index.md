@@ -65,6 +65,9 @@ Modelling for IoT
 
 {{</ grid/section-container >}}
 
+{{< grid/section-container id="speakers" class="featured-section-row text-center featured-section-row-dark-bg eclipsefdn-user-display-circle" >}}
+  {{< events/user_display event="sam-iot" year="2020" title="Speakers" source="speakers" imageRoot="/2020/sam-iot/images/speakers/" />}}
+{{</ grid/section-container >}}
 
 {{< grid/section-container class="featured-section-row" isMarkdown="true">}}
 ## Important Dates
@@ -82,13 +85,19 @@ Modelling for IoT
 
 {{</ grid/section-container >}}
 
+
+
+{{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" title="Agenda">}}
+  {{< events/agenda event="sam-iot" year="2020" >}}
+{{</ grid/section-container >}}
+
+
 {{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg" isMarkdown="true">}}
 ## Technical Program Committee 
 
 The Technical Program Committee is an independent panel of expert volunteers and as such will do their best to judge papers objectively and on the principle of a level playing field for all. 
 
 * Luca Anselma, University of Turin
-* Alessio Angius, ISI Foundation
 * Alessandra Bagnato, SOFTEAM
 * Peter Bednár, Technická univerzita v Košiciach
 * Ilaria Bosi, LINKS Foundation
