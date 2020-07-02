@@ -87,7 +87,11 @@ Modelling for IoT
 {{</ grid/section-container >}}
 
 {{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" title="Agenda for September 17-18, 2020">}}
+<<<<<<< Upstream, based on origin/phkrief/master/update7
   {{< events/agenda event="sam-iot" year="2020" >}}
+=======
+  {{< events/agenda17 event="sam-iot" year="2020" >}}
+>>>>>>> aafdb6c Testing Speakers and Agenda #2
 {{</ grid/section-container >}}
 
 {{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg" isMarkdown="true">}}

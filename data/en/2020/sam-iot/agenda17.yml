@@ -1,0 +1,49 @@
+complete: false
+types:
+    - name: Keynote 
+      id: keynote 
+      color: "#f79623"
+    - name: Session
+      id: session
+      color: "#8d1d2d4"
+    - name: Break
+      id: break
+      color: "#F00"
+    - name: Open Channel
+      id: open_channel
+      color: "#0F0"
+
+items:
+    - name: Introduction Day No.1 & Welcome
+      presenter: Enrico Ferrera
+      type: session
+      time: 13:00 - 13:10
+    - name: Keynote 
+      presenter: Henrik Plate, SAP
+      type: keynote
+      time: 13:10 - 13:40
+    - name: Presentations of Papers
+      presenter: Authors
+      type: session
+      time: 13:40 - 17:00
+    - name: Open Channel and chat
+      presenter: Philippe Krief, Eclipse Foundation
+      type: open_channel
+      time: 17:00 - 17:30
+    - name: Evening BoFs - parallel discussion rooms (Security, AI, Modelling)
+      presenter: Rosaria 
+      type: open_channel
+      time: 17:30 - 18:00
+      
+    - name: Introduction Day No.2
+      presenter: Ovidiu Vermesan
+      type: keynote
+      time: 09:00 - 09:20
+    - name: Presentations of Papers
+      presenter: Authors
+      type: session
+      time: 09:20 - 13:00
+    - name: Closing and open channel
+      presenter: Enrico Ferrera, LINKS Foundation
+      type: open_channel
+      time: 12:40 - 13:00
