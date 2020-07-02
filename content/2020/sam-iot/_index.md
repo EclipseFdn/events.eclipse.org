@@ -75,11 +75,19 @@ Modelling for IoT
 
 {{</ grid/section-container >}}
 
+{{< grid/section-container id="speakers" class="featured-section-row text-center featured-section-row-dark-bg eclipsefdn-user-display-circle" >}}
+  {{< events/user_display event="sam-iot" year="2020" title="Keynote Speakers" source="speakers" imageRoot="/2020/sam-iot/images/speakers/" />}}
+{{</ grid/section-container >}}
+
 {{< grid/section-container id="guidelines" class="featured-section-row featured-section-row-lighter-bg">}}
 
 <h2>Call for Papers & Submission Guidelines</h2>
 {{< bootstrap/button title="Call For Papers" href="call-for-papers" pClass="text-center">}}Call for Papers{{</ bootstrap/button >}}
 
+{{</ grid/section-container >}}
+
+{{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" title="Agenda for September 17-18, 2020">}}
+  {{< events/agenda event="sam-iot" year="2020" >}}
 {{</ grid/section-container >}}
 
 {{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg" isMarkdown="true">}}
