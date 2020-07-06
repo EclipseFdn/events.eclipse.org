@@ -29,8 +29,8 @@ The Eclipse SAM IoT conference will bring together industry experts and research
 ## Important Dates
 
 | Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission | Conference Dates |
-| :----------------------- | :--------------------- | :--------------------------- | :-------------- |
-| Jul. 22, 2020            | Aug. 10, 2020          | Aug. 30, 2020                | Sep. 17-18, 2020 |
+| :-----------------------: | :---------------------: | :---------------------------: | :--------------: |
+| Jul. 22, 2020             | Aug. 10, 2020           | Aug. 30, 2020                 | Sep. 17-18, 2020 |
 
 {{</ grid/section-container >}}
 
@@ -124,6 +124,30 @@ Each lead author must visit the EDAS web site and create an account with a usern
 2. You should then see the web form for registering your submission. Fill in the form to register your paper.
 3. Once the paper is registered you can submit it by uploading your pdf file.
 4. You can submit the paper right after your paper registration, simply following the EDAS instructions on the acknowledgment page. Alternatively, you can upload your paper later from your EDAS homepage.
+
+### Speaker Agreement
+
+Authors whose papers have been accepted will be asked to sign the Eclipse SAM IoT Speaker Agreement. The text is provided here for information. 
+
+Thank you for agreeing to speak at the SAM IoT 2020. When you click in the "Yes" box below, you are agreeing to the following terms.
+
+- To enable the Eclipse Foundation to promote the virtual event, I agree to provide to the Eclipse Foundation my photo, bio, talk title, and talk abstract, and grant to the Eclipse Foundation the necessary permissions and rights to post these along with my full name and company on the conference website and to use in promotion of the event. 
+ 
+- I agree to give my presentation using the conference platform, from my chosen location, using my own equipment (computer, audio, video, etc.) and my own Internet connection (without expectation of compensation or other remuneration).
+
+- I grant the Eclipse Foundation the necessary permissions and rights to (or to have done) 
+	-- broadcast my talk as part of the virtual event; 
+	-- to record, transcribe, reproduce, and distribute under the terms of the Eclipse Public License 2.0 [1], or a Creative Commons Attribution 4.0 International License [2], a recording of myself and my presentation in complete or partial form. This may include posting of the recording on the Eclipse Foundation website, or on other video hosting websites which may include, but is not limited to, YouTube; and 
+	-- to promote this recording in a manner similar to how it promotes other similar talks. 
+I grant these rights without expectation of compensation or other remuneration. Presentations and related materials will be made available following the event under the terms of the Creative Commons Attribution 4.0 International License [2].
+[1] <a href="https://www.eclipse.org/legal/epl-2.0/">https://www.eclipse.org/legal/epl-2.0/</a>
+[2] <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/ </a>
+
+- I grant the Eclipse Foundation and LINKS Foundation the rights to publish my paper as part of the proceedings of this conference under the terms of the website ceur-ws.org. Furthermore, I grant the Eclipse Foundation the rights to publish links to these proceedings on the conference website. 
+
+- All permissions and agreements herein shall be effective in perpetuity and extend and apply to the Eclipse Foundation, its contractors, sublicensed distributors, and agents.
+
+
 {{</grid/div>}}
 
 {{< grid/div class="margin-top-30" isMarkdown="false">}}
