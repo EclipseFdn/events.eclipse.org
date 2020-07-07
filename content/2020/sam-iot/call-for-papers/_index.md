@@ -147,7 +147,6 @@ I grant these rights without expectation of compensation or other remuneration. 
 
 * All permissions and agreements herein shall be effective in perpetuity and extend and apply to the Eclipse Foundation, its contractors, sublicensed distributors, and agents.
 
-
 {{</grid/div>}}
 
 {{< grid/div class="margin-top-30" isMarkdown="false">}}
