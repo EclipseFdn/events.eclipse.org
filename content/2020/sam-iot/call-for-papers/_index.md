@@ -140,7 +140,9 @@ Thank you for agreeing to speak at the SAM IoT 2020. When you click in the "Yes"
     * to record, transcribe, reproduce, and distribute under the terms of the Eclipse Public License 2.0 [1], or a Creative Commons Attribution 4.0 International License [2], a recording of myself and my presentation in complete or partial form. This may include posting of the recording on the Eclipse Foundation website, or on other video hosting websites which may include, but is not limited to, YouTube; and 
     * to promote this recording in a manner similar to how it promotes other similar talks. 
 I grant these rights without expectation of compensation or other remuneration. Presentations and related materials will be made available following the event under the terms of the Creative Commons Attribution 4.0 International License [2].
+
 [1] https://www.eclipse.org/legal/epl-2.0/
+
 [2] https://creativecommons.org/licenses/by/4.0/
 
 * I grant the Eclipse Foundation and LINKS Foundation the rights to publish my paper as part of the proceedings of this conference under the terms of the website ceur-ws.org. Furthermore, I grant the Eclipse Foundation the rights to publish links to these proceedings on the conference website. 
