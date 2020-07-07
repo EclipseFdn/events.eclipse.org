@@ -125,7 +125,7 @@ Each lead author must visit the EDAS web site and create an account with a usern
 3. Once the paper is registered you can submit it by uploading your pdf file.
 4. You can submit the paper right after your paper registration, simply following the EDAS instructions on the acknowledgment page. Alternatively, you can upload your paper later from your EDAS homepage.
 
-###Speaker Agreement
+### Speaker Agreement
 
 *All authors whose papers are accepted will be asked to sign the Eclipse SAM IoT speaker agreement. Its included here for information.*  
 
