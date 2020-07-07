@@ -138,7 +138,7 @@ Each lead author must visit the EDAS web site and create an account with a usern
 
 
 {{< grid/section-container id="topics" class="featured-section-row featured-section-row-dark-bg text-center" isMarkdown="true">}}
-## Contact us 
+## Contact Us 
 
 The **Eclipse SAM IoT 2020 conference** is co-organized by the **Eclipse Foundation** ([https://eclipse.org/research](https://eclipse.org/research)) and the **LINKS Foundation** ([http://linksfoundation.com](http://linksfoundation.com)) and is supported by the **BRAIN-IoT EU** project ([http://brain-iot.eu](http://brain-iot.eu)).  
 
