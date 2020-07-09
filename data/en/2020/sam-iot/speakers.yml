@@ -1,6 +1,7 @@
 items:
   - name: "Henrik Plate"
     title: "Senior Researcher at SAP"
+    img: henrik_plate.jpg
     bio: |
       <p>Henrik Plate is a senior researcher at SAP Security Research [1, 2, 3, 4].
       He received his MSc in Computer Science and Business Administration in 1999 
