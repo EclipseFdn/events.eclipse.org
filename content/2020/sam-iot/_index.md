@@ -115,6 +115,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 * Ivana Podnar Žarko, University of Zagreb, Faculty of Electrical Engineering and Computing
 * Mohammad Rifat Ahmmad Rashid, University of Liberal Arts Bangladesh – ULAB
 * Alejandra Ruiz Lopez, Tecnalia
+* Julian Schütte, Fraunhofer AISEC
 * Xu Tao, LINKS Foundation
 * Mark Vinkovits, Pasero
 
