@@ -2,7 +2,7 @@
 title: "Open Source AI Workshop"
 headline: "Open Source AI Workshop"
 subtitle: ""
-tagline: "Virtual Conference | September 10, 2020 9:00 - 12:00 (CEST)"
+tagline: "Virtual Conference | September 10, 2020 9:30 - 12:00 (CEST)"
 date: 2020-09-10T09:00:00+02:00
 hide_page_title: true
 hide_sidebar: true
