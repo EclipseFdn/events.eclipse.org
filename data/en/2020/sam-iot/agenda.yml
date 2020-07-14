@@ -32,12 +32,12 @@ items:
       type: keynote
       time: 13:10 - 13:40
       abstract: |
-      		<p>Open source software is ubiquitous – all across the stack, in the cloud and on-premise, 
-				on all devices, in commercial and non-commercial offerings. This success, the dependency 
-				of the software industry on open source, combined with recent data breaches and attacks, 
-				puts security into the spotlight. This talk will provide an overview - for sure opinionated, 
-				hopefully controversial – about the state of affairs and current trends regarding the security 
-				of software supply chains, both from consumer and producer perspective.</p>
+             <p>Open source software is ubiquitous – all across the stack, in the cloud and on-premise, 
+             on all devices, in commercial and non-commercial offerings. This success, the dependency 
+             of the software industry on open source, combined with recent data breaches and attacks, 
+             puts security into the spotlight. This talk will provide an overview - for sure opinionated, 
+             hopefully controversial – about the state of affairs and current trends regarding the security 
+             of software supply chains, both from consumer and producer perspective.</p>
     - name: Papers Presentations
       presenter: Authors
       type: session
