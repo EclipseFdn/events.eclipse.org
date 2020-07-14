@@ -17,14 +17,13 @@ types:
       color: "#fff"
 
 items:
-    - name: Day \#1: Thursday, September 17
+    - name: Day 1 -- Thursday, September 17
       type: day
       time: CEST
     - name: Introduction & Welcome
       presenter: Enrico Ferrera
       type: panel
       time: 13:00 - 13:10
-      abstract: <p>---</p>
     - name: Cobbles and Potholes – On the Bumpy Road to Secure Software Supply Chains
       presenter: Henrik Plate, SAP
       type: keynote
@@ -51,7 +50,7 @@ items:
       type: panel
       time: 17:30 - 18:30
       
-    - name: Day \#2: Friday, September 18
+    - name: Day 2 -- Friday, September 18
       type: day
       time: CEST
     - name: To Define
