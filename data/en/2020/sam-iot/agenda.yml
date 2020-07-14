@@ -17,7 +17,7 @@ types:
       color: "#fff"
 
 items:
-    - name: Day 1 -- Thursday, September 17
+    - name: <strong>Day 1 -- Thursday, September 17</strong>
       type: day
       time: CEST
     - name: Introduction & Welcome
@@ -46,11 +46,11 @@ items:
       time: 17:00 - 17:30
       abstract: <p>Open discussions</p>
     - name: Evening BoFs - parallel discussion rooms (Security, AI, Modelling)
-      presenter: Rosaria Rossini
+      presenter: Moderated by Rosaria Rossini
       type: panel
       time: 17:30 - 18:30
       
-    - name: Day 2 -- Friday, September 18
+    - name: <strong>Day 2 -- Friday, September 18</strong>
       type: day
       time: CEST
     - name: To Define
@@ -64,7 +64,7 @@ items:
       time: 9:20 - 12:40
       abstract: <p>9 papers</p>
     - name: Closing and open channel 
-      presenter: Moderated by Philippe Krief
+      presenter: Moderated by Enrico Ferrera & Philippe Krief
       type: panel
       time: 12:40 - 13:00
       abstract: <p>Open discussions</p>
