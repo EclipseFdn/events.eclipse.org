@@ -17,11 +17,9 @@ types:
       color: "#fff"
 
 items:
-    - name: Day #1: Thursday, September 17
-      presenter: ---
+    - name: Day \#1: Thursday, September 17
       type: day
       time: CEST
-      abstract: <p>---</p>
     - name: Introduction & Welcome
       presenter: Enrico Ferrera
       type: panel
@@ -53,11 +51,9 @@ items:
       type: panel
       time: 17:30 - 18:30
       
-    - name: Day #2: Friday, September 18
-      presenter: ---
+    - name: Day \#2: Friday, September 18
       type: day
       time: CEST
-      abstract: <p>---</p>
     - name: To Define
       presenter: Pierre-Emmanuel Brun, AIRBUS Cybersecurity
       type: keynote
