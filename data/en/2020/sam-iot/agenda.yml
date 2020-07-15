@@ -17,7 +17,7 @@ types:
       color: "#FFFFFF"
 
 items:
-    - name: ---------- Day 1 -- Thursday, September 17
+    - name: "---------- Day 1 -- Thursday, September 17"
       type: day
       time: CEST
     - name: Introduction & Welcome
@@ -41,7 +41,7 @@ items:
       time: 13:40 - 17:00
       abstract: <p>9 papers</p>
       
-    - name: ---------- Day 2 -- Friday, September 18
+    - name: "---------- Day 2 -- Friday, September 18"
       type: day
       time: CEST
     - name: Opening and plenary
