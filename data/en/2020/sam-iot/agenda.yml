@@ -8,20 +8,20 @@ types:
       color: "#8d1d2d4"
     - name: Panel
       id: panel
-      color: "#818285"
+      color: "#000000"
     - name: Break
       id: break
-      color: "#fff"
+      color: "#00FF00"
     - name: Day
       id: day
-      color: "#fff"
+      color: "#FFFFFF"
 
 items:
     - name: Day 1 -- Thursday, September 17
       type: day
       time: CEST
     - name: Introduction & Welcome
-      presenter: Enrico Ferrera
+      presenter: Enrico Ferrera, LINKS Foundation
       type: panel
       time: 13:00 - 13:10
     - name: Cobbles and Potholes – On the Bumpy Road to Secure Software Supply Chains
@@ -40,22 +40,13 @@ items:
       type: session
       time: 13:40 - 17:00
       abstract: <p>9 papers</p>
-    - name: Open Channel & chat
-      presenter: Moderated by Marco Jahn
-      type: panel
-      time: 17:00 - 17:30
-      abstract: <p>Open discussions</p>
-    - name: Evening BoFs - parallel discussion rooms (Security, AI, Modelling)
-      presenter: Moderated by Rosaria Rossini
-      type: panel
-      time: 17:30 - 18:30
       
     - name: Day 2 -- Friday, September 18
       type: day
       time: CEST
-    - name: To Define
-      presenter: Pierre-Emmanuel Brun, AIRBUS Cybersecurity
-      type: keynote
+    - name: Opening and plenary
+      presenter: Philippe Krief, Eclipse Foundation
+      type: panel
       time: 9:00 - 9:20
       abstract: <p>To be completed.</p>
     - name: Papers Presentations
