@@ -9,9 +9,9 @@ types:
     - name: Panel
       id: panel
       color: "#000000"
-    - name: Break
-      id: break
-      color: "#00FF00"
+#    - name: Break
+#      id: break
+#      color: "#00FF00"
     - name: Day
       id: day
       color: "#FFFFFF"
