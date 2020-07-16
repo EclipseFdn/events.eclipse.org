@@ -87,7 +87,9 @@ Modelling for IoT
 {{< grid/section-container id="guidelines" class="featured-section-row featured-section-row-lighter-bg">}}
 
 <h2>Call for Papers & Submission Guidelines</h2>
-**Call for Papers extended to August 5**
+
+<h2>New submission deadline August 5</h2>
+
 {{< bootstrap/button title="Call For Papers" href="call-for-papers" pClass="text-center">}}Call for Papers{{</ bootstrap/button >}}
 
 {{</ grid/section-container >}}
