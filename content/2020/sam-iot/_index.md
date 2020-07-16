@@ -23,8 +23,6 @@ With the ever increasing adoption of IoT technologies in every application domai
 
 These innovations are setting the groundwork for the next generation IoT that will be expressed in projects such as Smart Factories, Smart Cities, Critical Infrastructures, and Cooperative Service Robotics. Researchers in these areas are invited to present their work to participants from the community, industry and standardisation bodies on September 17-18 at the Eclipse SAM IoT Conference. 
 
-**Call for Papers extended to August 5**
-
 {{</ events/registration >}}
 {{</ grid/section-container >}}
 
@@ -38,7 +36,7 @@ These innovations are setting the groundwork for the next generation IoT that wi
 
 | Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission | Conference Dates |
 | :----------------------- | :--------------------- | :--------------------------- | :--------------- |
-| Aug.5, 2020            | Aug. 21, 2020          | Sep. 10, 2020                | Sep. 17-18, 2020 |
+| Aug. 5, 2020            | Aug. 21, 2020          | Sep. 10, 2020                | Sep. 17-18, 2020 |
 
 {{</ grid/section-container >}}
 
@@ -89,6 +87,7 @@ Modelling for IoT
 {{< grid/section-container id="guidelines" class="featured-section-row featured-section-row-lighter-bg">}}
 
 <h2>Call for Papers & Submission Guidelines</h2>
+**Call for Papers extended to August 5**
 {{< bootstrap/button title="Call For Papers" href="call-for-papers" pClass="text-center">}}Call for Papers{{</ bootstrap/button >}}
 
 {{</ grid/section-container >}}
