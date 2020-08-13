@@ -45,7 +45,7 @@ These innovations are setting the groundwork for the next generation IoT that wi
 {{</ grid/section-container >}}
 
 {{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" title="Agenda 2">}}
-  {{< events/agenda2 event="sam-iot" year="2020" >}}
+  {{< events/agenda event="sam-iot-18" year="2020" >}}
 {{</ grid/section-container >}}
 
 
