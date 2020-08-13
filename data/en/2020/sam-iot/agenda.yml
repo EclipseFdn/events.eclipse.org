@@ -9,17 +9,11 @@ types:
     - name: Panel
       id: panel
       color: "#000000"
-#    - name: Break
-#      id: break
-#      color: "#00FF00"
-    - name: Day
-      id: day
-      color: "#FFFFFF"
+    - name: Break
+      id: break
+      color: "#00FF00"
 
 items:
-    - name: "========== Day 1 -- Thursday, September 17 =========="
-      type: day
-      time: CEST
     - name: Introduction & Welcome
       presenter: Enrico Ferrera, LINKS Foundation
       type: panel
@@ -40,23 +34,4 @@ items:
       type: session
       time: 13:40 - 17:00
       abstract: <p>9 papers</p>
-      
-    - name: "========== Day 2 -- Friday, September 18 =========="
-      type: day
-      time: CEST
-    - name: Keynote
-      presenter: To be announced
-      type: keynote
-      time: 9:00 - 9:20
-      abstract: <p>To be announced</p>
-    - name: Papers Presentations
-      presenter: Authors
-      type: session
-      time: 9:20 - 12:40
-      abstract: <p>9 papers</p>
-    - name: Closing and open channel 
-      presenter: Moderated by Enrico Ferrera & Philippe Krief
-      type: panel
-      time: 12:40 - 13:00
-      abstract: <p>Open discussions</p>
 

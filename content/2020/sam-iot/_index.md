@@ -39,10 +39,12 @@ These innovations are setting the groundwork for the next generation IoT that wi
 | Aug. 5, 2020            | Aug. 21, 2020          | Sep. 10, 2020                | Sep. 17-18, 2020 |
 
 {{</ grid/section-container >}}
+## Agenda Day 1 -- Thursday, September 17
 
 {{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" title="Agenda">}}
   {{< events/agenda event="sam-iot" year="2020" >}}
 {{</ grid/section-container >}}
+## Agenda Day 2 -- Friday, September 18
 
 {{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" title="Agenda 2">}}
   {{< events/agenda event="sam-iot-18" year="2020" >}}
