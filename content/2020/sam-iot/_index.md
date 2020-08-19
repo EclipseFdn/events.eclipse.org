@@ -83,7 +83,8 @@ Modelling for IoT
 
 {{</ grid/section-container >}}
 
-{{< grid/section-container id="guidelines" class="featured-section-row featured-section-row-lighter-bg">}}
+
+{{< grid/section-container class="featured-section-row" isMarkdown="true">}}
 
 ## Important Dates
 
