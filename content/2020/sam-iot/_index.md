@@ -32,11 +32,10 @@ These innovations are setting the groundwork for the next generation IoT that wi
 
 
 {{< grid/section-container class="featured-section-row" isMarkdown="true">}}
-## Important Dates
-
-| Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission | Conference Dates |
-| :----------------------- | :--------------------- | :--------------------------- | :--------------- |
-| Aug. 5, 2020            | Aug. 21, 2020          | Sep. 10, 2020                | Sep. 17-18, 2020 |
+<h2>Location and Registration</h2>
+<p>Given the current Covid-19 situation, the organization committee of ECLIPSE SAM IoT 2020 will run the conference in fully online mode, with virtual session rooms and facilities for online presentation of talks with opportunities for interacting with speakers and attendees.</p>
+<p>You can register as an attendee for the conference. Sign up today! </p>
+{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register today{{</ bootstrap/button >}}
 
 {{</ grid/section-container >}}
 
@@ -86,7 +85,11 @@ Modelling for IoT
 
 {{< grid/section-container id="guidelines" class="featured-section-row featured-section-row-lighter-bg">}}
 
-{{< bootstrap/button title="Registration" href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" pClass="text-center">}}Register today{{</ bootstrap/button >}}
+## Important Dates
+
+| Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission | Conference Dates |
+| :----------------------- | :--------------------- | :--------------------------- | :--------------- |
+| Aug. 5, 2020            | Aug. 21, 2020          | Sep. 10, 2020                | Sep. 17-18, 2020 |
 
 {{</ grid/section-container >}}
 
@@ -171,18 +174,7 @@ Susan Iwai  (Eclipse Foundation)
 {{</ grid/div >}}
 
 {{</ grid/div >}}
-{{</ grid/section-container >}}
 
-{{< grid/section-container id="location" class="featured-section-row featured-section-row-dark-bg text-center" isMarkdown="false">}}
-
-<h2>Location and Registration</h2>
-<p>Given the current Covid-19 situation, the organization committee of ECLIPSE SAM IoT 2020 will run the conference in fully online mode, with virtual session rooms and facilities for online presentation of talks with opportunities for interacting with speakers and attendees.</p>
-<p>You can register as an attendee for the conference. Sign up today! </p>
-{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register today{{</ bootstrap/button >}}
-
-{{</ grid/section-container >}}
-
-{{< grid/section-container id="contact" class="featured-section-row featured-section-row-light-bg text-center" isMarkdown="true">}}
 ## Contact Us
 
 If you have questions about the conference or the Call for Papers, please contact <a href="mailto:research@eclipse.org">research@eclipse.org</a>.
