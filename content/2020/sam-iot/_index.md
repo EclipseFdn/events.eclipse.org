@@ -175,6 +175,9 @@ Susan Iwai  (Eclipse Foundation)
 {{</ grid/div >}}
 
 {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+{{< grid/section-container id="contact" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 
 ## Contact Us
 
