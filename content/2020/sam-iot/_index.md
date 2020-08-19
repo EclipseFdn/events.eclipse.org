@@ -10,7 +10,7 @@ header_wrapper_class: "header-default-event"
 hide_breadcrumb: true
 container: "container-fluid"
 summary: "Conference on Security, Artificial Intelligence, and Modeling for the next generation Internet of Things."
-links: [[href: "call-for-papers", text: "Call For Papers"]]
+links: [[href: "https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220", text: "Register"]]
 layout: single
 ---
 
@@ -86,11 +86,7 @@ Modelling for IoT
 
 {{< grid/section-container id="guidelines" class="featured-section-row featured-section-row-lighter-bg">}}
 
-<h2>Call for Papers & Submission Guidelines</h2>
-
-<h2>New submission deadline August 5</h2>
-
-{{< bootstrap/button title="Call For Papers" href="call-for-papers" pClass="text-center">}}Call for Papers{{</ bootstrap/button >}}
+{{< bootstrap/button title="Registration" href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" pClass="text-center">}}Register today{{</ bootstrap/button >}}
 
 {{</ grid/section-container >}}
 
