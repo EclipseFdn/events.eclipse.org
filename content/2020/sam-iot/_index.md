@@ -43,6 +43,7 @@ These innovations are setting the groundwork for the next generation IoT that wi
 {{< grid/section-container id="topics" class="featured-section-row featured-section-row-dark-bg text-center">}}
 
 <h2>Technical topics of interest</h2>
+You can find the details of these topics in the <a href="call-for-papers">Call for Papers</a>.
 
 {{< grid/div class="row" isMarkdown="false">}}
 
@@ -69,7 +70,7 @@ Modelling for IoT
 {{</ grid/div >}}
 
 {{< grid/div class="featured-section-container-notes" isMarkdown="true">}}
-[Call for Paper (closed)]("call-for-papers")
+
 ---
 **Note:**
 * [Security](https://thenounproject.com/search/?q=security&i=3349833) icon by Fauzan Adiima, from [the Noun Project](http://thenounproject.com/)
