@@ -86,7 +86,6 @@ Modelling for IoT
 
 [//]: # (Registration reminder)
 {{< grid/section-container class="featured-section-row featured-section-row-dark-bg  text-center">}}
-	<p>You can register as an attendee for the conference. Sign up today!</p>
 	{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register today{{</ bootstrap/button >}}
 {{</ grid/section-container >}}
 
@@ -148,7 +147,6 @@ The Technical Program Committee is an independent panel of expert volunteers and
 
 ## Organizing Committee 
 
-
 The Eclipse Foundation is pleased to be cooperating on this event with the LINKS Foundation.  
 
 ### General Chairs
@@ -187,15 +185,14 @@ Susan Iwai  (Eclipse Foundation)
 {{</ grid/div >}}
 {{</ grid/section-container >}}
 
-{{< grid/section-container id="contact" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 
 [//]: # (Registration reminder)
 {{< grid/section-container class="featured-section-row featured-section-row-dark-bg  text-center">}}
-	<p>You can register as an attendee for the conference. Sign up today!</p>
 	{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register today{{</ bootstrap/button >}}
 {{</ grid/section-container >}}
 
 [//]: # (Contact)
+{{< grid/section-container id="contact" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 ## Contact Us
 
 If you have questions about the conference or the Call for Papers, please contact <a href="mailto:research@eclipse.org">research@eclipse.org</a>.
