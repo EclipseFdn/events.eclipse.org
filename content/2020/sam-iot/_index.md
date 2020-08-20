@@ -185,7 +185,6 @@ Susan Iwai  (Eclipse Foundation)
 {{</ grid/div >}}
 {{</ grid/section-container >}}
 
-
 [//]: # (Registration reminder)
 {{< grid/section-container class="featured-section-row featured-section-row-dark-bg  text-center">}}
 	{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register today{{</ bootstrap/button >}}
