@@ -191,10 +191,10 @@ Susan Iwai, Eclipse Foundation
 	{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register{{</ bootstrap/button >}}
 {{</ grid/section-container >}}
 
-[//]: # (Contact)
+[//]: # (Contact) 
 {{< grid/section-container id="contact" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 ## Contact Us 
 
-If you have questions about the conference or the <a href="call-for-papers">Call for Papers</a>, please contact <a href="mailto:research@eclipse.org">research@eclipse.org</a>.
+If you have questions about the conference or the [call-for-papers](Call for Papers), please contact [mailto:research@eclipse.org](mailto:research@eclipse.org).
 
 {{</ grid/section-container >}}
