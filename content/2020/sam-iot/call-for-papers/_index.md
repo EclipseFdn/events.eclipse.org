@@ -120,7 +120,7 @@ Each lead author must visit the EDAS web site and create an account with a usern
 
 ### Paper Registration and Submission  
 
-1. Visit [https://edas.info/newPaper.php?c=27517](https://edas.info/newPaper.php?c=27517) and log in.
+1. Visit [https://edas.info/newPaper.php?c=](https://edas.info/newPaper.php?c=) and log in.
 2. You should then see the web form for registering your submission. Fill in the form to register your paper.
 3. Once the paper is registered you can submit it by uploading your pdf file.
 4. You can submit the paper right after your paper registration, simply following the EDAS instructions on the acknowledgment page. Alternatively, you can upload your paper later from your EDAS homepage.
