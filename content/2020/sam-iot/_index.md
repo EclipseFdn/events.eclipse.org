@@ -31,10 +31,13 @@ These innovations are setting the groundwork for the next generation IoT that wi
 {{</ grid/section-container >}}
 
 
-{{< grid/section-container class="featured-section-row" isMarkdown="true">}}
-<h2>Location and Registration</h2>
-<p>Given the current Covid-19 situation, the organization committee of ECLIPSE SAM IoT 2020 will run the conference in fully online mode, with virtual session rooms and facilities for online presentation of talks with opportunities for interacting with speakers and attendees.</p>
-<p>You can register as an attendee for the conference. Sign up today! </p>
+{{< grid/section-container class="featured-section-row text-center" isMarkdown="true">}}
+
+## Location and Registration
+
+Given the current Covid-19 situation, the organization committee of ECLIPSE SAM IoT 2020 will run the conference in fully online mode, with virtual session rooms and facilities for online presentation of talks with opportunities for interacting with speakers and attendees.
+
+You can register as an attendee for the conference. Sign up today!
 {{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register today{{</ bootstrap/button >}}
 
 {{</ grid/section-container >}}
