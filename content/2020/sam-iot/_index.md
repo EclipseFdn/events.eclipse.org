@@ -195,6 +195,6 @@ Susan Iwai, Eclipse Foundation
 {{< grid/section-container id="contact" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 ## Contact Us 
 
-If you have questions about the conference or the [call-for-papers](Call for Papers), please contact [mailto:research@eclipse.org](mailto:research@eclipse.org).
+If you have questions about the conference or the [Call for Papers](call-for-papers), please contact [mailto:research@eclipse.org](mailto:research@eclipse.org).
 
 {{</ grid/section-container >}}
