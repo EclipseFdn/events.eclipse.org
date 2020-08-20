@@ -170,7 +170,7 @@ Susan Iwai, Eclipse Foundation
   
   [![Eclipse Research](images/eclipse_logo.png)](http://eclipse.org/research)
 {{</ grid/div >}}
-
+ 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
   #### **Supported by:**
   
