@@ -13,7 +13,7 @@ summary: "Conference on Security, Artificial Intelligence, and Modeling for the 
 links: [[href: "https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220", text: "Register"]]
 layout: single
 ---
-
+[//]: # (Introduction Section)
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
 {{< events/registration event="sam-iot" year="2020">}}
 
@@ -26,11 +26,13 @@ These innovations are setting the groundwork for the next generation IoT that wi
 {{</ events/registration >}}
 {{</ grid/section-container >}}
 
+[//]: # (Keynote speakers)
 {{< grid/section-container id="keynote" class="featured-section-row text-center featured-section-row-dark-bg eclipsefdn-user-display-circle" >}}
   {{< events/user_display event="sam-iot" year="2020" title="Keynote" source="keynote" imageRoot="/2020/sam-iot/images/speakers/" subpage="keynote" displayLearnMore="false" />}}
 {{</ grid/section-container >}}
 
 
+[//]: # (Location and Registration section)
 {{< grid/section-container class="featured-section-row text-center" isMarkdown="true">}}
 
 ## Location and Registration
@@ -38,15 +40,19 @@ These innovations are setting the groundwork for the next generation IoT that wi
 Given the current Covid-19 situation, the organization committee of ECLIPSE SAM IoT 2020 will run the conference in fully online mode, with virtual session rooms and facilities for online presentation of talks with opportunities for interacting with speakers and attendees.
 
 You can register as an attendee for the conference. Sign up today!
-{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register today{{</ bootstrap/button >}}
-
 {{</ grid/section-container >}}
 
+{{< grid/section-container class="featured-section-row text-center">}}
+	{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register today{{</ bootstrap/button >}}
+{{</ grid/section-container >}}
+
+[//]: # (Agenda)
 {{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" >}}
   {{< events/agenda event="sam-iot" year="2020" >}}
 {{</ grid/section-container >}}
 
 
+[//]: # (Topics)
 {{< grid/section-container id="topics" class="featured-section-row featured-section-row-dark-bg text-center">}}
 
 <h2>Technical topics of interest</h2>
@@ -87,6 +93,7 @@ Modelling for IoT
 {{</ grid/section-container >}}
 
 
+[//]: # (Dates)
 {{< grid/section-container class="featured-section-row" isMarkdown="true">}}
 
 ## Important Dates
@@ -97,6 +104,7 @@ Modelling for IoT
 
 {{</ grid/section-container >}}
 
+[//]: # (TCP)
 {{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg" isMarkdown="true">}}
 ## Technical Program Committee 
 
@@ -137,6 +145,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 
 {{</ grid/section-container >}}
 
+[//]: # (Organizing Committee)
 {{< grid/section-container id="organizing-committee" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 
 ## Organizing Committee 
