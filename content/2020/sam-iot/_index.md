@@ -31,26 +31,13 @@ These innovations are setting the groundwork for the next generation IoT that wi
   {{< events/user_display event="sam-iot" year="2020" title="Keynote" source="keynote" imageRoot="/2020/sam-iot/images/speakers/" subpage="keynote" displayLearnMore="false" />}}
 {{</ grid/section-container >}}
 
-
 [//]: # (Location and Registration section)
-{{< grid/section-container class="featured-section-row text-center" isMarkdown="true">}}
-
-## Location and Registration
-
-Given the current Covid-19 situation, the organization committee of ECLIPSE SAM IoT 2020 will run the conference in fully online mode, with virtual session rooms and facilities for online presentation of talks with opportunities for interacting with speakers and attendees.
-
-You can register as an attendee for the conference. Sign up today!
-{{</ grid/section-container >}}
-
 {{< grid/section-container class="featured-section-row text-center">}}
+	<h2>Location and Registration</h2>
+	<p>Given the current Covid-19 situation, the organization committee of ECLIPSE SAM IoT 2020 will run the conference in fully online mode, with virtual session rooms and facilities for online presentation of talks with opportunities for interacting with speakers and attendees.</p>
+	<p>You can register as an attendee for the conference. Sign up today!</p>
 	{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register today{{</ bootstrap/button >}}
 {{</ grid/section-container >}}
-
-[//]: # (Agenda)
-{{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" >}}
-  {{< events/agenda event="sam-iot" year="2020" >}}
-{{</ grid/section-container >}}
-
 
 [//]: # (Topics)
 {{< grid/section-container id="topics" class="featured-section-row featured-section-row-dark-bg text-center">}}
@@ -90,6 +77,17 @@ Modelling for IoT
 * [Tree](https://thenounproject.com/search/?q=modelling&i=2710243) icon by Gacem Tachfin, from [the Noun Project](http://thenounproject.com/)
 {{</ grid/div >}}
 
+{{</ grid/section-container >}}
+
+[//]: # (Agenda)
+{{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" >}}
+  {{< events/agenda event="sam-iot" year="2020" >}}
+{{</ grid/section-container >}}
+
+[//]: # (Registration reminder)
+{{< grid/section-container class="featured-section-row featured-section-row-dark-bg  text-center">}}
+	<p>You can register as an attendee for the conference. Sign up today!</p>
+	{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register today{{</ bootstrap/button >}}
 {{</ grid/section-container >}}
 
 
@@ -191,6 +189,13 @@ Susan Iwai  (Eclipse Foundation)
 
 {{< grid/section-container id="contact" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 
+[//]: # (Registration reminder)
+{{< grid/section-container class="featured-section-row featured-section-row-dark-bg  text-center">}}
+	<p>You can register as an attendee for the conference. Sign up today!</p>
+	{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register today{{</ bootstrap/button >}}
+{{</ grid/section-container >}}
+
+[//]: # (Contact)
 ## Contact Us
 
 If you have questions about the conference or the Call for Papers, please contact <a href="mailto:research@eclipse.org">research@eclipse.org</a>.
