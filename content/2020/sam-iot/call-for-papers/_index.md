@@ -12,7 +12,7 @@ container: "container-fluid"
 ---
 {{< grid/section-container id="background" class="featured-section-row text-center" isMarkdown="true">}}
 **SAM IoT is the first virtual Eclipse Conference on Security, Artificial Intelligence, and Modeling for the next generation Internet of Things**
-## Background  
+## Call for Papers is now closed  
 
 The adoption of the Internet of Things (IoT) is drastically increasing in every application domain, contributing to the rapid digitalization of contemporary society. Current IoT scenarios are characterized by constantly increasing demands in terms of non-functional requirements, from low latency to high reliability, dependability, and dynamic resources allocation. This paradigm shift, also considered as the next evolutionary phase of IoT, is expected to create numerous opportunities for the technology market supporting applications in multiple areas, i.e. Smart Factories, Smart Cities, Critical Infrastructures, Cooperative Service Robotics, etc. To cope with these demanding requirements, a multitude of novel technologies - such as Edge Computing, Artificial Intelligence and Analytics, Digital Twin, as well as Security, Privacy and Trust schemes – are being investigated in order to be adopted in current IoT architectures standards, identifying efficient integration schemes with proper design patterns. Hence, designing and managing the next generation of IoT-based systems is set to become even more complex.
 {{</ grid/section-container >}}
