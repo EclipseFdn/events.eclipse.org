@@ -152,7 +152,7 @@ Thank you for agreeing to speak at the SAM IoT 2020. You agree to the following 
 
 {{< grid/div class="margin-top-30" isMarkdown="false">}}
     {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-2 text-center" isMarkdown="false">}}
-        {{< bootstrap/button linkClass="btn-primary btn-wide" href="https://edas.info/newPaper.php?c=27517">}}Paper Submission{{</bootstrap/button>}}
+        {{< bootstrap/button linkClass="btn-primary btn-wide" href="">}}Paper Submission is Closed{{</bootstrap/button>}}
     {{</ grid/div >}}
     {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-4 text-center" isMarkdown="false">}}
         {{< bootstrap/button linkClass="btn-primary btn-wide" href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220">}}Register{{</bootstrap/button>}}
@@ -184,7 +184,7 @@ Conference Website: [https://events.eclipse.org/2020/sam-iot](https://events.ecl
 {{</ grid/div >}}
 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
-  [![Linux Foundation](/2020/sam-iot/images/links_foundation_logo.png)](https://linksfoundation.com/)
+  [![LINKS Foundation](/2020/sam-iot/images/links_foundation_logo.png)](https://linksfoundation.com/)
 {{</ grid/div >}}
 
 {{</ grid/div >}}

@@ -69,7 +69,7 @@ Modelling for IoT
 {{</ grid/div >}}
 
 {{< grid/div class="featured-section-container-notes" isMarkdown="true">}}
-
+[Call for Paper (closed)]("call-for-papers")
 ---
 **Note:**
 * [Security](https://thenounproject.com/search/?q=security&i=3349833) icon by Fauzan Adiima, from [the Noun Project](http://thenounproject.com/)
@@ -138,7 +138,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 * Julian Schütte, Fraunhofer AISEC
 * Xu Tao, LINKS Foundation
 * Mark Vinkovits, Pasero
-
+* Rui Zhao, LINKS Foundation
 
 {{</ grid/section-container >}}
 
@@ -151,14 +151,14 @@ The Eclipse Foundation is pleased to be cooperating on this event with the LINKS
 
 ### General Chairs
 
-Philippe Krief (Eclipse Foundation) \
-Enrico Ferrera (LINKS Foundation)
+Philippe Krief, Eclipse Foundation \
+Enrico Ferrera, LINKS Foundation
 
 ### Program Committee Chair
-Rosaria Rossini (LINKS Foundation) 
+Rosaria Rossini, LINKS Foundation 
 
 ### Publicity  
-Susan Iwai  (Eclipse Foundation) 
+Susan Iwai, Eclipse Foundation 
 {{</ grid/section-container >}}
 
 {{< grid/section-container id="organizing-orgs" class="featured-section-row featured-section-row-lighter-bg text-center">}}
@@ -179,7 +179,7 @@ Susan Iwai  (Eclipse Foundation)
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
   #### **Co-organized by:**
   
-  [![Linux Foundation](images/links_foundation_logo.png)](https://linksfoundation.com/)
+  [![LINKS Foundation](images/links_foundation_logo.png)](https://linksfoundation.com/)
 {{</ grid/div >}}
 
 {{</ grid/div >}}
@@ -187,7 +187,7 @@ Susan Iwai  (Eclipse Foundation)
 
 [//]: # (Registration reminder)
 {{< grid/section-container class="featured-section-row featured-section-row-dark-bg  text-center">}}
-	{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register today{{</ bootstrap/button >}}
+	{{< bootstrap/button href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220" >}}Register{{</ bootstrap/button >}}
 {{</ grid/section-container >}}
 
 [//]: # (Contact)
