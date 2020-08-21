@@ -80,19 +80,9 @@ If you want the best quality audio to help you shine alongside a webcam, conside
 Investing in great lighting, like this simple ring light, can help make your presentation significantly more professional.
 * https://amzn.to/33YL2mt 
 
-
-
-
 {{</grid/div>}}
 
-{{< grid/div class="margin-top-30" isMarkdown="false">}}
-    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-2 text-center" isMarkdown="false">}}
-        {{< bootstrap/button linkClass="btn-primary btn-wide" href="https://edas.info/newPaper.php?c=27517">}}Paper Submission{{</bootstrap/button>}}
-    {{</ grid/div >}}
-    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-4 text-center" isMarkdown="false">}}
-        {{< bootstrap/button linkClass="btn-primary btn-wide" href="https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220">}}Register{{</bootstrap/button>}}
-    {{</ grid/div >}}
-{{</ grid/div >}}
+
 {{</grid/section-container >}}
 
 
