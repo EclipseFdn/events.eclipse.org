@@ -65,8 +65,6 @@ Artificial Intelligence for IoT
 Modelling for IoT
 {{</ grid/div >}}
 
-
-
 {{</ grid/div >}}
 
 {{< grid/div class="featured-section-container-notes" isMarkdown="true">}}
@@ -195,6 +193,6 @@ Susan Iwai, Eclipse Foundation
 {{< grid/section-container id="contact" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 ## Contact Us 
 
-If you have questions about the conference or the [Call for Papers](call-for-papers), please contact [mailto:research@eclipse.org](mailto:research@eclipse.org).
+If you have questions about the conference or the [Call for Papers](call-for-papers), please contact [research@eclipse.org](mailto:research@eclipse.org).
 
 {{</ grid/section-container >}}
