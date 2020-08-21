@@ -34,11 +34,16 @@ sets:
       abstract: <p>9 papers</p>
   - name: Day 2 -- Friday, September 18
     items:
-    - name: Keynote
-      presenter: To be announced
+    - name: Innovation & R&T program leader at Airbus CyberSecurity
+      presenter: Paul-Emmanuel Brun, Airbus Cybersecurity
       type: keynote
       time: 9:00 - 9:20
-      abstract: <p>To be announced</p>
+      abstract: |
+             <p>In this keynote, we propose to have an overview of secure IoT data transmission ecosystem. 
+             This overview will be completed with a concrete example of a water management use case from 
+             the Brain-IoT project, where an end-to-end security layer compatible with battery-less devices 
+             with high constraints in terms of energy, power computation and bandwidth was integrated to 
+             ensure high trust in the devices data.</p>
     - name: Papers Presentations
       presenter: Authors
       type: session
