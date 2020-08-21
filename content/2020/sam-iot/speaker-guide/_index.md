@@ -36,11 +36,11 @@ There will be a moderator for each of the tracks. The moderator will monitor the
 
 {{< grid/section-container class="featured-section-row" isMarkdown="true">}}
 
-## Speaker Tech-Checks
+### Speaker Tech-Checks
 
 We are asking each speaker to sign up for a short, group session for an equipment and environment check. Sessions will be scheduled September 1 and 2.  Please sign up for a time slot on the foodle link you received by email. We will try to keep the groups to 4-5 presenters for each session.
 
-## Presentation Environment and Best Practices
+### Presentation Environment and Best Practices
 
 Presenting successfully to a virtual audience involves the right setup and lots of practice, even for experienced in-person speakers. The [Presentation Environment and Best Practices](https://events.eclipse.org/2020/sam-iot/presentation-environment/) document summarizes best practices and space recommendations that will help you deliver a dynamic and engaging talk.
 

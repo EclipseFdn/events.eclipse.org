@@ -11,7 +11,7 @@ header_wrapper_class: "header-default-event"
 container: "container-fluid"
 ---
 {{< grid/section-container id="background" class="featured-section-row text-center" isMarkdown="true">}}
-**SAM IoT is the first virtual Eclipse Conference on Security, Artificial Intelligence, and Modeling for the next generation Internet of Things**
+
 ## Presentation Environment and Best Practices  
 
 The [EclipseCon 2020](https://www.eclipsecon.org/2020) organizing team has authored these pointers on presenting at virtual conferences. We hope you find them useful!
