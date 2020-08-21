@@ -20,7 +20,7 @@ As always, if you have questions, comments, or need help, email us at research@e
 {{</ grid/section-container >}}
 
 
-{{< grid/section-container id="presenting-at-sam-iot" class="featured-section-row featured-section-row-dark-bg text-center" isMarkdown="true">}}
+{{< grid/section-container id="presenting-at-sam-iot" class="featured-section-row featured-section-row-dark-bg" isMarkdown="true">}}
 ## Presenting at SAM IoT  
 
 SAM IoT will be presented on Zoom with the option of pre-recording your talk. Even if you pre-record your talk, you will need to plan to be online during the broadcast of your talk so that you can answer questions from attendees during the Q&A session at the end. You can [test Zoom here](https://zoom.us/test) if you don’t have access to an account.
@@ -35,15 +35,11 @@ There will be a moderator for each of the tracks. The moderator will monitor the
 
 
 {{< grid/section-container class="featured-section-row" isMarkdown="true">}}
+
 ## Speaker Tech-Checks
 
 We are asking each speaker to sign up for a short, group session for an equipment and environment check. Sessions will be scheduled September 1 and 2.  Please sign up for a time slot on the foodle link you received by email. We will try to keep the groups to 4-5 presenters for each session.
 
-{{</ grid/section-container >}}
-
-
-{{< grid/section-container class="margin-top-30 margin-bottom-30">}}
-{{< grid/div isMarkdown="true" >}}
 ## Presentation Environment and Best Practices
 
 Presenting successfully to a virtual audience involves the right setup and lots of practice, even for experienced in-person speakers. The [Presentation Environment and Best Practices](https://events.eclipse.org/2020/sam-iot/presentation-environment/) document summarizes best practices and space recommendations that will help you deliver a dynamic and engaging talk.
@@ -63,8 +59,6 @@ You can use Zoom to record your talk. This [support article](https://support.zoo
 
 All authors whose papers are accepted will be asked to sign the Eclipse SAM IoT speaker agreement. If you have not yet signed the speaker agreement please contact research@eclipse.org.   
 
-
-{{</grid/div>}}
 
 {{</grid/section-container >}}
 
