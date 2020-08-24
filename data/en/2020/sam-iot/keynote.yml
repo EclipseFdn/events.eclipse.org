@@ -36,12 +36,7 @@ items:
       and contributes to several projects for the French MoD, from secure architecture definition to integration 
       of cybersecurity solution. After applying several patents linked to the cybersecurity of IT and IoT systems, 
       he is now focus on innovation and IoT system security.</p>
-      <p>Keynote: Securing low power devices communication in a water management use case – A Brain-IoT feedback</p>
-      <p>In this keynote, we propose to have an overview of secure IoT data transmission ecosystem. 
-      This overview will be completed with a concrete example of a water management use case from the Brain-IoT project, 
-      where an end-to-end security layer compatible with battery-less devices with high constraints in terms of energy, 
-      power computation and bandwidth was integrated to ensure high trust in the devices data</p>
-      
+       
       <p><strong>Keynote</strong>: Securing low power device communication in a water management use case – Feedback on the Brain-IoT project</p>
       <p>In this keynote, we will present an overview of a secure IoT data transmission ecosystem. This overview will be completed with a concrete
       example of a water management use case from the Brain-IoT project. In this use case, to ensure high trust in the device’s data, we integrated
