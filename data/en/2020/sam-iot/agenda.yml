@@ -34,7 +34,7 @@ sets:
       abstract: <p>9 papers</p>
   - name: Day 2 -- Friday, September 18
     items:
-    - name: Innovation & R&T program leader at Airbus CyberSecurity
+    - name: Securing low power device communication in a water management use case – Feedback on the Brain-IoT project
       presenter: Paul-Emmanuel Brun, Airbus Cybersecurity
       type: keynote
       time: 9:00 - 9:20
