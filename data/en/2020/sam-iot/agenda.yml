@@ -250,7 +250,7 @@ sets:
       presenter: Rosaria Rossini, LINKS Foundation
       type: session
       time: 10:40 - 11:00
-       abstract: |
+      abstract: |
              <p>Nowadays competitiveness goes through several aspects: digitalization, productivity, environmental impact. Technology is 
              advancing fast and helping industries to obtain more and more detailed data. In fact, the possibility to monitoring and control 
              each part of the process is a strong base on which can be build a more intelligent and focused control. Technology advance brings 
@@ -264,7 +264,7 @@ sets:
       presenter: Peter Bednár, Technical University of Kosice
       type: session
       time: 11:00 - 11:20
-       abstract: |
+      abstract: |
              <p>The presented paper describes the design and validation of the hierarchical intrusion detection system (IDS), which combines 
              machine learning approach with the knowledge-based methods. As the knowledge model, we have proposed the ontology of network attacks, 
              which allow to us decompose detection and classification of the existing types of attacks or formalize detection rules for the new types. 
@@ -273,7 +273,7 @@ sets:
       presenter: Martin Lukas, TRUMPF Werkzeugmaschinen GmbH & Ko. KG
       type: invited
       time: 11:20 - 11:40
-       abstract: |
+      abstract: |
              <p>This paper identifies the challenges and paths for the FabOS research project which aims to provide a reference architecture for 
              an open, distributed, secure and real-time capable operating system for production. The performed work encompasses the results of a 
              meta-analysis of existing relevant reference architectures, implementations, projects and standards which has been carried out and 
