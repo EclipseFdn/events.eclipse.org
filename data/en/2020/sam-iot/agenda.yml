@@ -225,7 +225,7 @@ sets:
       presenter: Rui Zhao, LINKS Foundation
       type: session
       time: 10:10 - 10:30
-       abstract: |
+      abstract: |
              <p>Recently, one of the main research topics in the context of application of Cyber-Physical System (CPS) in the Smart 
              City and Industry 4.0 scenarios is the one related to the use of Robot Operating System (ROS)-based CPS. Specifically, one 
              of the main interest is to allow a ROS-based smart robot needs to communicate with other heterogeneous Internet of Things (IoT) 
