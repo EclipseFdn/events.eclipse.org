@@ -5,26 +5,23 @@ types:
       color: "#00FF00"
     - name: Session
       id: session
-      color: "#FFFC00"
+      color: "#ED7D31"
     - name: Invited
       id: invited
-      color: "#ED7D31"
+      color: "#FFFC00"
     - name: Break
       id: break
       color: "#FFFFFF"
     - name: Breakout
       id: breakout
       color: "#FF40FF"
-    - name: Panel
-      id: panel
-      color: "#00FDFF"
       
 sets:
   - name: Day 1 -- Thursday, September 17
     items:
     - name: Introduction & Welcome
       presenter: Enrico Ferrera, LINKS Foundation
-      type: panel
+      type: breakout
       time: 13:00 - 13:10
     - name: 'Cobbles and Potholes – On the Bumpy Road to Secure Software Supply Chains'
       presenter: Henrik Plate, SAP
@@ -178,7 +175,7 @@ sets:
     - name: 'Securing low power device communication in a water management use case – Feedback on the Brain-IoT project'
       presenter: Paul-Emmanuel Brun, Airbus Cybersecurity
       type: keynote
-      time: 9:00 - 9:20
+      time: 09:00 - 09:20
       abstract: |
              <p>In this keynote, we will present an overview of a secure IoT data transmission ecosystem. 
              This overview will be completed with a concrete example of a water management use case from 
@@ -287,7 +284,7 @@ sets:
       
     - name: Closing session 
       presenter: Moderated by Enrico Ferrera & Philippe Krief
-      type: panel
+      type: breakout
       time: 11:40 - 12:00
       abstract: <p>Open discussions</p>
 
