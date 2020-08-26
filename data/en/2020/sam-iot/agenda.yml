@@ -132,7 +132,7 @@ sets:
              challenge is the conceptual modeling of such use-cases. SysML is widely established as a standardized modeling 
              language and framework for large-scale systems engineeringand, thus, for Arrowhead local cloud designs. However, 
              SysMLand its Arrowhead profile lacks a canonical way to supportactual platform modeling and device involvement 
-             in heavilydistributed IIoT scenarios. The Eclipse Vorto project is ideal forfilling this gap: it provides a 
+             in heavilydistributed IIoT scenarios. The Eclipse Vorto project is ideal forfilling this gap/: it provides a 
              modeling language for IoT devicesand comes with a set of modeling tools and already existingreusable templates 
              of device models. In this paper, we proposean approach to integrating Eclipse Vorto models into ArrowheadSysML 
              models. We illustrate the concept with a realistic, yetcomprehensible industrial scenario and also present a 
