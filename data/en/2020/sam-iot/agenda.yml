@@ -5,13 +5,13 @@ types:
       color: "#00FF00"
     - name: Session
       id: session
-      color: "#ED7D31"
+      color: "#FFFC00"
     - name: Invited
       id: invited
-      color: "#FFFC00"
+      color: "#ED7D31"
     - name: Break
       id: break
-      color: "#000000"
+      color: "#FFFFFF"
     - name: Breakout
       id: breakout
       color: "#FF40FF"
@@ -98,42 +98,77 @@ sets:
       presenter: Maria Teresa Delgado, Eclipse Foundation (Moderator)
       type: breakout
       time: 15:10 - 15:35
+      abstract: <p>Open discussion on Security and IoT</p>
       
     - name: Pause
       type: break
       time: 15:10 - 15:15
       
-    - name: M-1
-      presenter: Authors
+    - name: 'DINASORE: A Dynamic Intelligent Reconfiguration Tool for Cyber-Physical Production Systems'
+      presenter: Eliseu Moura Pereira, University of Porto
       type: session
       time: 15:15 - 15:35
-    - name: M-2
-      presenter: Authors
+      abstract: <p>The nowadays industrial digital revolution demands for software driven solutions where 
+             reconfiguration is one of the key enablers to achieve smart manufacturing by easy deployment and code 
+             reuse. Despite existing several tools and platforms that allow for software reconfiguration at the digital 
+             twin / edge level, it is most of the times difficult to make use of state of the art algorithms developed 
+             in the most popular programming languages due to software incompatibility. This paper presents a novel 
+             framework named Dynamic INtelligent Architecture for Software MOdular REconfiguration (DINASORE) that 
+             implements the industrial standard IEC 61499 based in Function Blocks (FB) in Python language for 
+             Cyber-Physical Production Systems' implementation. It adopts the 4DIAC-IDE as graphical user interface (GUI) 
+             to ease the design and deployment of FBs to quickly and on-demand reconfigure target equipment. The proposed 
+             framework provides data integration to third party platforms through the use of OPC-UA. The test scenarios 
+             demonstrate that the proposed framework 1) is flexible and reliable for different applications and 2) linear 
+             increases the CPU and memory workload for a large amount of FBs.</p>
+    - name: 'Bringing Clouds down to Earth: Modeling Arrowhead Deployments via Eclipse Vorto'
+      presenter: Sven Erik Jeroschewski, Bosch IO
       type: session
       time: 15:35 - 15:55
-      abstract: <p>xxxx</p>
+      abstract: <p>The design and development of interconnected industrial production facilities, which integrate aspects 
+             of theInternet of Things (IoT) or, more specifically, the IndustrialIoT (IIoT) often deals with complex scenarios 
+             involving dynamicSystem of Systems (SoS), resulting in large development anddeployment efforts. The Arrowhead 
+             community aims at deliv-ering mechanisms and technologies to cope with such complexscenarios. In particular, the 
+             concepts of local clouds providing aservice-oriented architecture (SOA) framework for IIoT. Here,a central 
+             challenge is the conceptual modeling of such use-cases. SysML is widely established as a standardized modeling 
+             language and framework for large-scale systems engineeringand, thus, for Arrowhead local cloud designs. However, 
+             SysMLand its Arrowhead profile lacks a canonical way to supportactual platform modeling and device involvement 
+             in heavilydistributed IIoT scenarios. The Eclipse Vorto project is ideal forfilling this gap: it provides a 
+             modeling language for IoT devicesand comes with a set of modeling tools and already existingreusable templates 
+             of device models. In this paper, we proposean approach to integrating Eclipse Vorto models into ArrowheadSysML 
+             models. We illustrate the concept with a realistic, yetcomprehensible industrial scenario and also present a 
+             prototypeto emphasize the benefits of our novel integration platform.</p>
       
     - name: Break
       type: break
       time: 15:55 - 16:00
       
-    - name: M-3
-      presenter: Authors
+    - name: 'Model Based Methodology and Framework for Design and Management of Next-Gen IoT Systems'
+      presenter: Xu Tao, LINKS Foundation
       type: session
       time: 16:00 - 16:20
-    - name: M-4
-      presenter: Authors
-      type: session
-      time: 16:20 - 16:40
+      abstract: <p>Internet of Things (IoT) is a pervasive technology covering many applications areas (Smart Mobility, 
+             Smart Industry, Smart Healthcare, Smart Building, etc.). Its success and the technology evolution allow targeting 
+             more complex and critical applications such as the management of critical infrastructures and cooperative service 
+             robotics, which requires real time operation and a higher level of intelligence in the monitoring-control command 
+             for decision-making. Furthermore, these applications type need to be fully validated in advance considering that bugs 
+             discovered during real operation could cause significant damages. In order to avoid these drawbacks, IoT developers 
+             and system integrators need advanced tools and methodologies. This paper presents a methodology and a set of tools, 
+             defined and developed in the context of the BRAIN-IoT European Union (EU) project. The overall framework includes both 
+             Open semantic models to enforce interoperable operations and exchange of data and control features; and Model-based 
+             development tools to implement Digital Twin solutions to facilitate the prototyping and integration of interoperable 
+             and reliable IoT system solutions. After describing the solution developed, this paper also presents concrete use cases 
+             based on the two critical systems mentioned above, leveraging the application scenarios used to validate the concepts 
+             developed and results obtained by the BRAIN-IoT project.</p>
       
     - name: Modelling breakout
       presenter: LINKS (Moderator)
       type: breakout
-      time: 16:40 - 17:00
+      time: 16:20 - 16:40
+      abstract: <p>Open discussion on Modelling and IoT</p>
       
   - name: Day 2 -- Friday, September 18
     items:
-    - name: Securing low power device communication in a water management use case – Feedback on the Brain-IoT project
+    - name: 'Securing low power device communication in a water management use case – Feedback on the Brain-IoT project'
       presenter: Paul-Emmanuel Brun, Airbus Cybersecurity
       type: keynote
       time: 9:00 - 9:20
@@ -144,46 +179,98 @@ sets:
              an end-to-end security layer that is compatible with battery-less devices with high constraints 
              in terms of energy, power computation and bandwidth.</p>
              
-    - name: A-1
-      presenter: Authors
+    - name: "Smart Building Energy and Comfort Management Based on Sensor Activity Recognition and Prediction"
+      presenter: Francesca Marcello, University of Cagliari
       type: session
       time: 09:30 - 09:50
-      abstract: <p>xxxx</p>
-    - name: A-2
-      presenter: Authors
+      abstract: <p>Thanks to Building Energy and Comfort Managements (BECM) systems, it is possible monitor and control 
+             buildings with the aim to ease appliance management and at the same time ensuring efficient use of them from the 
+             energetic point of view. To develop such kind of systems, it is necessary to monitor users' habits, learning their 
+             preferences and predicting their sequences of performed activities and appliance usage during the day. To this aim, 
+             in this paper a system capable of controlling home appliances according to user preferences and trying to reduce 
+             energy consumption is proposed. The main objective of the system is to learn users' daily behaviour and to be able 
+             to predict their future activities basing on statistical data about the activities they usually perform. The system 
+             can then execute a scheduling algorithm of the appliances based on the expected energy consumption and user 
+             annoyance related with shifting the appliance starting time from their preferred one. Experimental results 
+             demonstrate that thanks to the scheduling algorithm energy cost can be reduced of 50.43% and 49.2% depending on 
+             different tariffs, just by shifting the use of the appliance to time periods of non-peak hours. Scheduling based on 
+             probability evaluation of preferred time of usage of the appliances allows to still obtain evident energy savings 
+             even considering the errors on predicted activities.</p>
+    - name: 'Prescriptive System for Reconfigurable Manufacturing Systems Considering Variable Demand and Production Rates'
+      presenter: Catarina Baltazar, University of Porto
       type: session
       time: 09:50 - 10:10
-      abstract: <p>xxxx</p>
-    - name: A-3
-      presenter: Authors
+      abstract: <p>The current market is dynamic and, consequently, industries need to be able to meet unpredictable market 
+             changes in order to remain competitive. To address the change in paradigm, from mass production to mass customization, 
+             manufacturing flexibility is key. Moreover, current digitalization of the industry opens opportunities regarding 
+             real-time decision support systems allowing the companies to make strategic decisions, and gain competitive advantage 
+             and business value. The main focus of this paper is to demonstrate a proof of concept Prescriptive System applied to 
+             Reconfigurable Manufacturing Systems. This system is capable of suggesting sequences of machines throughputs that best 
+             balance productivity, and the impact of the proposed throughput in the degradation of the equipment. The proposed 
+             solution is mainly composed of two modules, namely manufacturing environment simulation and optimizer. The simulation 
+             module is modeled based on Directed Acyclic Graphs and the second one on Genetic Algorithms. The results were evaluated 
+             against two metrics, variation of pieces referred as differential and availability of the system. Analysis of the results 
+             show that productivity in all testing scenarios improves, and in some instances, availability slightly increases showing 
+             promising indicators. However, further research should be conducted to be able to generalize the obtained results.</p>
+    - name: 'A Cross-Platform Communication Mechanism for ROS-Based Cyber-Physical System'
+      presenter: Rui Zhao, LINKS Foundation
       type: session
       time: 10:10 - 10:30
-      abstract: <p>xxxx</p>
+      abstract: <p>Recently, one of the main research topics in the context of application of Cyber-Physical System (CPS) in the Smart 
+             City and Industry 4.0 scenarios is the one related to the use of Robot Operating System (ROS)-based CPS. Specifically, one 
+             of the main interest is to allow a ROS-based smart robot needs to communicate with other heterogeneous Internet of Things (IoT) 
+             applications in an intelligent environment to efficiently react to the system requirements and environment changes. However, the 
+             communication between the IoT systems will face many challenges and increase the cost and risks that lead to the requirement of 
+             a cross-platform communication for bridging the ROS-based CPS and other heterogeneous IoT applications. This paper introduces 
+             an OSGi-based adaptor, named the ROS Edge Node, for the interoperability between Robotics domain and other IoT domains, leveraging 
+             the highly modular BRAIN-IoT federation, which allows to decentralize, composite and dynamically federate the heterogeneous IoT 
+             platforms by leveraging OSGi. Together with the unfixed infrastructure of BRAIN-IoT solution, the event-driven asynchronous 
+             communication mechanism realizes cross-platform interaction with ROS-based CPS and solves the major challenges faced. The ROS 
+             Edge Node is packaged as a BRAIN-IoT Service with Requirement/Capability in metadata, similar to microservice, to be deployed 
+             in a distributed BRAIN-IoT Fabric cluster as a bridge between the underlying ROS-based robotics systems and other OSGi-based 
+             IoT systems in various IoT domains via an Asynchronous Eventing Substrate (BRAIN-IoT EventBus). This paper demonstrates the 
+             solution developed in an service robotics use case in a warehouse to show how the OSGi-based adaptor enables the fast adaptivity 
+             and interoperability between heterogeneous IoT domains in a federated environment.</p>
       
     - name: Break
       type: break
       time: 10:30 - 10:40
       
-    - name: A-4
-      presenter: Authors
+    - name: 'REPLICA: A Solution for Next Generation IoT and Digital Twin Based Fault Diagnosis and Predictive Maintenance'
+      presenter: Rosaria Rossini, LINKS Foundation
       type: session
       time: 10:40 - 11:00
-      abstract: <p>xxxx</p>
-    - name: A-5
-      presenter: Authors
+      abstract: <p>Nowadays competitiveness goes through several aspects: digitalization, productivity, environmental impact. Technology is 
+             advancing fast and helping industries to obtain more and more detailed data. In fact, the possibility to monitoring and control 
+             each part of the process is a strong base on which can be build a more intelligent and focused control. Technology advance brings 
+             innovation and possibility to manage the production in terms of "near future" through AI prediction and decision-making support. 
+             Forecasting demands and productions, optimizing process by reducing costs and improving efficiency without corrupting the quality 
+             of the product is a big challenge at the plants level. Automation, Industrial Internet of Things (IIoT), robotics, cloud computing, 
+             AI and more... A problem arises for the industries in the time of researching, getting approval, purchasing and installing new technology, 
+             in fact, a faster and better solution may have already emerged. In this paper, a flexible, scalable and fast solution has been proposed 
+             to cope such problem and help industries to advance and discover possible optimizations.</p>
+    - name: 'Semantic Models for Network Intrusion Detection'
+      presenter: Peter Bednár, Technical University of Kosice
       type: session
       time: 11:00 - 11:20
-      abstract: <p>xxxx</p>
-    - name: A-6
-      presenter: Authors
-      type: session
+      abstract: <p>The presented paper describes the design and validation of the hierarchical intrusion detection system (IDS), which combines 
+             machine learning approach with the knowledge-based methods. As the knowledge model, we have proposed the ontology of network attacks, 
+             which allow to us decompose detection and classification of the existing types of attacks or formalize detection rules for the new types. 
+             Designed IDS was evaluated on a widely used KDD 99 dataset and compared to similar approaches.</p>
+    - name: 'FabOS: Towards an Open, Distributed, Real-Time-Capable, and Secure Operating System for Production'
+      presenter: Martin Lukas, TRUMPF Werkzeugmaschinen GmbH & Ko. KG
+      type: invited
       time: 11:20 - 11:40
-      abstract: <p>xxxx</p>
+      abstract: <p>This paper identifies the challenges and paths for the FabOS research project which aims to provide a reference architecture for 
+             an open, distributed, secure and real-time capable operating system for production. The performed work encompasses the results of a 
+             meta-analysis of existing relevant reference architectures, implementations, projects and standards which has been carried out and 
+             mapped to the envisaged requirements of a FabOS reference architecture.</p>
       
     - name: AI breakout
       presenter: Marco Jahn, Eclipse Foundation (Moderator)
       type: breakout
       time: 11:40 - 12:00
+      abstract: <p>Open discussion on AI and IoT</p>
       
     - name: Closing session 
       presenter: Moderated by Enrico Ferrera & Philippe Krief
