@@ -26,7 +26,7 @@ sets:
       presenter: Enrico Ferrera, LINKS Foundation
       type: panel
       time: 13:00 - 13:10
-    - name: Cobbles and Potholes – On the Bumpy Road to Secure Software Supply Chains
+    - name: 'Cobbles and Potholes – On the Bumpy Road to Secure Software Supply Chains'
       presenter: Henrik Plate, SAP
       type: keynote
       time: 13:10 - 13:40
@@ -38,7 +38,7 @@ sets:
              hopefully controversial – about the state of affairs and current trends regarding the security 
              of software supply chains, both from consumer and producer perspective.</p>
              
-    - name: Risk Assessment in IoT Case Study: Collaborative Robots System
+    - name: 'Risk Assessment in IoT Case Study: Collaborative Robots System'
       presenter: Salim Chehida, UGA
       type: session
       time: 13:40 - 14:00
@@ -49,7 +49,7 @@ sets:
       			requirements are then defined to mitigate the risks and build a secure and safe system. 
       			We use our approach to assess risks in the robotic system for supporting the movement of loads 
       			in a warehouse.</p>
-    - name: Integrated Solution for Industrial IoT Data Security - the CHARIOT Solution
+    - name: 'Integrated Solution for Industrial IoT Data Security - the CHARIOT Solution'
       presenter: Konstantinos Loupos, INLECOM Innovation
       type: session
       time: 14:00 - 14:20
@@ -67,7 +67,7 @@ sets:
       type: break
       time: 14:20 - 14:30
       
-    - name: Integration of Safety Means with Functions of Blockchain in Multi-Layered Architecture of IoT for Safer Data Transmission
+    - name: 'Integration of Safety Means with Functions of Blockchain in Multi-Layered Architecture of IoT for Safer Data Transmission'
       presenter: Raimundas Savukynas, Vilniaus Universitetas
       type: session
       time: 14:30 - 14:50
@@ -85,7 +85,7 @@ sets:
       			the transmission of outgoing confidential data and transmission data integrity from smart devices. 
       			As a result, components of necessary functional capabilities of the communication of IoT are developed 
       			by intending to ensure the safety and reliability of the wireless connection of smart objects.</p>
-    - name: Guidelines for Privacy and Security in IoT
+    - name: 'Guidelines for Privacy and Security in IoT'
       presenter: Pasquale Annicchino, Archimede Solutions
       type: invited
       time: 14:50 - 15:10
