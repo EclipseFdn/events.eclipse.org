@@ -88,7 +88,7 @@ sets:
       time: 16:20 - 16:40
       
     - name: Modelling breakout
-      presenter: Moderator: LINKS
+      presenter: LINKS (Moderator)
       type: session
       time: 16:40 - 17:00
       
