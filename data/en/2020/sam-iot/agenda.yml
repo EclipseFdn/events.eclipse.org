@@ -43,25 +43,25 @@ sets:
       type: session
       time: 13:40 - 14:00
       abstract: <p>Security is one of the crucial challenges in the design and development of IoT applications. 
-      			This paper presents an approach that focuses on existing security standards to evaluate and 
-      			analyse the potential risks faced by IoT systems. It begins by identifying system assets and 
-      			their associated vulnerabilities and threats. A list of security objectives and technical 
-      			requirements are then defined to mitigate the risks and build a secure and safe system. 
-      			We use our approach to assess risks in the robotic system for supporting the movement of loads 
-      			in a warehouse.</p>
+             This paper presents an approach that focuses on existing security standards to evaluate and 
+             analyse the potential risks faced by IoT systems. It begins by identifying system assets and 
+             their associated vulnerabilities and threats. A list of security objectives and technical 
+             requirements are then defined to mitigate the risks and build a secure and safe system. 
+             We use our approach to assess risks in the robotic system for supporting the movement of loads 
+             in a warehouse.</p>
     - name: 'Integrated Solution for Industrial IoT Data Security - the CHARIOT Solution'
       presenter: Konstantinos Loupos, INLECOM Innovation
       type: session
       time: 14:00 - 14:20
       abstract: <p>The CHARIOT H2020 (IoT) project (Cognitive Heterogeneous Architecture for Industrial IoT), 
-      			integrates a state-of-the-art inclusive solution for the security, safety and privacy 
-      			assurance of data in industrial networks. The solution is based on an integrated approach 
-      			for IoT devices lifecycle management (based on blockchain and public key infrastructure 
-      			technologies), IoT firmware development and deployment (source and binary level vulnerability 
-      			analyses), data analytics (privacy by design, sensitive data detection, dynamic network 
-      			configurations etc.) and a set of user interfaces for management and control of the network, 
-      			devices and the CHARIOT platform. CHARIOT is funded by the H2020 programme under the IoT topic, 
-      			has a 3-year duration and concludes its activities by the end of 2020.</p>
+             integrates a state-of-the-art inclusive solution for the security, safety and privacy 
+             assurance of data in industrial networks. The solution is based on an integrated approach 
+             for IoT devices lifecycle management (based on blockchain and public key infrastructure 
+             technologies), IoT firmware development and deployment (source and binary level vulnerability 
+             analyses), data analytics (privacy by design, sensitive data detection, dynamic network 
+             configurations etc.) and a set of user interfaces for management and control of the network, 
+             devices and the CHARIOT platform. CHARIOT is funded by the H2020 programme under the IoT topic, 
+             has a 3-year duration and concludes its activities by the end of 2020.</p>
       
     - name: Break
       type: break
@@ -72,27 +72,27 @@ sets:
       type: session
       time: 14:30 - 14:50
       abstract: <p>The launching and linking process of heterogeneous objects to the Internet of Things (IoT) is 
-      			related to some important problems of the identification, authentication for ensuring security 
-      			over the wireless connections. This research study is related to the implementation of safeguard 
-      			algorithms on the first stages of object identification and authentication before the permission 
-      			stage for launching into the working area of the IoT. This research aims to evaluate some safety 
-      			means related to the identification and authentication stages of objects by integrating them with 
-      			the functionality of blockchain. The objectives of this research are related to the development of 
-      			more safety working algorithms by representing the stages of checking the identity of the IoT objects. 
-      			The results demonstrated integration possibilities of implementing the blockchain functionality for 
-      			establishing and managing the operational rules for pre-connection stages of objects to the IoT. 
-      			The paper shows new results of developing protection means for ensuring reliable communication in 
-      			the transmission of outgoing confidential data and transmission data integrity from smart devices. 
-      			As a result, components of necessary functional capabilities of the communication of IoT are developed 
-      			by intending to ensure the safety and reliability of the wireless connection of smart objects.</p>
+             related to some important problems of the identification, authentication for ensuring security 
+             over the wireless connections. This research study is related to the implementation of safeguard 
+             algorithms on the first stages of object identification and authentication before the permission 
+             stage for launching into the working area of the IoT. This research aims to evaluate some safety 
+             means related to the identification and authentication stages of objects by integrating them with 
+             the functionality of blockchain. The objectives of this research are related to the development of 
+             more safety working algorithms by representing the stages of checking the identity of the IoT objects. 
+             The results demonstrated integration possibilities of implementing the blockchain functionality for 
+             establishing and managing the operational rules for pre-connection stages of objects to the IoT. 
+             The paper shows new results of developing protection means for ensuring reliable communication in 
+             the transmission of outgoing confidential data and transmission data integrity from smart devices. 
+             As a result, components of necessary functional capabilities of the communication of IoT are developed 
+             by intending to ensure the safety and reliability of the wireless connection of smart objects.</p>
     - name: 'Guidelines for Privacy and Security in IoT'
       presenter: Pasquale Annicchino, Archimede Solutions
       type: invited
       time: 14:50 - 15:10
       abstract: <p>Norms and standards define the ecosystem in which IoT solutions and developed and deployed. 
-      			It is often difficult for people without a legal training or an understanding of standardization 
-      			dynamics the fully grasp the state of the art in this very relevant field. This contributions aims 
-      			at highlighting the most relevant tools available and explain their relevance.</p>
+             It is often difficult for people without a legal training or an understanding of standardization 
+             dynamics the fully grasp the state of the art in this very relevant field. This contributions aims 
+             at highlighting the most relevant tools available and explain their relevance.</p>
       
     - name: Security breakout
       presenter: Maria Teresa Delgado, Eclipse Foundation (Moderator)
