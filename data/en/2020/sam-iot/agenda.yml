@@ -43,7 +43,7 @@ sets:
       type: session
       time: 13:40 - 14:00
       abstract: |
-      		<p>Security is one of the crucial challenges in the design and development of IoT applications. 
+             <p>Security is one of the crucial challenges in the design and development of IoT applications. 
              This paper presents an approach that focuses on existing security standards to evaluate and 
              analyse the potential risks faced by IoT systems. It begins by identifying system assets and 
              their associated vulnerabilities and threats. A list of security objectives and technical 
@@ -55,7 +55,7 @@ sets:
       type: session
       time: 14:00 - 14:20
       abstract: |
-      		<p>The CHARIOT H2020 (IoT) project (Cognitive Heterogeneous Architecture for Industrial IoT), 
+             <p>The CHARIOT H2020 (IoT) project (Cognitive Heterogeneous Architecture for Industrial IoT), 
              integrates a state-of-the-art inclusive solution for the security, safety and privacy 
              assurance of data in industrial networks. The solution is based on an integrated approach 
              for IoT devices lifecycle management (based on blockchain and public key infrastructure 
@@ -74,7 +74,7 @@ sets:
       type: session
       time: 14:30 - 14:50
       abstract: |
-      		<p>The launching and linking process of heterogeneous objects to the Internet of Things (IoT) is 
+             <p>The launching and linking process of heterogeneous objects to the Internet of Things (IoT) is 
              related to some important problems of the identification, authentication for ensuring security 
              over the wireless connections. This research study is related to the implementation of safeguard 
              algorithms on the first stages of object identification and authentication before the permission 
@@ -93,7 +93,7 @@ sets:
       type: invited
       time: 14:50 - 15:10
       abstract: |
-      		<p>Norms and standards define the ecosystem in which IoT solutions and developed and deployed. 
+             <p>Norms and standards define the ecosystem in which IoT solutions and developed and deployed. 
              It is often difficult for people without a legal training or an understanding of standardization 
              dynamics the fully grasp the state of the art in this very relevant field. This contributions aims 
              at highlighting the most relevant tools available and explain their relevance.</p>
@@ -113,7 +113,7 @@ sets:
       type: session
       time: 15:15 - 15:35
       abstract: |
-      		<p>The nowadays industrial digital revolution demands for software driven solutions where 
+             <p>The nowadays industrial digital revolution demands for software driven solutions where 
              reconfiguration is one of the key enablers to achieve smart manufacturing by easy deployment and code 
              reuse. Despite existing several tools and platforms that allow for software reconfiguration at the digital 
              twin / edge level, it is most of the times difficult to make use of state of the art algorithms developed 
@@ -130,7 +130,7 @@ sets:
       type: session
       time: 15:35 - 15:55
       abstract: |
-      		<p>The design and development of interconnected industrial production facilities, which integrate aspects 
+             <p>The design and development of interconnected industrial production facilities, which integrate aspects 
              of theInternet of Things (IoT) or, more specifically, the IndustrialIoT (IIoT) often deals with complex scenarios 
              involving dynamicSystem of Systems (SoS), resulting in large development anddeployment efforts. The Arrowhead 
              community aims at deliv-ering mechanisms and technologies to cope with such complexscenarios. In particular, the 
@@ -153,7 +153,7 @@ sets:
       type: session
       time: 16:00 - 16:20
       abstract: |
-      		<p>Internet of Things (IoT) is a pervasive technology covering many applications areas (Smart Mobility, 
+             <p>Internet of Things (IoT) is a pervasive technology covering many applications areas (Smart Mobility, 
              Smart Industry, Smart Healthcare, Smart Building, etc.). Its success and the technology evolution allow targeting 
              more complex and critical applications such as the management of critical infrastructures and cooperative service 
              robotics, which requires real time operation and a higher level of intelligence in the monitoring-control command 
@@ -191,7 +191,7 @@ sets:
       type: session
       time: 09:30 - 09:50
       abstract: |
-      		<p>Thanks to Building Energy and Comfort Managements (BECM) systems, it is possible monitor and control 
+             <p>Thanks to Building Energy and Comfort Managements (BECM) systems, it is possible monitor and control 
              buildings with the aim to ease appliance management and at the same time ensuring efficient use of them from the 
              energetic point of view. To develop such kind of systems, it is necessary to monitor users' habits, learning their 
              preferences and predicting their sequences of performed activities and appliance usage during the day. To this aim, 
@@ -209,7 +209,7 @@ sets:
       type: session
       time: 09:50 - 10:10
       abstract: |
-      		<p>The current market is dynamic and, consequently, industries need to be able to meet unpredictable market 
+             <p>The current market is dynamic and, consequently, industries need to be able to meet unpredictable market 
              changes in order to remain competitive. To address the change in paradigm, from mass production to mass customization, 
              manufacturing flexibility is key. Moreover, current digitalization of the industry opens opportunities regarding 
              real-time decision support systems allowing the companies to make strategic decisions, and gain competitive advantage 
@@ -226,7 +226,7 @@ sets:
       type: session
       time: 10:10 - 10:30
        abstract: |
-      		<p>Recently, one of the main research topics in the context of application of Cyber-Physical System (CPS) in the Smart 
+             <p>Recently, one of the main research topics in the context of application of Cyber-Physical System (CPS) in the Smart 
              City and Industry 4.0 scenarios is the one related to the use of Robot Operating System (ROS)-based CPS. Specifically, one 
              of the main interest is to allow a ROS-based smart robot needs to communicate with other heterogeneous Internet of Things (IoT) 
              applications in an intelligent environment to efficiently react to the system requirements and environment changes. However, the 
@@ -251,7 +251,7 @@ sets:
       type: session
       time: 10:40 - 11:00
        abstract: |
-      		<p>Nowadays competitiveness goes through several aspects: digitalization, productivity, environmental impact. Technology is 
+             <p>Nowadays competitiveness goes through several aspects: digitalization, productivity, environmental impact. Technology is 
              advancing fast and helping industries to obtain more and more detailed data. In fact, the possibility to monitoring and control 
              each part of the process is a strong base on which can be build a more intelligent and focused control. Technology advance brings 
              innovation and possibility to manage the production in terms of "near future" through AI prediction and decision-making support. 
@@ -265,7 +265,7 @@ sets:
       type: session
       time: 11:00 - 11:20
        abstract: |
-      		<p>The presented paper describes the design and validation of the hierarchical intrusion detection system (IDS), which combines 
+             <p>The presented paper describes the design and validation of the hierarchical intrusion detection system (IDS), which combines 
              machine learning approach with the knowledge-based methods. As the knowledge model, we have proposed the ontology of network attacks, 
              which allow to us decompose detection and classification of the existing types of attacks or formalize detection rules for the new types. 
              Designed IDS was evaluated on a widely used KDD 99 dataset and compared to similar approaches.</p>
@@ -274,7 +274,7 @@ sets:
       type: invited
       time: 11:20 - 11:40
        abstract: |
-      		<p>This paper identifies the challenges and paths for the FabOS research project which aims to provide a reference architecture for 
+             <p>This paper identifies the challenges and paths for the FabOS research project which aims to provide a reference architecture for 
              an open, distributed, secure and real-time capable operating system for production. The performed work encompasses the results of a 
              meta-analysis of existing relevant reference architectures, implementations, projects and standards which has been carried out and 
              mapped to the envisaged requirements of a FabOS reference architecture.</p>
