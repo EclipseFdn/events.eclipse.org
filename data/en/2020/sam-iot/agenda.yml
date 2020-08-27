@@ -175,7 +175,7 @@ sets:
     - name: 'Securing low power device communication in a water management use case – Feedback on the Brain-IoT project'
       presenter: Paul-Emmanuel Brun, Airbus Cybersecurity
       type: keynote
-      time: 09:00 - 09:20
+      time: 09:00 - 09:30
       abstract: |
              <p>In this keynote, we will present an overview of a secure IoT data transmission ecosystem. 
              This overview will be completed with a concrete example of a water management use case from 
