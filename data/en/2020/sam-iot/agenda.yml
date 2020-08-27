@@ -24,7 +24,7 @@ sets:
       type: breakout
       time: 13:00 - 13:10
     - name: 'Cobbles and Potholes – On the Bumpy Road to Secure Software Supply Chains'
-      presenter: Henrik Plate, SAP
+      presenter: <a href="keynote/#henrik-plate">Henrik Plate, SAP</a>
       type: keynote
       time: 13:10 - 13:40
       abstract: |
@@ -96,7 +96,7 @@ sets:
              at highlighting the most relevant tools available and explain their relevance.</p>
       
     - name: Security breakout
-      presenter: Maria Teresa Delgado, Eclipse Foundation (Moderator)
+      presenter: Rosaria Rossini, LINKS Foundation (Moderator)
       type: breakout
       time: 15:10 - 15:35
       abstract: <p>Open discussion on Security and IoT</p>
@@ -165,14 +165,14 @@ sets:
              developed and results obtained by the BRAIN-IoT project.</p>
       
     - name: Modelling breakout
-      presenter: LINKS (Moderator)
+      presenter: Maria Teresa Delgado, Eclipse Foundation (Moderator)
       type: breakout
       time: 16:20 - 16:40
       abstract: <p>Open discussion on Modelling and IoT</p>
       
   - name: Day 2 -- Friday, September 18
     items:
-    - name: 'Securing low power device communication in a water management use case – Feedback on the Brain-IoT project'
+    - name: 'Securing low power device communication in critical infrastructure management'
       presenter: Paul-Emmanuel Brun, Airbus Cybersecurity
       type: keynote
       time: 09:00 - 09:30
