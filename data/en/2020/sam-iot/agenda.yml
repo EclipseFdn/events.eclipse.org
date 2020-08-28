@@ -36,7 +36,7 @@ sets:
              of software supply chains, both from consumer and producer perspective.</p>
              
     - name: 'Risk Assessment in IoT Case Study: Collaborative Robots System'
-      presenter: <a hre="speakers/#salim-chehida-uga">Salim Chehida, Université Grenoble Alpes</a>
+      presenter: <a href="speakers/#salim-chehida-uga">Salim Chehida, Université Grenoble Alpes</a>
       type: session
       time: 13:40 - 14:00
       abstract: |
