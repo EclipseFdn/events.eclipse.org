@@ -24,7 +24,7 @@ sets:
       type: breakout
       time: 13:00 - 13:10
     - name: 'Cobbles and Potholes – On the Bumpy Road to Secure Software Supply Chains'
-      presenter: <a href="keynote/#henrik-plate">Henrik Plate, SAP</a>
+      presenter: Henrik Plate, SAP
       type: keynote
       time: 13:10 - 13:40
       abstract: |
