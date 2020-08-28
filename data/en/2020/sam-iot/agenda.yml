@@ -24,7 +24,7 @@ sets:
       type: breakout
       time: 13:00 - 13:10
     - name: 'Cobbles and Potholes – On the Bumpy Road to Secure Software Supply Chains'
-      presenter: Henrik Plate, SAP
+      presenter: <a href="speakers/#henrik-plate-sap">Henrik Plate, SAP</a>
       type: keynote
       time: 13:10 - 13:40
       abstract: |
@@ -173,7 +173,7 @@ sets:
   - name: Day 2 -- Friday, September 18
     items:
     - name: 'Securing low power device communication in critical infrastructure management'
-      presenter: Paul-Emmanuel Brun, Airbus Cybersecurity
+      presenter: <a href="speakers/#paul-emmanuel-brun-airbus">Paul-Emmanuel Brun, Airbus Cybersecurity</a>
       type: keynote
       time: 09:00 - 09:30
       abstract: |
