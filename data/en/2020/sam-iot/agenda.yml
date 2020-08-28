@@ -14,7 +14,7 @@ types:
       color: "#FFFFFF"
     - name: Breakout
       id: breakout
-      color: "#FF40FF"
+      color: "#FF40FF" 
       
 sets:
   - name: Day 1 -- Thursday, September 17
