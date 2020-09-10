@@ -6,4 +6,19 @@
   //document.addEventListener("DOMContentLoaded", initialize, false);
   //$(initialize);
 </script>
+
+<script
+src="https://unpkg.com/react@16/umd/react.production.min.js"
+></script>
+<script
+src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
+></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<script type="text/babel" src="js/react/WelcomeBack.js"></script>
+<script type="text/babel" src="js/react/CoolButton.js"></script>
+
+<script type="text/babel">
+ReactDOM.render(<WelcomeBack />, document.querySelector(".welcome-back"));
+</script>
 {{ end }}
