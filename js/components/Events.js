@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import EventCard from './EventCard';
 import CustomSearch from './CustomSearch';
 import WorkGroupFilters from './WorkGroupFilters';
-import { getSearchedEvents } from './WorkingGroupHelpers';
+import { getFilteredEvents } from './WorkingGroupHelpers';
 
 const Events = ({ events }) => {
 
@@ -21,7 +21,7 @@ const Events = ({ events }) => {
 
         </div>
         <div className="col-md-16">
-          {getSearchedEvents(events, searchValue).map((event) => (
+          {getFilteredEvents(events, searchValue, checkedItems).map((event) => (
             <div className="thumbnail" key={event.id}>
               <div className="caption">
                   <EventCard

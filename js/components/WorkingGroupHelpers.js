@@ -71,8 +71,12 @@ export function getselectedWorkingGroups(checkedItems) {
   return selected
 }
 
-export function getEventsByWorkingGroups(checkedItems) {
-
+export function getEventsByWorkingGroups(checkedItems, events) {
+  let checked = getselectedWorkingGroups(checkedItems)
+  if (checked && checked.length > 0) {
+    let result = events.filter( el => checkedItems.some(item => el.publish_to.includes(item)) )
+    return result
+  } else return events
 }
 
 export function getEventsByType() {
@@ -96,11 +100,8 @@ export function getSearchedEvents(events, searchValue) {
   }
 }
 
-// export function getFilteredEvents(events, searchValue, checkedItems) {
-//   let selected = getSelected(checkedItems)
-//   if (selected && selected.length > 0) {
-    
-//   }
-
-
-// }
+export function getFilteredEvents(events, searchValue, checkedItems) {
+  let selected = getselectedWorkingGroups(checkedItems)
+  let first = getEventsByWorkingGroups(selected, events)
+  return getSearchedEvents(first, searchValue)
+}
