@@ -1,54 +1,40 @@
 import React, { useState, useEffect } from 'react';
+import EventCard from './EventCard';
+import CustomSearch from './CustomSearch';
+import WorkGroupFilters from './WorkGroupFilters';
+import { getSearchedEvents } from './WorkingGroupHelpers';
 
-const Events = () => {
-  // Based off https://reactjs.org/docs/faq-ajax.html
+const Events = ({ events }) => {
 
-  const [error, setError] = useState(null);
-  const [isLoaded, setIsLoaded] = useState(false);
-  const [events, setEvents] = useState([]);
+  const [searchValue, setSearchValue] = useState('')
+  const [checkedItems, setCheckedItems] = useState({})
 
-  // Note: the empty deps array [] means
-  // this useEffect will run once
-  // similar to componentDidMount()
-  useEffect(() => {
-    fetch('https://newsroom.eclipse.org/api/events?parameters[upcoming_only]=1')
-      .then((res) => res.json())
-      .then(
-        (result) => {
-          setIsLoaded(true);
-          setEvents(result.events);
-        },
-        // Note: it's important to handle errors here
-        // instead of a catch() block so that we don't swallow
-        // exceptions from actual bugs in components.
-        (error) => {
-          setIsLoaded(true);
-          setError(error);
-        }
-      );
-  }, []);
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col-md-8">
+          {/* Filters will be here */}
+          <div className="row">
+            <CustomSearch searchValue={searchValue} setSearchValue={setSearchValue} />
+            <WorkGroupFilters checkedItems={checkedItems} setCheckedItems={setCheckedItems} />
+          </div>
 
-  if (error) {
-    return <div>Error: {error.message}</div>;
-  } else if (!isLoaded) {
-    return <div>Loading...</div>;
-  } else {
-    return (
-      <div class="list-group">
-        {events.map((event) => (
-          <a href={event.infoLink} class="list-group-item" key={event.id}>
-            <h4>
-              {event.title}{' '}
-              <span className="badge badge-primary">
-                {new Date(event.date).toLocaleDateString()}
-              </span>
-            </h4>
-            <p class="list-group-item-text">{event.description}</p>
-          </a>
-        ))}
+        </div>
+        <div className="col-md-16">
+          {getSearchedEvents(events, searchValue).map((event) => (
+            <div className="thumbnail" key={event.id}>
+              <div className="caption">
+                  <EventCard
+                    event={event}
+                  />
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-    );
-  }
-};
+    </div>
+  );
+}
+
 
 export default Events;
