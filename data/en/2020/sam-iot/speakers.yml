@@ -96,6 +96,13 @@ items:
       degree from FEUP in 2018 and is a Ph.D. candidate in Informatics Engineering since 2019. He is currently 
       involved in several projects related to Smart Manufacturing, applying concepts of interoperability, reconfiguration, 
       and analytics to Cyber-Physical Production Systems.</p>
+             
+  - name: "Kevin Olotu, Bosch.IO GmbH"
+    title: "Bringing Clouds down to Earth: Modeling Arrowhead Deployments via Eclipse Vorto"
+    anchor: kevin-olotu
+    img: avatar.png
+    bio: |
+      <p>To be completed</p>
       
   - name: "Henrik Plate, SAP (Keynote)"
     title: "Senior Researcher at SAP"
