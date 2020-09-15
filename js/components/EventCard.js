@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 const EventCard = ({ event }) => {
 
@@ -22,5 +23,14 @@ const EventDetails = ({ event }) => {
     </>
   )
 }
+
+EventCard.propTypes = {
+  event: PropTypes.object.isRequired,
+}
+
+EventDetails.propTypes = {
+  event: PropTypes.object.isRequired,
+}
+
 
 export default EventCard

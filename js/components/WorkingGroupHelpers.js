@@ -58,37 +58,43 @@ export const WORKING_GROUPS = [
   {
     id: "tangle_ee",
     name: "Tangle EE"
+  },
+  {
+    id: "eclipse_org",
+    name: "Eclipse Org"
   }
 ]
 
-export function getselectedWorkingGroups(checkedItems) {
+export function getSelectedItems(checkedItems) {
   let selected = []
-  for (const property in checkedItems) {
-    if (checkedItems[property]) {
-      selected.push(property)
+  if (checkedItems) {
+    for (const property in checkedItems) {
+      if (checkedItems[property]) {
+        selected.push(property)
+      }
     }
+    return selected
   }
-  return selected
 }
 
 export function getEventsByWorkingGroups(checkedItems, events) {
-  let checked = getselectedWorkingGroups(checkedItems)
+  let checked = getSelectedItems(checkedItems)
   if (checked && checked.length > 0) {
-    let result = events.filter( el => checkedItems.some(item => el.publish_to.includes(item)) )
+    let result = events.filter( el => checked.some(item => el.publish_to.includes(item)) )
     return result
   } else return events
 }
 
-export function getEventsByType() {
-
+export function getEventsByType(checkedItems, events) {
+  let checked = getSelectedItems(checkedItems)
+  if (checked && checked.length > 0) {
+    let result = events.filter( el => checked.includes(el.type) )
+    return result
+  } else return events
 }
 
 export function getEventsByDate() {
   
-}
-
-export function getEventsByCheckbox() {
-
 }
 
 export function getSearchedEvents(events, searchValue) {
@@ -100,8 +106,8 @@ export function getSearchedEvents(events, searchValue) {
   }
 }
 
-export function getFilteredEvents(events, searchValue, checkedItems) {
-  let selected = getselectedWorkingGroups(checkedItems)
-  let first = getEventsByWorkingGroups(selected, events)
-  return getSearchedEvents(first, searchValue)
+export function getFilteredEvents(events, searchValue, checkedWorkingGroups, checkedTypes) {
+  let selectedByWorkingGroups = getEventsByWorkingGroups(checkedWorkingGroups, events)
+  let selectedByTypes = getEventsByType(checkedTypes, selectedByWorkingGroups)
+  return getSearchedEvents(selectedByTypes, searchValue)
 }

@@ -1,13 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import EventCard from './EventCard';
 import CustomSearch from './CustomSearch';
-import WorkGroupFilters from './WorkGroupFilters';
+import CheckboxFilters from './CheckboxFilters';
 import { getFilteredEvents } from './WorkingGroupHelpers';
+import PropTypes from 'prop-types';
 
 const Events = ({ events }) => {
 
   const [searchValue, setSearchValue] = useState('')
-  const [checkedItems, setCheckedItems] = useState({})
+  const [checkedWorkingGroups, setCheckedWorkingGroups] = useState({})
+  const [checkedTypes, setCheckedTypes] = useState({})
 
   return (
     <div className="container">
@@ -16,12 +18,13 @@ const Events = ({ events }) => {
           {/* Filters will be here */}
           <div className="row">
             <CustomSearch searchValue={searchValue} setSearchValue={setSearchValue} />
-            <WorkGroupFilters checkedItems={checkedItems} setCheckedItems={setCheckedItems} />
+            <CheckboxFilters checkedTypes={checkedTypes} setCheckedTypes={setCheckedTypes} />
+            <CheckboxFilters checkedWorkingGroups={checkedWorkingGroups} setCheckedWorkingGroups={setCheckedWorkingGroups} />
           </div>
 
         </div>
         <div className="col-md-16">
-          {getFilteredEvents(events, searchValue, checkedItems).map((event) => (
+          {getFilteredEvents(events, searchValue, checkedWorkingGroups, checkedTypes).map((event) => (
             <div className="thumbnail" key={event.id}>
               <div className="caption">
                   <EventCard
@@ -36,5 +39,8 @@ const Events = ({ events }) => {
   );
 }
 
+Events.propTypes = {
+  events: PropTypes.array.isRequired,
+}
 
 export default Events;

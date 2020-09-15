@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const CustomSearch = ({ setSearchValue }) => {
   
@@ -12,5 +13,10 @@ const CustomSearch = ({ setSearchValue }) => {
     </>
   )
 }
+
+CustomSearch.propTypes = {
+  setSearchValue: PropTypes.func.isRequired,
+}
+
 
 export default CustomSearch

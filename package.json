@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "eclipsefdn-hugo-solstice-theme": "git://github.com:EclipseFdn/hugo-solstice-theme.git#c23041dd6417904feee0932aefeae6500667e5b9",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
