@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Checkbox from './Checkbox';
 import { WORKING_GROUPS } from './WorkingGroupHelpers';
 import { EVENT_TYPES } from './EventsTypeConst';
 import PropTypes from 'prop-types';
 
 const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, setCheckedWorkingGroups }) => {
+
+  const [showTypes, setShowTypes] = useState(true)
+  const [showWorkingGroups, setShowWorkingGroups] = useState(true)
 
   const handleChange = (e) => {
     if (checkedWorkingGroups && setCheckedWorkingGroups) {
@@ -36,14 +39,22 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
     }
 
   }
- 
+
+  const toggleTypes = () => {
+    setShowTypes(!showTypes)
+  }
+
+  const toggleWorkingGroups = () => {
+    setShowWorkingGroups(!showWorkingGroups)
+  }
+
   const WorkingGroups = () => {
     if (checkedWorkingGroups && setCheckedWorkingGroups) {
       return (
         <> 
-          <p>Event Working Groups</p>
+          <p onClick={toggleWorkingGroups}>Event Working Groups <i className="fa fa-angle-down" aria-hidden="true"></i></p>
           <ul style={{listStyleType: 'none'}}>
-            {
+            { showWorkingGroups && 
               WORKING_GROUPS.map(item => (
                 <li key={item.id}>
                   <label key={item.id}>
@@ -64,9 +75,9 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
     if (checkedTypes && setCheckedTypes) {
       return (
         <>
-        <p>Event types</p>
+        <p onClick={toggleTypes}>Event types<i className="fa fa-angle-down" aria-hidden="true"></i></p>
         <ul style={{listStyleType: 'none'}}>
-          {  
+          { showTypes &&
             EVENT_TYPES.map(item => (
               <li key={item.id}>
                 <label key={item.id}>

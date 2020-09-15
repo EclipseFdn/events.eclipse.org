@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Events from './Events';
+import Loading from './Loading';
+import { alertTypes } from './AlertsEnum';
+import Alerts from './Alerts';
 
 const EventsDataFetcher = () => {
   // Based off https://reactjs.org/docs/faq-ajax.html
@@ -30,12 +33,18 @@ const EventsDataFetcher = () => {
   }, [])
   
   if (error) {
-    return <div>Error: {error.message}</div>
+    // return <div>Error: {error.message}</div>
+    return (
+      <Alerts alertType={alertTypes.ERROR} message={error.message} />
+    )
   } else if (!isLoaded) {
-    return <div>Loading...</div>
+    return <Loading />
   } else {
     return (
+      <>
+      <Alerts alertType={alertTypes.ERROR} message="Test" />
       <Events events={events} />
+      </>
     )
   }
 }
