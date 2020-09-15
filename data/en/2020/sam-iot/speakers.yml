@@ -100,9 +100,11 @@ items:
   - name: "Kevin Olotu, Bosch.IO GmbH"
     title: "Bringing Clouds down to Earth: Modeling Arrowhead Deployments via Eclipse Vorto"
     anchor: kevin-olotu
-    img: avatar.png
+    img: KevinOlotu.jpg
     bio: |
-      <p>To be completed</p>
+      <p>Kevin Olotu is a senior software engineer at Bosch.IO. As project lead of the Eclipse Vorto project,
+      his work focuses on semantic modelling approaches for IoT solutions and their integration into different
+      platforms and use cases. His further interests include software engineering, IoT and the Java ecosystem.</p>
       
   - name: "Henrik Plate, SAP (Keynote)"
     title: "Senior Researcher at SAP"
