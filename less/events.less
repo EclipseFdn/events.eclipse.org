@@ -1,0 +1,103 @@
+/* @CHARSET "UTF-8"; */
+/*!
+ * Copyright (c) 2019 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Christopher Guindon <chris.guindon@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+
+// @import '~eclipsefdn-solstice-assets/less/quicksilver/styles.less';
+// @import '_variables.less';
+// @import (less) "~owl.carousel/dist/assets/owl.carousel.min.css";
+// @import (less) "~owl.carousel/dist/assets/owl.theme.default.min.css";
+
+// @image-url: "/static/images/eventsImages";
+
+.eventCard {
+    min-height: 280px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("https://i.ibb.co/rv0YcQh/eventbg.png");
+    color: white;
+    display: flex;
+}
+
+.eventTitle {
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow-y: hidden;
+    line-height: 1.5;
+    color: white;
+}
+
+.borderedEvent {
+    border: 1px solid #ededed;
+}
+
+.eventDetails {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.bottomSpace {
+    margin-bottom: 20px;
+}
+
+.selectionTitle {
+    background: #3E7B96;
+    min-height: 30px;
+    width: 100%;
+    text-align: left;
+    line-height: 30px;
+    height: 47px;
+    color: white;
+    border: none;
+}
+
+.checkboxList {
+    background-color: white;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.filters {
+    width: 90%;
+}
+
+.searchStyle {
+    margin-top: 15px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+#filterCheckbox {
+    margin: 1vh;
+}
+
+.eventCardButton {
+    background: none;
+    border: 1px solid #FFFFFF;
+    &:hover {
+        color: white;
+        background: none;
+        border: 1px solid #FFFFFF;
+    }
+    &:active {
+        background: none;
+        border: 1px solid #FFFFFF;
+    }
+}

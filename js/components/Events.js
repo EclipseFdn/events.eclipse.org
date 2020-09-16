@@ -13,24 +13,21 @@ const Events = ({ events }) => {
 
   return (
     <div className="container">
-      <div className="row">
-        <div className="col-md-8">
+      <h4>Find an event</h4>
+      <div className="row bottomSpace">
+        <div className="col-md-7">
           {/* Filters will be here */}
-          <div className="row">
-            <CustomSearch searchValue={searchValue} setSearchValue={setSearchValue} />
-            <CheckboxFilters checkedTypes={checkedTypes} setCheckedTypes={setCheckedTypes} />
-            <CheckboxFilters checkedWorkingGroups={checkedWorkingGroups} setCheckedWorkingGroups={setCheckedWorkingGroups} />
-          </div>
-
+          <CustomSearch searchValue={searchValue} setSearchValue={setSearchValue} />
+          <CheckboxFilters checkedTypes={checkedTypes} setCheckedTypes={setCheckedTypes} />
+          <CheckboxFilters checkedWorkingGroups={checkedWorkingGroups} setCheckedWorkingGroups={setCheckedWorkingGroups} />
         </div>
-        <div className="col-md-16">
+
+        <div className="col-md-17">
           {getFilteredEvents(events, searchValue, checkedWorkingGroups, checkedTypes).map((event) => (
-            <div className="thumbnail" key={event.id}>
-              <div className="caption">
-                  <EventCard
-                    event={event}
-                  />
-              </div>
+            <div className="col-md-10" key={event.id}>
+              <EventCard
+                event={event}
+              />
             </div>
           ))}
         </div>

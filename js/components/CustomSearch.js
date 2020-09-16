@@ -9,7 +9,7 @@ const CustomSearch = ({ setSearchValue }) => {
 
   return (
     <>
-      <input onChange={e => handleSearchOnChange(e)} />
+      <input onChange={e => handleSearchOnChange(e)} className="searchStyle" placeholder="Search" />
     </>
   )
 }

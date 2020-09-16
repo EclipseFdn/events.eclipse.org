@@ -7,22 +7,27 @@ const EventCard = ({ event }) => {
 
   return (
     <>
-      <h6>{event.title}</h6>
-      <p>{new Date(event.date).toLocaleDateString()}</p>
-      <button className="btn btn-primary" onClick={() => setShowDetails(!showDetails)}>Details</button>
-      { showDetails ? <EventDetails event={event} /> : null }
+    <div className="borderedEvent eventCard">
+      <div>
+        <h4 className="eventTitle">{event.title}</h4>
+        <p>{new Date(event.date).toLocaleDateString()}</p>
+        <button className="btn eventCardButton" onClick={() => setShowDetails(!showDetails)}>Learn More</button>
+      </div>
+    </div>
+
+    { showDetails ? <EventDetails event={event} /> : null }
     </>
   )
 }
 
-const EventDetails = ({ event }) => {
-  return (
-    <>
-      <div>{event.description}</div>
-      <a className="btn btn-primary" href={event.infoLink}>Register</a>
-    </>
-  )
-}
+  const EventDetails = ({ event }) => {
+    return (
+      <div className="bordered-box eventDetails">
+        <div>{event.description}</div>
+        <a className="btn btn-primary" href={event.infoLink}>Register</a>
+      </div>
+    )
+  }
 
 EventCard.propTypes = {
   event: PropTypes.object.isRequired,
