@@ -17,7 +17,7 @@ links: [[href: "#speakers", text: "Speakers"], [href: "#agenda", text: "Agenda"]
   {{< events/registration event="open-source-ai-workshop-september" year="2020" title="About the Event" >}} 
 
 
-The Open Source AI workshop brings together some of the brightest minds in the artificial intelligence (AI) industry and European open source experts to share best practices, explore key trends, and to discuss collaboration on AI in the Eclipse ecosystem.
+
 
 This second edition investigates open source and trustworthy AI, and presents two new use cases of open source AI projects.
 
