@@ -9,7 +9,7 @@ const EventCard = ({ event }) => {
   return (
     <>
     <div className={`borderedEvent eventCard type-${event.type}`}>
-      <div className="all-margin-auto">
+      <div className="all-margin-auto displayForIE">
         <h3 className="eventTitle">{event.title}</h3>
         <p>
           <i className={`fa fa-calendar-o fa-lg calendarIcon calendarIcon-${event.type}`} aria-hidden="true" />
