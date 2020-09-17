@@ -19,7 +19,7 @@ links: [[href: "#speakers", text: "Speakers"], [href: "#agenda", text: "Agenda"]
 
 The Open Source AI workshop brings together some of the brightest minds in the artificial intelligence (AI) industry and European open source experts to share best practices, explore key trends, and to discuss collaboration on AI in the Eclipse ecosystem.
 
-This second edition investigates open source and trustworthy AI, and presents two new use cases of open source AI projects.
+
 
   {{</ events/registration >}}
 {{</ grid/section-container >}}
