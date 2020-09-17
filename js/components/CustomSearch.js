@@ -10,7 +10,12 @@ const CustomSearch = ({ setSearchValue }) => {
   return (
     <div className="inner-addon left-addon">
       <i className="fa fa-search"></i>
-      <input type="text" onChange={e => handleSearchOnChange(e)} className="searchStyle form-control" placeholder="Search" />
+      <input 
+        type="text" 
+        onChange={e => handleSearchOnChange(e)} 
+        className="margin-bottom-10 margin-top-15 form-control" 
+        placeholder="Search" 
+      />
     </div>
   )
 }

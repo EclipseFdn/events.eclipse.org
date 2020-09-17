@@ -29,6 +29,13 @@
   },
   "devDependencies": {
     "@babel/preset-react": "^7.10.4",
-    "lodash": "^4.17.20"
-  }
+    "lodash": "^4.17.20",
+    "react-app-polyfill": "^1.0.6"
+  },
+  "development": [
+    "ie 11",
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ]
 }
