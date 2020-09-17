@@ -5,7 +5,7 @@ import EventsDataFetcher from './components/EventsDataFetcher';
 const App = () => (
   <div className="container">
     <h1>Upcoming Events</h1>
-    <EventsDataFetcher/>
+    <EventsDataFetcher />
   </div>
 );
 

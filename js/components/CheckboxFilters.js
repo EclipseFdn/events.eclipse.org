@@ -52,19 +52,25 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
     if (checkedWorkingGroups && setCheckedWorkingGroups) {
       return (
         <> 
-          <button onClick={toggleWorkingGroups} className="selectionTitle">WORKING GROUPS <i className="fa fa-angle-down" aria-hidden="true"></i></button>
-          <ul className="checkboxList">
+          <button
+            onClick={toggleWorkingGroups} 
+            className="selectionTitle"
+            >
+              WORKING GROUPS 
+              <i className="fa fa-angle-down expandableIcon" aria-hidden="true"></i>
+            </button>
             { showWorkingGroups && 
-              WORKING_GROUPS.map(item => (
-                <li key={item.id}>
-                  <label key={item.id}>
-                    <Checkbox name={item.id} checked={checkedWorkingGroups[item.id]} onChange={handleChange} />
-                    {item.name}
-                  </label>
-                </li>
-              ))
+              <ul className="checkboxList">
+                  { WORKING_GROUPS.map(item => (
+                    <li key={item.id}>
+                      <label key={item.id}>
+                        <Checkbox name={item.id} checked={checkedWorkingGroups[item.id]} onChange={handleChange} />
+                        {item.name}
+                      </label>
+                    </li>
+                  ))}
+              </ul>
             }
-          </ul>
         </>
       )
     }
@@ -75,19 +81,25 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
     if (checkedTypes && setCheckedTypes) {
       return (
         <>
-        <button onClick={toggleTypes} className="selectionTitle">EVENT TYPE<i className="fa fa-angle-down" aria-hidden="true"></i></button>
-        <ul className="checkboxList">
-          { showTypes &&
-            EVENT_TYPES.map(item => (
-              <li key={item.id}>
-                <label key={item.id}>
-                  <Checkbox name={item.id} checked={checkedTypes[item.id]} onChange={handleChange} />
-                  {item.name}
-                </label>
-              </li>
-            ))
-          }
-        </ul>
+        <button
+          onClick={toggleTypes}
+          className="selectionTitle"
+        >
+          EVENT TYPE
+          <i className="fa fa-angle-down expandableIcon" aria-hidden="true"></i>
+        </button>
+        { showTypes &&
+          <ul className="checkboxList">
+              { EVENT_TYPES.map(item => (
+                <li key={item.id}>
+                  <label key={item.id}>
+                    <Checkbox name={item.id} checked={checkedTypes[item.id]} onChange={handleChange} />
+                    {item.name}
+                  </label>
+                </li>
+              )) }
+          </ul>
+        }
         </>
       )
     }

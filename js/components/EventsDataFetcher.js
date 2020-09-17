@@ -41,10 +41,7 @@ const EventsDataFetcher = () => {
     return <Loading />
   } else {
     return (
-      <>
-      <Alerts alertType={alertTypes.ERROR} message="Test" />
       <Events events={events} />
-      </>
     )
   }
 }

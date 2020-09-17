@@ -17,7 +17,31 @@
 // @import (less) "~owl.carousel/dist/assets/owl.carousel.min.css";
 // @import (less) "~owl.carousel/dist/assets/owl.theme.default.min.css";
 
-// @image-url: "/static/images/eventsImages";
+@image-urls: 
+    "images/EclipseCon.jpg",
+    "images/otherInteresting.png",
+    "images/Stammtisch.jpg",
+    "images/trainingSeries.jpg",
+    "images/virtual.png",
+    "images/WorkingGroupEvents.png",
+    "images/unknown.jpg";
+
+@event-type-class-names: ec, ee, dc, et, ve, wg, unknown;
+
+@length: length(@event-type-class-names);
+
+.generate-backgroundImages(@image-urls; @event-type-class-names; @index) when (@index > 0) {
+    .generate-backgroundImages(@image-urls; @event-type-class-names; (@index - 1)); // decrement.
+ 
+  @event-type-class-name: extract(@event-type-class-names, @index);
+  @image-url: extract(@image-urls, @index);
+ 
+  .type-@{event-type-class-name} {
+    background-image: url("@{image-url}");
+  }
+}
+
+.generate-backgroundImages(@image-urls; @event-type-class-names; @length);
 
 .eventCard {
     min-height: 280px;
@@ -26,7 +50,6 @@
     justify-content: center;
     margin-top: 20px;
     padding: 20px;
-    background-image: url("https://i.ibb.co/rv0YcQh/eventbg.png");
     color: white;
     display: flex;
 }
@@ -47,9 +70,6 @@
 
 .eventDetails {
     padding: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
     background-color: #FFFFFF;
 }
 
@@ -66,26 +86,32 @@
     height: 47px;
     color: white;
     border: none;
+    padding-right: 2vh;
+    padding-left: 2vh;
 }
 
 .checkboxList {
     background-color: white;
     list-style-type: none;
-    padding-left: 10px;
+    padding: 2vh 0 2vh 1vh;
 }
 
 .filters {
-    width: 90%;
+    margin-bottom: 10px;
 }
 
 .searchStyle {
     margin-top: 15px;
-    width: 90%;
     margin-bottom: 10px;
 }
 
 #filterCheckbox {
     margin: 1vh;
+}
+
+.expandableIcon {
+    float: right;
+    line-height: inherit;
 }
 
 .eventCardButton {
@@ -101,3 +127,43 @@
         border: 1px solid #FFFFFF;
     }
 }
+
+.calendarIcon {
+    color: #3E7B96;
+    margin-right: 5px;
+}
+
+.calendarIcon-ve {
+    color:  #FFFFFF !important;
+}
+
+/** CustomSearch Style start **/
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .fa-search {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .fa-search { 
+    left:  0px;
+}
+.right-addon .fa-search { 
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input  { 
+    padding-left:  30px;
+}
+.right-addon input { 
+    padding-right: 30px; 
+}
+
+/** CustomSearch Style ends **/

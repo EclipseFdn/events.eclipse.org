@@ -8,9 +8,10 @@ const CustomSearch = ({ setSearchValue }) => {
   }
 
   return (
-    <>
-      <input onChange={e => handleSearchOnChange(e)} className="searchStyle" placeholder="Search" />
-    </>
+    <div className="inner-addon left-addon">
+      <i className="fa fa-search"></i>
+      <input type="text" onChange={e => handleSearchOnChange(e)} className="searchStyle form-control" placeholder="Search" />
+    </div>
   )
 }
 
