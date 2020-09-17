@@ -130,3 +130,42 @@ export function hasAddress(event) {
     return true
   } else return false
 }
+
+export function checkSameMonth(startDate, endDate) {
+  return startDate.getMonth() === endDate.getMonth()
+}
+
+export function checkSameDay(startDate, endDate) {
+  return checkSameMonth(startDate, endDate) && startDate.getDate() === endDate.getDate()
+}
+
+export function generateDate(date) {
+  if (date) {
+    return date.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' })
+  }
+}
+
+export function generateDates(startDate, endDate) {
+  if (endDate && !checkSameDay(startDate, endDate)) {
+    return generateDate(startDate) + " - " + generateDate(endDate) + ", " + startDate.getFullYear()
+  }
+  else {
+    return generateDate(startDate)
+  }
+}
+
+export function generateTime(time) {
+  if (time) {
+    return time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+  }
+}
+
+export function generateTimes(startDate, endDate) {
+  if (endDate && checkSameDay(startDate, endDate)) {
+    return generateTime(startDate) + " - " + generateTime(endDate)
+  }
+  else {
+    return generateTime(startDate)
+  }
+}
+

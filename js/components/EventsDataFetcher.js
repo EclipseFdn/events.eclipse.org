@@ -15,7 +15,7 @@ const EventsDataFetcher = () => {
   // this useEffect will run once
   // similar to componentDidMount()
   useEffect(() => {
-    fetch('https://newsroom.eclipse.org/api/events?parameters[upcoming_only]=1&&options[orderby][field_event_date]=desc')
+    fetch('https://newsroom.eclipse.org/api/events?parameters[upcoming_only]=1&&options[orderby][field_event_date]=ASC')
       .then((res) => res.json())
       .then(
         (result) => {

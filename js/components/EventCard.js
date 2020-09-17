@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { hasAddress } from './EventHelpers';
+import { hasAddress, generateDates, generateTimes } from './EventHelpers';
 
 const EventCard = ({ event }) => {
 
@@ -10,12 +10,15 @@ const EventCard = ({ event }) => {
     <>
     <div className={`borderedEvent eventCard type-${event.type}`}>
       <div className="all-margin-auto displayForIE">
+        <div className="decorationDash"></div>
         <h3 className="eventTitle">{event.title}</h3>
         <p>
           <i className={`fa fa-calendar-o fa-lg calendarIcon calendarIcon-${event.type}`} aria-hidden="true" />
-          {new Date(event.date).toLocaleDateString(undefined, { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' })}
+          { generateDates(new Date(event.date), new Date(event['end-date'])) }
+        </p>
+        <p>  
           <i className={`fa fa-clock-o fa-lg calendarIcon calendarIcon-${event.type}`} aria-hidden="true"></i>
-          {new Date(event.date).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+          { generateTimes(new Date(event.date), new Date(event['end-date'])) }
         </p>
       </div>
       <button className="btn eventCardButton" onClick={() => setShowDetails(!showDetails)}>Learn More</button>
