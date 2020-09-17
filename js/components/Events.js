@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import EventCard from './EventCard';
 import CustomSearch from './CustomSearch';
 import CheckboxFilters from './CheckboxFilters';
-import { generateFinalEvents } from './WorkingGroupHelpers';
+import { getFilteredEvents } from './WorkingGroupHelpers';
 import PropTypes from 'prop-types';
 
 const Events = ({ events }) => {
@@ -24,13 +24,13 @@ const Events = ({ events }) => {
 
         <div className="col-md-18">
 
-          {/* {getFilteredEvents(events, searchValue, checkedWorkingGroups, checkedTypes).map((event) => (
+          {getFilteredEvents(events, searchValue, checkedWorkingGroups, checkedTypes).map((event) => (
             <div className="col-md-10" key={event.id}>
               <EventCard event={event} />
             </div>
-          ))} */}
+          ))}
 
-          {generateFinalEvents(events, searchValue, checkedWorkingGroups, checkedTypes).map((eventRow, index) => (
+          {/* {generateFinalEvents(events, searchValue, checkedWorkingGroups, checkedTypes).map((eventRow, index) => (
             <div className="row" key={index}>
                 {eventRow.map(elem => (
                     <div className="col-md-10" key={elem.id}>              
@@ -38,7 +38,7 @@ const Events = ({ events }) => {
                     </div>
                 ))}
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </div>
