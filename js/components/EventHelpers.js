@@ -65,6 +65,66 @@ export const WORKING_GROUPS = [
   }
 ]
 
+export const EVENT_TYPES = [
+  {
+    id: "ec",
+    name: "EclipseCon"
+  },
+  {
+    id: "ve",
+    name: "Virtual Event"
+  },
+  {
+    id: "dc",
+    name: "Demo Camps & Stammtisch"
+  },
+  {
+    id: "wg",
+    name: "Working Group Events"
+  },
+  {
+    id: "et",
+    name: "Training Series"
+  },
+  {
+    id: "ee",
+    name: "Other interesting Events"
+  },
+  {
+    id: "unknown",
+    name: "Unknown"
+  },
+]
+
+export function checkEventWorkingGroups(events, filter) {
+  for (let i=0; i<events.length; i++) {
+    if (events[i].publish_to.includes(filter.id)) { // as long as find one event has the working group
+      return true
+    }
+  }
+}
+
+export function checkEventTypes(events, filter) {
+  for (let i=0; i<events.length; i++) {
+    if (events[i].type == filter.id) {  // as long as find one event is of the type
+      return true
+    }
+  }
+}
+
+export function checkFilterHasEvents(filters, filterType, events) {
+  switch(filterType) {
+    case "WORKINGGROUPS":
+      return filters.filter(el => checkEventWorkingGroups(events, el))
+
+    case "EVENTTYPE":
+      return filters.filter(el => checkEventTypes(events, el))
+
+    default:
+      return
+  }
+}
+
 export function getSelectedItems(checkedItems) {
   let selected = []
   if (checkedItems) {
@@ -91,10 +151,6 @@ export function getEventsByType(checkedItems, events) {
     let result = events.filter( el => checked.includes(el.type) )
     return result
   } else return events
-}
-
-export function getEventsByDate() {
-  
 }
 
 export function getSearchedEvents(events, searchValue) {

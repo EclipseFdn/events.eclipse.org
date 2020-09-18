@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import Checkbox from './Checkbox';
-import { WORKING_GROUPS } from './EventHelpers';
-import { EVENT_TYPES } from './EventsTypeConst';
+import { EVENT_TYPES, WORKING_GROUPS, checkFilterHasEvents } from './EventHelpers';
 import PropTypes from 'prop-types';
 
-const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, setCheckedWorkingGroups }) => {
+const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, setCheckedWorkingGroups, events }) => {
 
   const [showTypes, setShowTypes] = useState(true)
   const [showWorkingGroups, setShowWorkingGroups] = useState(true)
@@ -61,10 +60,14 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
           </button>
           { showWorkingGroups && 
             <ul className="checkboxList">
-                { WORKING_GROUPS.map(item => (
+                { checkFilterHasEvents(WORKING_GROUPS, "WORKINGGROUPS", events).map(item => (
                   <li key={item.id}>
                     <label key={item.id}>
-                      <Checkbox name={item.id} checked={checkedWorkingGroups[item.id]} onChange={handleChange} />
+                      <Checkbox
+                        name={item.id} 
+                        checked={checkedWorkingGroups[item.id]} 
+                        onChange={handleChange}
+                      />
                       {item.name}
                     </label>
                   </li>
@@ -90,10 +93,14 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
           </button>
           { showTypes &&
             <ul className="checkboxList">
-                { EVENT_TYPES.map(item => (
+                { checkFilterHasEvents(EVENT_TYPES, "EVENTTYPE", events).map(item => (
                   <li key={item.id}>
                     <label key={item.id}>
-                      <Checkbox name={item.id} checked={checkedTypes[item.id]} onChange={handleChange} />
+                      <Checkbox
+                        name={item.id}
+                        checked={checkedTypes[item.id]}
+                        onChange={handleChange}
+                      />
                       {item.name}
                     </label>
                   </li>

@@ -13,18 +13,17 @@ const Events = ({ events }) => {
 
   return (
     <div className="container">
-      <h3>Find an event</h3>
       <div className="row margin-bottom-20">
-        <div className="col-md-6">
+        <div className="col-md-6 col-ms-pull-6">
           {/* Filters will be here */}
           <CustomSearch searchValue={searchValue} setSearchValue={setSearchValue} />
-          <CheckboxFilters checkedTypes={checkedTypes} setCheckedTypes={setCheckedTypes} />
-          <CheckboxFilters checkedWorkingGroups={checkedWorkingGroups} setCheckedWorkingGroups={setCheckedWorkingGroups} />
+          <CheckboxFilters checkedTypes={checkedTypes} setCheckedTypes={setCheckedTypes} events={events} />
+          <CheckboxFilters checkedWorkingGroups={checkedWorkingGroups} setCheckedWorkingGroups={setCheckedWorkingGroups} events={events} />
           <a className="btn btn-primary" href="https://newsroom.eclipse.org/node/add/events">Submit Your Event</a>
         </div>
-        <div className="col-md-18 eventListWrapper">
+        <div className="col-md-18 col-ms-push-18 eventListWrapper">
           {getFilteredEvents(events, searchValue, checkedWorkingGroups, checkedTypes).map((event) => (
-            <div className="col-md-10" key={event.id}>
+            <div className="col-md-10 max-min-width" key={event.id}>
               <EventCard event={event} />
             </div>
           ))}

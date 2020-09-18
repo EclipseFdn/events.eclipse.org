@@ -3,6 +3,9 @@ import Events from './Events';
 import Loading from './Loading';
 import { alertTypes } from './AlertsEnum';
 import Alerts from './Alerts';
+// Testing purpose, to be deleted
+// To test, modify the events in the file, and pass testEventData into <Events events={testEventData} />
+// import { testEventData } from './TestEventsData';
 
 const EventsDataFetcher = () => {
   // Based off https://reactjs.org/docs/faq-ajax.html
@@ -46,4 +49,4 @@ const EventsDataFetcher = () => {
   }
 }
   
-  export default EventsDataFetcher
+export default EventsDataFetcher
