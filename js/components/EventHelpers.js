@@ -1,5 +1,3 @@
-import _ from 'lodash'
-
 export const WORKING_GROUPS = [
   {
     id: "ascii_doc",
@@ -108,32 +106,53 @@ export function getSearchedEvents(events, searchValue) {
   }
 }
 
-// export function chunkArrays(originalArray) {
-//   var newArray = [], size = 2
-  
-//   while (originalArray.length > 0) {
-//       newArray.push(originalArray.splice(0, size))
-//   }
-
-//   return newArray
-// }
-
 export function getFilteredEvents(events, searchValue, checkedWorkingGroups, checkedTypes) {
   let selectedByWorkingGroups = getEventsByWorkingGroups(checkedWorkingGroups, events)
   let selectedByTypes = getEventsByType(checkedTypes, selectedByWorkingGroups)
   return getSearchedEvents(selectedByTypes, searchValue)
-  // return chunkArrays(getSearchedEvents(selectedByTypes, searchValue))
 }
 
-
-// use lodash _.cloneDeep(array)
-// use lodash chunk
-
-export function generateFinalEvents(events, searchValue, checkedWorkingGroups, checkedTypes) {
-
-  let originalArray = getFilteredEvents(events, searchValue, checkedWorkingGroups, checkedTypes)
-  let copyArray = _.cloneDeep(originalArray)
-  let chunkArray = _.chunk(copyArray, 2)
-
-  return chunkArray
+export function hasAddress(event) {
+  if (event.address && (event.address.city || event.address.country)) {
+    return true
+  } else return false
 }
+
+export function checkSameMonth(startDate, endDate) {
+  return startDate.getMonth() === endDate.getMonth()
+}
+
+export function checkSameDay(startDate, endDate) {
+  return checkSameMonth(startDate, endDate) && startDate.getDate() === endDate.getDate()
+}
+
+export function generateDate(date) {
+  if (date) {
+    return date.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' })
+  }
+}
+
+export function generateDates(startDate, endDate) {
+  if (endDate && !checkSameDay(startDate, endDate)) {
+    return generateDate(startDate) + " - " + generateDate(endDate) + ", " + startDate.getFullYear()
+  }
+  else {
+    return generateDate(startDate)
+  }
+}
+
+export function generateTime(time) {
+  if (time) {
+    return time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+  }
+}
+
+export function generateTimes(startDate, endDate) {
+  if (endDate && checkSameDay(startDate, endDate)) {
+    return generateTime(startDate) + " - " + generateTime(endDate)
+  }
+  else {
+    return generateTime(startDate)
+  }
+}
+

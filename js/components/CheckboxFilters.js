@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Checkbox from './Checkbox';
-import { WORKING_GROUPS } from './WorkingGroupHelpers';
+import { WORKING_GROUPS } from './EventHelpers';
 import { EVENT_TYPES } from './EventsTypeConst';
 import PropTypes from 'prop-types';
 
@@ -58,19 +58,19 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
             >
               WORKING GROUPS 
               <i className="fa fa-angle-down expandableIcon" aria-hidden="true"></i>
-            </button>
-            { showWorkingGroups && 
-              <ul className="checkboxList">
-                  { WORKING_GROUPS.map(item => (
-                    <li key={item.id}>
-                      <label key={item.id}>
-                        <Checkbox name={item.id} checked={checkedWorkingGroups[item.id]} onChange={handleChange} />
-                        {item.name}
-                      </label>
-                    </li>
-                  ))}
-              </ul>
-            }
+          </button>
+          { showWorkingGroups && 
+            <ul className="checkboxList">
+                { WORKING_GROUPS.map(item => (
+                  <li key={item.id}>
+                    <label key={item.id}>
+                      <Checkbox name={item.id} checked={checkedWorkingGroups[item.id]} onChange={handleChange} />
+                      {item.name}
+                    </label>
+                  </li>
+                ))}
+            </ul>
+          }
         </>
       )
     }
@@ -81,36 +81,36 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
     if (checkedTypes && setCheckedTypes) {
       return (
         <>
-        <button
-          onClick={toggleTypes}
-          className="selectionTitle"
-        >
-          EVENT TYPE
-          <i className="fa fa-angle-down expandableIcon" aria-hidden="true"></i>
-        </button>
-        { showTypes &&
-          <ul className="checkboxList">
-              { EVENT_TYPES.map(item => (
-                <li key={item.id}>
-                  <label key={item.id}>
-                    <Checkbox name={item.id} checked={checkedTypes[item.id]} onChange={handleChange} />
-                    {item.name}
-                  </label>
-                </li>
-              )) }
-          </ul>
-        }
+          <button
+            onClick={toggleTypes}
+            className="selectionTitle"
+          >
+            EVENT TYPE
+            <i className="fa fa-angle-down expandableIcon" aria-hidden="true"></i>
+          </button>
+          { showTypes &&
+            <ul className="checkboxList">
+                { EVENT_TYPES.map(item => (
+                  <li key={item.id}>
+                    <label key={item.id}>
+                      <Checkbox name={item.id} checked={checkedTypes[item.id]} onChange={handleChange} />
+                      {item.name}
+                    </label>
+                  </li>
+                )) }
+            </ul>
+          }
         </>
       )
     }
   }
 
   return (
-    <div className="filters">
+    <div className="margin-bottom-10">
       {WorkingGroups()}
       {EventTypes()}
     </div>
-   )
+  )
 }
 
 CheckboxFilters.propTypes = {
