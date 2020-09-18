@@ -53,13 +53,13 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
         <> 
           <button
             onClick={toggleWorkingGroups} 
-            className="selectionTitle"
+            className="event-filter-title"
             >
               WORKING GROUPS 
-              <i className="fa fa-angle-down expandableIcon" aria-hidden="true"></i>
+              <i className="fa fa-angle-down event-filter-expandable-icon" aria-hidden="true"></i>
           </button>
           { showWorkingGroups && 
-            <ul className="checkboxList">
+            <ul className="event-filter-checkbox-list">
                 { checkFilterHasEvents(WORKING_GROUPS, "WORKINGGROUPS", events).map(item => (
                   <li key={item.id}>
                     <label key={item.id}>
@@ -86,13 +86,13 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
         <>
           <button
             onClick={toggleTypes}
-            className="selectionTitle"
+            className="event-filter-title"
           >
             EVENT TYPE
-            <i className="fa fa-angle-down expandableIcon" aria-hidden="true"></i>
+            <i className="fa fa-angle-down event-filter-expandable-icon" aria-hidden="true"></i>
           </button>
           { showTypes &&
-            <ul className="checkboxList">
+            <ul className="event-filter-checkbox-list">
                 { checkFilterHasEvents(EVENT_TYPES, "EVENTTYPE", events).map(item => (
                   <li key={item.id}>
                     <label key={item.id}>

@@ -14,7 +14,7 @@ const Events = ({ events }) => {
   return (
     <div className="container">
       <div className="row margin-bottom-20">
-        <div className="col-md-18 col-md-push-6 eventListWrapper">
+        <div className="col-md-18 col-md-push-6 event-list-wrapper">
           {getFilteredEvents(events, searchValue, checkedWorkingGroups, checkedTypes).map((event) => (
             <div className="col-md-10 max-min-width" key={event.id}>
               <EventCard event={event} />

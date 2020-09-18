@@ -8,20 +8,20 @@ const EventCard = ({ event }) => {
 
   return (
     <>
-    <div className={`borderedEvent eventCard type-${event.type}`}>
-      <div className="all-margin-auto displayForIE">
-        <div className="decorationDash"></div>
-        <h3 className="eventTitle">{event.title}</h3>
+    <div className={`event-card type-${event.type}`}>
+      <div className="all-margin-auto event-card-title-wrapper-display-IE">
+        <div className="event-card-decoration-dash"></div>
+        <h3 className="event-card-title">{event.title}</h3>
         <p>
-          <i className={`fa fa-calendar-o fa-lg calendarIcon calendarIcon-${event.type}`} aria-hidden="true" />
+          <i className={`fa fa-calendar-o fa-lg event-card-calendar-icon event-card-calendar-icon-${event.type}`} aria-hidden="true" />
           { generateDates(new Date(event.date), new Date(event['end-date'])) }
         </p>
         <p>  
-          <i className={`fa fa-clock-o fa-lg calendarIcon calendarIcon-${event.type}`} aria-hidden="true"></i>
+          <i className={`fa fa-clock-o fa-lg event-card-calendar-icon event-card-calendar-icon-${event.type}`} aria-hidden="true"></i>
           { generateTimes(new Date(event.date), new Date(event['end-date'])) }
         </p>
       </div>
-      <button className="btn eventCardButton" onClick={() => setShowDetails(!showDetails)}>Learn More</button>
+      <button className="btn event-card-button" onClick={() => setShowDetails(!showDetails)}>Learn More</button>
     </div>
     { showDetails ? <EventDetails event={event} /> : null }
     </>
@@ -31,7 +31,7 @@ const EventCard = ({ event }) => {
   const EventDetails = ({ event }) => {
 
     return (
-      <div className="bordered-box eventDetails">
+      <div className="bordered-box event-details">
         <div className="margin-bottom-20">{event.description}</div>
         { hasAddress(event) && <div className="margin-bottom-20">Address: { event.address.city + " " + event.address.country } </div>}
         <div className="text-center">
