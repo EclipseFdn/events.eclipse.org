@@ -1,12 +1,16 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Checkbox from './Checkbox';
 import { EVENT_TYPES, WORKING_GROUPS, checkFilterHasEvents } from './EventHelpers';
 import PropTypes from 'prop-types';
 
 const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, setCheckedWorkingGroups, events }) => {
+  
+  const determineInitialState = () => {
+    return window.innerWidth > 991
+  }
 
-  const [showTypes, setShowTypes] = useState(true)
-  const [showWorkingGroups, setShowWorkingGroups] = useState(true)
+  const [showTypes, setShowTypes] = useState(determineInitialState())
+  const [showWorkingGroups, setShowWorkingGroups] = useState(determineInitialState())
 
   const handleChange = (e) => {
     if (checkedWorkingGroups && setCheckedWorkingGroups) {
