@@ -88,15 +88,6 @@ Modelling for IoT
   {{< events/agenda event="sam-iot" year="2020" >}}
 {{</ grid/section-container >}}
 
-
-## Important Dates
-
-| Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission | Conference Dates |
-| :----------------------- | :--------------------- | :--------------------------- | :--------------- |
-| Aug. 5, 2020            | Aug. 21, 2020          | Sep. 10, 2020                | Sep. 17-18, 2020 |
-
-{{</ grid/section-container >}}
-
 [//]: # (TCP)
 {{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg" isMarkdown="true">}}
 ## Technical Program Committee 
