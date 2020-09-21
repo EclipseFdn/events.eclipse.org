@@ -10,7 +10,7 @@ header_wrapper_class: "header-default-event"
 hide_breadcrumb: true
 container: "container-fluid"
 summary: "Conference on Security, Artificial Intelligence, and Modeling for the next generation Internet of Things."
-links: [[href: ".", text: "Recorded presentations are coming soon"]]
+# links: [[href: ".", text: "Recorded presentations are coming soon"]]
 layout: single
 ---
 [//]: # (Introduction Section)
