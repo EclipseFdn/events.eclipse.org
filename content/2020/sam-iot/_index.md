@@ -16,8 +16,9 @@ layout: single
 [//]: # (Introduction Section)
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
 {{< events/registration event="sam-iot" year="2020">}}
-<h2>The SAM IoT conference is now over! Thank you for your interest and attendance!</h2>
-<h3>The conference proceedings and the video recordings of the talks will be available soon.</h3>
+## The SAM IoT conference is now over! Thank you for your interest and attendance!
+
+### The conference proceedings and the video recordings of the talks will be available soon.
 
 **SAM IoT is the first virtual Eclipse Conference on Security, Artificial Intelligence, and Modeling for the next generation Internet of Things**
 
