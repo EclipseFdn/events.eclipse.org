@@ -10,12 +10,14 @@ header_wrapper_class: "header-default-event"
 hide_breadcrumb: true
 container: "container-fluid"
 summary: "Conference on Security, Artificial Intelligence, and Modeling for the next generation Internet of Things."
-links: [[href: "https://www.eventbrite.de/e/eclipse-sam-iot-2020-tickets-107823242220", text: "Register"]]
+links: [[href: ".", text: "Recorded presentations are coming soon"]]
 layout: single
 ---
 [//]: # (Introduction Section)
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
 {{< events/registration event="sam-iot" year="2020">}}
+<h2>The SAM IoT conference is now over! Thank you for your interest and attendance!</h2>
+<h3>The conference proceedings and the video recordings of the talks will be available soon.</h3>
 
 **SAM IoT is the first virtual Eclipse Conference on Security, Artificial Intelligence, and Modeling for the next generation Internet of Things**
 
