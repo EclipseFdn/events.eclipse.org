@@ -175,8 +175,7 @@ Susan Iwai, Eclipse Foundation
 
 [//]: # (Registration reminder)
 {{< grid/section-container class="featured-section-row featured-section-row-dark-bg  text-center">}}
-
-### The SAM IoT conference is now over! Thank you for your interest and attendance!
+<h3>The SAM IoT conference is now over! Thank you for your interest and attendance!</h3>
 
 The conference proceedings and the video recordings of the talks will be available soon.
 
