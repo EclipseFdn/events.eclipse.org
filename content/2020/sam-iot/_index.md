@@ -10,6 +10,8 @@ header_wrapper_class: "header-default-event"
 hide_breadcrumb: true
 container: "container-fluid"
 summary: "Conference on Security, Artificial Intelligence, and Modeling for the next generation Internet of Things."
+links: 
+layout: single
 ---
 [//]: # (Introduction Section)
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
