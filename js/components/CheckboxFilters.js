@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Checkbox from './Checkbox';
 import { EVENT_TYPES, WORKING_GROUPS, checkFilterHasEvents } from './EventHelpers';
 import PropTypes from 'prop-types';
