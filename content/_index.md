@@ -5,7 +5,8 @@ description: "The site provides date, time and place for the various events (con
 hide_sidebar: true
 headline: Eclipse Foundation Events
 header_wrapper_class: events-jumbotron-class
-subtitle: Proin dictum magna quis ullamcorper pretium. Sed interdum, nisl et bibendum mattis, risus sem malesuada tortor
+# subtitle: Join the world’s leading technologists and open source leaders at Eclipse Foundation events to share ideas, learn and collaborate.
+tagline: Join the world’s leading technologists and open source leaders at Eclipse Foundation events to share ideas, learn and collaborate.
 #hide_breadcrumb: true
 date: 2020-03-01T16:09:45-04:00
 layout: "single"
