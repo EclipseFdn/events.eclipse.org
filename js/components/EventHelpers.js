@@ -60,8 +60,12 @@ export const WORKING_GROUPS = [
     name: "Tangle EE"
   },
   {
+    id: "eclipse_ide",
+    name: "Eclipse IDE"
+  },
+  {
     id: "eclipse_org",
-    name: "Eclipse Org"
+    name: "Other"
   }
 ]
 

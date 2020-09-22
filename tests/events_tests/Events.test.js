@@ -69,7 +69,7 @@ describe('Test render events list and filters', () => {
     render(
       <Events events={testEventData} />
     )
-    fireEvent.click(screen.getByText('WORKING GROUPS'))
+    fireEvent.click(screen.getByText('CATEGORIES'))
     expect(screen.queryByText(group_I)).not.toBeInTheDocument()
     expect(screen.queryByText(group_II)).not.toBeInTheDocument()
     expect(screen.queryByText(group_III)).not.toBeInTheDocument()

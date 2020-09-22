@@ -59,7 +59,7 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
             onClick={toggleWorkingGroups} 
             className="event-filter-title"
             >
-              WORKING GROUPS 
+              CATEGORIES
               <i className="fa fa-angle-down event-filter-expandable-icon" aria-hidden="true"></i>
           </button>
           { showWorkingGroups && 
