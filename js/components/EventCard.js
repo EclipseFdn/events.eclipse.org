@@ -35,8 +35,8 @@ const EventCard = ({ event }) => {
         <div className="margin-bottom-20">{event.description}</div>
         { hasAddress(event) && <div className="margin-bottom-20">Address: { event.address.city + " " + event.address.country } </div>}
         <div className="text-center">
-          {/* <a className="btn btn-primary" href={event.infoLink}>More</a> */}
-          <a className="btn btn-primary" href={event.infoLink}>Register</a>
+          { (event.infoLink) && <a className="btn btn-primary margin-right-20" href={event.infoLink}>Learn More</a> }
+          { (event.registration) && <a className="btn btn-primary" href={event.registration}>Register</a> }
         </div>
       </div>
     )
