@@ -24,7 +24,7 @@ describe('Test an event card', () => {
     )
     fireEvent.click(screen.getByText('Learn More'))
     expect(screen.getByTestId("event-description")).toBeInTheDocument()
-    expect(screen.getByText('More')).toBeInTheDocument()
+    expect(screen.getByText('More Info')).toBeInTheDocument()
     expect(screen.getByText('Register')).toBeInTheDocument()
     expect(screen.getByText('Address: Canada')).toBeInTheDocument()
   });
@@ -37,7 +37,7 @@ describe('Test an event card', () => {
     fireEvent.click(screen.getByText('Learn More'))
     fireEvent.click(screen.getByText('Learn More'))
     expect(screen.queryByTestId("event-description")).not.toBeInTheDocument()
-    expect(screen.queryByText('More')).not.toBeInTheDocument()
+    expect(screen.queryByText('More Info')).not.toBeInTheDocument()
     expect(screen.queryByText('Register')).not.toBeInTheDocument()
     expect(screen.queryByText('Address: Canada')).not.toBeInTheDocument()
   });
