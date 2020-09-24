@@ -1,5 +1,5 @@
 ---
-title: "Open Source AI Workshop - S1E2"
+title: "TEST Open Source AI Workshop - S1E2"
 headline: "Open Source AI Workshop - S1E2"
 subtitle: ""
 tagline: "Virtual Conference | September 30, 2020 9:00 - 11:00 (CEST)"
