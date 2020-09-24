@@ -32,7 +32,7 @@ const EventCard = ({ event }) => {
 
     return (
       <div className="bordered-box event-details">
-        <div className="margin-bottom-20">{event.description}</div>
+        <div className="margin-bottom-20" data-testid="event-description">{event.description}</div>
         { hasAddress(event) && <div className="margin-bottom-20">Address: { event.address.city + " " + event.address.country } </div>}
         <div className="text-center">
           { (event.infoLink) && <a className="btn btn-default event-btn-more margin-right-20" href={event.infoLink} target="_blank">More</a> }
