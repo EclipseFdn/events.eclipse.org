@@ -23,10 +23,9 @@
     "images/DemoCamps&Stammtisch.png",
     "images/TrainingSeries.png",
     "images/virtual.png",
-    "images/WorkingGroupEvents.png",
-    "images/defaultbg.jpg";
+    "images/WorkingGroupEvents.png";
 
-@event-type-class-names: ec, ee, dc, et, ve, wg, unknown;
+@event-type-class-names: ec, ee, dc, et, ve, wg;
 
 @length: length(@event-type-class-names);
 
@@ -186,11 +185,13 @@
     }
 }
 
+/* Add a default background black just in case if there is a new event type and we dont have bg-image for it */
 .event-legend {
     width: 15px;
     height: 15px;
     border-radius: 50%;
     display: inline-block;
+    background-color: @default-event-card-background-color;
 }
 
 /** CustomSearch Style start **/
