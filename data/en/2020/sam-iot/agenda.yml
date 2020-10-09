@@ -39,7 +39,7 @@ sets:
              hopefully controversial – about the state of affairs and current trends regarding the security 
              of software supply chains, both from consumer and producer perspective.</p>
       vod: https://youtu.be/JXEtPgGXR_A
-      slides: /content/2020/sam-iot/K1-Eclipse SAM IOT 2020 Cobbles and Potholes.pdf
+      slides: presentations/K1-Eclipse SAM IOT 2020 Cobbles and Potholes.pdf
 
     - name: 'Risk Assessment in IoT Case Study: Collaborative Robots System'
       presenter: <a href="speakers/#salim-chehida">Salim Chehida</a>
