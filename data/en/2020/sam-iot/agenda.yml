@@ -1,4 +1,4 @@
-complete: false
+complete: true
 types:
     - name: Keynote 
       id: keynote 
