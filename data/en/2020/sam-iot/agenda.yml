@@ -39,7 +39,7 @@ sets:
              hopefully controversial – about the state of affairs and current trends regarding the security 
              of software supply chains, both from consumer and producer perspective.</p>
       vod: https://youtu.be/JXEtPgGXR_A
-      slides: presentations/K1-Eclipse SAM IOT 2020 Cobbles and Potholes.pdf
+      slides: presentations/K1-EclipseSAMIOT2020_Cobbles_and_Potholes.pdf
 
     - name: 'Risk Assessment in IoT Case Study: Collaborative Robots System'
       presenter: <a href="speakers/#salim-chehida">Salim Chehida</a>
@@ -61,6 +61,8 @@ sets:
              requirements are then defined to mitigate the risks and build a secure and safe system. 
              We use our approach to assess risks in the robotic system for supporting the movement of loads 
              in a warehouse.</p>
+      vod: https://youtu.be/SOJCH-alwjU
+      slides: presentations/S1-samIoT-CHEHIDA-SALIM.pdf
      
       
     - name: Break
@@ -99,6 +101,8 @@ sets:
              configurations etc.) and a set of user interfaces for management and control of the network, 
              devices and the CHARIOT platform. CHARIOT is funded by the H2020 programme under the IoT topic, 
              has a 3-year duration and concludes its activities by the end of 2020.</p>
+      vod: https://youtu.be/ttRPtyCTT54
+      slides: presentations/S2-Integrated_Solution_4_Industrial_Data_Security.pdf
       
              
     - name: 'Guidelines for Privacy and Security in IoT'
@@ -116,6 +120,8 @@ sets:
              It is often difficult for people without a legal training or an understanding of standardization 
              dynamics to fully grasp the state of the art in this very relevant field. This contribution aims 
              at highlighting the most relevant tools available and explain their relevance.</p>
+      vod: 
+      slides: 
       
       
     - name: Security breakout
@@ -151,6 +157,9 @@ sets:
              framework provides data integration to third party platforms through the use of OPC-UA. The test scenarios 
              demonstrate that the proposed framework 1) is flexible and reliable for different applications and 2) linear 
              increases the CPU and memory workload for a large amount of FBs.</p>
+      vod: https://youtu.be/wiOu3vu0_tk
+      slides: presentations/M1-DINASORE Presentation.pdf
+             
     - name: 'Bringing Clouds down to Earth: Modeling Arrowhead Deployments via Eclipse Vorto'
       presenter: <a href="speakers/#geza-kulcsar">Géza Kulcsár</a> and <a href="speakers/#kevin-olotu">Kevin Olotu</a>
       type: session
@@ -176,6 +185,8 @@ sets:
              of device models. In this paper, we proposean approach to integrating Eclipse Vorto models into ArrowheadSysML 
              models. We illustrate the concept with a realistic, yetcomprehensible industrial scenario and also present a 
              prototypeto emphasize the benefits of our novel integration platform.</p>
+      vod: https://youtu.be/hqidofe-RDA
+      slides: presentations/M2-BringingCloudsDownToEarth_SAM-IoT2020.pdf
       
     - name: Break
       type: break
@@ -190,14 +201,14 @@ sets:
              <ul>
                   <li>Xu Tao, LINKS Foundation</li>
                   <li>Davide Conzon, LINKS Foundation</li>
-                    <li>Enrico Ferrera, LINKS Foundation</li>
-                    <li>Shuai Li, LINKS Foundation</li>
-                    <li>Juergen Goetz, Siemens</li>
-                    <li>Laurent Maillet-Contoz, STMicroelectronics</li>
-                    <li>Emmanuel Michel, STMicroelectronics</li>
-                    <li>Mario Diaz Nava, STMicroelectronics</li>
-                    <li>Abdelhakim Baouya, University of Grenoble-Alpes
-                    <li>Salim Chehida, University of Grenoble-Alpes</li>
+                  <li>Enrico Ferrera, LINKS Foundation</li>
+                  <li>Shuai Li, LINKS Foundation</li>
+                  <li>Juergen Goetz, Siemens</li>
+                  <li>Laurent Maillet-Contoz, STMicroelectronics</li>
+                  <li>Emmanuel Michel, STMicroelectronics</li>
+                  <li>Mario Diaz Nava, STMicroelectronics</li>
+                  <li>Abdelhakim Baouya, University of Grenoble-Alpes
+                  <li>Salim Chehida, University of Grenoble-Alpes</li>
              </ul>
              <strong>Abstract:</strong> Internet of Things (IoT) is a pervasive technology covering many applications areas (Smart Mobility, 
              Smart Industry, Smart Healthcare, Smart Building, etc.). Its success and the technology evolution allow targeting 
@@ -212,6 +223,8 @@ sets:
              and reliable IoT system solutions. After describing the solution developed, this paper also presents concrete use cases 
              based on the two critical systems mentioned above, leveraging the application scenarios used to validate the concepts 
              developed and results obtained by the BRAIN-IoT project.</p>
+      vod: https://youtu.be/Ktnw69637Yc
+      slides: presentations/M3-SAM_IoT_2020_Modeling_Framework.pdf
       
     - name: Modelling breakout
       presenter: Maria Teresa Delgado, Eclipse (Moderator)
@@ -239,6 +252,8 @@ sets:
              the Brain-IoT project. In this use case, to ensure high trust in the device’s data, we integrated
              an end-to-end security layer that is compatible with battery-less devices with high constraints 
              in terms of energy, power computation and bandwidth.</p>
+      vod: https://youtu.be/Vdhl1RufRvY
+      slides: presentations/K2-SAM_IoT_presentation.pdf
              
     - name: "Smart Building Energy and Comfort Management Based on Sensor Activity Recognition and Prediction"
       presenter: <a href="speakers/#francesca-marcello">Francesca Marcello</a>
@@ -263,6 +278,9 @@ sets:
              different tariffs, just by shifting the use of the appliance to time periods of non-peak hours. Scheduling based on 
              probability evaluation of preferred time of usage of the appliances allows to still obtain evident energy savings 
              even considering the errors on predicted activities.</p>
+      vod: https://youtu.be/HBTdd5l6WDQ
+      slides: presentations/A1-Smart_Building_Energy_and_Comfort_Management_Based_on_Sensor_Activity_Recognition_and_Prediction.pdf
+      
     - name: 'Prescriptive System for Reconfigurable Manufacturing Systems Considering Variable Demand and Production Rates'
       presenter: <a href="speakers/#catarina-baltazar">Catarina Baltazar</a>
       type: session
@@ -286,6 +304,9 @@ sets:
              against two metrics, variation of pieces referred as differential and availability of the system. Analysis of the results 
              show that productivity in all testing scenarios improves, and in some instances, availability slightly increases showing 
              promising indicators. However, further research should be conducted to be able to generalize the obtained results.</p>
+      vod: https://youtu.be/uIXIOzLfaqQ
+      slides: presentations/A2-Presentation_v4.pdf
+      
     - name: 'A Cross-Platform Communication Mechanism for ROS-Based Cyber-Physical System'
       presenter: <a href="speakers/#rui-zhao">Rui Zhao</a>
       type: session
@@ -314,6 +335,8 @@ sets:
              IoT systems in various IoT domains via an Asynchronous Eventing Substrate (BRAIN-IoT EventBus). This paper demonstrates the 
              solution developed in an service robotics use case in a warehouse to show how the OSGi-based adaptor enables the fast adaptivity 
              and interoperability between heterogeneous IoT domains in a federated environment.</p>
+      vod: 
+      slides: presentations/A3-SAM_IoT_2020_Cross-Platform_ROS_Edge_Node-Rui-Zhao.pdf
       
     - name: Break
       type: break
@@ -342,6 +365,9 @@ sets:
              AI and more... A problem arises for the industries in the time of researching, getting approval, purchasing and installing new technology, 
              in fact, a faster and better solution may have already emerged. In this paper, a flexible, scalable and fast solution has been proposed 
              to cope such problem and help industries to advance and discover possible optimizations.</p>
+      vod: https://youtu.be/wwwEUYub_zQ
+      slides: presentations/A4-Rossini_SAM IoT_REPLICA.pdf
+      
     - name: 'Semantic Models for Network Intrusion Detection'
       presenter: <a href="speakers/#peter-bednar">Peter Bednár</a>
       type: session
@@ -357,6 +383,8 @@ sets:
              machine learning approach with the knowledge-based methods. As the knowledge model, we have proposed the ontology of network attacks, 
              which allow to us decompose detection and classification of the existing types of attacks or formalize detection rules for the new types. 
              Designed IDS was evaluated on a widely used KDD 99 dataset and compared to similar approaches.</p>
+      vod: https://youtu.be/awXKWQPgUF4
+      slides: presentations/A5-IOT2020.pdf
       
     - name: AI breakout
       presenter: Marco Jahn and (LINKS) (Moderators)
