@@ -181,7 +181,7 @@ Susan Iwai, Eclipse Foundation
 <h3>The SAM IoT conference is now over! Thank you for your interest and attendance!</h3>
 
 
-<h4>The conference proceedings are available [here](SAM-IoT2020_proceedings.pdf).</h4>
+<h4>The conference proceedings are available <a href="SAM-IoT2020_proceedings.pdf">here</a>.</h4>
 <h4>You can also enjoy the video recordings and slides of the talks. Check the Agenda section.</h4>
 
 {{</ grid/section-container >}}
