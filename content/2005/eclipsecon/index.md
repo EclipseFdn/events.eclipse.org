@@ -1,6 +1,6 @@
 ---
 title: "EclipseCon 2005"
-date: 2018-04-05T16:09:45-04:00
+date: 2005-02-28T09:00:00-04:00
 description: "Conference for the Eclipse Ecosystem"
 page_favicon: "2005/eclipsecon/favicon.ico"
 type: "eclipsecon"
