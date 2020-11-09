@@ -5,6 +5,7 @@ summary: "Conference for the Eclipse Ecosystem."
 page_favicon: "2006/eclipsecon/favicon.ico"
 type: "eclipsecon"
 layout: "section"
+eclipsecon_archive_css: "eclipsecon-2006.css"
 ---
 
 {{< eclipsecon/2006 >}}
