@@ -20,3 +20,6 @@ items:
   - name: "Camille Dupont"
     title: "Research Engineer (CEA LIST)"
     img: camille-dupont.jpg
+  - name: "Pierre Dupont"
+    title: "Research Engineer (CEA LIST)"
+    img: pierre-dupont.jpg
