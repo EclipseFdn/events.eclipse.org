@@ -20,6 +20,7 @@ mix.less('./less/2006/eclipsecon/styles.less',  'static/archives/css/eclipsecon-
 mix.less('./less/2007/eclipsecon/styles.less',  'static/archives/css/eclipsecon-2007.css');
 mix.less('./less/2008/eclipsecon/styles.less',  'static/archives/css/eclipsecon-2008.css');
 mix.less('./less/2009/eclipsecon/styles.less',  'static/archives/css/eclipsecon-2009.css');
+mix.less('./less/2010/eclipsecon/styles.less',  'static/archives/css/eclipsecon-2010.css');
 mix.less('./less/2015/france/styles.less', 'static/archives/css/eclipsecon-france-2015.css');
 
 /*
