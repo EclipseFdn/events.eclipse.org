@@ -20,6 +20,7 @@ mix.less('./less/2006/eclipsecon/styles.less',  'static/archives/css/eclipsecon-
 mix.less('./less/2007/eclipsecon/styles.less',  'static/archives/css/eclipsecon-2007.css');
 mix.less('./less/2008/eclipsecon/styles.less',  'static/archives/css/eclipsecon-2008.css');
 mix.less('./less/2009/eclipsecon/styles.less',  'static/archives/css/eclipsecon-2009.css');
+mix.less('./less/2016/na/styles.less',  'static/archives/css/na-2016.css');
 mix.less('./less/2015/france/styles.less', 'static/archives/css/eclipsecon-france-2015.css');
 
 /*
@@ -48,7 +49,6 @@ mix.less('./less/locationcon2017/styles.less', './content/locationcon2017/styles
 
 mix.less('./less/na2014/styles.less', './content/na2014/styles.css');
 mix.less('./less/na2015/styles.less', './content/na2015/styles.css');
-mix.less('./less/na2016/styles.less', './content/na2016/styles.css');
 mix.less('./less/na2017/styles.less', './content/na2017/styles.css');
 
 mix.less('./less/summiteurope2006/styles.less', './content/summiteurope2006/styles.css');
