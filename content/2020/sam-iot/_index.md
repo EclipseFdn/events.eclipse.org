@@ -18,7 +18,7 @@ layout: single
 
 ### The SAM IoT conference is now over! Thank you for your interest and attendance!
 
-#### The conference proceedings are available [on CEUR portal](http://ceur-ws.org/Vol-2739).
+#### The conference proceedings are available on [the CEUR portal](http://ceur-ws.org/Vol-2739).
 
 #### You can also enjoy the video recordings and slides of the talks. Check the Agenda section.
 
