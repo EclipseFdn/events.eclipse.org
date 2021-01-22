@@ -71,3 +71,33 @@ The project maintains the following source code repositories:
 ### jquery.matchHeight.js (^0.7.2)
 
 * License: The MIT License (MIT)
+
+### React (^16.13.1)
+
+* License: The MIT License (MIT)
+
+### prop-types (^15.7.2)
+* License: The MIT License (MIT)
+
+### @babel/preset-env (^7.11.5)
+
+* License: The MIT License (MIT)
+
+### @babel/preset-react (^7.10.4)
+* License: The MIT License (MIT)
+
+### @testing-library/jest-dom (^5.11.4)
+
+* License: The MIT License (MIT)
+
+### @testing-library/react (^11.0.4)
+
+* License: The MIT License (MIT)
+
+### babel-jest (^26.3.0)
+
+* License: The MIT License (MIT)
+
+### react-app-polyfill (^1.0.6)
+
+* License: The MIT License (MIT)
