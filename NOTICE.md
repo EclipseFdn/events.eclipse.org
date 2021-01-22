@@ -79,13 +79,13 @@ The project maintains the following source code repositories:
 ### prop-types (^15.7.2)
 * License: The MIT License (MIT)
 
-### @babel/preset-env (^7.11.5)
+### @babel/preset-env (^7.12,11)
 
 * License: The MIT License (MIT)
 
-### @babel/preset-react (^7.10.4)
+### @babel/preset-react (^7.12.10)
 * License: The MIT License (MIT)
 
-### react-app-polyfill (^1.0.6)
+### react-app-polyfill (^2.0.0)
 
 * License: The MIT License (MIT)
