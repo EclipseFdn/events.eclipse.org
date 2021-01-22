@@ -86,18 +86,6 @@ The project maintains the following source code repositories:
 ### @babel/preset-react (^7.10.4)
 * License: The MIT License (MIT)
 
-### @testing-library/jest-dom (^5.11.4)
-
-* License: The MIT License (MIT)
-
-### @testing-library/react (^11.0.4)
-
-* License: The MIT License (MIT)
-
-### babel-jest (^26.3.0)
-
-* License: The MIT License (MIT)
-
 ### react-app-polyfill (^1.0.6)
 
 * License: The MIT License (MIT)
