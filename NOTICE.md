@@ -84,8 +84,13 @@ The project maintains the following source code repositories:
 * License: The MIT License (MIT)
 
 ### @babel/preset-react (^7.12.10)
+
 * License: The MIT License (MIT)
 
-### react-app-polyfill (^2.0.0)
+### promise-polyfill (^8.2.0)
+
+* License: The MIT License (MIT)
+
+### unfetch (^4.2.0)
 
 * License: The MIT License (MIT)
