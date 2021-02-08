@@ -1,0 +1,9 @@
+items:
+  - title: Eclipse Foundation
+    image: /images/eclipse-foundation-grey-orange.svg
+    width: 175px
+    url: https://eclipse.org
+  - title: University of Oulu
+    image: /2021/saam-mobility/images/university-oulu-logo.png
+    width: 275px
+    url: https://www.oulu.fi/university

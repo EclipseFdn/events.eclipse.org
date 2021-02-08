@@ -14,9 +14,22 @@ layout: single
 links: [[href: "https://www.crowdcast.io/e/aduh2zba", text: "Registration"]]
 ---
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
-{{< events/registration event="saam-mobility" year="2021">}}
-Mark your calendars for Eclipse SAAM Mobility 2021, June 8-9. The Eclipse SAAM Mobility conference will bring together industry experts and researchers working on the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, and Modelling related issues, and innovative software and systems solutions. 
+{{< events/registration event="saam-mobility" year="2021" title="About the Event">}}
+Mark your calendars for Eclipse SAAM Mobility 2021, June 8-9. The Eclipse SAAM Mobility conference will bring together industry experts and researchers working on the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling related issues, and innovative software and systems solutions. 
 
 The call for papers is open. Download the call for papers now and talk with your colleagues about participating at Eclipse SAAM Mobility 2021. 
 {{</ events/registration >}}
 {{</ grid/section-container >}}
+
+{{< grid/section-container id="speakers" class="featured-section-row text-center featured-section-row-dark-bg eclipsefdn-user-display-circle" >}}
+  {{< events/user_display event="saam-mobility" year="2021" title="Speakers" source="speakers" />}}
+{{</ grid/section-container >}}
+
+{{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" title="Agenda">}}
+  {{< events/agenda event="saam-mobility" year="2021" >}}
+{{</ grid/section-container >}}
+
+{{< grid/section-container id="organizers" class="featured-section-row featured-section-row-lighter-bg text-center">}}
+  {{< events/sponsors event="saam-mobility" year="2021" source="coorganizers" title="Co-organizers" useMax="false" displayBecomeSponsor="false">}}
+{{</ grid/section-container >}}
+
