@@ -3,7 +3,7 @@ title: "SAAM Mobility 2021"
 headline: "SAAM Mobility 2021"
 subtitle: "Security, AI, Architecture and Modelling for next generation Mobility"
 tagline: "Virtual Conference | June 8 - 9, 2021"
-date: 2021-02-02T15:50:25-04:00
+date: 2021-06-08T08:00:00-04:00
 hide_page_title: true
 hide_sidebar: true
 header_wrapper_class: "header-default-event"
