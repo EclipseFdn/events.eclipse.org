@@ -11,7 +11,7 @@ hide_breadcrumb: true
 container: "container-fluid"
 summary: "The Eclipse SAAM Mobility conference will bring together industry experts and researchers working on the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, and Modelling related issues, and innovative software and systems solutions."
 layout: single
-links: [[href: "https://www.crowdcast.io/e/aduh2zba", text: "Registration"]]
+links: [[href: "cfp.pdf", text: "Call for Papers"]]
 ---
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
 {{< events/registration event="saam-mobility" year="2021" title="About the Event">}}
