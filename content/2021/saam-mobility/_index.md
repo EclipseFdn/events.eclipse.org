@@ -1,5 +1,5 @@
 ---
-title: "EclipseS AAM Mobility 2021"
+title: "Eclipse SAAM Mobility 2021"
 headline: "Eclipse SAAM Mobility 2021"
 subtitle: "Security, AI, Architecture and Modelling for next generation Mobility"
 tagline: "Virtual Conference | June 15 - 16, 2021"
@@ -11,7 +11,7 @@ hide_breadcrumb: true
 container: "container-fluid"
 summary: "The Eclipse SAAM Mobility conference will bring together industry experts and researchers working on the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, and Modelling related issues, and innovative software and systems solutions."
 layout: single
-links: [[href: "cfp.pdf", text: "Call for Papers"], [href:"https://easychair.org/my/conference?conf=esaamm2021#", text: "Submit a Paper"]]
+links: [[href: "cfp.pdf",text: "Call for Papers"],[href: "https://easychair.org/my/conference?conf=esaamm2021#",text: "Submit a Paper"]]
 ---
 <!-- Introduction -->
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
@@ -88,7 +88,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 
 * Karl Andersson, Luleå University of Technology
 * Alessandra Bagnato, SOFTEAM
-* Ahmad Bani Jamali, Nokia / University of Oulu
+* Ahmad Bani Jamali, University of Oulu
 * Christian Berger, Gothenburg University
 * Marco Jahn, Eclipse Foundation
 * Teemu Karvonen, University of Oulu, M3S Group
