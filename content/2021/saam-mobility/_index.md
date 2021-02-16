@@ -60,10 +60,10 @@ Modelling for Mobility
 ---
 **Note:**
 
-* [Security](https://thenounproject.com/search/?q=security&i=3349833) icon by Fauzan Adiima, from [the Noun Project](http://thenounproject.com/)
-* [Artificial Intelligence](https://thenounproject.com/search/?q=artificial%20intelligence&i=2858867) icon by priyanka, from [the Noun Project](http://thenounproject.com/)
-* [Architecture](https://thenounproject.com/search/?q=architecture&i=3052849) icon by HeadsOfBirds from [the Noun Project](http://thenounproject.com/)
-* [Tree](https://thenounproject.com/search/?q=modelling&i=2710243) icon by Gacem Tachfin, from [the Noun Project](http://thenounproject.com/)
+[Security](https://thenounproject.com/search/?q=security&i=3349833) icon by Fauzan Adiima, from [the Noun Project](http://thenounproject.com/) \
+[Artificial Intelligence](https://thenounproject.com/search/?q=artificial%20intelligence&i=2858867) icon by priyanka, from [the Noun Project](http://thenounproject.com/) \
+[Architecture](https://thenounproject.com/search/?q=architecture&i=3052849) icon by HeadsOfBirds from [the Noun Project](http://thenounproject.com/) \
+[Tree](https://thenounproject.com/search/?q=modelling&i=2710243) icon by Gacem Tachfin, from [the Noun Project](http://thenounproject.com/)
 
 {{</ grid/div >}}
 
@@ -114,11 +114,11 @@ The Eclipse SAAM Mobility 2021 conference is co-organized by the Eclipse Foundat
 
 ### Conference Co-chairs
 
-Pasi Kuvaja, Professor Emeritus, University of Oulu, M3S Group, Finland
+Pasi Kuvaja, Professor Emeritus, University of Oulu, Finland\
 Philippe Krief, Eclipse Foundation Europe, France
 
 ### Program Committee Chair
-Tero Päivärinta, University of Oulu, Finland
+Tero Päivärinta, University of Oulu, Finland\
 Teemu Karvonen, University of Oulu, Finland
 
 ### Publicity  
