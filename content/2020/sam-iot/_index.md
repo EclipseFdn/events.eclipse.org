@@ -91,9 +91,9 @@ Modelling for IoT
 
 ---
 **Note:**
-* [Security](https://thenounproject.com/search/?q=security&i=3349833) icon by Fauzan Adiima, from [the Noun Project](http://thenounproject.com/)
-* [Artificial Intelligence](https://thenounproject.com/search/?q=artificial%20intelligence&i=2858867) icon by priyanka, from [the Noun Project](http://thenounproject.com/)
-* [Tree](https://thenounproject.com/search/?q=modelling&i=2710243) icon by Gacem Tachfin, from [the Noun Project](http://thenounproject.com/)
+[Security](https://thenounproject.com/search/?q=security&i=3349833) icon by Fauzan Adiima, from [the Noun Project](http://thenounproject.com/) \
+[Artificial Intelligence](https://thenounproject.com/search/?q=artificial%20intelligence&i=2858867) icon by priyanka, from [the Noun Project](http://thenounproject.com/) \
+[Tree](https://thenounproject.com/search/?q=modelling&i=2710243) icon by Gacem Tachfin, from [the Noun Project](http://thenounproject.com/)
 {{</ grid/div >}}
 
 {{</ grid/section-container >}}
