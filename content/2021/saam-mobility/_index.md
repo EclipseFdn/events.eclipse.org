@@ -57,8 +57,6 @@ Modelling for Mobility
 {{</ grid/div >}}
 
 {{< grid/div class="featured-section-container-notes" isMarkdown="true">}}
-
-{{</ grid/div >}}
 ---
 **Note:**
 
@@ -66,6 +64,8 @@ Modelling for Mobility
 * [Artificial Intelligence](https://thenounproject.com/search/?q=artificial%20intelligence&i=2858867) icon by priyanka, from [the Noun Project](http://thenounproject.com/)
 * [Architecture](https://thenounproject.com/search/?q=architecture&i=3052849) icon by HeadsOfBirds from [the Noun Project](http://thenounproject.com/)
 * [Tree](https://thenounproject.com/search/?q=modelling&i=2710243) icon by Gacem Tachfin, from [the Noun Project](http://thenounproject.com/)
+
+{{</ grid/div >}}
 
 
 {{</ grid/section-container >}}
@@ -76,9 +76,9 @@ Modelling for Mobility
 
 ## Important Dates
 
-| Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission | Conference Dates |
-| :----------------------- | :--------------------- | :--------------------------- | :--------------- |
-| Apr. 16, 2021            | May 17, 2021          | Jun. 8, 2021                | Jun. 15-16, 2021 |
+| Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission |    Conference Dates   |
+| :------------------------ | :---------------------- | :---------------------------- | :-------------------- |
+|      Apr. 16, 2021        |      May 17, 2021       |      Jun. 8, 2021             |      Jun. 15-16, 2021 |
 
 {{</ grid/section-container >}}
 
@@ -114,12 +114,12 @@ The Eclipse SAAM Mobility 2021 conference is co-organized by the Eclipse Foundat
 
 ### Conference Co-chairs
 
-* Pasi Kuvaja, Professor Emeritus, University of Oulu, M3S Group, Finland
-* Philippe Krief, Eclipse Foundation Europe, France
+Pasi Kuvaja, Professor Emeritus, University of Oulu, M3S Group, Finland
+Philippe Krief, Eclipse Foundation Europe, France
 
 ### Program Committee Chair
-* Tero Päivärinta, University of Oulu, Finland
-* Teemu Karvonen, University of Oulu, Finland
+Tero Päivärinta, University of Oulu, Finland
+Teemu Karvonen, University of Oulu, Finland
 
 ### Publicity  
 Susan Iwai, Eclipse Foundation Europe, Germany
