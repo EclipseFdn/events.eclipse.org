@@ -69,6 +69,60 @@ Modelling for Mobility
 {{</ grid/section-container >}}
 
 
+[//]: # (Dates)
+{{< grid/section-container class="featured-section-row" isMarkdown="true">}}
+
+## Important Dates
+
+| Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission | Conference Dates |
+| :----------------------- | :--------------------- | :--------------------------- | :--------------- |
+| Apr. 16, 2021            | May 17, 2021          | Jun. 8, 2021                | Jun. 15-16, 2021 |
+
+{{</ grid/section-container >}}
+
+[//]: # (TCP)
+{{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg" isMarkdown="true">}}
+## Technical Program Committee 
+
+The Technical Program Committee is an independent panel of expert volunteers and as such will do their best to judge papers objectively and on the principle of a level playing field for all. 
+
+* Karl Andersson, Luleå University of Technology
+* Alessandra Bagnato, SOFTEAM
+* Ahmad Bani Jamali, Nokia / University of Oulu
+* Christian Berger, Gothenburg University
+* Marco Jahn, Eclipse Foundation
+* Teemu Karvonen, University of Oulu, M3S Group
+* Markus Kelanti, University of Oulu, M3S Group
+* Zakaria Laaroussi, Ericsson
+* Tero Päivärinta, University of Oulu, M3S Group
+* Ella Peltonen, University of Oulu, UBICOMP
+* Sasu Tarkoma, University of Helsinki
+* Burak Turhan, University of Oulu, M3S Group
+* Alexander Viehl, FZI Forschungszentrum Informatik
+
+
+{{</ grid/section-container >}}
+
+[//]: # (Organizing Committee)
+{{< grid/section-container id="organizing-committee" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
+
+## Organizing Committee 
+
+The Eclipse SAAM Mobility 2021 conference is co-organized by the Eclipse Foundation and the University of Oulu.
+
+### Conference Co-chairs
+
+* Pasi Kuvaja, Professor Emeritus, University of Oulu, M3S Group, Finland
+* Philippe Krief, Eclipse Foundation Europe, France
+
+### Program Committee Chair
+* Tero Päivärinta, University of Oulu, Finland
+* Teemu Karvonen, University of Oulu, Finland
+
+### Publicity  
+Susan Iwai, Eclipse Foundation Europe, Germany
+{{</ grid/section-container >}}
+
 <!--
 {{< grid/section-container id="speakers" class="featured-section-row text-center featured-section-row-dark-bg eclipsefdn-user-display-circle" >}}
   {{< events/user_display event="saam-mobility" year="2021" title="Speakers" source="speakers" />}}
