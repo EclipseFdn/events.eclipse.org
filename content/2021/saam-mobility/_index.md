@@ -94,10 +94,12 @@ The Technical Program Committee is an independent panel of expert volunteers and
 * Christian Berger, Gothenburg University
 * Marco Jahn, Eclipse Foundation
 * Teemu Karvonen, University of Oulu, M3S Group
+* Lukas Krawczyk, FH Dortmund
 * Markus Kelanti, University of Oulu, M3S Group
 * Zakaria Laaroussi, Ericsson
 * Tero Päivärinta, University of Oulu, M3S Group
 * Ella Peltonen, University of Oulu, UBICOMP
+* Jan-Philipp Steghoefer, Gothenburg University
 * Sasu Tarkoma, University of Helsinki
 * Burak Turhan, University of Oulu, M3S Group
 * Alexander Viehl, FZI Forschungszentrum Informatik
