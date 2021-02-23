@@ -92,13 +92,18 @@ The Technical Program Committee is an independent panel of expert volunteers and
 * Alessandra Bagnato, SOFTEAM
 * Ahmad Bani Jamali, University of Oulu
 * Christian Berger, Gothenburg University
+* Benoit Combemale, University of Toulouse, INRIA
+* Maria Teresa Delgado, Eclipse Foundation 
 * Marco Jahn, Eclipse Foundation
 * Teemu Karvonen, University of Oulu, M3S Group
 * Lukas Krawczyk, FH Dortmund
 * Markus Kelanti, University of Oulu, M3S Group
 * Zakaria Laaroussi, Ericsson
+* Lucy Ellen Lwakatare, University of Helsinki
 * Tero Päivärinta, University of Oulu, M3S Group
 * Ella Peltonen, University of Oulu, UBICOMP
+* Ivana Podnar-Zarko, Univeresity of Zagreb
+* Sowmya Ravidas, TU Eindhoven
 * Jan-Philipp Steghoefer, Gothenburg University
 * Sasu Tarkoma, University of Helsinki
 * Burak Turhan, University of Oulu, M3S Group
