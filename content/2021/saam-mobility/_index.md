@@ -85,14 +85,14 @@ Modelling for Mobility
 
 [//]: # (TCP)
 
-{{< grid/section-container id="topics" class="featured-section-row featured-section-row-dark-bg text-center">}}
+{{< grid/section-container id="topics" class="featured-section-row featured-section-row-dark-bg">}}
 
-<h2>Technical Program Committee </h2>
+<h2 align="center">Technical Program Committee </h2>
 The Technical Program Committee is an independent panel of expert volunteers and as such will do their best to judge papers objectively and on the principle of a level playing field for all. 
 
 {{< grid/div class="row" isMarkdown="false">}}
 
-{{< grid/div class="col-md-12 padding-bottom-20 text-left" isMarkdown="true">}}
+{{< grid/div class="col-md-12 padding-bottom-20 padding-top-20 text-left" isMarkdown="true">}}
 * Karl Andersson, Luleå University of Technology
 * Alessandra Bagnato, SOFTEAM
 * Ahmad Bani Jamali, University of Oulu
@@ -105,7 +105,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 * Markus Kelanti, University of Oulu, M3S Group
 {{</ grid/div >}}
 
-{{< grid/div class="col-md-12 padding-bottom-20 text-left" isMarkdown="true">}}
+{{< grid/div class="col-md-12 padding-bottom-20 padding-top-20 text-left" isMarkdown="true">}}
 * Zakaria Laaroussi, Ericsson
 * Lucy Ellen Lwakatare, University of Helsinki
 * Tero Päivärinta, University of Oulu, M3S Group
