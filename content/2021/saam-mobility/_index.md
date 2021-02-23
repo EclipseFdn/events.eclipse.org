@@ -88,26 +88,16 @@ Modelling for Mobility
 
 The Technical Program Committee is an independent panel of expert volunteers and as such will do their best to judge papers objectively and on the principle of a level playing field for all. 
 
-* Karl Andersson, Luleå University of Technology
-* Alessandra Bagnato, SOFTEAM
-* Ahmad Bani Jamali, University of Oulu
-* Christian Berger, Gothenburg University
-* Benoit Combemale, University of Toulouse, INRIA
-* Maria Teresa Delgado, Eclipse Foundation 
-* Marco Jahn, Eclipse Foundation
-* Teemu Karvonen, University of Oulu, M3S Group
-* Lukas Krawczyk, FH Dortmund
-* Markus Kelanti, University of Oulu, M3S Group
-* Zakaria Laaroussi, Ericsson
-* Lucy Ellen Lwakatare, University of Helsinki
-* Tero Päivärinta, University of Oulu, M3S Group
-* Ella Peltonen, University of Oulu, UBICOMP
-* Ivana Podnar-Zarko, Univeresity of Zagreb
-* Sowmya Ravidas, TU Eindhoven
-* Jan-Philipp Steghoefer, Gothenburg University
-* Sasu Tarkoma, University of Helsinki
-* Burak Turhan, University of Oulu, M3S Group
-* Alexander Viehl, FZI Forschungszentrum Informatik
+| * Karl Andersson, Luleå University of Technology    | * Zakaria Laaroussi, Ericsson                        |
+| * Alessandra Bagnato, SOFTEAM                       | * Lucy Ellen Lwakatare, University of Helsinki       |
+| * Ahmad Bani Jamali, University of Oulu             | * Tero Päivärinta, University of Oulu, M3S Group     |
+| * Christian Berger, Gothenburg University           | * Ella Peltonen, University of Oulu, UBICOMP         |
+| * Benoit Combemale, University of Toulouse, INRIA   | * Ivana Podnar-Zarko, Univeresity of Zagreb          |
+| * Maria Teresa Delgado, Eclipse Foundation          | * Sowmya Ravidas, TU Eindhoven                       |
+| * Marco Jahn, Eclipse Foundation                    | * Jan-Philipp Steghoefer, Gothenburg University      |
+| * Teemu Karvonen, University of Oulu, M3S Group     | * Sasu Tarkoma, University of Helsinki               |
+| * Lukas Krawczyk, FH Dortmund                       | * Burak Turhan, University of Oulu, M3S Group        |
+| * Markus Kelanti, University of Oulu, M3S Group     | * Alexander Viehl, FZI Forschungszentrum Informatik  |
 
 
 {{</ grid/section-container >}}
