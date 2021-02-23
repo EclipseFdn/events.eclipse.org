@@ -92,7 +92,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 
 {{< grid/div class="row" isMarkdown="false">}}
 
-{{< grid/div class="col-md-12 padding-bottom-20" isMarkdown="true">}}
+{{< grid/div class="col-md-12 padding-bottom-20 text-left" isMarkdown="true">}}
 * Karl Andersson, Luleå University of Technology
 * Alessandra Bagnato, SOFTEAM
 * Ahmad Bani Jamali, University of Oulu
@@ -105,7 +105,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 * Markus Kelanti, University of Oulu, M3S Group
 {{</ grid/div >}}
 
-{{< grid/div class="col-md-12	 padding-bottom-20" isMarkdown="true">}}
+{{< grid/div class="col-md-12 padding-bottom-20 text-left" isMarkdown="true">}}
 * Zakaria Laaroussi, Ericsson
 * Lucy Ellen Lwakatare, University of Helsinki
 * Tero Päivärinta, University of Oulu, M3S Group
