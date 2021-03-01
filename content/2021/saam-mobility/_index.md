@@ -16,7 +16,7 @@ links: [[href: "cfp.pdf",text: "Call for Papers"],[href: "https://easychair.org/
 <!-- Introduction -->
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
 {{< events/registration event="saam-mobility" year="2021" title="About the Event">}}
-Mark your calendars for Eclipse SAAM Mobility 2021, June 15-16. The Eclipse SAAM Mobility conference will bring together industry experts and researchers working on the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling related issues, and innovative software and systems solutions. 
+Mark your calendars for Eclipse SAAM Mobility 2021, June 15-16. The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.
 
 The call for papers is open. Download the call for papers now and talk with your colleagues about participating at Eclipse SAAM Mobility 2021. 
 {{</ events/registration >}}
@@ -79,7 +79,7 @@ Modelling for Mobility
 
 | Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission |    Conference Dates   |
 | :------------------------ | :---------------------- | :---------------------------- | :-------------------- |
-|      Apr. 16, 2021        |      May 17, 2021       |      Jun. 8, 2021             |      Jun. 15-16, 2021 |
+|      Apr. 16, 2021        |      May 20, 2021       |      Jun. 8, 2021             |      Jun. 15-16, 2021 |
 
 {{</ grid/section-container >}}
 
