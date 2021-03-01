@@ -84,7 +84,7 @@ Modelling for Mobility
 {{</ grid/section-container >}}
 
 [//]: # (TCP)
-{{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg">}}
+{{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg">}}  
 <h2 align="center">Technical Program Committee </h2>
 
 The Technical Program Committee is an independent panel of expert volunteers and as such will do their best to judge papers objectively and on the principle of a level playing field for all. 
