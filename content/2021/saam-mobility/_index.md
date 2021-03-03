@@ -100,14 +100,16 @@ The Technical Program Committee is an independent panel of expert volunteers and
 * Benoit Combemale, University of Toulouse, INRIA
 * Maria Teresa Delgado, Eclipse Foundation 
 * Marco Jahn, Eclipse Foundation
+* Erik Kamsties, Fachhochschule Dortmund
 * Teemu Karvonen, University of Oulu, M3S Group
-* Lukas Krawczyk, FH Dortmund
+* Lukas Krawczyk, Fachhochschule Dortmund
 * Markus Kelanti, University of Oulu, M3S Group
 {{</ grid/div >}}
 
 {{< grid/div class="col-md-12 padding-bottom-20 padding-top-20 text-left">}}
 * Zakaria Laaroussi, Ericsson
 * Lucy Ellen Lwakatare, University of Helsinki
+* Yod Samuel Martín, University of Madrid
 * Ralph Mueller, Eclipse Foundation
 * Tero Päivärinta, University of Oulu, M3S Group
 * Ella Peltonen, University of Oulu, UBICOMP
