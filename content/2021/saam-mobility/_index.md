@@ -102,8 +102,9 @@ The Technical Program Committee is an independent panel of expert volunteers and
 * Marco Jahn, Eclipse Foundation
 * Erik Kamsties, Fachhochschule Dortmund
 * Teemu Karvonen, University of Oulu, M3S Group
-* Lukas Krawczyk, Fachhochschule Dortmund
 * Markus Kelanti, University of Oulu, M3S Group
+* Lukas Krawczyk, Fachhochschule Dortmund
+* Karl Heinz Krempels, Fraunhofer FIT / RWTH Aachen
 {{</ grid/div >}}
 
 {{< grid/div class="col-md-12 padding-bottom-20 padding-top-20 text-left">}}
