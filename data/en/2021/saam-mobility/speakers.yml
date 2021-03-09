@@ -1,7 +1,16 @@
 items:
-  - name: Sample 1
-    title: VP
-  - name: Sample 2
-    title: Policy Director
-  - name: Sample 3
-    title: CTO
+    
+  - name: "Keynote Speaker #1"
+    title: "Keynote on Mobility in Industry"
+    anchor: keynote-1
+    img: avatar.png
+    bio: |
+      <p></p>
+      
+  - name: "Keynote Speaker #2"
+    title: "Keynote on Mobility in Research"
+    anchor: keynote-2
+    img: avatar.png
+    bio: |
+      <p></p>
+   
