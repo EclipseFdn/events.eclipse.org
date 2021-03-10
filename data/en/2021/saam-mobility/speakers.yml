@@ -1,13 +1,13 @@
 items:
     
-  - name: "Keynote Speaker #1"
+  - name: "Keynote Speaker 1"
     title: "Keynote on Mobility in Industry"
     anchor: keynote-1
     img: avatar.png
     bio: |
       <p></p>
       
-  - name: "Keynote Speaker #2"
+  - name: "Keynote Speaker 2"
     title: "Keynote on Mobility in Research"
     anchor: keynote-2
     img: avatar.png
