@@ -1,12 +1,12 @@
 items:
-  - name: "Avatar 1"
-    title: "Keynote speaker at Industry"
-    img: avatar.png
+  - name: "Andreas Riexinger"
+    title: "Product Manager Autonomous Driving (Robert Bosch GmbH)"
+    img: andreas_riexinger.jpeg
     bio: |
       <p></p>
 
-  - name: "Avatar 2"
-    title: "Keynote speaker at Research"
-    img: avatar.png
+  - name: "Robert Hilbrich"
+    title: "Group Manager (DLR)"
+    img: Robert_Hilbrich.jpeg
     bio: |
       <p></p>

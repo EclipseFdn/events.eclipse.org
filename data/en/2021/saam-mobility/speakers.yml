@@ -1,16 +1,13 @@
 items:
-    
-  - name: "Keynote Speaker 1"
-    title: "Keynote on Mobility in Industry"
-    anchor: keynote-1
-    img: avatar.png
-    bio: |
-      <p></p>
-      
-  - name: "Keynote Speaker 2"
-    title: "Keynote on Mobility in Research"
-    anchor: keynote-2
-    img: avatar.png
-    bio: |
-      <p></p>
    
+  - name: "Andreas Riexinger"
+    title: "Keynote on Mobility in Industry"
+    img: andreas_riexinger.jpeg
+    bio: |
+      <p></p>
+
+  - name: "Robert Hilbrich"
+    title: "Keynote on Mobility in Research"
+    img: Robert_Hilbrich.jpeg
+    bio: |
+      <p></p>
