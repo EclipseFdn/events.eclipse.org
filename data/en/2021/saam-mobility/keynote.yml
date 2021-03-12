@@ -1,0 +1,12 @@
+items:
+  - name: "Avatar 1"
+    title: "Keynote speaker at Industry"
+    img: avatar.png
+    bio: |
+      <p></p>
+
+  - name: "Avatar 2"
+    title: "Keynote speaker at Research"
+    img: avatar.png
+    bio: |
+      <p></p>
