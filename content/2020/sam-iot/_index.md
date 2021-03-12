@@ -47,12 +47,20 @@ These innovations are setting the groundwork for the next generation IoT that wi
     <h3>Indexed by:</h3>
 {{< grid/div class="row" isMarkdown="false">}}
 
-{{< grid/div class="col-md-12 padding-bottom-20" isMarkdown="true">}}
+{{< grid/div class="col-md-6 padding-bottom-20" isMarkdown="true">}}
   [![Scopus](images/scopus_logo.png)](https://www.scopus.com/)
 {{</ grid/div >}}
  
-{{< grid/div class="col-md-12 padding-bottom-20" isMarkdown="true">}}
+{{< grid/div class="col-md-6 padding-bottom-20" isMarkdown="true">}}
   [![Google Scholar](images/GScholar_logo.png)](https://scholar.google.com/)
+{{</ grid/div >}}
+
+{{< grid/div class="col-md-6 padding-bottom-20" isMarkdown="true">}}
+  [![dblp](images/dblp_logo.png)](https://dblp.org/db/conf/sam-iot/sam-iot2020.html)
+{{</ grid/div >}}
+ 
+{{< grid/div class="col-md-6 padding-bottom-20" isMarkdown="true">}}
+  [![Semantic Scholar](images/semantic_scholar_logo.png)](https://www.semanticscholar.org/search?fos%5B0%5D=computer-science&q=%22SAM%20IoT%22)
 {{</ grid/div >}}
 
 {{</ grid/div >}}
