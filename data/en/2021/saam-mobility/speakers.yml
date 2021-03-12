@@ -1,12 +1,14 @@
 items:
    
   - name: "Andreas Riexinger"
+    anchor: andreas_riexinger
     title: "Keynote on Mobility in Industry"
     img: andreas_riexinger.jpeg
     bio: |
       <p></p>
 
   - name: "Robert Hilbrich"
+    anchor: robert_hilbrich
     title: "Keynote on Mobility in Research"
     img: Robert_Hilbrich.jpeg
     bio: |

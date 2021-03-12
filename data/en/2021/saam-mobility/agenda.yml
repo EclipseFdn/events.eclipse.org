@@ -19,7 +19,7 @@ sets:
              <p></p>
       
     - name: 'Keynote from Industry'
-      presenter: <a href="speakers/#keynote-1">Speaker A</a>
+      presenter: <a href="speakers/#andreas_riexinger">Andreas Riexinger</a>
       type: keynote
       time: 13:10 - 13:40
       abstract: |
@@ -50,7 +50,7 @@ sets:
              <p></p>
       
     - name: 'Keynote from Research'
-      presenter: <a href="speakers/#keynote-2">Speaker B</a>
+      presenter: <a href="speakers/#robert_hilbrich">Robert Hilbrich</a>
       type: keynote
       time: 9:10 - 9:40
       abstract: |
