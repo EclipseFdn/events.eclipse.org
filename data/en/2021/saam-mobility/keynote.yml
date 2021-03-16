@@ -1,15 +1,12 @@
 items:
-   
   - name: "Andreas Riexinger"
-    anchor: andreas_riexinger
-    title: "Keynote on Mobility in Industry"
+    title: "Product Manager Autonomous Driving (Robert Bosch GmbH)"
     img: andreas_riexinger.jpeg
     bio: |
       <p></p>
 
   - name: "Robert Hilbrich"
-    anchor: robert_hilbrich
-    title: "Keynote on Mobility in Research"
+    title: "Group Manager (DLR)"
     img: Robert_Hilbrich.jpeg
     bio: |
       <p></p>

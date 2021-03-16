@@ -2,30 +2,71 @@ complete: false
 types:
     - name: Keynote 
       id: keynote 
-      color: "#f79623"
+      color: "#00FF00"
     - name: Session
       id: session
-      color: "#8d1d2d4"
-    - name: Panel
-      id: panel
-      color: "#818285"
-    - name: Break
-      id: break
-      color: "#fff"
-
-items:
-    - name: Sample session
-      presenter: Sample 1
-      type: keynote
-      time: 09:00 - 09:20 (CEST)
-    - name: Sample session 2
-      presenter: Sample 2
+      color: "#ED7D31"
+      
+sets:
+  - name: Day 1 -- Tuesday, June 15
+    items:
+      
+    - name: 'Introduction and Welcome'
+      presenter: Pasi Kuvaja 
       type: session
-      time: 09:20 - 09:45 (CEST)
-    - name: Coffee break
-      type: break
-      time: 10:10 - 10:20 (CEST)
-    - name: Sample 3
-      presenter: Sample 1
-      type: panel
-      time: 10:20 - 10:45 (CEST)
+      time: 13:00 - 13:10
+      abstract: |
+             <p></p>
+      
+    - name: 'Keynote from Industry'
+      presenter: <a href="speakers/#andreas_riexinger">Andreas Riexinger</a>
+      type: keynote
+      time: 13:10 - 13:40
+      abstract: |
+             <p></p>
+
+    - name: 'Papers Presentations'
+      presenter: Authors
+      type: session
+      time: 13:40 - 17:00
+      abstract: |
+             <p></p>
+
+    - name: 'Open channel discussion'
+      presenter: Philippe Krief 
+      type: session
+      time: 17:00 - 17:30
+      abstract: |
+             <p></p>
+
+  - name: Day 2 -- Wednesday, June 16
+    items:
+      
+    - name: 'Summary and updates'
+      presenter: Pasi Kuvaja
+      type: session
+      time: 9:00 - 9:10
+      abstract: |
+             <p></p>
+      
+    - name: 'Keynote from Research'
+      presenter: <a href="speakers/#robert_hilbrich">Robert Hilbrich</a>
+      type: keynote
+      time: 9:10 - 9:40
+      abstract: |
+             <p></p>
+
+    - name: 'Papers Presentations'
+      presenter: Authors
+      type: session
+      time: 9:40 - 12:40
+      abstract: |
+             <p></p>
+
+    - name: 'Open channel discussion and close'
+      presenter: Pasi Kuvaja  and Philippe Krief
+      type: session
+      time: 12:40 - 13:00
+      abstract: |
+             <p></p>
+

@@ -22,6 +22,16 @@ The call for papers is open. Download the call for papers now and talk with your
 {{</ events/registration >}}
 {{</ grid/section-container >}}
 
+[//]: # (Keynote speakers)
+{{< grid/section-container id="keynote" class="featured-section-row text-center featured-section-row-dark-bg eclipsefdn-user-display-circle" >}}
+  {{< events/user_display event="saam-mobility" year="2021" title="Keynote speakers" source="keynote" imageRoot="/2021/saam-mobility/images/speakers/" subpage="speakers" displayLearnMore="false" />}}
+{{</ grid/section-container >}}
+
+[//]: # (Agenda)
+{{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" >}}
+  {{< events/agenda event="saam-mobility" year="2021" >}}
+{{</ grid/section-container >}}
+
 <!-- Topics -->
 {{< grid/section-container id="topics" class="featured-section-row featured-section-row-dark-bg text-center">}}
 
