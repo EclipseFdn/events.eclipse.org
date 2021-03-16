@@ -2,10 +2,15 @@ items:
    
   - name: "Andreas Riexinger"
     anchor: andreas_riexinger
-    title: "Keynote on Mobility in Industry"
+    title: "Mobility of the Future and Open Collaboration – A good Idea?"
     img: andreas_riexinger.jpeg
     bio: |
-      <p></p>
+      <p>Since end of 2016, Andreas Riexinger is driving the Bosch autonomous driving solutions as a product
+      manager automated driving for the Robert Bosch GmbH. He worked in different areas for the Robert
+      Bosch GmbH for over 20 years, in which he has collected experience in the development of embedded
+      software and management of IT projects.<br/>
+      Since the foundation of the OpenADx Eclipse Working Group in June 2019, he is also their speaker.
+      Andreas Riexinger will give an overview about future mobility and the role of open source software.</p>
 
   - name: "Robert Hilbrich"
     anchor: robert_hilbrich
