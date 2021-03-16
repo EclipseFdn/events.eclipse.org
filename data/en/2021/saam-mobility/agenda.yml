@@ -13,7 +13,7 @@ sets:
       
     - name: 'Introduction and Welcome'
       presenter: Pasi Kuvaja 
-      type: session
+      type: staff
       time: 13:00 - 13:10
       abstract: |
              <p></p>
@@ -48,7 +48,7 @@ sets:
 
     - name: 'Open channel discussion'
       presenter: Philippe Krief 
-      type: session
+      type: staff
       time: 17:00 - 17:30
       abstract: |
              <p></p>
@@ -58,7 +58,7 @@ sets:
       
     - name: 'Summary and updates'
       presenter: Pasi Kuvaja
-      type: session
+      type: staff
       time: 9:00 - 9:10
       abstract: |
              <p></p>
@@ -79,7 +79,7 @@ sets:
 
     - name: 'Open channel discussion and close'
       presenter: Pasi Kuvaja  and Philippe Krief
-      type: session
+      type: staff
       time: 12:40 - 13:00
       abstract: |
              <p></p>
