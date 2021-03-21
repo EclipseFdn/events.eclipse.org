@@ -14,7 +14,12 @@ items:
 
   - name: "Robert Hilbrich"
     anchor: robert_hilbrich
-    title: "Keynote on Mobility in Research"
+    title: "The Importance of Open Simulators and AI in a Changing Mobility Landscape"
     img: Robert_Hilbrich.jpeg
     bio: |
-      <p></p>
+      <p>Dr. Robert Hilbrich works as a manager for simulation and modeling at the German Aerospace Center in 
+      Berlin, Germany. He is a computer scientist and started his research career in the field of developing 
+      safety-critical real-time systems at the Fraunhofer research institutes FIRST and FOKUS. Since he joined 
+      the German Aerospace Center in 2015, he is responsible for the development of the traffic simulation suite 
+      Eclipse SUMO. In 2019 Robert also founded a startup, the Consultancy for Engineers GmbH, where he is employed 
+      as managing director in addition to his role at the German Aerospace Center.</p>

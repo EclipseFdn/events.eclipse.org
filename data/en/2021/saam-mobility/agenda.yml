@@ -63,12 +63,25 @@ sets:
       abstract: |
              <p></p>
       
-    - name: 'Keynote from Research'
+    - name: 'The Importance of Open Simulators and AI in a Changing Mobility Landscape'
       presenter: <a href="speakers/#robert_hilbrich">Robert Hilbrich</a>
       type: keynote
       time: 9:10 - 9:40
       abstract: |
-             <p></p>
+             <p>The mobility landscape is undergoing significant changes. More and more mobility providers compete
+             for customers with their own mobility services. Traditional public transport, demand responsive transport, 
+             taxis, car sharing, ride pooling, bike sharing, e-scooters,  … the available modes of transport in cities 
+             are becoming increasingly heterogeneous and confusing. At the same time, significant changes to the landscape 
+             are induced by the effects of the global pandemic. They may lead to even more drastic changes in the mobility 
+             demand.</p>
+             <p>How to tame the complexity of this landscape and fight the climate change without neglecting mobility as a 
+             fundamental human need is an open - albeit essential - question.</p>
+             <p>In this talk, we will examine the changes in the mobility landscape and look at the role of two important 
+             players in this discussion: open simulators and artificial intelligence. What do they bring to the table 
+             in order to tackle the rising complexity? How can they be applied to improve the transportation system in 
+             a city? The Eclipse SUMO project is used as an example to illustrate how to build digital twins of smart cities. 
+             Moreover, results from recent research projects are used to discuss the effectiveness and efficiency of applying 
+             artificial intelligence to optimize transportation systems.</p>
 
     - name: 'Papers Presentations'
       presenter: Authors
