@@ -13,17 +13,31 @@ sets:
       
     - name: 'Introduction and Welcome'
       presenter: Pasi Kuvaja 
-      type: session
+      type: staff
       time: 13:00 - 13:10
       abstract: |
              <p></p>
       
-    - name: 'Keynote from Industry'
+    - name: 'Mobility of the Future and Open Collaboration – A good Idea?'
       presenter: <a href="speakers/#andreas_riexinger">Andreas Riexinger</a>
       type: keynote
       time: 13:10 - 13:40
       abstract: |
-             <p></p>
+             <p>Our world is changing, and the change is visible everywhere. More than 50% of the population is living in
+              cities and the cities are growing. More and more goods and people need to be transported, bringing the
+              traffic infrastructure to its limits. Increasing pollution and noise levels bringing the environment to its
+              limits. <br/>
+              To counter this, a transformation of the mobility is needed, who has already started, powered by new
+              technologies and services. The mobility of the future will be electrified, connected, personalized,
+              automated and software defined.<br/>
+              Software is more and more dominating our daily life, also in the automotive world. Almost every
+              function in the vehicle is defined by software. Autonomous Driving solutions introduce a new complexity
+              into the development of embedded systems in the vehicle. This complexity rises with each level of
+              control and autonomy of the automated driving systems and you need deeper expertise and more
+              software. Software is more and more becoming an important differentiator for autonomous vehicles.
+              Increasing embedded software complexity with an increase in level of automation is putting new
+              demands on the existing tools and frameworks. Instead of solving these challenges alone, partnering in
+              non-differentiating areas and collaborating is the path forward.</p>
 
     - name: 'Papers Presentations'
       presenter: Authors
@@ -34,7 +48,7 @@ sets:
 
     - name: 'Open channel discussion'
       presenter: Philippe Krief 
-      type: session
+      type: staff
       time: 17:00 - 17:30
       abstract: |
              <p></p>
@@ -44,7 +58,7 @@ sets:
       
     - name: 'Summary and updates'
       presenter: Pasi Kuvaja
-      type: session
+      type: staff
       time: 9:00 - 9:10
       abstract: |
              <p></p>
@@ -65,7 +79,7 @@ sets:
 
     - name: 'Open channel discussion and close'
       presenter: Pasi Kuvaja  and Philippe Krief
-      type: session
+      type: staff
       time: 12:40 - 13:00
       abstract: |
              <p></p>

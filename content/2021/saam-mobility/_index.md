@@ -169,4 +169,5 @@ Susan Iwai, Eclipse Foundation Europe, Germany
 {{< grid/section-container id="organizers" class="featured-section-row featured-section-row-lighter-bg text-center">}}
   {{< events/sponsors event="saam-mobility" year="2021" source="coorganizers" title="Co-organizers" useMax="false" displayBecomeSponsor="false">}}
 {{</ grid/section-container >}}
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
 
