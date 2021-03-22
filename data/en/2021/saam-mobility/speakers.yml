@@ -1,7 +1,7 @@
 items:
    
   - name: "Andreas Riexinger"
-    anchor: andreas_riexinger
+    anchor: andreas-riexinger
     title: "Mobility of the Future and Open Collaboration – A good Idea?"
     img: andreas_riexinger.jpeg
     bio: |
@@ -13,7 +13,7 @@ items:
       Andreas Riexinger will give an overview about future mobility and the role of open source software.</p>
 
   - name: "Robert Hilbrich"
-    anchor: robert_hilbrich
+    anchor: robert-hilbrich
     title: "Keynote on Mobility in Research"
     img: Robert_Hilbrich.jpeg
     bio: |
