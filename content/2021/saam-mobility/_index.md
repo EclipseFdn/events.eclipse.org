@@ -147,7 +147,8 @@ The Technical Program Committee is an independent panel of expert volunteers and
 
 [//]: # (Posters)
 {{< grid/section-container id="posters" class="featured-section-row text-center featured-section-row-dark-bg" >}}
-  {{< events/user_display event="saam-mobility" year="2021" title="Posters" source="posters" imageRoot="/2021/saam-mobility/images/posters/" subpage="posters" displayLearnMore="true" />}}
+  {{< events/user_display event="saam-mobility" year="2021" title="Posters" source="poster" imageRoot="/2021/saam-mobility/images/posters/" subpage="posters" displayLearnMore="true" />}}
+  <!-- {{< events/user_display event="saam-mobility" year="2021" title="Keynote speakers" source="keynote" imageRoot="/2021/saam-mobility/images/speakers/" subpage="speakers" displayLearnMore="false" />}} -->
 {{</ grid/section-container >}}
 
 [//]: # (Organizing Committee)
