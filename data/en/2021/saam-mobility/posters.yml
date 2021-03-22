@@ -1,0 +1,31 @@
+items:
+  - name: "BRAIN-IoT"
+    title: "Tagline or keywords"
+    img: brain-iot.png
+    bio: |
+      <p>Short description of the project</p>
+  - name: "SmartCLIDE"
+    title: "Tagline or keywords"
+    img: smartclide.png
+    bio: |
+      <p>Short description of the project</p>
+  - name: "BRAIN-IoT-2"
+    title: "Tagline or keywords"
+    img: brain-iot.png
+    bio: |
+      <p>Short description of the project</p>
+  - name: "SmartCLIDE-2"
+    title: "Tagline or keywords"
+    img: smartclide.png
+    bio: |
+      <p>Short description of the project</p>
+  - name: "BRAIN-IoT-3"
+    title: "Tagline or keywords"
+    img: brain-iot.png
+    bio: |
+      <p>Short description of the project</p>
+  - name: "SmartCLIDE-3"
+    title: "Tagline or keywords"
+    img: smartclide.png
+    bio: |
+      <p>Short description of the project</p>
