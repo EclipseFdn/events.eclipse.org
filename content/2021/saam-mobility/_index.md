@@ -136,6 +136,15 @@ The Technical Program Committee is an independent panel of expert volunteers and
 
 {{</ grid/section-container >}}
 
+[//]: # (Register)
+{{< grid/section-container class="featured-section-row" isMarkdown="false">}}
+
+    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-4 text-center" isMarkdown="false">}}
+        {{< bootstrap/button linkClass="btn-primary btn-wide" href="https://www.eventbrite.de">}}Register{{</bootstrap/button>}}
+    {{</ grid/div >}}
+
+{{</ grid/section-container >}}
+
 [//]: # (Posters)
 {{< grid/section-container id="posters" class="featured-section-row text-center featured-section-row-dark-bg" >}}
   {{< events/user_display event="saam-mobility" year="2021" title="Posters" source="posters" imageRoot="/2021/saam-mobility/images/posters/" subpage="posters" displayLearnMore="true" />}}
