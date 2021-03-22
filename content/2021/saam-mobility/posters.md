@@ -10,4 +10,4 @@ toc: false
 draft: false
 ---
 
-{{< events/user_bios event="saam-mobility" year="2021" source="posters" imgRoot="/2021/saam-mobility/images/posters/" >}}
+{{< research/poster_display event="saam-mobility" year="2021" source="posters" imgRoot="/2021/saam-mobility/images/posters/" >}}
