@@ -3,12 +3,12 @@ items:
     title: "Tagline or keywords"
     img: brain-iot.png
     bio: |
-      <p>Short description of the project</p>
+      <p>Short description of the project with a link: <a href="http://brain-iot.eu">brain-iot.eu</a></p>
   - name: "SmartCLIDE"
     title: "Tagline or keywords"
     img: smartclide.png
     bio: |
-      <p>Short description of the project</p>
+      <p>Short description of the project with a link: <a href="http://smartclide.eu">smartclide.eu</a></p>
   - name: "BRAIN-IoT-2"
     title: "Tagline or keywords"
     img: brain-iot.png
