@@ -33,6 +33,8 @@
       {{ if .img }}
 		{{ if .url }}
 			<a href="{{ .url }}">
+		{{ else }}
+			<a href="{{ $imageRoot }}{{ .img }}">
 		{{ end }}
       	<img class="img-responsive" src="{{ $imageRoot }}{{ .img }}"
         title="{{ .name }}" />
