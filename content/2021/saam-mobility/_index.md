@@ -139,7 +139,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 [//]: # (Register)
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
 
-    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-4 text-center" isMarkdown="false">}}
+    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-8 text-center" isMarkdown="false">}}
         {{< bootstrap/button linkClass="btn-primary btn-wide" href="https://www.eventbrite.de">}}Register{{</bootstrap/button>}}
     {{</ grid/div >}}
 
