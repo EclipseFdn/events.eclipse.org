@@ -6,9 +6,16 @@ types:
     - name: Session
       id: session
       color: "#ED7D31"
+    - name: Day
+      id: day
+      color: "#FF0000"
+    - name: Staff
+      id: staff
+      color: "#FFFFFF"
       
 items:
   - name: Day 1 -- Tuesday, June 15
+    type: day
       
   - name: 'Introduction and Welcome'
     presenter: Pasi Kuvaja 
@@ -53,6 +60,7 @@ items:
             <p></p>
 
   - name: Day 2 -- Wednesday, June 16
+    type: day
       
   - name: 'Summary and updates'
     presenter: Pasi Kuvaja
