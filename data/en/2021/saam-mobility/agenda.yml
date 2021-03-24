@@ -7,7 +7,7 @@ types:
       id: session
       color: "#ED7D31"
       
-sets:
+items:
   - name: Day 1 -- Tuesday, June 15
       
   - name: 'Introduction and Welcome'
