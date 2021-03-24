@@ -139,13 +139,14 @@ The Technical Program Committee is an independent panel of expert volunteers and
 [//]: # (Register)
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
 
-    {{< grid/div class="col-xs-24 col-sm-6 col-sm-offset-6 text-center" isMarkdown="false">}}
-        {{< bootstrap/button linkClass="btn-primary btn-wide" href="cfp.pdf">}}Call for Paper{{</bootstrap/button>}}
-    {{</ grid/div >}}
-
-    {{< grid/div class="col-xs-24 col-sm-6 col-sm-offset-12 text-center" isMarkdown="false">}}
-        {{< bootstrap/button linkClass="btn-primary btn-wide" href="https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097">}}REGISTER NOW{{</bootstrap/button>}}
-    {{</ grid/div >}}
+	{{< grid/div class="margin-top-30" isMarkdown="false">}}
+	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-2 text-center" isMarkdown="false">}}
+	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="cfp.pdf">}}Call for Paper{{</bootstrap/button>}}
+	    {{</ grid/div >}}
+	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-4 text-center" isMarkdown="false">}}
+	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="ttps://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097">}}Register{{</bootstrap/button>}}
+	    {{</ grid/div >}}
+	{{</ grid/div >}}
 
 {{</ grid/section-container >}}
 
