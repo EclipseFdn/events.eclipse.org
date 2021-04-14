@@ -18,7 +18,7 @@ links: [[href: "cfp.pdf",text: "Call for Papers"],[href: "https://easychair.org/
 {{< events/registration event="saam-mobility" year="2021" title="About the Event">}}
 Mark your calendars for Eclipse SAAM Mobility 2021, June 15-16. The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.
 
-The call for papers has been extended to April 23. Download the call for papers now and talk with your colleagues about participating at Eclipse SAAM Mobility 2021. 
+**The call for papers has been extended to April 23**. Download the call for papers now and talk with your colleagues about participating at Eclipse SAAM Mobility 2021. 
 {{</ events/registration >}}
 {{</ grid/section-container >}}
 
@@ -141,7 +141,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 
 	{{< grid/div class="margin-top-30" isMarkdown="false">}}
 	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-2 text-center" isMarkdown="false">}}
-	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="cfp.pdf">}}Call for Paper{{</bootstrap/button>}}
+	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="cfp.pdf">}}Call for Papers{{</bootstrap/button>}}
 	    {{</ grid/div >}}
 	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-4 text-center" isMarkdown="false">}}
 	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="ttps://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097">}}Register{{</bootstrap/button>}}
