@@ -17,7 +17,9 @@ links: [[href: "cfs.pdf",text: "Call for Submissions"],[href: "https://www.event
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
 	{{< grid/div class="margin-top-0 margin-bottom-0 background-color-yellow" isMarkdown="false">}}
 	    {{< grid/div class="col-xs-24 col-sm-24 text-center" isMarkdown="false">}}
-	       <h2 color="red">Call for Posters, Demo’s, Short Papers now open! </h2>
+	       <h2>Call for Posters, Demo’s, Short Papers now open! </h2>
+	       <h3>You are invited to submit posters, demo’s and short papers by May 28th.</h3>
+	       <h3>Start the technology conversation at SAAM Mobility 2021.</h3>
 	    {{</ grid/div >}}
 	{{</ grid/div >}}
 {{</ grid/section-container >}}
@@ -25,11 +27,6 @@ links: [[href: "cfs.pdf",text: "Call for Submissions"],[href: "https://www.event
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
 {{< events/registration event="saam-mobility" year="2021" title="About the Event">}}
 Mark your calendars for Eclipse SAAM Mobility 2021, June 15-16. The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.
-
-## Call for Posters, Demo’s, Short Papers is open!
-
-### You are invited to submit posters, demo’s and short papers by May 28th.
-### Start the technology conversation at SAAM Mobility 2021.
 
 {{</ events/registration >}}
 {{</ grid/section-container >}}
