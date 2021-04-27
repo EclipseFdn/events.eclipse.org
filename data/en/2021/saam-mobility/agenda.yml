@@ -6,94 +6,100 @@ types:
     - name: Session
       id: session
       color: "#ED7D31"
+    - name: Day
+      id: day
+      color: "#FF0000"
+    - name: Staff
+      id: staff
+      color: "#FFFFFF"
       
-sets:
+items:
   - name: Day 1 -- Tuesday, June 15
-    items:
+    type: day
       
-    - name: 'Introduction and Welcome'
-      presenter: Pasi Kuvaja 
-      type: staff
-      time: 13:00 - 13:10
-      abstract: |
-             <p></p>
+  - name: 'Introduction and Welcome'
+    presenter: Pasi Kuvaja 
+    type: staff
+    time: 13:00 - 13:10
+    abstract: |
+            <p></p>
       
-    - name: 'Mobility of the Future and Open Collaboration – A good Idea?'
-      presenter: <a href="speakers/#andreas_riexinger">Andreas Riexinger</a>
-      type: keynote
-      time: 13:10 - 13:40
-      abstract: |
-             <p>Our world is changing, and the change is visible everywhere. More than 50% of the population is living in
-              cities and the cities are growing. More and more goods and people need to be transported, bringing the
-              traffic infrastructure to its limits. Increasing pollution and noise levels bringing the environment to its
-              limits. <br/>
-              To counter this, a transformation of the mobility is needed, who has already started, powered by new
-              technologies and services. The mobility of the future will be electrified, connected, personalized,
-              automated and software defined.<br/>
-              Software is more and more dominating our daily life, also in the automotive world. Almost every
-              function in the vehicle is defined by software. Autonomous Driving solutions introduce a new complexity
-              into the development of embedded systems in the vehicle. This complexity rises with each level of
-              control and autonomy of the automated driving systems and you need deeper expertise and more
-              software. Software is more and more becoming an important differentiator for autonomous vehicles.
-              Increasing embedded software complexity with an increase in level of automation is putting new
-              demands on the existing tools and frameworks. Instead of solving these challenges alone, partnering in
-              non-differentiating areas and collaborating is the path forward.</p>
+  - name: 'Mobility of the Future and Open Collaboration – A good Idea?'
+    presenter: <a href="speakers/#andreas_riexinger">Andreas Riexinger</a>
+    type: keynote
+    time: 13:10 - 13:40
+    abstract: |
+            <p>Our world is changing, and the change is visible everywhere. More than 50% of the population is living in
+            cities and the cities are growing. More and more goods and people need to be transported, bringing the
+            traffic infrastructure to its limits. Increasing pollution and noise levels bringing the environment to its
+            limits. <br/>
+            To counter this, a transformation of the mobility is needed, who has already started, powered by new
+            technologies and services. The mobility of the future will be electrified, connected, personalized,
+            automated and software defined.<br/>
+            Software is more and more dominating our daily life, also in the automotive world. Almost every
+            function in the vehicle is defined by software. Autonomous Driving solutions introduce a new complexity
+            into the development of embedded systems in the vehicle. This complexity rises with each level of
+            control and autonomy of the automated driving systems and you need deeper expertise and more
+            software. Software is more and more becoming an important differentiator for autonomous vehicles.
+            Increasing embedded software complexity with an increase in level of automation is putting new
+            demands on the existing tools and frameworks. Instead of solving these challenges alone, partnering in
+            non-differentiating areas and collaborating is the path forward.</p>
 
-    - name: 'Papers Presentations'
-      presenter: Authors
-      type: session
-      time: 13:40 - 17:00
-      abstract: |
-             <p></p>
+  - name: 'Papers Presentations'
+    presenter: Authors
+    type: session
+    time: 13:40 - 17:00
+    abstract: |
+            <p></p>
 
-    - name: 'Open channel discussion'
-      presenter: Philippe Krief 
-      type: staff
-      time: 17:00 - 17:30
-      abstract: |
-             <p></p>
+  - name: 'Open channel discussion'
+    presenter: Philippe Krief 
+    type: staff
+    time: 17:00 - 17:30
+    abstract: |
+            <p></p>
 
   - name: Day 2 -- Wednesday, June 16
-    items:
+    type: day
       
-    - name: 'Summary and updates'
-      presenter: Pasi Kuvaja
-      type: staff
-      time: 9:00 - 9:10
-      abstract: |
-             <p></p>
-      
-    - name: 'The Importance of Open Simulators and AI in a Changing Mobility Landscape'
-      presenter: <a href="speakers/#robert_hilbrich">Robert Hilbrich</a>
-      type: keynote
-      time: 9:10 - 9:40
-      abstract: |
-             <p>The mobility landscape is undergoing significant changes. More and more mobility providers compete
-             for customers with their own mobility services. Traditional public transport, demand responsive transport, 
-             taxis, car sharing, ride pooling, bike sharing, e-scooters,  … the available modes of transport in cities 
-             are becoming increasingly heterogeneous and confusing. At the same time, significant changes to the landscape 
-             are induced by the effects of the global pandemic. They may lead to even more drastic changes in the mobility 
-             demand.</p>
-             <p>How to tame the complexity of this landscape and fight the climate change without neglecting mobility as a 
-             fundamental human need is an open - albeit essential - question.</p>
-             <p>In this talk, we will examine the changes in the mobility landscape and look at the role of two important 
-             players in this discussion: open simulators and artificial intelligence. What do they bring to the table 
-             in order to tackle the rising complexity? How can they be applied to improve the transportation system in 
-             a city? The Eclipse SUMO project is used as an example to illustrate how to build digital twins of smart cities. 
-             Moreover, results from recent research projects are used to discuss the effectiveness and efficiency of applying 
-             artificial intelligence to optimize transportation systems.</p>
+  - name: 'Summary and updates'
+    presenter: Pasi Kuvaja
+    type: staff
+    time: 9:00 - 9:10
+    abstract: |
+            <p></p>
+    
+  - name: 'The Importance of Open Simulators and AI in a Changing Mobility Landscape'
+    presenter: <a href="speakers/#robert_hilbrich">Robert Hilbrich</a>
+    type: keynote
+    time: 9:10 - 9:40
+    abstract: |
+            <p>The mobility landscape is undergoing significant changes. More and more mobility providers compete
+            for customers with their own mobility services. Traditional public transport, demand responsive transport, 
+            taxis, car sharing, ride pooling, bike sharing, e-scooters,  … the available modes of transport in cities 
+            are becoming increasingly heterogeneous and confusing. At the same time, significant changes to the landscape 
+            are induced by the effects of the global pandemic. They may lead to even more drastic changes in the mobility 
+            demand.</p>
+            <p>How to tame the complexity of this landscape and fight the climate change without neglecting mobility as a 
+            fundamental human need is an open - albeit essential - question.</p>
+            <p>In this talk, we will examine the changes in the mobility landscape and look at the role of two important 
+            players in this discussion: open simulators and artificial intelligence. What do they bring to the table 
+            in order to tackle the rising complexity? How can they be applied to improve the transportation system in 
+            a city? The Eclipse SUMO project is used as an example to illustrate how to build digital twins of smart cities. 
+            Moreover, results from recent research projects are used to discuss the effectiveness and efficiency of applying 
+            artificial intelligence to optimize transportation systems.</p>
 
-    - name: 'Papers Presentations'
-      presenter: Authors
-      type: session
-      time: 9:40 - 12:40
-      abstract: |
-             <p></p>
+  - name: 'Papers Presentations'
+    presenter: Authors
+    type: session
+    time: 9:40 - 12:40
+    abstract: |
+            <p></p>
 
-    - name: 'Open channel discussion and close'
-      presenter: Pasi Kuvaja  and Philippe Krief
-      type: staff
-      time: 12:40 - 13:00
-      abstract: |
-             <p></p>
+  - name: 'Open channel discussion and close'
+    presenter: Pasi Kuvaja  and Philippe Krief
+    type: staff
+    time: 12:40 - 13:00
+    abstract: |
+            <p></p>
 
