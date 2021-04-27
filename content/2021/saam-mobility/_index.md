@@ -28,7 +28,8 @@ Mark your calendars for Eclipse SAAM Mobility 2021, June 15-16. The virtual conf
 
 ## Call for Posters, Demo’s, Short Papers is open!
 
-### You are invited to submit posters, demo’s and short papers by May 28th. Start the technology conversation at SAAM Mobility 2021.
+### You are invited to submit posters, demo’s and short papers by May 28th.
+### Start the technology conversation at SAAM Mobility 2021.
 
 {{</ events/registration >}}
 {{</ grid/section-container >}}
@@ -151,10 +152,10 @@ The Technical Program Committee is an independent panel of expert volunteers and
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
 	{{< grid/div class="margin-top-30" isMarkdown="false">}}
 	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-2 text-center" isMarkdown="false">}}
-	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="/code-of-conduct/">}}Code of Conduct{{</bootstrap/button>}}
+	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="ttps://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097">}}
 	    {{</ grid/div >}}
-	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-4 text-center" isMarkdown="false">}}
-	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="ttps://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097">}}Register{{</bootstrap/button>}}
+	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-4 text-center" isMarkdown="false">}}Register{{</bootstrap/button>}}
+	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="/code-of-conduct/">}}Code of Conduct{{</bootstrap/button>}}
 	    {{</ grid/div >}}
 	{{</ grid/div >}}
 {{</ grid/section-container >}}
