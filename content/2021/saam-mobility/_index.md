@@ -16,8 +16,8 @@ links: [[href: "cfs.pdf",text: "Call for Submissions"],[href: "https://www.event
 <!-- Introduction -->
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
 	{{< grid/div class="margin-top-30" isMarkdown="false">}}
-	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-2 text-center" isMarkdown="false">}}
-	       <h2 bgcolor="yellow">Call for Posters, Demo’s, Short Papers now open! </h2>
+	    {{< grid/div class="col-xs-24 col-sm-24 text-center" style="background-color:yellow" isMarkdown="false">}}
+	       <h2>Call for Posters, Demo’s, Short Papers now open! </h2>
 	    {{</ grid/div >}}
 	{{</ grid/div >}}
 {{</ grid/section-container >}}
