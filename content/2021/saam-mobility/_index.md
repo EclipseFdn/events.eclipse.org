@@ -11,7 +11,7 @@ hide_breadcrumb: true
 container: "container-fluid saam-2021-event"
 summary: "The Eclipse SAAM Mobility 2021 virtual conference, June 15-16, will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges."
 layout: single
-links: [[href: "cfp.pdf",text: "Call for Papers"],[href: "https://easychair.org/my/conference?conf=esaamm2021#",text: "Submit a Paper"],[href: "https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097",text: "Register"]]
+links: [[href: "cfs.pdf",text: "Call for Submissions"],[href: "https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097",text: "Register"],[href: "https://easychair.org/my/conference?conf=esaamm2021#",text: "Submit"]]
 ---
 <!-- Introduction -->
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
@@ -138,16 +138,14 @@ The Technical Program Committee is an independent panel of expert volunteers and
 
 [//]: # (Register)
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
-
 	{{< grid/div class="margin-top-30" isMarkdown="false">}}
 	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-2 text-center" isMarkdown="false">}}
-	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="cfp.pdf">}}Call for Papers{{</bootstrap/button>}}
+	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="/code-of-conduct/">}}Code of Conduct{{</bootstrap/button>}}
 	    {{</ grid/div >}}
 	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-4 text-center" isMarkdown="false">}}
 	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="ttps://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097">}}Register{{</bootstrap/button>}}
 	    {{</ grid/div >}}
 	{{</ grid/div >}}
-
 {{</ grid/section-container >}}
 
 [//]: # (Organizing Committee)
