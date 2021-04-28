@@ -96,9 +96,9 @@ Modelling for Mobility
 
 ## Important Dates
 
-| Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission |    Conference Dates   |
+| Paper submission deadline | Acceptance Notification | Poster, Demo, Short Papers Submission |    Conference Dates   |
 | :------------------------ | :---------------------- | :---------------------------- | :-------------------- |
-|      Apr. ~~16~~23, 2021        |      May 20, 2021       |      Jun. 8, 2021             |      Jun. 15-16, 2021 |
+|      Apr. ~~16~~23, 2021        |      May 20, 2021       |      May 28, 2021             |      Jun. 15-16, 2021 |
 
 {{</ grid/section-container >}}
 
@@ -146,16 +146,20 @@ The Technical Program Committee is an independent panel of expert volunteers and
 {{</ grid/section-container >}}
 
 [//]: # (Register)
+
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
+
 	{{< grid/div class="margin-top-30" isMarkdown="false">}}
 	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-2 text-center" isMarkdown="false">}}
-	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="ttps://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097">}}
+	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="ttps://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097">}}Register{{</bootstrap/button>}}
 	    {{</ grid/div >}}
-	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-4 text-center" isMarkdown="false">}}Register{{</bootstrap/button>}}
+	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-4 text-center" isMarkdown="false">}}
 	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="/code-of-conduct/">}}Code of Conduct{{</bootstrap/button>}}
 	    {{</ grid/div >}}
 	{{</ grid/div >}}
+
 {{</ grid/section-container >}}
+
 
 [//]: # (Organizing Committee)
 {{< grid/section-container id="organizing-committee" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
