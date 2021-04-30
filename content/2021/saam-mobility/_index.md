@@ -11,14 +11,23 @@ hide_breadcrumb: true
 container: "container-fluid saam-2021-event"
 summary: "The Eclipse SAAM Mobility 2021 virtual conference, June 15-16, will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges."
 layout: single
-links: [[href: "cfp.pdf",text: "Call for Papers"],[href: "https://easychair.org/my/conference?conf=esaamm2021#",text: "Submit a Paper"],[href: "https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097",text: "Register"]]
+links: [[href: "cfs.pdf",text: "Call for Submissions"],[href: "https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097",text: "Register"],[href: "https://easychair.org/my/conference?conf=esaamm2021#",text: "Submit"]]
 ---
 <!-- Introduction -->
+{{< grid/section-container class="featured-section-row" isMarkdown="false">}}
+	{{< grid/div class="margin-top-0 margin-bottom-0 background-color-yellow" isMarkdown="false">}}
+	    {{< grid/div class="col-xs-24 col-sm-24 text-center" isMarkdown="false">}}
+	       <h2>Call for Posters, Demo’s, Work in Progress presentations now open! </h2>
+	       <h3>You are invited to submit posters, demo’s and research progress presentations by May 28th.</h3>
+	       <h3>Start the technology conversation at SAAM Mobility 2021.</h3>
+	    {{</ grid/div >}}
+	{{</ grid/div >}}
+{{</ grid/section-container >}}
+
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
 {{< events/registration event="saam-mobility" year="2021" title="About the Event">}}
 Mark your calendars for Eclipse SAAM Mobility 2021, June 15-16. The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.
 
-**The call for papers has been extended to April 23**. Download the call for papers now and talk with your colleagues about participating at Eclipse SAAM Mobility 2021. 
 {{</ events/registration >}}
 {{</ grid/section-container >}}
 
@@ -87,9 +96,9 @@ Modelling for Mobility
 
 ## Important Dates
 
-| Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission |    Conference Dates   |
-| :------------------------ | :---------------------- | :---------------------------- | :-------------------- |
-|      Apr. ~~16~~23, 2021        |      May 20, 2021       |      Jun. 8, 2021             |      Jun. 15-16, 2021 |
+| Paper submission deadline       | Acceptance Notification | Poster, Demo, Research Brief Submission |    Conference Dates   |
+| :------------------------------ | :---------------------- | :-------------------------------------- | :-------------------- |
+|      Apr. ~~16~~23, 2021        |      May 20, 2021       |      May 28, 2021                       |      Jun. 15-16, 2021 |
 
 {{</ grid/section-container >}}
 
@@ -137,18 +146,20 @@ The Technical Program Committee is an independent panel of expert volunteers and
 {{</ grid/section-container >}}
 
 [//]: # (Register)
+
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
 
 	{{< grid/div class="margin-top-30" isMarkdown="false">}}
 	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-2 text-center" isMarkdown="false">}}
-	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="cfp.pdf">}}Call for Papers{{</bootstrap/button>}}
+	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="ttps://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097">}}Register{{</bootstrap/button>}}
 	    {{</ grid/div >}}
 	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-4 text-center" isMarkdown="false">}}
-	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="ttps://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097">}}Register{{</bootstrap/button>}}
+	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="/code-of-conduct/">}}Code of Conduct{{</bootstrap/button>}}
 	    {{</ grid/div >}}
 	{{</ grid/div >}}
 
 {{</ grid/section-container >}}
+
 
 [//]: # (Organizing Committee)
 {{< grid/section-container id="organizing-committee" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
