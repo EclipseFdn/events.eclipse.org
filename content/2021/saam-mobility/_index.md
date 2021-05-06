@@ -162,7 +162,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 
 
 [//]: # (Organizing Committee)
-{{< grid/section-container id="organizing-committee" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
+{{< grid/section-container id="organizing-committee" class="featured-section-row featured-section-row-dark-bg text-center" isMarkdown="true">}}
 
 ## Organizing Committee 
 
