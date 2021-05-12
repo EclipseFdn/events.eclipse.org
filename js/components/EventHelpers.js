@@ -178,9 +178,9 @@ export function generateTimes(startDate, endDate, locale = []) {
 export function checkDatePast(inputDate) {
   var today = new Date();
   var input_date = new Date(inputDate);
-  if (today.setHours(0,0,0,0) < input_date.setHours(0,0,0,0)) {
+  if (today < input_date) {
     return false;
-  } else return true;
+  } else return true
 }
 
 export function alphaOrder(array) {

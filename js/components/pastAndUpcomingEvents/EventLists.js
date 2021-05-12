@@ -15,6 +15,7 @@ const EventLists = ({ events, isFetchingMore, fetchMore, reachEnd }) => {
 
   const [upcomingEvents, setUpcomingEvents] = useState([]);
   const [pastEvents, setPastEvents] = useState([]);
+  const [noMoreUpcoming, setNoMoreUpcoming] = useState(false);
 
   const filterEvents = () => {
     // get past event list
@@ -30,6 +31,17 @@ const EventLists = ({ events, isFetchingMore, fetchMore, reachEnd }) => {
     setUpcomingEvents(theUpcomingEvents);
   };
 
+  const checkNoMoreUpcoming = () => {
+    // if the last event in the list is a past event,
+    // then there should be no more upcoming events,
+    // then we will set noMoreUpcoming to true to show the past event list.
+    const lastEventDate = events[events.length - 1]['end-date'];
+    const isLastEventPast = checkDatePast(lastEventDate);
+    if (isLastEventPast) {
+      setNoMoreUpcoming(true);
+    }
+  };
+
   const renderPastEvents = () => {
     return pastEvents.map((eventItem) => (
       <div className="col-md-12 max-min-width event-past" key={eventItem.id}>
@@ -39,15 +51,20 @@ const EventLists = ({ events, isFetchingMore, fetchMore, reachEnd }) => {
   };
 
   const renderUpcomingEvents = () => {
-    return upcomingEvents.map((eventItem) => (
-      <div className="col-md-12 max-min-width" key={eventItem.id}>
-        <EventCard event={eventItem} />
-      </div>
-    ));
+    if (upcomingEvents.length > 0) {
+      return upcomingEvents.map((eventItem) => (
+        <div className="col-md-12 max-min-width" key={eventItem.id}>
+          <EventCard event={eventItem} />
+        </div>
+      ));
+    }
+
+    return <p>No upcoming event scheduled for this type(s) for now.</p>;
   };
 
   useEffect(() => {
     filterEvents();
+    checkNoMoreUpcoming();
   }, [events]);
 
   return (
@@ -56,10 +73,13 @@ const EventLists = ({ events, isFetchingMore, fetchMore, reachEnd }) => {
         <h2>Upcoming Events</h2>
         {renderUpcomingEvents()}
       </div>
-      <div className="past-event-list">
-        <h2>Past Events</h2>
-        {renderPastEvents()}
-      </div>
+      
+      {noMoreUpcoming ? (
+        <div className="past-event-list">
+          <h2>Past Events</h2>
+          {renderPastEvents()}
+        </div>
+      ) : null}
 
       <div className="event-load-more">
         {reachEnd ? (
