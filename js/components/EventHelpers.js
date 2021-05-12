@@ -98,10 +98,6 @@ export const EVENT_TYPES = [
     id: "ee",
     name: "Other interesting Events"
   },
-  {
-    id: "unknown",
-    name: "Unknown"
-  },
 ]
 
 export const EVENT_ATTENDANCE_TYPE = [
