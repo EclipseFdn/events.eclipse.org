@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
-import Checkbox from './Checkbox';
-import { EVENT_TYPES, WORKING_GROUPS, checkFilterHasEvents, alphaOrder } from './EventHelpers';
+import Checkbox from '../Checkbox';
+import { EVENT_TYPES, WORKING_GROUPS, alphaOrder } from '../EventHelpers';
 import PropTypes from 'prop-types';
 
-const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, setCheckedWorkingGroups, events }) => {
+const EventsCheckboxFilters = ({ 
+  checkedTypes, 
+  setCheckedTypes, 
+  checkedWorkingGroups, 
+  setCheckedWorkingGroups
+}) => {
   
   const determineInitialState = () => {
     return window.innerWidth > 991
@@ -40,7 +45,6 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
         })
       }
     }
-
   }
 
   const toggleTypes = () => {
@@ -51,25 +55,25 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
     setShowWorkingGroups(!showWorkingGroups)
   }
 
-  const WorkingGroups = () => {
-    if (checkedWorkingGroups && setCheckedWorkingGroups) {
+  function renderFilterComponent(checkedFilter, filterCheckFunc, filterShowingState, filterShowingFunc, filterDataArray, filterTypeName) {
+    if (checkedFilter && filterCheckFunc) {
       return (
         <> 
           <button
-            onClick={toggleWorkingGroups} 
+            onClick={filterShowingFunc}
             className="event-filter-title"
             >
-              CATEGORIES
+              { filterTypeName }
               <i className="fa fa-angle-down event-filter-expandable-icon" aria-hidden="true"></i>
           </button>
-          { showWorkingGroups && 
+          { filterShowingState && 
             <ul className="event-filter-checkbox-list">
-                { alphaOrder(checkFilterHasEvents(WORKING_GROUPS, "WORKINGGROUPS", events)).map(item => (
+                { filterDataArray.map(item => (
                   <li key={item.id}>
                     <label key={item.id}>
                       <Checkbox
                         name={item.id} 
-                        checked={checkedWorkingGroups[item.id]} 
+                        checked={checkedFilter[item.id]} 
                         onChange={handleChange}
                       />
                       {item.name}
@@ -84,51 +88,20 @@ const CheckboxFilters = ({ checkedTypes, setCheckedTypes, checkedWorkingGroups, 
   }
 
 
-  const EventTypes = () => {
-    if (checkedTypes && setCheckedTypes) {
-      return (
-        <>
-          <button
-            onClick={toggleTypes}
-            className="event-filter-title"
-          >
-            EVENT TYPE
-            <i className="fa fa-angle-down event-filter-expandable-icon" aria-hidden="true"></i>
-          </button>
-          { showTypes &&
-            <ul className="event-filter-checkbox-list">
-                { alphaOrder(checkFilterHasEvents(EVENT_TYPES, "EVENTTYPE", events)).map(item => (
-                  <li key={item.id}>
-                    <label key={item.id}>
-                      <Checkbox
-                        name={item.id}
-                        checked={checkedTypes[item.id]}
-                        onChange={handleChange}
-                      />
-                      {item.name}
-                    </label>
-                  </li>
-                )) }
-            </ul>
-          }
-        </>
-      )
-    }
-  }
-
   return (
     <div className="margin-bottom-10">
-      {WorkingGroups()}
-      {EventTypes()}
+      {renderFilterComponent(checkedTypes, setCheckedTypes, showTypes, toggleTypes, alphaOrder(EVENT_TYPES), "EVENT TYPE")}
+      {renderFilterComponent(checkedWorkingGroups, setCheckedWorkingGroups, showWorkingGroups, toggleWorkingGroups, alphaOrder(WORKING_GROUPS), "CATEGORIES")}
     </div>
   )
+
 }
 
-CheckboxFilters.propTypes = {
+EventsCheckboxFilters.propTypes = {
   checkedTypes: PropTypes.object,
   setCheckedTypes: PropTypes.func,
   checkedWorkingGroups: PropTypes.object,
-  setCheckedWorkingGroups: PropTypes.func,
+  setCheckedWorkingGroups: PropTypes.func
 }
 
-export default CheckboxFilters
+export default EventsCheckboxFilters

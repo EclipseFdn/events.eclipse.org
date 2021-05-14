@@ -98,10 +98,6 @@ export const EVENT_TYPES = [
     id: "ee",
     name: "Other interesting Events"
   },
-  {
-    id: "unknown",
-    name: "Unknown"
-  },
 ]
 
 export const EVENT_ATTENDANCE_TYPE = [
@@ -119,35 +115,6 @@ export const EVENT_ATTENDANCE_TYPE = [
   }
 ]
 
-export function checkEventWorkingGroups(events, filter) {
-  for (let i=0; i<events.length; i++) {
-    if (events[i].publish_to.includes(filter.id)) { // as long as find one event has the working group
-      return true
-    }
-  }
-}
-
-export function checkEventTypes(events, filter) {
-  for (let i=0; i<events.length; i++) {
-    if (events[i].type == filter.id) {  // as long as find one event is of the type
-      return true
-    }
-  }
-}
-
-export function checkFilterHasEvents(filters, filterType, events) {
-  switch(filterType) {
-    case "WORKINGGROUPS":
-      return filters.filter(el => checkEventWorkingGroups(events, el))
-
-    case "EVENTTYPE":
-      return filters.filter(el => checkEventTypes(events, el))
-
-    default:
-      return
-  }
-}
-
 export function getSelectedItems(checkedItems) {
   let selected = []
   if (checkedItems) {
@@ -158,37 +125,6 @@ export function getSelectedItems(checkedItems) {
     }
     return selected
   }
-}
-
-export function getEventsByWorkingGroups(checkedItems, events) {
-  let checked = getSelectedItems(checkedItems)
-  if (checked && checked.length > 0) {
-    let result = events.filter( el => checked.some(item => el.publish_to.includes(item)) )
-    return result
-  } else return events
-}
-
-export function getEventsByType(checkedItems, events) {
-  let checked = getSelectedItems(checkedItems)
-  if (checked && checked.length > 0) {
-    let result = events.filter( el => checked.includes(el.type) )
-    return result
-  } else return events
-}
-
-export function getSearchedEvents(events, searchValue) {
-  if (searchValue && searchValue != '') {
-    let result = events.filter(el => el.title.toLowerCase().includes(searchValue.toLowerCase()))
-    return result
-  } else {
-    return events
-  }
-}
-
-export function getFilteredEvents(events, searchValue, checkedWorkingGroups, checkedTypes) {
-  let selectedByWorkingGroups = getEventsByWorkingGroups(checkedWorkingGroups, events)
-  let selectedByTypes = getEventsByType(checkedTypes, selectedByWorkingGroups)
-  return getSearchedEvents(selectedByTypes, searchValue)
 }
 
 export function hasAddress(event) {
@@ -235,10 +171,40 @@ export function generateTimes(startDate, endDate, locale = []) {
   }
 }
 
+export function checkDatePast(inputDate) {
+  var today = new Date();
+  var input_date = new Date(inputDate);
+  if (today < input_date) {
+    return false;
+  } else return true
+}
+
 export function alphaOrder(array) {
 
   if (array) {
     return array.sort((a, b) => a?.name.localeCompare(b?.name))
   }
 
+}
+
+export function hasSelectedItems(items) {
+  let selectedItems = getSelectedItems(items)
+  if (selectedItems && selectedItems.length > 0) {
+    return selectedItems
+  } else return false
+}
+
+
+export function getUrl(page, searchParas, groupParas, typeParas) {
+  let url = `https://newsroom.eclipse.org/api/events?&page=${page}&pagesize=10&options[orderby][field_event_date]=custom`
+  for (let i=0; i<groupParas.length; i++) {
+    url = url + "&parameters[publish_to][]=" + groupParas[i]
+  }
+  for (let j=0; j<typeParas.length; j++) {
+    url = url + "&parameters[type][]=" + typeParas[j]
+  }
+  if (searchParas) {
+    url = url + "&parameters[search]=" + searchParas
+  }
+  return url
 }

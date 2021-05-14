@@ -1,3 +1,3 @@
 @Library('common-shared') _
 
-hugoWebsitePipeline appname: 'edgenative.eclipse.org'
+hugoWebsitePipeline appname: 'events.eclipse.org'

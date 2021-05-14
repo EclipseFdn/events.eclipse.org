@@ -15,11 +15,11 @@
 @import '~eclipsefdn-solstice-assets/less/quicksilver/styles.less';
 @import '_variables.less';
 @import 'events.less';
-@import (less) "~owl.carousel/dist/assets/owl.carousel.min.css";
-@import (less) "~owl.carousel/dist/assets/owl.theme.default.min.css";
+@import (less) '~owl.carousel/dist/assets/owl.carousel.min.css';
+@import (less) '~owl.carousel/dist/assets/owl.theme.default.min.css';
 
 @background: #e8e8e8;
-@title_background: @brand-tertiary; 
+@title_background: @brand-tertiary;
 
 #mapSection {
   #map {
@@ -28,43 +28,43 @@
   }
 }
 
-#regionButtons{
-  padding-bottom:5px;
+#regionButtons {
+  padding-bottom: 5px;
   .regionButton {
-    margin-right:9px;
+    margin-right: 9px;
   }
 }
 
 .yearFilter {
-  margin-top:8px;
-  margin-bottom:-15px;
+  margin-top: 8px;
+  margin-bottom: -15px;
 }
 
 #descriptons {
   .eventType {
     background-color: @background;
-    padding-bottom:10px;
+    padding-bottom: 10px;
   }
 
   p {
-    margin-bottom:5px;
-    margin-top:5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
   }
 
   .eventTypeTitle {
     font-size: 18.2px;
     font-weight: 600;
     background: @title_background;
-    padding-left:20px;
-    padding-bottom:10px;
-    padding-top:10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     color: #fff;
   }
 
   .revealCollapse {
     cursor: pointer;
     margin: 2px 0;
-    padding-left:43px;
+    padding-left: 43px;
     font-weight: bold;
     color: @text-color;
     &:hover {
@@ -74,49 +74,52 @@
 
   .collapseText {
     font-weight: 400;
-    display:none;
-    padding:15px;
+    display: none;
+    padding: 15px;
     margin: 10px 10px 10px 43px;
     background: #fff;
     a:hover {
-      color:black;
+      color: black;
     }
   }
 }
 
-.clusterIcon{
-  width:34px;
-  height:34px;
-  border-radius:17px;
-  font-size:17px;
+.clusterIcon {
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  font-size: 17px;
   font-weight: bold;
-  color:#fff;
-  line-height:34px;
-  text-align:center;
-  background:#000;
+  color: #fff;
+  line-height: 34px;
+  text-align: center;
+  background: #000;
   opacity: 0.8;
 }
 
 // Event templates (Default)
 .featured-section-row {
-  font-size:1.1em;
+  font-size: 1.1em;
   h2 {
-    text-align:center;
+    text-align: center;
   }
-  h1, h2, h3, h4 {
-   font-weight: 500;
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 500;
   }
 }
 
 .header-default-event,
-.featured-section-row-dark-bg{
+.featured-section-row-dark-bg {
   background-image: url('images/default/header.jpg');
   background-size: cover;
 }
 
 .header-default-event {
   .list-inline {
-    margin:20px 0 0 0;
+    margin: 20px 0 0 0;
   }
 }
 
@@ -125,7 +128,7 @@
   background-size: cover;
 
   .list-inline {
-    margin:20px 0 0 0;
+    margin: 20px 0 0 0;
   }
 
   h1 {
@@ -134,30 +137,32 @@
 }
 
 .featured-section-container-notes {
-  font-size:12px;
+  font-size: 12px;
   p {
-    margin-bottom:5px;
+    margin-bottom: 5px;
   }
   ul {
     .list-inline;
   }
-  p, li {
-    font-size:12px;
+  p,
+  li {
+    font-size: 12px;
   }
   a {
-    font-weight:bold;
+    font-weight: bold;
   }
 }
 
 .featured-section-row-dark-bg {
-  .featured-section-container-notes{
-    p, li {
-     color:#bdbdbd;
+  .featured-section-container-notes {
+    p,
+    li {
+      color: #bdbdbd;
     }
     a {
-      color:#fff;
+      color: #fff;
       &:hover {
-        color:#fff;
+        color: #fff;
       }
     }
   }
@@ -173,5 +178,17 @@
     table {
       font-size: 12px;
     }
+  }
+}
+
+.past-event-list,
+.upcoming-event-list {
+  & {
+    width: 100%;
+  }
+  h2,
+  p {
+    padding: 0 15px;
+    margin: 15px 0 0;
   }
 }

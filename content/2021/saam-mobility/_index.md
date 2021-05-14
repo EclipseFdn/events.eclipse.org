@@ -162,7 +162,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 
 
 [//]: # (Organizing Committee)
-{{< grid/section-container id="organizing-committee" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
+{{< grid/section-container id="organizing-committee" class="featured-section-row featured-section-row-dark-bg text-center" isMarkdown="true">}}
 
 ## Organizing Committee 
 
@@ -190,9 +190,34 @@ Susan Iwai, Eclipse Foundation Europe, Germany
   {{< events/agenda event="saam-mobility" year="2021" >}}
 {{</ grid/section-container >}}
 -->
-
+<!--
 {{< grid/section-container id="organizers" class="featured-section-row featured-section-row-lighter-bg text-center">}}
   {{< events/sponsors event="saam-mobility" year="2021" source="coorganizers" title="Co-organizers" useMax="false" displayBecomeSponsor="false">}}
+{{</ grid/section-container >}}
+-->
+
+{{< grid/section-container id="organizing-orgs" class="featured-section-row featured-section-row-lighter-bg text-center">}}
+{{< grid/div class="row" isMarkdown="false">}}
+
+{{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
+  #### **Co-organized by:**
+  
+  [![Eclipse Research](images/eclipse-fdn.png)](http://eclipse.org/research)
+{{</ grid/div >}}
+ 
+{{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
+  #### **Supported by:**
+  
+  [![Oulu Automotive Cluster](images/oulu_cluster_and_business.png)](https://automotive.oulu.com/)
+{{</ grid/div >}}
+
+{{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
+  #### **Co-organized by:**
+  
+  [![University of Oulu](images/oulu-univ.png)](https://www.oulu.fi/university)
+{{</ grid/div >}}
+
+{{</ grid/div >}}
 {{</ grid/section-container >}}
 {{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
 
