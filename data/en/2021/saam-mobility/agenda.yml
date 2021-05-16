@@ -9,9 +9,9 @@ types:
     - name: Day
       id: day
       color: "#FF0000"
-    - name: Staff
-      id: staff
-      color: "#FFFFFF"
+    - name: Sponsor
+      id: sponsor
+      color: "#000000"
       
 items:
   - name: Day 1 -- Tuesday, June 15
@@ -25,8 +25,8 @@ items:
             <p></p>
       
   - name: 'Co-creating automotive innovations'
-    presenter: <a href="speakers/#eija_hamalainen">Eija Hämäläinen (sponsor)</a> 
-    type: session
+    presenter: <a href="speakers/#eija_hamalainen">Eija Hämäläinen</a> 
+    type: sponsor
     time: 13:10 - 13:40
     abstract: |
             <p>How ecosystem work accelerates research and development between OEMs and SMEs?<p><p>
