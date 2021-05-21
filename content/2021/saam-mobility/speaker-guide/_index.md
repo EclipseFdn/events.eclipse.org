@@ -8,7 +8,7 @@ hide_sidebar: true
 hide_page_title: true
 hide_breadcrumb: true
 header_wrapper_class: "header-saam-2021-event"
-container: "container-fluid"
+container: "container-fluid saam-2021-event"
 ---
 {{< grid/section-container id="speakerguide" class="featured-section-row text-center" isMarkdown="true">}}
 **The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.s**
@@ -20,7 +20,7 @@ As always, if you have questions, comments, or need help, email us at research@e
 {{</ grid/section-container >}}
 
 
-{{< grid/section-container id="presenting-at-sam-iot" class="featured-section-row saam-2021-event" isMarkdown="true">}}
+{{< grid/section-container id="presenting-at-sam-iot" class="featured-section-row featured-section-row-dark-bg" isMarkdown="true">}}
 ## Presenting at SAAM Mobility  
 
 SAAM Mobility will be presented on Zoom with the option of pre-recording your talk. Even if you pre-record your talk, you will need to plan to be online during the broadcast of your talk so that you can answer questions from attendees during the Q&A session at the end. You can [test Zoom here](https://zoom.us/test) if you don’t have access to an account.
@@ -89,7 +89,7 @@ Uploading:
 {{</grid/section-container >}}
 
 
-{{< grid/section-container id="topics" class="featured-section-row saam-2021-event text-center" isMarkdown="true">}}
+{{< grid/section-container id="topics" class="featured-section-row featured-section-row-dark-bg text-center" isMarkdown="true">}}
 ## Contact Us 
 
 The **Eclipse SAAM Mobility 2021 conference** is co-organized by the **Eclipse Foundation** ([https://eclipse.org/research](https://eclipse.org/research)) and the **University of Oulu** ([https://www.oulu.fi/university](https://www.oulu.fi/university)) and is supported by the **Oulu Automotive Cluster** ([https://automotive.oulu.com/](https://automotive.oulu.com/)).  
