@@ -9,9 +9,9 @@ types:
     - name: Day
       id: day
       color: "#FF0000"
-    - name: Staff
-      id: staff
-      color: "#FFFFFF"
+    - name: Sponsor
+      id: sponsor
+      color: "#000000"
       
 items:
   - name: Day 1 -- Tuesday, June 15
@@ -23,6 +23,18 @@ items:
     time: 13:00 - 13:10
     abstract: |
             <p></p>
+      
+  - name: 'Co-creating automotive innovations'
+    presenter: <a href="speakers/#eija_hamalainen">Eija Hämäläinen</a> 
+    type: sponsor
+    time: 13:10 - 13:40
+    abstract: |
+            <p>How ecosystem work accelerates research and development between OEMs and SMEs?<p><p>
+            Oulu Automotive Cluster helps automotive brands design and develop sustainable electric 
+            and autonomous cars to meet new business models. With 110 companies and 33 research, 
+            development and education organizations, the cluster is one of the fastest growing 
+            ecosystems in Finland. Oulu Automotive Cluster is run by BusinessOulu, the business 
+            development agency of City of Oulu. <a href="http://www.automotive.oulu.com">www.automotive.oulu.com</a></p>
       
   - name: 'Mobility of the Future and Open Collaboration – A good Idea?'
     presenter: <a href="speakers/#andreas_riexinger">Andreas Riexinger</a>
