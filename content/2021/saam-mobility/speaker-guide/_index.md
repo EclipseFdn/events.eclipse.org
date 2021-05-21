@@ -7,7 +7,7 @@ date: 2021-05-20T15:50:25-04:00
 hide_sidebar: true
 hide_page_title: true
 hide_breadcrumb: true
-header_wrapper_class: "header-default-event"
+header_wrapper_class: "header-saam-2021-event"
 container: "container-fluid"
 ---
 {{< grid/section-container id="speakerguide" class="featured-section-row text-center" isMarkdown="true">}}
