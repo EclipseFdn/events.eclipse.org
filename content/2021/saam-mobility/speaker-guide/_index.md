@@ -20,7 +20,7 @@ As always, if you have questions, comments, or need help, email us at research@e
 {{</ grid/section-container >}}
 
 
-{{< grid/section-container id="presenting-at-sam-iot" class="featured-section-row featured-section-row-dark-bg" isMarkdown="true">}}
+{{< grid/section-container id="presenting-at-sam-iot" class="featured-section-row featured-section-row-dark-bg saam-2021-event" isMarkdown="true">}}
 ## Presenting at SAAM Mobility  
 
 SAAM Mobility will be presented on Zoom with the option of pre-recording your talk. Even if you pre-record your talk, you will need to plan to be online during the broadcast of your talk so that you can answer questions from attendees during the Q&A session at the end. You can [test Zoom here](https://zoom.us/test) if you don’t have access to an account.
@@ -89,7 +89,7 @@ Uploading:
 {{</grid/section-container >}}
 
 
-{{< grid/section-container id="topics" class="featured-section-row featured-section-row-dark-bg text-center" isMarkdown="true">}}
+{{< grid/section-container id="topics" class="featured-section-row featured-section-row-dark-bg saam-2021-event text-center" isMarkdown="true">}}
 ## Contact Us 
 
 The **Eclipse SAAM Mobility 2021 conference** is co-organized by the **Eclipse Foundation** ([https://eclipse.org/research](https://eclipse.org/research)) and the **University of Oulu** ([https://www.oulu.fi/university](https://www.oulu.fi/university)) and is supported by the **Oulu Automotive Cluster** ([https://automotive.oulu.com/](https://automotive.oulu.com/)).  
