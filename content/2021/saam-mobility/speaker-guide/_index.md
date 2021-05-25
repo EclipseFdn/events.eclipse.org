@@ -14,7 +14,7 @@ container: "container-fluid saam-2021-event"
 **The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.s**
 ## Speaker Guide  
 
-Welcome to the SAAM Mobility 2021 speaker guide! We are here to support our presenters and make sure that your experience is positive, stress-free, and as technically smooth as possible. This guide is an important part of that support. Please be sure to read it before you attend your speaker tech-check during the first week of September (see below for more about the tech-checks).
+Welcome to the SAAM Mobility 2021 speaker guide! We are here to support our presenters and make sure that your experience is positive, stress-free, and as technically smooth as possible. This guide is an important part of that support. Please be sure to read it before you attend your speaker tech-check during the first week of June (see below for more about the tech-checks).
 
 As always, if you have questions, comments, or need help, email us at research@eclipse.org We are here to help!
 {{</ grid/section-container >}}
