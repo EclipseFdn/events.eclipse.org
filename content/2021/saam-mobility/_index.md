@@ -100,6 +100,17 @@ Modelling for Mobility
 | :------------------------------ | :---------------------- | :-------------------------------------- | :-------------------- |
 |      Apr. ~~16~~23, 2021        |      May 20, 2021       |      May 28, 2021                       |      Jun. 15-16, 2021 |
 
+
+{{</ grid/section-container >}}
+
+{{< grid/section-container class="featured-section-row" isMarkdown="false">}}
+
+	{{< grid/div class="margin-top-30" isMarkdown="false">}}
+	    {{< grid/div class="col-xs-24 col-sm-8 text-center" isMarkdown="false">}}
+	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="https://events.eclipse.org/2021/saam-mobility/speaker-guide">}}Speaker Guide{{</bootstrap/button>}}
+	    {{</ grid/div >}}
+	{{</ grid/div >}}
+
 {{</ grid/section-container >}}
 
 [//]: # (TCP)

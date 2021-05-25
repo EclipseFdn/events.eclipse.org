@@ -72,7 +72,7 @@ We would like to publish your poster along with a description on our website to 
 
 ### Instructions for submitting camera-ready (due June 8, 2021)
 
-Please submit the final version of your paper by registering for camera-ready in the EDAS portal and uploading there, using [this link](https://edas.info/listConferencesAuthor.php). You will also need to upload a signed author agreement.
+Please submit the final version of your paper by registering for camera-ready in the EasyChair portal and uploading there, using [this link](https://easychair.org/my/conference?conf=esaamm2021#). You will also need to upload a signed author agreement.
 
 Before uploading:
 * Please review carefully the reviewer suggestions and make any required improvements to your paper. 
