@@ -101,15 +101,15 @@ Conference Website: [https://events.eclipse.org/2020/sam-iot](https://events.ecl
 {{< grid/div class="row" isMarkdown="false">}}
 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
-  [![Eclipse Research](/2020/sam-iot/images/eclipse_logo.png)](http://eclipse.org/research)
+  [![Eclipse Research](/2021/saam-mobility/images/eclipse-fdn.png)](http://eclipse.org/research)
 {{</ grid/div >}}
 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
-  [![Brain IoT](/2020/sam-iot/images/brain_iot_logo.png)](http://brain-iot.eu)
+  [![Oulu Automotive Cluster](/2021/saam-mobility/images/oulu_cluster_and_business.png)](https://automotive.oulu.com)
 {{</ grid/div >}}
 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
-  [![Linux Foundation](/2020/sam-iot/images/links_foundation_logo.png)](https://linksfoundation.com/)
+  [![University of Oulu](/2021/saam-mobility/images/oulu-univ.png)](https://www.oulu.fi/university)
 {{</ grid/div >}}
 
 {{</ grid/div >}}
