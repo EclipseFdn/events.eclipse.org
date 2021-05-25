@@ -192,20 +192,6 @@ Teemu Karvonen, University of Oulu, Finland
 Susan Iwai, Eclipse Foundation Europe, Germany
 {{</ grid/section-container >}}
 
-<!--
-{{< grid/section-container id="speakers" class="featured-section-row text-center featured-section-row-dark-bg eclipsefdn-user-display-circle" >}}
-  {{< events/user_display event="saam-mobility" year="2021" title="Speakers" source="speakers" />}}
-{{</ grid/section-container >}}
-
-{{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" title="Agenda">}}
-  {{< events/agenda event="saam-mobility" year="2021" >}}
-{{</ grid/section-container >}}
--->
-<!--
-{{< grid/section-container id="organizers" class="featured-section-row featured-section-row-lighter-bg text-center">}}
-  {{< events/sponsors event="saam-mobility" year="2021" source="coorganizers" title="Co-organizers" useMax="false" displayBecomeSponsor="false">}}
-{{</ grid/section-container >}}
--->
 
 {{< grid/section-container id="organizing-orgs" class="featured-section-row featured-section-row-lighter-bg text-center">}}
 {{< grid/div class="row" isMarkdown="false">}}
