@@ -45,11 +45,11 @@ We are asking each speaker to sign up for a short, group session for an equipmen
 
 ### Presentation Environment and Best Practices
 
-Presenting successfully to a virtual audience involves the right setup and lots of practice, even for experienced in-person speakers. The [Presentation Environment and Best Practices](https://events.eclipse.org/2021/saam-mobility/presentation-environment/) document summarizes best practices and space recommendations that will help you deliver a dynamic and engaging talk.
+Presenting successfully to a virtual audience involves the right setup and lots of practice, even for experienced in-person speakers. The [Presentation Environment and Best Practices](../presentation-environment/) document summarizes best practices and space recommendations that will help you deliver a dynamic and engaging talk.
 
 ### Equipment
 
-The [Presentation Environment and Best Practices](https://events.eclipse.org/2021/saam-mobility/presentation-environment/) document contains our equipment recommendations, including specific items to purchase if you plan to upgrade your existing setup.   
+The [Presentation Environment and Best Practices](../presentation-environment/) document contains our equipment recommendations, including specific items to purchase if you plan to upgrade your existing setup.   
 
 ### Pre-Recording  
 

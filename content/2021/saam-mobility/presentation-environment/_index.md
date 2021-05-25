@@ -1,14 +1,14 @@
 ---
 title: "Presentation Environment and Best Practices"
-headline: "Eclipse SAM IoT 2020"
-subtitle: "Conference on Security, Artificial Intelligence, and Modeling for the next generation Internet of Things"
-tagline: "Virtual Conference | September 17-18, 2020"
-date: 2020-06-04T15:50:25-04:00
+headline: "Eclipse SAAM Mobility 2021"
+subtitle: "Security, AI, Architecture, and Modelling for Next Generation Mobility"
+tagline: "Virtual Conference | June 15-16, 2021"
+date: 2021-05-20T15:50:25-04:00
 hide_sidebar: true
 hide_page_title: true
 hide_breadcrumb: true
-header_wrapper_class: "header-default-event"
-container: "container-fluid"
+header_wrapper_class: "header-saam-2021-event"
+container: "container-fluid saam-2021-event"
 ---
 {{< grid/section-container id="background" class="featured-section-row text-center" isMarkdown="true">}}
 

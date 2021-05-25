@@ -107,7 +107,7 @@ Modelling for Mobility
 
 	{{< grid/div class="margin-top-30" isMarkdown="false">}}
 	    {{< grid/div class="col-xs-24 col-sm-8 text-center" isMarkdown="false">}}
-	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="https://events.eclipse.org/2021/saam-mobility/speaker-guide">}}Speaker Guide{{</bootstrap/button>}}
+	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="speaker-guide">}}Speaker Guide{{</bootstrap/button>}}
 	    {{</ grid/div >}}
 	{{</ grid/div >}}
 
