@@ -60,7 +60,7 @@ You can use Zoom to record your talk. This [support article](https://support.zoo
 
 ### Speaker Agreement
 
-All presenters (papers, demos, posters) will be asked to sign the Eclipse SAAM Mobility speaker agreement. If you have not yet signed the speaker agreement please contact research@eclipse.org.  
+All presenters (papers, demos, posters) will be asked to sign the Eclipse SAAM Mobility 2021 speaker agreement. If you have not yet signed the speaker agreement please contact research@eclipse.org.  
 
 ### Presentation Template
 
