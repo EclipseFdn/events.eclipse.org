@@ -11,7 +11,7 @@ hide_breadcrumb: true
 container: "container-fluid saam-2021-event"
 summary: "The Eclipse SAAM Mobility 2021 virtual conference, June 15-16, will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges."
 layout: single
-links: [[href: "cfs.pdf",text: "Call for Submissions"],[href: "https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097",text: "Register"],[href: "https://easychair.org/my/conference?conf=esaamm2021#",text: "Submit"],[href: "speaker-guide",text: "Speaker Guide"]]
+links: [[href: "cfs.pdf",text: "Call for Submissions"],[href: "https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097",text: "Register"],[href: "https://easychair.org/my/conference?conf=esaamm2021#",text: "Submit"]]
 ---
 <!-- Introduction -->
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
