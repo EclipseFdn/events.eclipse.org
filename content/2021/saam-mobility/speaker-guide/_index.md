@@ -106,19 +106,19 @@ Conference Website: [https://events.eclipse.org/2021/saam-mobility](https://even
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
   #### **Co-organized by:**
   
-  [![Eclipse Research](images/eclipse-fdn.png)](http://eclipse.org/research)
+  [![Eclipse Research](/2021/saam-mobility/images/eclipse-fdn.png)](http://eclipse.org/research)
 {{</ grid/div >}}
  
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
   #### **Supported by:**
   
-  [![Oulu Automotive Cluster](images/oulu_cluster_and_business.png)](https://automotive.oulu.com/)
+  [![Oulu Automotive Cluster](/2021/saam-mobility/images/oulu_cluster_and_business.png)](https://automotive.oulu.com/)
 {{</ grid/div >}}
 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
   #### **Co-organized by:**
   
-  [![University of Oulu](images/oulu-univ.png)](https://www.oulu.fi/university)
+  [![University of Oulu](/2021/saam-mobility/images/oulu-univ.png)](https://www.oulu.fi/university)
 {{</ grid/div >}}
 
 {{</ grid/div >}}
