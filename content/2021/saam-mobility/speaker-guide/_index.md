@@ -71,7 +71,7 @@ We've created a [cover page slide template](cover-page-template.pptx) for the co
 We would like to publish your poster along with a description on our website to allow participants to preview the posters and decide which poster session to attend. We will need your final poster and description by June 4, 2021.  
 
 ### Instructions for submitting camera-ready (due June 8, 2021)
-(Updated June, 2 2021)
+(Updated June 2, 2021)
 
 Please submit the final version of your paper by registering for camera-ready in the EasyChair portal and uploading there, using [this link](https://easychair.org/my/conference?conf=esaamm2021#). You will also need to email us a signed author agreement along with the source files of the manuscript.
 
