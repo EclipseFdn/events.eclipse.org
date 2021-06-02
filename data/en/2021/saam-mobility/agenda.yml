@@ -57,6 +57,47 @@ items:
             demands on the existing tools and frameworks. Instead of solving these challenges alone, partnering in
             non-differentiating areas and collaborating is the path forward.</p>
 
+  - name: 'Context Aware Software Stacks for Mobility: Composive.ai Overview'
+    presenter: Deniz Memis
+    type: session
+    time: 13:50 - 14:10
+    abstract: |
+            <p>Naci Dai, Deniz Memis and Burak Saglam<br/>
+            Humans are very good at adapting to and driving in very different conditions and environments.  
+            Complex AI based software such as Autonomous vehicles (AV) are biased by the training data and 
+            they do not do well in different contexts. Environment perception and context awareness can be 
+            used to adapt and deploy complex networks of AI systems that are expected to perform safely on 
+            many different environments and edge cases. Typical Autonomous Drive (AD) software stacks provide 
+            localization, object detection and tracking using an array of sensor data. Additional sources of 
+            information such as V2X connectivity, passenger behavior, person-to-device mapping, urban context, 
+            degradation of traffic etc. complements the sensor data that can be used to describe a context. This 
+            ontext is used to predict and adapt the system of software and applications that are deployed to the 
+            vehicle.<br/>
+            Context Aware Software Stack for Mobility (CASSM) describes a model based approach for definition of a 
+            oftware stack for complex systems such as those found in autonomous vehicles.  Machine Learning is used 
+            to detect a context and adapt the software stack, which can then be used to identify and deploy services 
+            to autonomous vehicles. CASSM will be an open source in-vehicle delivery of context-driven services and 
+            applications. This paper describes an architecture to define context-aware personalized & dynamically 
+            provisioned capabilities, applications & services to autonomous vehicles.
+</p>
+
+  - name: 'APP4MC RaceCar: A Practical ADAS Demonstrator for Evaluating and Verifying Timing Behavior'
+    presenter: Anand Prakash
+    type: session
+    time: 14:10 - 14:30
+    abstract: |
+            <p>Anand Prakash, Lukas Krawczyk and Carsten Wolff<br/>
+
+
+            </p>
+
+  - name: 'Papers Presentations'
+    presenter: Authors
+    type: session
+    time: 13:40 - 17:00
+    abstract: |
+            <p></p>
+
   - name: 'Papers Presentations'
     presenter: Authors
     type: session
