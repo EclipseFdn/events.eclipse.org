@@ -51,7 +51,7 @@ items:
     type: session
     time: 13:50 - 14:10
     abstract: |
-            <p>Authors: Naci Dai, Deniz Memis and Burak Saglam<br/>
+            <p>Authors: Naci Dai, Deniz Memis and Burak Saglam<br/><br/>
             Humans are very good at adapting to and driving in very different conditions and environments.  
             Complex AI based software such as Autonomous vehicles (AV) are biased by the training data and 
             they do not do well in different contexts. Environment perception and context awareness can be 
@@ -74,7 +74,7 @@ items:
     type: session
     time: 14:10 - 14:30
     abstract: |
-            <p>Authors: Anand Prakash, Lukas Krawczyk and Carsten Wolff<br/>
+            <p>Authors: Anand Prakash, Lukas Krawczyk and Carsten Wolff<br/><br/>
             The computational demands of safety critical ADAS applications on autonomous vehicles have been ever-increasing. 
             As a result, high performance computing nodes with varying operating frequencies, and inclusion of different sensors have 
             been introduced, which has resulted in introduction of heterogeneous architectures with high complexity.  This complexity 
@@ -106,7 +106,7 @@ items:
     type: session
     time: 14:55 - 15:10
     abstract: |
-            <p>Authors: Marc Zeller, Olexiy Kupriyanov and Norbert Beck<br/>
+            <p>Authors: Marc Zeller, Olexiy Kupriyanov and Norbert Beck<br/><br/>
             The complexity of heterogeneous embedded systems as well as the introduction of AI-based functions to realize ADAS 
             or autonomous driving features pose new challenges for the safety assessment process. In this demo, we illustrate 
             the analysis of a complex system in terms of function safety (ISO 26262) and Safety Of The Intended Functionality 
@@ -118,7 +118,8 @@ items:
     type: session
     time: 15:10 - 15:30
     abstract: |
-            <p>Author: Mikko Rajanen <br/>This paper proposes a list of potential benefits of better usability and user experience 
+            <p>Author: Mikko Rajanen <br/><br/>
+            This paper proposes a list of potential benefits of better usability and user experience 
             adapted to automated driving and autonomous mobility. These benefits could be useful for understanding and communicating 
             the importance of usability and user experience for the success of automated driving to be accepted by the non-technical 
             public and becoming mainstream and successful. In this paper, the focus is on identifying usability and user experience 
@@ -171,7 +172,7 @@ items:
     type: session
     time: 9:50 - 10:10
     abstract: |
-            <p>Authors: Junhyung Ki, Sebastian Schildt, Andreas Hastall, Sven Erik Jeroschewski and Robert Höttger<br/>
+            <p>Authors: Junhyung Ki, Sebastian Schildt, Andreas Hastall, Sven Erik Jeroschewski and Robert Höttger<br/><br/>
             Modern internal combustion engines have several advanced exhaust treatment systems to meet emission standards and 
             legislation. In case of Selective Catalytic Reduction (SCR) for diesel engines, a catalyst (“AdBlue®”) is used as 
             consumable. This incurs costs for the operator of diesel vehicles and provides an incentive to unlawfully circumvent 
@@ -185,7 +186,7 @@ items:
     type: session
     time: 10:10 - 10:30
     abstract: |
-            <p>Authors: Harri Hirvonsalo and Pertti Seppänen<br/>
+            <p>Authors: Harri Hirvonsalo and Pertti Seppänen<br/><br/>
             In this study, we explored how the Eclipse Kuksa framework could be used as a technology basis for building an intelligent 
             moving test platform to support research of autonomous vehicles and vehicle related research in general. Based on the gained 
             experience, we state that Kuksa framework is a feasible basis for development of open, intelligent automotive data systems, 
@@ -197,7 +198,7 @@ items:
     type: session
     time: 10:30 - 10:35
     abstract: |
-            <p>Authors: Mikael Saarinen and Niina Lundén<br/>
+            <p>Authors: Mikael Saarinen and Niina Lundén<br/><br/>
             Hono™ service stack deployment to Azure was a student project by the SMADYASP group, in which the goal was to create 
             cloud infrastructure architecture for mobility applications. Microsoft Azure was used as the cloud platform, and deployment was 
             done using Terraform, Helm, and Kubernetes. With the results of the project, it is now much easier to deploy Hono™ and monitor 
@@ -212,7 +213,7 @@ items:
     type: session
     time: 10:50 - 11:10
     abstract: |
-            <p>Authors: Muralikrishna Thulasi Raman, Andreas Graf, Benedikt Niehues and Marco Aiello<br/>
+            <p>Authors: Muralikrishna Thulasi Raman, Andreas Graf, Benedikt Niehues and Marco Aiello<br/><br/>
             A major problem with vehicles used in densely populated areas is parking. Part of the problem is the scarcity of the 
             resource in busy areas and the non optimal utilization of private spots. We propose the 'Smart Shared Private Parking' 
             model that aims at including in the parking pool also private parking spots. In an urban area with both commercial and 
@@ -229,7 +230,7 @@ items:
     type: session
     time: 11:10 - 11:30
     abstract: |
-            <p>Authors: Philipp Heisig and Christoph Flick<br/>
+            <p>Authors: Philipp Heisig and Christoph Flick<br/><br/>
             Future vehicles can be considered as ”IoT devices on wheels” as they exhibit high-performance computation resources, 
             various sensing devices, and a data-driven software architecture. While the availability of automotive big data provides 
             the basis for innovative and disruptive mobility services, processing vehicle data within the cloud poses also several 
@@ -250,9 +251,9 @@ items:
     type: session
     time: 11:30 - 11:50
     abstract: |
-            <p>Authors: Alessandra Bagnato, Etienne Brosse and Kaïs Chaabouni<br/>
-            The Morphemic H2020 project (<a href="https://www.morphemic.cloud/">The most advanced multicloud platform with proactive 
-            features<a/>) covers several features from modelling cross-cloud applications, continuous and autonomous optimization 
+            <p>Authors: Alessandra Bagnato, Etienne Brosse and Kaïs Chaabouni<br/><br/>
+            The Morphemic H2020 project <a href="https://www.morphemic.cloud/">(The most advanced multicloud platform with proactive 
+            features)</a> covers several features from modelling cross-cloud applications, continuous and autonomous optimization 
             and deployment and providing access to several cloud capabilities. This demo paper describes the MORPHEMIC CAMEL Designer 
             tool responsible for the Cloud Application Modelling and Execution Language (CAMEL) design for the modelling Environment 
             Modelio. CAMEL Designer is an open source module for graphically creating, editing and exporting CAMEL Models in XMI 
