@@ -13,257 +13,256 @@ types:
       id: sponsor
       color: "#000000"
       
-items:
+sets:
   - name: Day 1 -- Tuesday, June 15
-    type: day
-      
-  - name: 'Introduction and Welcome'
-    presenter: Pasi Kuvaja 
-    type: staff
-    time: 13:00 - 13:10
-    abstract: |
-            <p></p>
-      
+    items:
+        
+    - name: 'Introduction and Welcome'
+      presenter: Pasi Kuvaja 
+      type: staff
+      time: 13:00 - 13:10
+      abstract: |
+              <p></p>
+        
 
-  - name: 'Mobility of the Future and Open Collaboration – A good Idea?'
-    presenter: <a href="speakers/#andreas_riexinger">Andreas Riexinger</a>
-    type: keynote
-    time: 13:10 - 13:40
-    abstract: |
-            <p>Our world is changing, and the change is visible everywhere. More than 50% of the population is living in
-            cities and the cities are growing. More and more goods and people need to be transported, bringing the
-            traffic infrastructure to its limits. Increasing pollution and noise levels bringing the environment to its
-            limits. <br/>
-            To counter this, a transformation of the mobility is needed, who has already started, powered by new
-            technologies and services. The mobility of the future will be electrified, connected, personalized,
-            automated and software defined.<br/>
-            Software is more and more dominating our daily life, also in the automotive world. Almost every
-            function in the vehicle is defined by software. Autonomous Driving solutions introduce a new complexity
-            into the development of embedded systems in the vehicle. This complexity rises with each level of
-            control and autonomy of the automated driving systems and you need deeper expertise and more
-            software. Software is more and more becoming an important differentiator for autonomous vehicles.
-            Increasing embedded software complexity with an increase in level of automation is putting new
-            demands on the existing tools and frameworks. Instead of solving these challenges alone, partnering in
-            non-differentiating areas and collaborating is the path forward.</p>
+    - name: 'Mobility of the Future and Open Collaboration – A good Idea?'
+      presenter: <a href="speakers/#andreas_riexinger">Andreas Riexinger</a>
+      type: keynote
+      time: 13:10 - 13:40
+      abstract: |
+              <p>Our world is changing, and the change is visible everywhere. More than 50% of the population is living in
+              cities and the cities are growing. More and more goods and people need to be transported, bringing the
+              traffic infrastructure to its limits. Increasing pollution and noise levels bringing the environment to its
+              limits. <br/>
+              To counter this, a transformation of the mobility is needed, who has already started, powered by new
+              technologies and services. The mobility of the future will be electrified, connected, personalized,
+              automated and software defined.<br/>
+              Software is more and more dominating our daily life, also in the automotive world. Almost every
+              function in the vehicle is defined by software. Autonomous Driving solutions introduce a new complexity
+              into the development of embedded systems in the vehicle. This complexity rises with each level of
+              control and autonomy of the automated driving systems and you need deeper expertise and more
+              software. Software is more and more becoming an important differentiator for autonomous vehicles.
+              Increasing embedded software complexity with an increase in level of automation is putting new
+              demands on the existing tools and frameworks. Instead of solving these challenges alone, partnering in
+              non-differentiating areas and collaborating is the path forward.</p>
 
-  - name: 'Context Aware Software Stacks for Mobility: Composive.ai Overview'
-    presenter: Deniz Memis
-    type: session
-    time: 13:50 - 14:10
-    abstract: |
-            <p>Authors: Naci Dai, Deniz Memis and Burak Saglam<br/><br/>
-            Humans are very good at adapting to and driving in very different conditions and environments.  
-            Complex AI based software such as Autonomous vehicles (AV) are biased by the training data and 
-            they do not do well in different contexts. Environment perception and context awareness can be 
-            used to adapt and deploy complex networks of AI systems that are expected to perform safely on 
-            many different environments and edge cases. Typical Autonomous Drive (AD) software stacks provide 
-            localization, object detection and tracking using an array of sensor data. Additional sources of 
-            information such as V2X connectivity, passenger behavior, person-to-device mapping, urban context, 
-            degradation of traffic etc. complements the sensor data that can be used to describe a context. This 
-            ontext is used to predict and adapt the system of software and applications that are deployed to the 
-            vehicle.<br/>
-            Context Aware Software Stack for Mobility (CASSM) describes a model based approach for definition of a 
-            oftware stack for complex systems such as those found in autonomous vehicles.  Machine Learning is used 
-            to detect a context and adapt the software stack, which can then be used to identify and deploy services 
-            to autonomous vehicles. CASSM will be an open source in-vehicle delivery of context-driven services and 
-            applications. This paper describes an architecture to define context-aware personalized & dynamically 
-            provisioned capabilities, applications & services to autonomous vehicles.</p>
+    - name: 'Context Aware Software Stacks for Mobility: Composive.ai Overview'
+      presenter: Deniz Memis
+      type: session
+      time: 13:50 - 14:10
+      abstract: |
+              <p>Authors: Naci Dai, Deniz Memis and Burak Saglam<br/><br/>
+              Humans are very good at adapting to and driving in very different conditions and environments.  
+              Complex AI based software such as Autonomous vehicles (AV) are biased by the training data and 
+              they do not do well in different contexts. Environment perception and context awareness can be 
+              used to adapt and deploy complex networks of AI systems that are expected to perform safely on 
+              many different environments and edge cases. Typical Autonomous Drive (AD) software stacks provide 
+              localization, object detection and tracking using an array of sensor data. Additional sources of 
+              information such as V2X connectivity, passenger behavior, person-to-device mapping, urban context, 
+              degradation of traffic etc. complements the sensor data that can be used to describe a context. This 
+              ontext is used to predict and adapt the system of software and applications that are deployed to the 
+              vehicle.<br/>
+              Context Aware Software Stack for Mobility (CASSM) describes a model based approach for definition of a 
+              oftware stack for complex systems such as those found in autonomous vehicles.  Machine Learning is used 
+              to detect a context and adapt the software stack, which can then be used to identify and deploy services 
+              to autonomous vehicles. CASSM will be an open source in-vehicle delivery of context-driven services and 
+              applications. This paper describes an architecture to define context-aware personalized & dynamically 
+              provisioned capabilities, applications & services to autonomous vehicles.</p>
 
-  - name: 'APP4MC RaceCar: A Practical ADAS Demonstrator for Evaluating and Verifying Timing Behavior'
-    presenter: Anand Prakash
-    type: session
-    time: 14:10 - 14:30
-    abstract: |
-            <p>Authors: Anand Prakash, Lukas Krawczyk and Carsten Wolff<br/><br/>
-            The computational demands of safety critical ADAS applications on autonomous vehicles have been ever-increasing. 
-            As a result, high performance computing nodes with varying operating frequencies, and inclusion of different sensors have 
-            been introduced, which has resulted in introduction of heterogeneous architectures with high complexity.  This complexity 
-            has led to challenges in analysing a system’s timing behavior, such as determining the end-to-end response time of 
-            high-level functionality as well as a real-time application’s latency. The existing approaches in analysing the timing 
-            behavior of an ADAS application does not address the overall end-to-end response time. It is also worth mentioning that 
-            a practical timing verification of an ADAS in a real-life scenario is still an open issue. <br/>
-            This talk provides an overview of the existing RC car platforms along with its comparison to the proposed RC car 
-            demonstrator platform. It focuses on the model based architectural design of RC car demonstrator as well as the 
-            event-chain task model, which is coarsely based on Waters Challenge 2019. Further, it lays emphasis on deriving 
-            the timing parameter metrics from the generated trace file, which can be used to evaluate the system behavior 
-            against the timing requirements. Finally, the talk concludes with the importance on designing an ADAS with a 
-            model-based approach. This will enable a better, faster and modular analysis of a safety critical ADAS application.</p>
+    - name: 'APP4MC RaceCar: A Practical ADAS Demonstrator for Evaluating and Verifying Timing Behavior'
+      presenter: Anand Prakash
+      type: session
+      time: 14:10 - 14:30
+      abstract: |
+              <p>Authors: Anand Prakash, Lukas Krawczyk and Carsten Wolff<br/><br/>
+              The computational demands of safety critical ADAS applications on autonomous vehicles have been ever-increasing. 
+              As a result, high performance computing nodes with varying operating frequencies, and inclusion of different sensors have 
+              been introduced, which has resulted in introduction of heterogeneous architectures with high complexity.  This complexity 
+              has led to challenges in analysing a system’s timing behavior, such as determining the end-to-end response time of 
+              high-level functionality as well as a real-time application’s latency. The existing approaches in analysing the timing 
+              behavior of an ADAS application does not address the overall end-to-end response time. It is also worth mentioning that 
+              a practical timing verification of an ADAS in a real-life scenario is still an open issue. <br/>
+              This talk provides an overview of the existing RC car platforms along with its comparison to the proposed RC car 
+              demonstrator platform. It focuses on the model based architectural design of RC car demonstrator as well as the 
+              event-chain task model, which is coarsely based on Waters Challenge 2019. Further, it lays emphasis on deriving 
+              the timing parameter metrics from the generated trace file, which can be used to evaluate the system behavior 
+              against the timing requirements. Finally, the talk concludes with the importance on designing an ADAS with a 
+              model-based approach. This will enable a better, faster and modular analysis of a safety critical ADAS application.</p>
 
-  - name: 'Co-creating automotive innovations'
-    presenter: <a href="speakers/#eija_hamalainen">Eija Hämäläinen</a> 
-    type: sponsor
-    time: 14:40 - 14:55
-    abstract: |
-            <p>How ecosystem work accelerates research and development between OEMs and SMEs?<p><p>
-            Oulu Automotive Cluster helps automotive brands design and develop sustainable electric 
-            and autonomous cars to meet new business models. With 110 companies and 33 research, 
-            development and education organizations, the cluster is one of the fastest growing 
-            ecosystems in Finland. Oulu Automotive Cluster is run by BusinessOulu, the business 
-            development agency of City of Oulu. <a href="http://www.automotive.oulu.com">www.automotive.oulu.com</a></p>
-      
-  - name: 'Demo - PANORover: Autonomous Driving System Development Platform'
-    presenter: Marc Zeller
-    type: session
-    time: 14:55 - 15:10
-    abstract: |
-            <p>Authors: Marc Zeller, Olexiy Kupriyanov and Norbert Beck<br/><br/>
-            The complexity of heterogeneous embedded systems as well as the introduction of AI-based functions to realize ADAS 
-            or autonomous driving features pose new challenges for the safety assessment process. In this demo, we illustrate 
-            the analysis of a complex system in terms of function safety (ISO 26262) and Safety Of The Intended Functionality 
-            (SOTIF, ISO 21448) with the model-based Component Fault Tree (CFT) methodology using a self-driving toy vehicle 
-            (the PANORover).</p>
+    - name: 'Co-creating automotive innovations'
+      presenter: <a href="speakers/#eija_hamalainen">Eija Hämäläinen</a> 
+      type: sponsor
+      time: 14:40 - 14:55
+      abstract: |
+              <p>How ecosystem work accelerates research and development between OEMs and SMEs?<p><p>
+              Oulu Automotive Cluster helps automotive brands design and develop sustainable electric 
+              and autonomous cars to meet new business models. With 110 companies and 33 research, 
+              development and education organizations, the cluster is one of the fastest growing 
+              ecosystems in Finland. Oulu Automotive Cluster is run by BusinessOulu, the business 
+              development agency of City of Oulu. <a href="http://www.automotive.oulu.com">www.automotive.oulu.com</a></p>
+        
+    - name: 'Demo - PANORover: Autonomous Driving System Development Platform'
+      presenter: Marc Zeller
+      type: session
+      time: 14:55 - 15:10
+      abstract: |
+              <p>Authors: Marc Zeller, Olexiy Kupriyanov and Norbert Beck<br/><br/>
+              The complexity of heterogeneous embedded systems as well as the introduction of AI-based functions to realize ADAS 
+              or autonomous driving features pose new challenges for the safety assessment process. In this demo, we illustrate 
+              the analysis of a complex system in terms of function safety (ISO 26262) and Safety Of The Intended Functionality 
+              (SOTIF, ISO 21448) with the model-based Component Fault Tree (CFT) methodology using a self-driving toy vehicle 
+              (the PANORover).</p>
 
-  - name: 'Benefits of Usability and User Experience in Automated Driving'
-    presenter: Mikko Rajanen
-    type: session
-    time: 15:10 - 15:30
-    abstract: |
-            <p>Author: Mikko Rajanen <br/><br/>
-            This paper proposes a list of potential benefits of better usability and user experience 
-            adapted to automated driving and autonomous mobility. These benefits could be useful for understanding and communicating 
-            the importance of usability and user experience for the success of automated driving to be accepted by the non-technical 
-            public and becoming mainstream and successful. In this paper, the focus is on identifying usability and user experience 
-            benefits of human-machine interaction (HMI) in automated driving context. The goal of the paper is to legitimize the 
-            usability and the user experience activities in the eyes of the management of automated driving application and HMI 
-            development organizations. The user-centered design process focuses on users, their needs and requirements. This paper 
-            shows that the benefits of better usability and user experience through user-centered design can be identified in use 
-            context as well as application development context through competitive advantage, reduced risks, and reduced development 
-            costs.</p>
+    - name: 'Benefits of Usability and User Experience in Automated Driving'
+      presenter: Mikko Rajanen
+      type: session
+      time: 15:10 - 15:30
+      abstract: |
+              <p>Author: Mikko Rajanen <br/><br/>
+              This paper proposes a list of potential benefits of better usability and user experience 
+              adapted to automated driving and autonomous mobility. These benefits could be useful for understanding and communicating 
+              the importance of usability and user experience for the success of automated driving to be accepted by the non-technical 
+              public and becoming mainstream and successful. In this paper, the focus is on identifying usability and user experience 
+              benefits of human-machine interaction (HMI) in automated driving context. The goal of the paper is to legitimize the 
+              usability and the user experience activities in the eyes of the management of automated driving application and HMI 
+              development organizations. The user-centered design process focuses on users, their needs and requirements. This paper 
+              shows that the benefits of better usability and user experience through user-centered design can be identified in use 
+              context as well as application development context through competitive advantage, reduced risks, and reduced development 
+              costs.</p>
 
-  - name: 'Open discussion and announcements'
-    presenter: Philippe Krief 
-    type: staff
-    time: 15:30 - 15:45
-    abstract: |
-            <p></p>
+    - name: 'Open discussion and announcements'
+      presenter: Philippe Krief 
+      type: staff
+      time: 15:30 - 15:45
+      abstract: |
+              <p></p>
 
   - name: Day 2 -- Wednesday, June 16
-    type: day
+    items:
+        
+    - name: 'Summary and updates'
+      presenter: Pasi Kuvaja
+      type: staff
+      time: 9:00 - 9:10
+      abstract: |
+              <p></p>
       
-  - name: 'Summary and updates'
-    presenter: Pasi Kuvaja
-    type: staff
-    time: 9:00 - 9:10
-    abstract: |
-            <p></p>
-    
-  - name: 'The Importance of Open Simulators and AI in a Changing Mobility Landscape'
-    presenter: <a href="speakers/#robert_hilbrich">Robert Hilbrich</a>
-    type: keynote
-    time: 9:10 - 9:40
-    abstract: |
-            <p>The mobility landscape is undergoing significant changes. More and more mobility providers compete
-            for customers with their own mobility services. Traditional public transport, demand responsive transport, 
-            taxis, car sharing, ride pooling, bike sharing, e-scooters,  … the available modes of transport in cities 
-            are becoming increasingly heterogeneous and confusing. At the same time, significant changes to the landscape 
-            are induced by the effects of the global pandemic. They may lead to even more drastic changes in the mobility 
-            demand.</p>
-            <p>How to tame the complexity of this landscape and fight the climate change without neglecting mobility as a 
-            fundamental human need is an open - albeit essential - question.</p>
-            <p>In this talk, we will examine the changes in the mobility landscape and look at the role of two important 
-            players in this discussion: open simulators and artificial intelligence. What do they bring to the table 
-            in order to tackle the rising complexity? How can they be applied to improve the transportation system in 
-            a city? The Eclipse SUMO project is used as an example to illustrate how to build digital twins of smart cities. 
-            Moreover, results from recent research projects are used to discuss the effectiveness and efficiency of applying 
-            artificial intelligence to optimize transportation systems.</p>
+    - name: 'The Importance of Open Simulators and AI in a Changing Mobility Landscape'
+      presenter: <a href="speakers/#robert_hilbrich">Robert Hilbrich</a>
+      type: keynote
+      time: 9:10 - 9:40
+      abstract: |
+              <p>The mobility landscape is undergoing significant changes. More and more mobility providers compete
+              for customers with their own mobility services. Traditional public transport, demand responsive transport, 
+              taxis, car sharing, ride pooling, bike sharing, e-scooters,  … the available modes of transport in cities 
+              are becoming increasingly heterogeneous and confusing. At the same time, significant changes to the landscape 
+              are induced by the effects of the global pandemic. They may lead to even more drastic changes in the mobility 
+              demand.</p>
+              <p>How to tame the complexity of this landscape and fight the climate change without neglecting mobility as a 
+              fundamental human need is an open - albeit essential - question.</p>
+              <p>In this talk, we will examine the changes in the mobility landscape and look at the role of two important 
+              players in this discussion: open simulators and artificial intelligence. What do they bring to the table 
+              in order to tackle the rising complexity? How can they be applied to improve the transportation system in 
+              a city? The Eclipse SUMO project is used as an example to illustrate how to build digital twins of smart cities. 
+              Moreover, results from recent research projects are used to discuss the effectiveness and efficiency of applying 
+              artificial intelligence to optimize transportation systems.</p>
 
-  - name: 'Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles'
-    presenter: Sebastian Schildt
-    type: session
-    time: 9:50 - 10:10
-    abstract: |
-            <p>Authors: Junhyung Ki, Sebastian Schildt, Andreas Hastall, Sven Erik Jeroschewski and Robert Höttger<br/><br/>
-            Modern internal combustion engines have several advanced exhaust treatment systems to meet emission standards and 
-            legislation. In case of Selective Catalytic Reduction (SCR) for diesel engines, a catalyst (“AdBlue®”) is used as 
-            consumable. This incurs costs for the operator of diesel vehicles and provides an incentive to unlawfully circumvent 
-            and shut down those systems. This case study presents how the Eclipse KUKSA stack has been used to realize an 
-            anti-tampering system for commercial heavy-duty trucks exhaust systems. We show how the in-vehicle KUKSA.val software 
-            and the KUKSA.cloud components can be used to collect relevant data from a real heavy-duty truck and send them to the 
-            cloud for further analysis.</p>
+    - name: 'Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles'
+      presenter: Sebastian Schildt
+      type: session
+      time: 9:50 - 10:10
+      abstract: |
+              <p>Authors: Junhyung Ki, Sebastian Schildt, Andreas Hastall, Sven Erik Jeroschewski and Robert Höttger<br/><br/>
+              Modern internal combustion engines have several advanced exhaust treatment systems to meet emission standards and 
+              legislation. In case of Selective Catalytic Reduction (SCR) for diesel engines, a catalyst (“AdBlue®”) is used as 
+              consumable. This incurs costs for the operator of diesel vehicles and provides an incentive to unlawfully circumvent 
+              and shut down those systems. This case study presents how the Eclipse KUKSA stack has been used to realize an 
+              anti-tampering system for commercial heavy-duty trucks exhaust systems. We show how the in-vehicle KUKSA.val software 
+              and the KUKSA.cloud components can be used to collect relevant data from a real heavy-duty truck and send them to the 
+              cloud for further analysis.</p>
 
-  - name: 'Utilizing Eclipse Kuksa framework to build an intelligent moving test platform to support vehicle related research'
-    presenter: Harri Hirvonsalo
-    type: session
-    time: 10:10 - 10:30
-    abstract: |
-            <p>Authors: Harri Hirvonsalo and Pertti Seppänen<br/><br/>
-            In this study, we explored how the Eclipse Kuksa framework could be used as a technology basis for building an intelligent 
-            moving test platform to support research of autonomous vehicles and vehicle related research in general. Based on the gained 
-            experience, we state that Kuksa framework is a feasible basis for development of open, intelligent automotive data systems, 
-            though with a considerable learning needs. We present the experience gained during this study and demonstrate some of the 
-            functionality provided by a minimum-viable system we implemented in the study.</p>
+    - name: 'Utilizing Eclipse Kuksa framework to build an intelligent moving test platform to support vehicle related research'
+      presenter: Harri Hirvonsalo
+      type: session
+      time: 10:10 - 10:30
+      abstract: |
+              <p>Authors: Harri Hirvonsalo and Pertti Seppänen<br/><br/>
+              In this study, we explored how the Eclipse Kuksa framework could be used as a technology basis for building an intelligent 
+              moving test platform to support research of autonomous vehicles and vehicle related research in general. Based on the gained 
+              experience, we state that Kuksa framework is a feasible basis for development of open, intelligent automotive data systems, 
+              though with a considerable learning needs. We present the experience gained during this study and demonstrate some of the 
+              functionality provided by a minimum-viable system we implemented in the study.</p>
 
-  - name: 'Poster: Hono™ service stack deployment to Azure'
-    presenter: Mikael Saarinen
-    type: session
-    time: 10:30 - 10:35
-    abstract: |
-            <p>Authors: Mikael Saarinen and Niina Lundén<br/><br/>
-            Hono™ service stack deployment to Azure was a student project by the SMADYASP group, in which the goal was to create 
-            cloud infrastructure architecture for mobility applications. Microsoft Azure was used as the cloud platform, and deployment was 
-            done using Terraform, Helm, and Kubernetes. With the results of the project, it is now much easier to deploy Hono™ and monitor 
-            and trace the whole service stack. In the future, this project's results are used in setting up a test environment for real 
-            automotive scenarios concerning in-vehicle and 5G connectivity mobility applications. <br/>
-            Source: <a href="https://github.com/smaddis/smad-deploy-azure">https://github.com/smaddis/smad-deploy-azure<a/>
+    - name: 'Poster: Hono™ service stack deployment to Azure'
+      presenter: Mikael Saarinen
+      type: session
+      time: 10:30 - 10:35
+      abstract: |
+              <p>Authors: Mikael Saarinen and Niina Lundén<br/><br/>
+              Hono™ service stack deployment to Azure was a student project by the SMADYASP group, in which the goal was to create 
+              cloud infrastructure architecture for mobility applications. Microsoft Azure was used as the cloud platform, and deployment was 
+              done using Terraform, Helm, and Kubernetes. With the results of the project, it is now much easier to deploy Hono™ and monitor 
+              and trace the whole service stack. In the future, this project's results are used in setting up a test environment for real 
+              automotive scenarios concerning in-vehicle and 5G connectivity mobility applications. <br/>
+              Source: <a href="https://github.com/smaddis/smad-deploy-azure">https://github.com/smaddis/smad-deploy-azure<a/>
 
-            </p>
+              </p>
 
-  - name: 'Algorithmic Planning, Simulation and Validation of Smart, Shared Parking Services using Edge Hardware'
-    presenter: Muralikrishna Thulasi Raman
-    type: session
-    time: 10:50 - 11:10
-    abstract: |
-            <p>Authors: Muralikrishna Thulasi Raman, Andreas Graf, Benedikt Niehues and Marco Aiello<br/><br/>
-            A major problem with vehicles used in densely populated areas is parking. Part of the problem is the scarcity of the 
-            resource in busy areas and the non optimal utilization of private spots. We propose the 'Smart Shared Private Parking' 
-            model that aims at including in the parking pool also private parking spots. In an urban area with both commercial and 
-            residential buildings, frequently household owners do not utilize their own parking lots during office hours, long duration 
-            of shopping and vacations. At the same time, such owners want to be able to park in their lots when needed. Therefore, to 
-            engage the residents and allow them to provide their parking spaces when unused one needs a real-time, distributed infrastructure 
-            that supports dynamic allocation of spaces. We propose a conceptual deployment of edge hardware and communication mechanisms to 
-            enable shared private parking sharing. We illustrate an infrastructure setup required to analyse various aspects of the model 
-            and show its effectiveness in parking allocation in terms of vehicular emission, utilisation rate, and revenue as metrics 
-            considering all the stakeholders. A simulation based on a district of Dublin provides quantitative instances for these metrics.</p>
+    - name: 'Algorithmic Planning, Simulation and Validation of Smart, Shared Parking Services using Edge Hardware'
+      presenter: Muralikrishna Thulasi Raman
+      type: session
+      time: 10:50 - 11:10
+      abstract: |
+              <p>Authors: Muralikrishna Thulasi Raman, Andreas Graf, Benedikt Niehues and Marco Aiello<br/><br/>
+              A major problem with vehicles used in densely populated areas is parking. Part of the problem is the scarcity of the 
+              resource in busy areas and the non optimal utilization of private spots. We propose the 'Smart Shared Private Parking' 
+              model that aims at including in the parking pool also private parking spots. In an urban area with both commercial and 
+              residential buildings, frequently household owners do not utilize their own parking lots during office hours, long duration 
+              of shopping and vacations. At the same time, such owners want to be able to park in their lots when needed. Therefore, to 
+              engage the residents and allow them to provide their parking spaces when unused one needs a real-time, distributed infrastructure 
+              that supports dynamic allocation of spaces. We propose a conceptual deployment of edge hardware and communication mechanisms to 
+              enable shared private parking sharing. We illustrate an infrastructure setup required to analyse various aspects of the model 
+              and show its effectiveness in parking allocation in terms of vehicular emission, utilisation rate, and revenue as metrics 
+              considering all the stakeholders. A simulation based on a district of Dublin provides quantitative instances for these metrics.</p>
 
-  - name: 'Towards a Domain-specific Language for the Virtual Validation of Cloud-native Mobility Services'
-    presenter: Philipp Heisig
-    type: session
-    time: 11:10 - 11:30
-    abstract: |
-            <p>Authors: Philipp Heisig and Christoph Flick<br/><br/>
-            Future vehicles can be considered as ”IoT devices on wheels” as they exhibit high-performance computation resources, 
-            various sensing devices, and a data-driven software architecture. While the availability of automotive big data provides 
-            the basis for innovative and disruptive mobility services, processing vehicle data within the cloud poses also several 
-            challenges. A major challenge in this context is the validation of cloud-native mobility services regarding their proper 
-            functionality and the fulfillment of non-functional requirements. Due to the cost-efficient nature of simulations, traffic 
-            simulation in combination with network simulation is more and more used for a virtual proof-ofconcept of mobility services 
-            and their software architectures. Nevertheless, the creation of adequate simulation environments specific to connected 
-            vehicle scenarios is time-consuming and requires explicit domain knowledge. We present a prototypical domain-specific 
-            language tailored to the formal description of connected vehicle scenarios and the according generation of simulation 
-            environments. Therefore, we make use of the traffic simulator Eclipse SUMO as well as the co-simulation environment Eclipse 
-            MOSAIC and demonstrate the usage of our DSL via the use case of a restricted traffic zone. Although the DSL so far only 
-            support the setup of minimal traffic scenarios, it already helps to abstract complexity and ease the set-up of simulation 
-            environments for connected vehicle scenarios.</p>
+    - name: 'Towards a Domain-specific Language for the Virtual Validation of Cloud-native Mobility Services'
+      presenter: Philipp Heisig
+      type: session
+      time: 11:10 - 11:30
+      abstract: |
+              <p>Authors: Philipp Heisig and Christoph Flick<br/><br/>
+              Future vehicles can be considered as ”IoT devices on wheels” as they exhibit high-performance computation resources, 
+              various sensing devices, and a data-driven software architecture. While the availability of automotive big data provides 
+              the basis for innovative and disruptive mobility services, processing vehicle data within the cloud poses also several 
+              challenges. A major challenge in this context is the validation of cloud-native mobility services regarding their proper 
+              functionality and the fulfillment of non-functional requirements. Due to the cost-efficient nature of simulations, traffic 
+              simulation in combination with network simulation is more and more used for a virtual proof-ofconcept of mobility services 
+              and their software architectures. Nevertheless, the creation of adequate simulation environments specific to connected 
+              vehicle scenarios is time-consuming and requires explicit domain knowledge. We present a prototypical domain-specific 
+              language tailored to the formal description of connected vehicle scenarios and the according generation of simulation 
+              environments. Therefore, we make use of the traffic simulator Eclipse SUMO as well as the co-simulation environment Eclipse 
+              MOSAIC and demonstrate the usage of our DSL via the use case of a restricted traffic zone. Although the DSL so far only 
+              support the setup of minimal traffic scenarios, it already helps to abstract complexity and ease the set-up of simulation 
+              environments for connected vehicle scenarios.</p>
 
 
-  - name: 'Morphemic Cloud Application Models Design'
-    presenter: Alessandra Bagnato
-    type: session
-    time: 11:30 - 11:50
-    abstract: |
-            <p>Authors: Alessandra Bagnato, Etienne Brosse and Kaïs Chaabouni<br/><br/>
-            The Morphemic H2020 project <a href="https://www.morphemic.cloud/">(The most advanced multicloud platform with proactive 
-            features)</a> covers several features from modelling cross-cloud applications, continuous and autonomous optimization 
-            and deployment and providing access to several cloud capabilities. This demo paper describes the MORPHEMIC CAMEL Designer 
-            tool responsible for the Cloud Application Modelling and Execution Language (CAMEL) design for the modelling Environment 
-            Modelio. CAMEL Designer is an open source module for graphically creating, editing and exporting CAMEL Models in XMI 
-            format. </p>
+    - name: 'Morphemic Cloud Application Models Design'
+      presenter: Alessandra Bagnato
+      type: session
+      time: 11:30 - 11:50
+      abstract: |
+              <p>Authors: Alessandra Bagnato, Etienne Brosse and Kaïs Chaabouni<br/><br/>
+              The Morphemic H2020 project <a href="https://www.morphemic.cloud/">(The most advanced multicloud platform with proactive 
+              features)</a> covers several features from modelling cross-cloud applications, continuous and autonomous optimization 
+              and deployment and providing access to several cloud capabilities. This demo paper describes the MORPHEMIC CAMEL Designer 
+              tool responsible for the Cloud Application Modelling and Execution Language (CAMEL) design for the modelling Environment 
+              Modelio. CAMEL Designer is an open source module for graphically creating, editing and exporting CAMEL Models in XMI 
+              format. </p>
 
 
-  - name: 'Open channel discussion and close'
-    presenter: Pasi Kuvaja  and Philippe Krief
-    type: staff
-    time: 11:50 - 12:05
-    abstract: |
-            <p></p>
-
+    - name: 'Open channel discussion and close'
+      presenter: Pasi Kuvaja  and Philippe Krief
+      type: staff
+      time: 11:50 - 12:05
+      abstract: |
+              <p></p>
