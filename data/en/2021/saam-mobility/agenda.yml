@@ -24,18 +24,7 @@ items:
     abstract: |
             <p></p>
       
-  - name: 'Co-creating automotive innovations'
-    presenter: <a href="speakers/#eija_hamalainen">Eija Hämäläinen</a> 
-    type: sponsor
-    time: 13:10 - 13:40
-    abstract: |
-            <p>How ecosystem work accelerates research and development between OEMs and SMEs?<p><p>
-            Oulu Automotive Cluster helps automotive brands design and develop sustainable electric 
-            and autonomous cars to meet new business models. With 110 companies and 33 research, 
-            development and education organizations, the cluster is one of the fastest growing 
-            ecosystems in Finland. Oulu Automotive Cluster is run by BusinessOulu, the business 
-            development agency of City of Oulu. <a href="http://www.automotive.oulu.com">www.automotive.oulu.com</a></p>
-      
+
   - name: 'Mobility of the Future and Open Collaboration – A good Idea?'
     presenter: <a href="speakers/#andreas_riexinger">Andreas Riexinger</a>
     type: keynote
@@ -62,7 +51,7 @@ items:
     type: session
     time: 13:50 - 14:10
     abstract: |
-            <p>Naci Dai, Deniz Memis and Burak Saglam<br/>
+            <p>Authors: Naci Dai, Deniz Memis and Burak Saglam<br/>
             Humans are very good at adapting to and driving in very different conditions and environments.  
             Complex AI based software such as Autonomous vehicles (AV) are biased by the training data and 
             they do not do well in different contexts. Environment perception and context awareness can be 
@@ -85,29 +74,65 @@ items:
     type: session
     time: 14:10 - 14:30
     abstract: |
-            <p>Anand Prakash, Lukas Krawczyk and Carsten Wolff<br/>
+            <p>Authors: Anand Prakash, Lukas Krawczyk and Carsten Wolff<br/>
+            The computational demands of safety critical ADAS applications on autonomous vehicles have been ever-increasing. 
+            As a result, high performance computing nodes with varying operating frequencies, and inclusion of different sensors have 
+            been introduced, which has resulted in introduction of heterogeneous architectures with high complexity.  This complexity 
+            has led to challenges in analysing a system’s timing behavior, such as determining the end-to-end response time of 
+            high-level functionality as well as a real-time application’s latency. The existing approaches in analysing the timing 
+            behavior of an ADAS application does not address the overall end-to-end response time. It is also worth mentioning that 
+            a practical timing verification of an ADAS in a real-life scenario is still an open issue. <br/>
+            This talk provides an overview of the existing RC car platforms along with its comparison to the proposed RC car 
+            demonstrator platform. It focuses on the model based architectural design of RC car demonstrator as well as the 
+            event-chain task model, which is coarsely based on Waters Challenge 2019. Further, it lays emphasis on deriving 
+            the timing parameter metrics from the generated trace file, which can be used to evaluate the system behavior 
+            against the timing requirements. Finally, the talk concludes with the importance on designing an ADAS with a 
+            model-based approach. This will enable a better, faster and modular analysis of a safety critical ADAS application.</p>
 
-
-            </p>
-
-  - name: 'Papers Presentations'
-    presenter: Authors
-    type: session
-    time: 13:40 - 17:00
+  - name: 'Co-creating automotive innovations'
+    presenter: <a href="speakers/#eija_hamalainen">Eija Hämäläinen</a> 
+    type: sponsor
+    time: 14:40 - 14:55
     abstract: |
-            <p></p>
-
-  - name: 'Papers Presentations'
-    presenter: Authors
+            <p>How ecosystem work accelerates research and development between OEMs and SMEs?<p><p>
+            Oulu Automotive Cluster helps automotive brands design and develop sustainable electric 
+            and autonomous cars to meet new business models. With 110 companies and 33 research, 
+            development and education organizations, the cluster is one of the fastest growing 
+            ecosystems in Finland. Oulu Automotive Cluster is run by BusinessOulu, the business 
+            development agency of City of Oulu. <a href="http://www.automotive.oulu.com">www.automotive.oulu.com</a></p>
+      
+  - name: 'Demo - PANORover: Autonomous Driving System Development Platform'
+    presenter: Marc Zeller
     type: session
-    time: 13:40 - 17:00
+    time: 14:55 - 15:10
     abstract: |
-            <p></p>
+            <p>Authors: Marc Zeller, Olexiy Kupriyanov and Norbert Beck<br/>
+            The complexity of heterogeneous embedded systems as well as the introduction of AI-based functions to realize ADAS 
+            or autonomous driving features pose new challenges for the safety assessment process. In this demo, we illustrate 
+            the analysis of a complex system in terms of function safety (ISO 26262) and Safety Of The Intended Functionality 
+            (SOTIF, ISO 21448) with the model-based Component Fault Tree (CFT) methodology using a self-driving toy vehicle 
+            (the PANORover).</p>
 
-  - name: 'Open channel discussion'
+  - name: 'Benefits of Usability and User Experience in Automated Driving'
+    presenter: Mikko Rajanen
+    type: session
+    time: 15:10 - 15:30
+    abstract: |
+            <p>Author: Mikko Rajanen <br/>This paper proposes a list of potential benefits of better usability and user experience 
+            adapted to automated driving and autonomous mobility. These benefits could be useful for understanding and communicating 
+            the importance of usability and user experience for the success of automated driving to be accepted by the non-technical 
+            public and becoming mainstream and successful. In this paper, the focus is on identifying usability and user experience 
+            benefits of human-machine interaction (HMI) in automated driving context. The goal of the paper is to legitimize the 
+            usability and the user experience activities in the eyes of the management of automated driving application and HMI 
+            development organizations. The user-centered design process focuses on users, their needs and requirements. This paper 
+            shows that the benefits of better usability and user experience through user-centered design can be identified in use 
+            context as well as application development context through competitive advantage, reduced risks, and reduced development 
+            costs.</p>
+
+  - name: 'Day 1 open discussion and announcements'
     presenter: Philippe Krief 
     type: staff
-    time: 17:00 - 17:30
+    time: 15:30 - 15:45
     abstract: |
             <p></p>
 
