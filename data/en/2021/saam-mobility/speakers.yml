@@ -28,7 +28,7 @@ items:
   - name: "Alessandra Bagnato"
     anchor: alessandra_bagnato
     title: "Morphemic Cloud Application Models Design"
-    img: alessandra_bagnato.png
+    img: alessandra_bagnato.jpg
     bio: |
       <p>Dr. Alessandra Bagnato is a research scientist and the Head of Modelio Research Unit in Softeam Software (Docaposte Group). 
       She holds a Ph.D. degree in Computer Science from TELECOM SudParis and Université Evry Val d’Essonne, France and a MSc in 
@@ -73,7 +73,7 @@ items:
   - name: "Deniz Memis"
     anchor: deniz_memis
     title: "Co-creating automotive innovations"
-    img: deniz_memis.png
+    img: deniz_memis.jpg
     bio: |
       <p>Deniz Memis, BS in Electrical and Electronics Engineering (Bilkent University, Ankara) and Master’s degree in Engineering 
       and Technology Management (Bogazici University, Istanbul). As a software developer at Eteration, I have been mostly involved 
@@ -84,7 +84,7 @@ items:
   - name: "Anand Prakash"
     anchor: anand_prakash
     title: "APP4MC RaceCar: A Practical ADAS Demonstrator for Evaluating and Verifying Timing Behavior"
-    img: anand_prakash.png
+    img: anand_prakash.jpg
     bio: |
       <p>Anand Prakash is pursuing his master’s in Embedded Systems for Mechatronics at Dortmund University of Applied Sciences and Arts.  
       In addition to his studies, he is working as Research Associate at the IDiAL Institute under the project PANORAMA. Prior to joining 
@@ -138,7 +138,7 @@ items:
   - name: "Marc Zeller"
     anchor: marc_zeller
     title: "Co-creating automotive innovations"
-    img: marc_zeller.png
+    img: marc_zeller.jpg
     bio: |
       <p>Marc Zeller works as a Senior Key Expert for model-based reliability and safety engineering at Siemens Technology in Munich. 
       His research interests are focused on the efficient and effective development of dependability-relevant Cyber-physical Systems 
@@ -146,3 +146,4 @@ items:
       Technology (KIT) in 2007 and obtained a PhD in Computer Science from the University of Augsburg in 2013. With over 10-years' 
       experience in different industrial domains, such as automotive, railway, avionics, or industry automations, he has been involved 
       in various projects establishing model-based engineering techniques and is author of many publications in this area. </p>
+ 
