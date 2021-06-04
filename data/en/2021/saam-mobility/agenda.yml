@@ -78,8 +78,7 @@ items:
             to detect a context and adapt the software stack, which can then be used to identify and deploy services 
             to autonomous vehicles. CASSM will be an open source in-vehicle delivery of context-driven services and 
             applications. This paper describes an architecture to define context-aware personalized & dynamically 
-            provisioned capabilities, applications & services to autonomous vehicles.
-</p>
+            provisioned capabilities, applications & services to autonomous vehicles.</p>
 
   - name: 'APP4MC RaceCar: A Practical ADAS Demonstrator for Evaluating and Verifying Timing Behavior'
     presenter: Anand Prakash
