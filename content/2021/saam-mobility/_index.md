@@ -11,7 +11,7 @@ hide_breadcrumb: true
 container: "container-fluid saam-2021-event"
 summary: "The Eclipse SAAM Mobility 2021 virtual conference, June 15-16, will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges."
 layout: single
-links: [[href: "cfs.pdf",text: "Call for Submissions"],[href: "https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097",text: "Register"],[href: "https://easychair.org/my/conference?conf=esaamm2021#",text: "Submit"],[href: "speaker-guide",text: "Speaker Guide"]]
+links: [[href: "cfs.pdf",text: "Call for Submissions"],[href: "https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097",text: "Register"],[href: "https://easychair.org/my/conference?conf=esaamm2021#",text: "Submit"]]
 ---
 <!-- Introduction -->
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
@@ -100,6 +100,17 @@ Modelling for Mobility
 | :------------------------------ | :---------------------- | :-------------------------------------- | :-------------------- |
 |      Apr. ~~16~~23, 2021        |      May 20, 2021       |      May 28, 2021                       |      Jun. 15-16, 2021 |
 
+
+{{</ grid/section-container >}}
+
+{{< grid/section-container class="featured-section-row" isMarkdown="false">}}
+
+	{{< grid/div class="margin-top-30" isMarkdown="false">}}
+	    {{< grid/div class="col-xs-24 col-sm-8 text-center" isMarkdown="false">}}
+	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="speaker-guide">}}Speaker Guide{{</bootstrap/button>}}
+	    {{</ grid/div >}}
+	{{</ grid/div >}}
+
 {{</ grid/section-container >}}
 
 [//]: # (TCP)
@@ -181,20 +192,6 @@ Teemu Karvonen, University of Oulu, Finland
 Susan Iwai, Eclipse Foundation Europe, Germany
 {{</ grid/section-container >}}
 
-<!--
-{{< grid/section-container id="speakers" class="featured-section-row text-center featured-section-row-dark-bg eclipsefdn-user-display-circle" >}}
-  {{< events/user_display event="saam-mobility" year="2021" title="Speakers" source="speakers" />}}
-{{</ grid/section-container >}}
-
-{{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" title="Agenda">}}
-  {{< events/agenda event="saam-mobility" year="2021" >}}
-{{</ grid/section-container >}}
--->
-<!--
-{{< grid/section-container id="organizers" class="featured-section-row featured-section-row-lighter-bg text-center">}}
-  {{< events/sponsors event="saam-mobility" year="2021" source="coorganizers" title="Co-organizers" useMax="false" displayBecomeSponsor="false">}}
-{{</ grid/section-container >}}
--->
 
 {{< grid/section-container id="organizing-orgs" class="featured-section-row featured-section-row-lighter-bg text-center">}}
 {{< grid/div class="row" isMarkdown="false">}}
@@ -202,19 +199,19 @@ Susan Iwai, Eclipse Foundation Europe, Germany
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
   #### **Co-organized by:**
   
-  [![Eclipse Research](images/eclipse-fdn.png)](http://eclipse.org/research)
+  [![Eclipse Research](/2021/saam-mobility/images/eclipse-fdn.png)](http://eclipse.org/research)
 {{</ grid/div >}}
  
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
   #### **Supported by:**
   
-  [![Oulu Automotive Cluster](images/oulu_cluster_and_business.png)](https://automotive.oulu.com/)
+  [![Oulu Automotive Cluster](/2021/saam-mobility/images/oulu_cluster_and_business.png)](https://automotive.oulu.com/)
 {{</ grid/div >}}
 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
   #### **Co-organized by:**
   
-  [![University of Oulu](images/oulu-univ.png)](https://www.oulu.fi/university)
+  [![University of Oulu](/2021/saam-mobility/images/oulu-univ.png)](https://www.oulu.fi/university)
 {{</ grid/div >}}
 
 {{</ grid/div >}}

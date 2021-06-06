@@ -14,7 +14,7 @@ container: "container-fluid saam-2021-event"
 **The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.s**
 ## Speaker Guide  
 
-Welcome to the SAAM Mobility 2021 speaker guide! We are here to support our presenters and make sure that your experience is positive, stress-free, and as technically smooth as possible. This guide is an important part of that support. Please be sure to read it before you attend your speaker tech-check during the first week of September (see below for more about the tech-checks).
+Welcome to the SAAM Mobility 2021 speaker guide! We are here to support our presenters and make sure that your experience is positive, stress-free, and as technically smooth as possible. This guide is an important part of that support. Please be sure to read it before you attend your speaker tech-check during the first week of June (see below for more about the tech-checks).
 
 As always, if you have questions, comments, or need help, email us at research@eclipse.org We are here to help!
 {{</ grid/section-container >}}
@@ -45,11 +45,11 @@ We are asking each speaker to sign up for a short, group session for an equipmen
 
 ### Presentation Environment and Best Practices
 
-Presenting successfully to a virtual audience involves the right setup and lots of practice, even for experienced in-person speakers. The [Presentation Environment and Best Practices](https://events.eclipse.org/2021/saam-mobility/presentation-environment/) document summarizes best practices and space recommendations that will help you deliver a dynamic and engaging talk.
+Presenting successfully to a virtual audience involves the right setup and lots of practice, even for experienced in-person speakers. The [Presentation Environment and Best Practices](../presentation-environment) document summarizes best practices and space recommendations that will help you deliver a dynamic and engaging talk.
 
 ### Equipment
 
-The [Presentation Environment and Best Practices](https://events.eclipse.org/2021/saam-mobility/presentation-environment/) document contains our equipment recommendations, including specific items to purchase if you plan to upgrade your existing setup.   
+The [Presentation Environment and Best Practices](../presentation-environment) document contains our equipment recommendations, including specific items to purchase if you plan to upgrade your existing setup.   
 
 ### Pre-Recording  
 
@@ -60,7 +60,7 @@ You can use Zoom to record your talk. This [support article](https://support.zoo
 
 ### Speaker Agreement
 
-All presenters (papers, demos, posters) will be asked to sign the Eclipse SAAM Mobility speaker agreement. If you have not yet signed the speaker agreement please contact research@eclipse.org.  
+All presenters (papers, demos, posters) will be asked to sign the Eclipse SAAM Mobility 2021 speaker agreement. If you have not yet signed the speaker agreement please contact research@eclipse.org.  
 
 ### Presentation Template
 
@@ -71,18 +71,19 @@ We've created a [cover page slide template](cover-page-template.pptx) for the co
 We would like to publish your poster along with a description on our website to allow participants to preview the posters and decide which poster session to attend. We will need your final poster and description by June 4, 2021.  
 
 ### Instructions for submitting camera-ready (due June 8, 2021)
+(Updated June 2, 2021)
 
-Please submit the final version of your paper by registering for camera-ready in the EDAS portal and uploading there, using [this link](https://edas.info/listConferencesAuthor.php). You will also need to upload a signed author agreement.
+Please submit the final version of your paper by registering for camera-ready in the EasyChair portal and uploading there, using [this link](https://easychair.org/my/conference?conf=esaamm2021#). You will also need to email us a signed author agreement along with the source files of the manuscript.
 
 Before uploading:
-* Please review carefully the reviewer suggestions and make any required improvements to your paper. 
-* Upload a signed copy of the Non-exclusive right for electronic publication for all published material (papers, images, etc.) using the CEUR-WS AUTHOR-AGREEMENT form. One of the two following Author agreement variants must be downloaded from CEUR-WS website, signed and uploaded via Easy Chair.
+* Please review the reviewer suggestions carefully and make any required improvements to your paper. 
+* Email us a signed copy of the Non-exclusive right for electronic publication for all published material (papers, images, etc.) using the CEUR-WS AUTHOR-AGREEMENT form. One of the two following Author agreement variants must be downloaded from CEUR-WS website, signed and sent to us via mail. (You'll receive mailing instructions shortly)
 	* [AUTHOR-AGREEMENT (NTP)](http://ceur-ws.org/ceur-author-agreement-ccby-ntp.pdf?ver=2020-03-02): Authors shall use this form if they included no copyrighted third party material in their paper text (or accompanying sources, datasets). This is the right variant in most cases.
 	* [AUTHOR-AGREEMENT (TP)](http://ceur-ws.org/ceur-author-agreement-ccby-tp.pdf?ver=2020-03-02): Authors shall use this form if they did include copyrighted third party material in their paper or accompanying material. They must then also attach a copy of the permission by the third party to use this material in the signed author agreement!
 
-Uploading:
-* You will need to upload, in addition to a .pdf, the original source files of the submitted manuscript (i.e. doc, docx, tex) via EasyChair.  This helps us to optimize the quality of the formatting of the Conference Proceedings. 
+Uploading: 
 * Upload the PDF version of the final manuscript via EasyChair.
+* To help us optimize the quality of the formatting of the Conference Proceedings, please send us via email the original source files of the submitted manuscript (i.e. doc, docx, tex).  
 
 
 
@@ -104,14 +105,20 @@ Conference Website: [https://events.eclipse.org/2021/saam-mobility](https://even
 {{< grid/div class="row" isMarkdown="false">}}
 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
+  #### **Co-organized by:**
+  
   [![Eclipse Research](/2021/saam-mobility/images/eclipse-fdn.png)](http://eclipse.org/research)
 {{</ grid/div >}}
-
+ 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
-  [![Oulu Automotive Cluster](/2021/saam-mobility/images/oulu_cluster_and_business.png)](https://automotive.oulu.com)
+  #### **Supported by:**
+  
+  [![Oulu Automotive Cluster](/2021/saam-mobility/images/oulu_cluster_and_business.png)](https://automotive.oulu.com/)
 {{</ grid/div >}}
 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
+  #### **Co-organized by:**
+  
   [![University of Oulu](/2021/saam-mobility/images/oulu-univ.png)](https://www.oulu.fi/university)
 {{</ grid/div >}}
 
