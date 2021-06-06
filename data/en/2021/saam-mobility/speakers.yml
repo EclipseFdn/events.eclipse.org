@@ -1,4 +1,18 @@
 items:
+
+  - name: "Alessandra Bagnato"
+    anchor: alessandra_bagnato
+    title: "Morphemic Cloud Application Models Design"
+    img: avatar.png
+    bio: |
+      <p></p>
+
+  - name: "Anand Prakash"
+    anchor: anand_prakash
+    title: "APP4MC RaceCar: A Practical ADAS Demonstrator for Evaluating and Verifying Timing Behavior"
+    img: avatar.png
+    bio: |
+      <p></p>
    
   - name: "Andreas Riexinger"
     anchor: andreas_riexinger
@@ -12,6 +26,65 @@ items:
       Since the foundation of the OpenADx Eclipse Working Group in June 2019, he is also their speaker.
       Andreas Riexinger will give an overview about future mobility and the role of open source software.</p>
 
+  - name: "Deniz Memis"
+    anchor: deniz_memis
+    title: "Context Aware Software Stacks for Mobility: Composive.ai Overview"
+    img: avatar.png
+    bio: |
+      <p></p>
+
+  - name: "Eija Hämäläinen"
+    anchor: eija_hamalainen
+    title: "Co-creating automotive innovations"
+    img: eija_hamalainen.jpg
+    bio: |
+      <p>Ms. Eija Hämäläinen has 25+ years of experience in international sales and marketing, especially
+      in ICT sector. She is steering the ecosystem work at Oulu Automotive Cluster and believes that even 
+      the smallest companies can change the course of the entire automotive industry for more sustainable future. 
+      <a href="https://www.linkedin.com/in/hamalaineneija/">LinkedIn</a></p>
+
+  - name: "Harri Hirvonsalo"
+    anchor: harri_hirvonsalo
+    title: "Utilizing Eclipse Kuksa framework to build an intelligent moving test platform to support vehicle related research"
+    img: avatar.png
+    bio: |
+      <p></p>
+
+  - name: "Marc Zeller"
+    anchor: marc_zeller
+    title: "PANORover: Autonomous Driving System Development Platform"
+    img: avatar.png
+    bio: |
+      <p></p>
+
+  - name: "Mikael Saarinen"
+    anchor: mikael_saarinen
+    title: "Hono™ service stack deployment to Azure"
+    img: avatar.png
+    bio: |
+      <p></p>
+
+  - name: "Mikko Rajanen"
+    anchor: mikko_rajanen
+    title: "Benefits of Usability and User Experience in Automated Driving"
+    img: avatar.png
+    bio: |
+      <p></p>
+
+  - name: "Muralikrishna Thulasi Raman"
+    anchor: muralikrishna_thulasi_raman
+    title: "Algorithmic Planning, Simulation and Validation of Smart, Shared Parking Services using Edge Hardware"
+    img: avatar.png
+    bio: |
+      <p></p>
+
+  - name: "Philipp Heisig"
+    anchor: philipp_heisig
+    title: "Towards a Domain-specific Language for the Virtual Validation of Cloud-native Mobility Services"
+    img: avatar.png
+    bio: |
+      <p></p>
+
   - name: "Robert Hilbrich"
     anchor: robert_hilbrich
     title: "The Importance of Open Simulators and AI in a Changing Mobility Landscape"
@@ -24,12 +97,9 @@ items:
       Eclipse SUMO. In 2019 Robert also founded a startup, the Consultancy for Engineers GmbH, where he is employed 
       as managing director in addition to his role at the German Aerospace Center.</p>
 
-  - name: "Eija Hämäläinen"
-    anchor: eija_hamalainen
-    title: "Co-creating automotive innovations"
-    img: eija_hamalainen.jpg
+  - name: "Sebastian Schildt"
+    anchor: sebastian_schildt
+    title: "Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles"
+    img: avatar.png
     bio: |
-      <p>Ms. Eija Hämäläinen has 25+ years of experience in international sales and marketing, especially
-      in ICT sector. She is steering the ecosystem work at Oulu Automotive Cluster and believes that even 
-      the smallest companies can change the course of the entire automotive industry for more sustainable future. 
-      <a href="https://www.linkedin.com/in/hamalaineneija/">LinkedIn</a></p>
+      <p></p>
