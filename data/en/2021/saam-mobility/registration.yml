@@ -1,9 +1,9 @@
 end_date: 2021-06-17
 end_text: "Eclipse SAAM Mobility 2021 is now over. Watch this space for links to the papers and presentations."
 links:
-  - url: cfs.pdf
-    text: Call for Submissions
+#  - url: cfs.pdf
+#    text: Call for Submissions
   - url: https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097
     text: Register
-  - url: https://easychair.org/my/conference?conf=esaamm2021#
-    text: Submit
+#  - url: https://easychair.org/my/conference?conf=esaamm2021#
+#    text: Submit
