@@ -108,8 +108,10 @@ items:
     title: "Poster: Hono™ service stack deployment to Azure"
     img: mikael_saarinen.jpeg
     bio: |
-      <p>Mikael Saarinen is an Information Processing Science student at University Of Oulu, and group member of SMADYASP student Group
-      </p>
+      <p>Mikael Saarinen is an Information Processing Science student at University Of Oulu, and group member of SMADYASP 
+      (Smart Autonomous Driving Yet Another Student Project) student Group. He is interested in all things considering 
+      software. Eager to learn and create products, services, and systems for the automotive industry, and other software-defined 
+      solutions.</p>
   - name: "Sebastian Schildt"
     anchor: sebastian_schildt
     title: "Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles"
