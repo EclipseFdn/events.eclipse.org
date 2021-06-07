@@ -25,7 +25,7 @@ items:
   - name: "Alessandra Bagnato"
     anchor: alessandra_bagnato
     title: "Morphemic Cloud Application Models Design"
-    img: alessandra_bagnato.jpg
+    img: alessandra_bagnato.jpeg
     bio: |
       <p>Dr. Alessandra Bagnato is a research scientist and the Head of Modelio Research Unit in Softeam Software (Docaposte Group). 
       She holds a Ph.D. degree in Computer Science from TELECOM SudParis and Université Evry Val d’Essonne, France and a MSc in 
@@ -45,7 +45,7 @@ items:
   - name: "Philipp Heisig"
     anchor: philipp_heisig
     title: "Towards a Domain-Specific Language for the Virtual Validation of Cloud-native Mobility Services"
-    img: philipp_heisig.jpg
+    img: philipp_heisig.jpeg
     bio: |
       <p>Philipp Heisig is a research associate at the IDiAL Institute of FH Dortmund and doing his PhD in the automotive domain 
       with a specific focus on the simulation-driven validation of cloud-based mobility services. His additional research interests 
@@ -65,7 +65,7 @@ items:
   - name: "Deniz Memis"
     anchor: deniz_memis
     title: "Co-creating automotive innovations"
-    img: deniz_memis.jpg
+    img: deniz_memis.jpeg
     bio: |
       <p>Deniz Memis, BS in Electrical and Electronics Engineering (Bilkent University, Ankara) and Master’s degree in Engineering 
       and Technology Management (Bogazici University, Istanbul). As a software developer at Eteration, I have been mostly involved 
@@ -75,7 +75,7 @@ items:
   - name: "Anand Prakash"
     anchor: anand_prakash
     title: "APP4MC RaceCar: A Practical ADAS Demonstrator for Evaluating and Verifying Timing Behavior"
-    img: anand_prakash.jpg
+    img: anand_prakash.jpeg
     bio: |
       <p>Anand Prakash is pursuing his master’s in Embedded Systems for Mechatronics at Dortmund University of Applied Sciences and Arts.  
       In addition to his studies, he is working as Research Associate at the IDiAL Institute under the project PANORAMA. Prior to joining 
@@ -85,7 +85,7 @@ items:
   - name: "Mikko Rajanen"
     anchor: mikko_rajanen
     title: "Benefits of Usability and User Experience in Automated Driving"
-    img: mikko_rajanen.jpg
+    img: mikko_rajanen.jpeg
     bio: |
       <p>Mikko Rajanen is a post-doctoral researcher at INTERACT Research Unit, University of Oulu, Finland. He has a Ph.D. degree in 
       Information Systems and over 20 years of experience in usability research and teaching. His research interests include usability 
@@ -97,7 +97,7 @@ items:
   - name: "Muralikrishna Thulasi Raman"
     anchor: murali_raman
     title: "Algorithmic Planning, Simulation and Validation of Smart, Shared Parking Services using Edge Hardware"
-    img: murali_raman.PNG
+    img: murali_raman.png
     bio: |
       <p>Muralikrishna Thulasi Raman, generally known as Murali, completed his Masters in Information Technology at the University of 
       Stuttgart. He joined Itemis AG as a working student and then continued to contribute to different research projects in the company. 
@@ -106,14 +106,14 @@ items:
   - name: "Mikael Saarinen"
     anchor: mikael_saarinen
     title: "Poster: Hono™ service stack deployment to Azure"
-    img: mikael_saarinen.jpg
+    img: mikael_saarinen.jpeg
     bio: |
       <p>Mikael Saarinen is an Information Processing Science student at University Of Oulu, and group member of SMADYASP student Group
       </p>
   - name: "Sebastian Schildt"
     anchor: sebastian_schildt
     title: "Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles"
-    img: sebastian_schildt.jpg
+    img: sebastian_schildt.jpeg
     bio: |
       <p>Sebastian Schildt received his diploma degree in engineering-informatics in 2006 from the University Lüneburg working on 
       efficient embedded network protocol stacks and a master’s degree in computer science in 2009 from the Leibniz University 
@@ -123,7 +123,7 @@ items:
   - name: "Marc Zeller"
     anchor: marc_zeller
     title: "Co-creating automotive innovations"
-    img: marc_zeller.jpg
+    img: marc_zeller.jpeg
     bio: |
       <p>Marc Zeller works as a Senior Key Expert for model-based reliability and safety engineering at Siemens Technology in Munich. 
       His research interests are focused on the efficient and effective development of dependability-relevant Cyber-physical Systems 
