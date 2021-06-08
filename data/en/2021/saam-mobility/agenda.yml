@@ -6,8 +6,11 @@ types:
     - name: Session
       id: session
       color: "#ED7D31"
-    - name: Day
-      id: day
+    - name: Demo
+      id: demo
+      color: "#0000FF"
+    - name: Poster
+      id: poster
       color: "#FF0000"
     - name: Sponsor
       id: sponsor
@@ -47,30 +50,27 @@ sets:
               non-differentiating areas and collaborating is the path forward.</p>
 
     - name: 'Context Aware Software Stacks for Mobility: Composive.ai Overview'
-      presenter: Deniz Memis
+      presenter: <a href="speakers/#deniz_memis">Deniz Memis</a>
       type: session
       time: 13:50 - 14:10
       abstract: |
               <p>Authors: Naci Dai, Deniz Memis and Burak Saglam<br/><br/>
-              Humans are very good at adapting to and driving in very different conditions and environments.  
-              Complex AI based software such as Autonomous vehicles (AV) are biased by the training data and 
-              they do not do well in different contexts. Environment perception and context awareness can be 
-              used to adapt and deploy complex networks of AI systems that are expected to perform safely on 
-              many different environments and edge cases. Typical Autonomous Drive (AD) software stacks provide 
-              localization, object detection and tracking using an array of sensor data. Additional sources of 
-              information such as V2X connectivity, passenger behavior, person-to-device mapping, urban context, 
-              degradation of traffic etc. complements the sensor data that can be used to describe a context. This 
-              ontext is used to predict and adapt the system of software and applications that are deployed to the 
-              vehicle.<br/>
-              Context Aware Software Stack for Mobility (CASSM) describes a model based approach for definition of a 
-              oftware stack for complex systems such as those found in autonomous vehicles.  Machine Learning is used 
-              to detect a context and adapt the software stack, which can then be used to identify and deploy services 
-              to autonomous vehicles. CASSM will be an open source in-vehicle delivery of context-driven services and 
-              applications. This paper describes an architecture to define context-aware personalized & dynamically 
-              provisioned capabilities, applications & services to autonomous vehicles.</p>
+              Humans are very good at adapting to and driving in very different conditions and environments. Complex AI based
+              software such as Autonomous vehicles (AV) are biased by the training data and they do not do well in different 
+              contexts. Environment perception and context awareness can be used to adapt and deploy complex networks of AI 
+              systems that are expected to perform safely on many different environments and edge cases. Typical Autonomous 
+              Drive (AD) software stacks provide localization, object detection and tracking using an array of sensor data. 
+              Additional sources of information such as V2X connectivity, passenger behavior, person-to-device mapping, urban 
+              context, degradation of traffic etc. complements the sensor data that can be used to describe a context. 
+              This context is used to predict and adapt the system of software and applications that are deployed to the vehicle.<br/>
+              Context Aware Software Stack for Mobility (CASSM) describes a model based approach for definition of a software stack 
+              for complex systems such as those found in autonomous vehicles. Machine Learning is used to detect a context and adapt 
+              the software stack, which can then be used to identify and deploy services to autonomous vehicles. CASSM will be an 
+              open source in-vehicle delivery of context-driven services and applications. This paper describes an architecture to 
+              define context-aware personalized & dynamically provisioned capabilities, applications & services to autonomous vehicles.</p>
 
     - name: 'APP4MC RaceCar: A Practical ADAS Demonstrator for Evaluating and Verifying Timing Behavior'
-      presenter: Anand Prakash
+      presenter: <a href="speakers/#anand_prakash">Anand Prakash</a>
       type: session
       time: 14:10 - 14:30
       abstract: |
@@ -101,9 +101,9 @@ sets:
               ecosystems in Finland. Oulu Automotive Cluster is run by BusinessOulu, the business 
               development agency of City of Oulu. <a href="http://www.automotive.oulu.com">www.automotive.oulu.com</a></p>
         
-    - name: 'Demo - PANORover: Autonomous Driving System Development Platform'
-      presenter: Marc Zeller
-      type: session
+    - name: 'PANORover: Autonomous Driving System Development Platform'
+      presenter: <a href="speakers/#marc_zeller">Marc Zeller</a>
+      type: demo
       time: 14:55 - 15:10
       abstract: |
               <p>Authors: Marc Zeller, Olexiy Kupriyanov and Norbert Beck<br/><br/>
@@ -114,7 +114,7 @@ sets:
               (the PANORover).</p>
 
     - name: 'Benefits of Usability and User Experience in Automated Driving'
-      presenter: Mikko Rajanen
+      presenter: <a href="speakers/#mikko_rajanen">Mikko Rajanen</a>
       type: session
       time: 15:10 - 15:30
       abstract: |
@@ -168,7 +168,7 @@ sets:
               artificial intelligence to optimize transportation systems.</p>
 
     - name: 'Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles'
-      presenter: Sebastian Schildt
+      presenter: <a href="speakers/#sebastian_schildt">Sebastian Schildt</a>
       type: session
       time: 9:50 - 10:10
       abstract: |
@@ -182,7 +182,7 @@ sets:
               cloud for further analysis.</p>
 
     - name: 'Utilizing Eclipse Kuksa framework to build an intelligent moving test platform to support vehicle related research'
-      presenter: Harri Hirvonsalo
+      presenter: <a href="speakers/#harri_hirvonsalo">Harri Hirvonsalo</a>
       type: session
       time: 10:10 - 10:30
       abstract: |
@@ -193,23 +193,23 @@ sets:
               though with a considerable learning needs. We present the experience gained during this study and demonstrate some of the 
               functionality provided by a minimum-viable system we implemented in the study.</p>
 
-    - name: 'Poster: Hono™ service stack deployment to Azure'
-      presenter: Mikael Saarinen
-      type: session
+    - name: 'Hono™ service stack deployment to Azure'
+      presenter: <a href="speakers/#mikael_saarinen">Mikael Saarinen</a>
+      type: poster
       time: 10:30 - 10:35
       abstract: |
               <p>Authors: Mikael Saarinen and Niina Lundén<br/><br/>
-              Hono™ service stack deployment to Azure was a student project by the SMADYASP group, in which the goal was to create 
+              Hono™ service stack deployment to Azure was a student project by the SMADYASP (Smart Autonomous Driving Yet Another Student Project) group, in which the goal was to create 
               cloud infrastructure architecture for mobility applications. Microsoft Azure was used as the cloud platform, and deployment was 
               done using Terraform, Helm, and Kubernetes. With the results of the project, it is now much easier to deploy Hono™ and monitor 
               and trace the whole service stack. In the future, this project's results are used in setting up a test environment for real 
               automotive scenarios concerning in-vehicle and 5G connectivity mobility applications. <br/>
-              Source: <a href="https://github.com/smaddis/smad-deploy-azure">https://github.com/smaddis/smad-deploy-azure<a/>
-
+              Source: <a href="https://github.com/smaddis/smad-deploy-azure">https://github.com/smaddis/smad-deploy-azure<a/><br/>
+              Demo video: <a href="https://youtu.be/SF46X0i_hJU">https://youtu.be/SF46X0i_hJU</a>
               </p>
 
     - name: 'Algorithmic Planning, Simulation and Validation of Smart, Shared Parking Services using Edge Hardware'
-      presenter: Muralikrishna Thulasi Raman
+      presenter: <a href="speakers/#murali_raman">Muralikrishna Thulasi Ramann</a>
       type: session
       time: 10:50 - 11:10
       abstract: |
@@ -226,7 +226,7 @@ sets:
               considering all the stakeholders. A simulation based on a district of Dublin provides quantitative instances for these metrics.</p>
 
     - name: 'Towards a Domain-specific Language for the Virtual Validation of Cloud-native Mobility Services'
-      presenter: Philipp Heisig
+      presenter: <a href="speakers/#philipp_heisig">Philipp Heisig</a>
       type: session
       time: 11:10 - 11:30
       abstract: |
@@ -247,7 +247,7 @@ sets:
 
 
     - name: 'Morphemic Cloud Application Models Design'
-      presenter: Alessandra Bagnato
+      presenter: <a href="speakers/#alessandra_bagnato">Alessandra Bagnato</a>
       type: session
       time: 11:30 - 11:50
       abstract: |

@@ -11,7 +11,6 @@ items:
       software and management of IT projects.<br/>
       Since the foundation of the OpenADx Eclipse Working Group in June 2019, he is also their speaker.
       Andreas Riexinger will give an overview about future mobility and the role of open source software.</p>
-
   - name: "Robert Hilbrich"
     anchor: robert_hilbrich
     title: "The Importance of Open Simulators and AI in a Changing Mobility Landscape"
@@ -23,7 +22,17 @@ items:
       the German Aerospace Center in 2015, he is responsible for the development of the traffic simulation suite 
       Eclipse SUMO. In 2019 Robert also founded a startup, the Consultancy for Engineers GmbH, where he is employed 
       as managing director in addition to his role at the German Aerospace Center.</p>
-
+  - name: "Alessandra Bagnato"
+    anchor: alessandra_bagnato
+    title: "Morphemic Cloud Application Models Design"
+    img: alessandra_bagnato.jpeg
+    bio: |
+      <p>Dr. Alessandra Bagnato is a research scientist and the Head of Modelio Research Unit in Softeam Software (Docaposte Group). 
+      She holds a Ph.D. degree in Computer Science from TELECOM SudParis and Université Evry Val d’Essonne, France and a MSc in 
+      Computer Science from the University of Genoa, Italy. At SOFTEAM, she leads the Softeam Software Modelio team research 
+      activities around innovative model-driven engineering methods in Modelio workbench in the area of Cyber-Physical Systems, 
+      Cloud and Big Data (like ECSEL AIDOaRt, H2020 MORPHEMIC, H2020 Databio, H2020 CPSwarm ), GDPR and Privacy (ANR UPCARE, H2020 
+      PoSeID-on) and on measuring software engineering (ITEA 3 MEASURE, H2020 QRapids, H2020 CROSSMINER). </p>
   - name: "Eija Hämäläinen"
     anchor: eija_hamalainen
     title: "Co-creating automotive innovations"
@@ -33,3 +42,94 @@ items:
       in ICT sector. She is steering the ecosystem work at Oulu Automotive Cluster and believes that even 
       the smallest companies can change the course of the entire automotive industry for more sustainable future. 
       <a href="https://www.linkedin.com/in/hamalaineneija/">LinkedIn</a></p>
+  - name: "Philipp Heisig"
+    anchor: philipp_heisig
+    title: "Towards a Domain-Specific Language for the Virtual Validation of Cloud-native Mobility Services"
+    img: philipp_heisig.jpeg
+    bio: |
+      <p>Philipp Heisig is a research associate at the IDiAL Institute of FH Dortmund and doing his PhD in the automotive domain 
+      with a specific focus on the simulation-driven validation of cloud-based mobility services. His additional research interests 
+      are model-driven software development, cloud computing, and software product lines. For several years, Philipp is part of 
+      different European ITEA research projects such as AMALTHEA4public or APPSTACLE. He is also a committer for Eclipse APP4MC 
+      as well as Eclipse Kuksa.</p>
+  - name: "Harri Hirvonsalo"
+    anchor: harri_hirvonsalo
+    title: "Utilizing Eclipse Kuksa framework to build an intelligent moving test platform to support vehicle related research"
+    img: harri_hirvonsalo.png
+    bio: |
+      <p>Harri Hirvonsalo is a software professional with +5 years of work experience in research and industry setting with a current 
+      position as software specialist at CSC - IT Services for Science Ltd. Hirvonsalo is completing his MSc studies in Information 
+      Processing Science degree programme in University of Oulu. Fields of interest include software architectures, open data, 
+      internet of things, information security, systems engineering, automotive software and systems, and software development in 
+      general. </p>
+  - name: "Deniz Memis"
+    anchor: deniz_memis
+    title: "Co-creating automotive innovations"
+    img: deniz_memis.jpeg
+    bio: |
+      <p>Deniz Memis, BS in Electrical and Electronics Engineering (Bilkent University, Ankara) and Master’s degree in Engineering 
+      and Technology Management (Bogazici University, Istanbul). As a software developer at Eteration, I have been mostly involved 
+      in company's R&D projects that are conducted under Eteration Labs department. As a team we are responsible for the design and 
+      development of Context Aware Software Stacks for Mobility (CASSM), a solution for adapting model-driven complex autonomous 
+      systems such as AD. </p>
+  - name: "Anand Prakash"
+    anchor: anand_prakash
+    title: "APP4MC RaceCar: A Practical ADAS Demonstrator for Evaluating and Verifying Timing Behavior"
+    img: anand_prakash.jpeg
+    bio: |
+      <p>Anand Prakash is pursuing his master’s in Embedded Systems for Mechatronics at Dortmund University of Applied Sciences and Arts.  
+      In addition to his studies, he is working as Research Associate at the IDiAL Institute under the project PANORAMA. Prior to joining 
+      the Masters programme, Anand worked as a Software Engineer in companies involving the Display and Smart Card industry. He has worked 
+      extensively in software simulation, debugger and application security. His research interests include security and safety of real-time 
+      applications. </p>
+  - name: "Mikko Rajanen"
+    anchor: mikko_rajanen
+    title: "Benefits of Usability and User Experience in Automated Driving"
+    img: mikko_rajanen.jpeg
+    bio: |
+      <p>Mikko Rajanen is a post-doctoral researcher at INTERACT Research Unit, University of Oulu, Finland. He has a Ph.D. degree in 
+      Information Systems and over 20 years of experience in usability research and teaching. His research interests include usability 
+      ost-benefit analysis, usability in open source software development context, and usability in games and gamification, 
+      accessibility, and safety culture in digital fabrication. He has been involved in local usability community, organizing 
+      the World Usability Day and initiating the UKKOSS research project for bringing the usability methods, processes, and 
+      practices into open source software development context. His goal is to make the world a better place one user 
+      interface at the time. </p>
+  - name: "Muralikrishna Thulasi Raman"
+    anchor: murali_raman
+    title: "Algorithmic Planning, Simulation and Validation of Smart, Shared Parking Services using Edge Hardware"
+    img: murali_raman.png
+    bio: |
+      <p>Muralikrishna Thulasi Raman, generally known as Murali, completed his Masters in Information Technology at the University of 
+      Stuttgart. He joined Itemis AG as a working student and then continued to contribute to different research projects in the company. 
+      As part of his masters thesis he worked on a concept called Smart Shared Private Parking using the Eclipse ecosystem. Currently, 
+      he is working as a Software Developer at Itemis AG.</p>
+  - name: "Mikael Saarinen"
+    anchor: mikael_saarinen
+    title: "Poster: Hono™ service stack deployment to Azure"
+    img: mikael_saarinen.jpeg
+    bio: |
+      <p>Mikael Saarinen is an Information Processing Science student at University Of Oulu, and group member of SMADYASP 
+      (Smart Autonomous Driving Yet Another Student Project) student Group. He is interested in all things considering 
+      software. Eager to learn and create products, services, and systems for the automotive industry, and other software-defined 
+      solutions.</p>
+  - name: "Sebastian Schildt"
+    anchor: sebastian_schildt
+    title: "Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles"
+    img: sebastian_schildt.jpeg
+    bio: |
+      <p>Sebastian Schildt received his diploma degree in engineering-informatics in 2006 from the University Lüneburg working on 
+      efficient embedded network protocol stacks and a master’s degree in computer science in 2009 from the Leibniz University 
+      Hannover researching misbehavior detection for resilient Ad-Hoc networks. In 2015 he received his Ph.D. degree in computer 
+      science from TU Braunschweig working on Delay Tolerant Networking systems for smart city and smart farming applications. 
+      Since 2015 he works on future vehicle computer software architectures and automotive OSS at Robert Bosch Corporate Research. </p>
+  - name: "Marc Zeller"
+    anchor: marc_zeller
+    title: "Co-creating automotive innovations"
+    img: marc_zeller.jpeg
+    bio: |
+      <p>Marc Zeller works as a Senior Key Expert for model-based reliability and safety engineering at Siemens Technology in Munich. 
+      His research interests are focused on the efficient and effective development of dependability-relevant Cyber-physical Systems 
+      using model-based engineering techniques. Marc Zeller received a diploma in Computer Science from the Karlsruhe Institute of 
+      Technology (KIT) in 2007 and obtained a PhD in Computer Science from the University of Augsburg in 2013. With over 10-years' 
+      experience in different industrial domains, such as automotive, railway, avionics, or industry automations, he has been involved 
+      in various projects establishing model-based engineering techniques and is author of many publications in this area. </p>
