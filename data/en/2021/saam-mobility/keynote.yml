@@ -1,6 +1,6 @@
 items:
   - name: "Andreas Riexinger"
-    title: "Product Manager Autonomous Driving (Robert Bosch GmbH)"
+    title: "(Robert Bosch GmbH) Keynote"
     img: andreas_riexinger.jpeg
     bio: |
       <p>Since end of 2016, Andreas Riexinger is driving the Bosch autonomous driving solutions as a product
@@ -11,7 +11,7 @@ items:
       Andreas Riexinger will give an overview about future mobility and the role of open source software.</p>
 
   - name: "Robert Hilbrich"
-    title: "Group Manager Simulation of Mobility Systems (DLR)"
+    title: "(DLR) Keynote"
     img: Robert_Hilbrich.jpeg
     bio: |
       <p>Dr. Robert Hilbrich works as a manager for simulation and modeling at the German Aerospace Center in 
@@ -22,7 +22,7 @@ items:
       as managing director in addition to his role at the German Aerospace Center.</p>
   - name: "Alessandra Bagnato"
     anchor: alessandra_bagnato
-    title: "Morphemic Cloud Application Models Design"
+    title: "(Softeam Software)"
     img: alessandra_bagnato.jpeg
     bio: |
       <p>Dr. Alessandra Bagnato is a research scientist and the Head of Modelio Research Unit in Softeam Software (Docaposte Group). 
@@ -33,7 +33,7 @@ items:
       PoSeID-on) and on measuring software engineering (ITEA 3 MEASURE, H2020 QRapids, H2020 CROSSMINER). </p>
   - name: "Eija Hämäläinen"
     anchor: eija_hamalainen
-    title: "Co-creating automotive innovations"
+    title: "(Oulu Automotive Cluster) Sponsor"
     img: eija_hamalainen.jpg
     bio: |
       <p>Ms. Eija Hämäläinen has 25+ years of experience in international sales and marketing, especially
@@ -42,7 +42,7 @@ items:
       <a href="https://www.linkedin.com/in/hamalaineneija/">LinkedIn</a></p>
   - name: "Philipp Heisig"
     anchor: philipp_heisig
-    title: "Towards a Domain-Specific Language for the Virtual Validation of Cloud-native Mobility Services"
+    title: "(IDiAL Institute of FH Dortmund)"
     img: philipp_heisig.jpeg
     bio: |
       <p>Philipp Heisig is a research associate at the IDiAL Institute of FH Dortmund and doing his PhD in the automotive domain 
@@ -52,7 +52,7 @@ items:
       as well as Eclipse Kuksa.</p>
   - name: "Harri Hirvonsalo"
     anchor: harri_hirvonsalo
-    title: "Utilizing Eclipse Kuksa framework to build an intelligent moving test platform to support vehicle related research"
+    title: "(CSC - IT Services for Science Ltd)"
     img: harri_hirvonsalo.png
     bio: |
       <p>Harri Hirvonsalo is a software professional with +5 years of work experience in research and industry setting with a current 
@@ -62,7 +62,7 @@ items:
       general. </p>
   - name: "Deniz Memis"
     anchor: deniz_memis
-    title: "Co-creating automotive innovations"
+    title: "(Eteration)"
     img: deniz_memis.jpeg
     bio: |
       <p>Deniz Memis, BS in Electrical and Electronics Engineering (Bilkent University, Ankara) and Master’s degree in Engineering 
@@ -72,7 +72,7 @@ items:
       systems such as AD. </p>
   - name: "Anand Prakash"
     anchor: anand_prakash
-    title: "APP4MC RaceCar: A Practical ADAS Demonstrator for Evaluating and Verifying Timing Behavior"
+    title: "(Dortmund University of Applied Sciences and Arts)"
     img: anand_prakash.jpeg
     bio: |
       <p>Anand Prakash is pursuing his master’s in Embedded Systems for Mechatronics at Dortmund University of Applied Sciences and Arts.  
@@ -82,7 +82,7 @@ items:
       applications. </p>
   - name: "Mikko Rajanen"
     anchor: mikko_rajanen
-    title: "Benefits of Usability and User Experience in Automated Driving"
+    title: "(INTERACT Research Unit, University of Oulu)"
     img: mikko_rajanen.jpeg
     bio: |
       <p>Mikko Rajanen is a post-doctoral researcher at INTERACT Research Unit, University of Oulu, Finland. He has a Ph.D. degree in 
@@ -94,7 +94,7 @@ items:
       interface at the time. </p>
   - name: "Muralikrishna Thulasi Raman"
     anchor: murali_raman
-    title: "Algorithmic Planning, Simulation and Validation of Smart, Shared Parking Services using Edge Hardware"
+    title: "(Itemis AG)"
     img: murali_raman.png
     bio: |
       <p>Muralikrishna Thulasi Raman, generally known as Murali, completed his Masters in Information Technology at the University of 
@@ -103,7 +103,7 @@ items:
       he is working as a Software Developer at Itemis AG.</p>
   - name: "Mikael Saarinen"
     anchor: mikael_saarinen
-    title: "Poster: Hono™ service stack deployment to Azure"
+    title: "(University Of Oulu) Poster"
     img: mikael_saarinen.jpeg
     bio: |
       <p>Mikael Saarinen is an Information Processing Science student at University Of Oulu, and group member of SMADYASP 
@@ -112,7 +112,7 @@ items:
       solutions.</p>
   - name: "Sebastian Schildt"
     anchor: sebastian_schildt
-    title: "Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles"
+    title: "(Robert Bosch Corporate Research)"
     img: sebastian_schildt.jpeg
     bio: |
       <p>Sebastian Schildt received his diploma degree in engineering-informatics in 2006 from the University Lüneburg working on 
@@ -122,7 +122,7 @@ items:
       Since 2015 he works on future vehicle computer software architectures and automotive OSS at Robert Bosch Corporate Research. </p>
   - name: "Marc Zeller"
     anchor: marc_zeller
-    title: "Co-creating automotive innovations"
+    title: "(Siemens Technology)"
     img: marc_zeller.jpeg
     bio: |
       <p>Marc Zeller works as a Senior Key Expert for model-based reliability and safety engineering at Siemens Technology in Munich. 
