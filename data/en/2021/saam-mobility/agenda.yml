@@ -49,6 +49,10 @@ sets:
               demands on the existing tools and frameworks. Instead of solving these challenges alone, partnering in
               non-differentiating areas and collaborating is the path forward.</p>
 
+    - name: 'Break'
+      type: break
+      time: 13:40 - 13:50
+
     - name: 'Context Aware Software Stacks for Mobility: Composive.ai Overview'
       presenter: <a href="speakers/#deniz_memis">Deniz Memis</a>
       type: session
@@ -90,6 +94,10 @@ sets:
               against the timing requirements. Finally, the talk concludes with the importance on designing an ADAS with a 
               model-based approach. This will enable a better, faster and modular analysis of a safety critical ADAS application.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D1-03-ESAAMM_2021_paper_7_wBG.pdf">Conference handout - not for distribution</a></p>
+
+    - name: 'Break'
+      type: break
+      time: 14:30 - 14:40
 
     - name: 'Co-creating automotive innovations'
       presenter: <a href="speakers/#eija_hamalainen">Eija Hämäläinen</a> 
@@ -171,6 +179,10 @@ sets:
               Moreover, results from recent research projects are used to discuss the effectiveness and efficiency of applying 
               artificial intelligence to optimize transportation systems.</p>
 
+    - name: 'Break'
+      type: break
+      time: 9:40 - 9:50
+
     - name: 'Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles'
       presenter: <a href="speakers/#sebastian_schildt">Sebastian Schildt</a>
       type: session
@@ -212,7 +224,11 @@ sets:
               automotive scenarios concerning in-vehicle and 5G connectivity mobility applications. <br/>
               Source: <a href="https://github.com/smaddis/smad-deploy-azure">https://github.com/smaddis/smad-deploy-azure<a/><br/>
               Demo video: <a href="https://youtu.be/SF46X0i_hJU">https://youtu.be/SF46X0i_hJU</a><br/><br/>
-              <strong>Paper:</strong> <a href="temp-papers/D2-04P-ESAAMM_2021_paper_11_wBG.pdf">Conference handout - not for distribution</a></p>
+              <strong>Demo:</strong> <a href="temp-papers/D2-04P-ESAAMM_2021_paper_11_wBG.pdf">Conference handout - not for distribution</a></p>
+
+    - name: 'Break'
+      type: break
+      time: 10:35 - 10:50
 
     - name: 'Algorithmic Planning, Simulation and Validation of Smart, Shared Parking Services using Edge Hardware'
       presenter: <a href="speakers/#murali_raman">Muralikrishna Thulasi Ramann</a>
