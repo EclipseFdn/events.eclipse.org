@@ -19,6 +19,10 @@ types:
 sets:
   - name: Day 1 -- Tuesday, June 15
     items:
+
+    - name: 'Opening'
+      type: break
+      time: CEST
         
     - name: 'Introduction and Welcome'
       presenter: Pasi Kuvaja 
@@ -151,6 +155,10 @@ sets:
 
   - name: Day 2 -- Wednesday, June 16
     items:
+
+    - name: 'Opening'
+      type: break
+      time: CEST
         
     - name: 'Summary and updates'
       presenter: Pasi Kuvaja
