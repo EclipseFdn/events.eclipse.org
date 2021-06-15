@@ -30,9 +30,9 @@ Eclipse SAAM Mobility 2021, takes place June 15-16. The virtual conference will 
 {{</ events/registration >}}
 {{</ grid/section-container >}}
 
-[//]: # (Keynote speakers)
+[//]: # (Speakers)
 {{< grid/section-container id="keynote" class="featured-section-row text-center featured-section-row-dark-bg eclipsefdn-user-display-circle" >}}
-  {{< events/user_display event="saam-mobility" year="2021" title="Keynote speakers" source="keynote" imageRoot="/2021/saam-mobility/images/speakers/" subpage="speakers" displayLearnMore="false" />}}
+  {{< events/user_display event="saam-mobility" year="2021" title="Speakers" source="keynote" imageRoot="/2021/saam-mobility/images/speakers/" subpage="speakers" displayLearnMore="false" />}}
 {{</ grid/section-container >}}
 
 [//]: # (Agenda)
