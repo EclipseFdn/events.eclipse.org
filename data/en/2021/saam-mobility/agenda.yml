@@ -199,7 +199,7 @@ sets:
               <strong>Paper:</strong> <a href="temp-papers/D2-02-ESAAMM_2021_paper_3_wBG.pdf">Conference handout - not for distribution</a></p>
 
     - name: 'Utilizing Eclipse Kuksa framework to build an intelligent moving test platform to support vehicle related research'
-      presenter: <a href="speakers/#harri_hirvonsalo">Harri Hirvonsalo</a>
+      presenter: <a href="speakers/#pertti_seppanen">Pertti Seppänen</a>, <br/><a href="speakers/#harri_hirvonsalo">Harri Hirvonsalo</a>
       type: session
       time: 10:10 - 10:30
       abstract: |

@@ -120,6 +120,18 @@ items:
       Hannover researching misbehavior detection for resilient Ad-Hoc networks. In 2015 he received his Ph.D. degree in computer 
       science from TU Braunschweig working on Delay Tolerant Networking systems for smart city and smart farming applications. 
       Since 2015 he works on future vehicle computer software architectures and automotive OSS at Robert Bosch Corporate Research. </p>
+
+  - name: "Pertti Seppänen"
+    anchor: pertti_seppanen
+    title: "University Of Oulu"
+    img: pertti_seppanen.jpg
+    bio: |
+      <p>Pertti Seppänen (PhD 2018, MSc 1993) is a University Lecturer and researcher at the Empirical
+      Software Engineering in Software, Systems and Services (M3S) research unit of the University of
+      Oulu (Finland). Prior to joining the M3S unit he did over 30 years’ career in ICT industry in different
+      managerial positions. His research interests include early-stage software startups,
+      entrepreneurship, software process improvement and automotive software and systems.</p>
+
   - name: "Marc Zeller"
     anchor: marc_zeller
     title: "Siemens Technology"
