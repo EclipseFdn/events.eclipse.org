@@ -1,4 +1,4 @@
-complete: false
+complete: true
 types:
     - name: Keynote 
       id: keynote 
@@ -48,6 +48,7 @@ sets:
               Increasing embedded software complexity with an increase in level of automation is putting new
               demands on the existing tools and frameworks. Instead of solving these challenges alone, partnering in
               non-differentiating areas and collaborating is the path forward.</p>
+      slides: presentations/D1-01-Presentation.pdf
 
     - name: 'Break'
       type: break
@@ -73,6 +74,7 @@ sets:
               open source in-vehicle delivery of context-driven services and applications. This paper describes an architecture to 
               define context-aware personalized & dynamically provisioned capabilities, applications & services to autonomous vehicles.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D1-02-ESAAMM_2021_paper_4_wBG.pdf">Conference handout - not for distribution</a></p>
+      slides: presentations/D1-02-Presentation.pdf
 
     - name: 'APP4MC RaceCar: A Practical ADAS Demonstrator for Evaluating and Verifying Timing Behavior'
       presenter: <a href="speakers/#anand_prakash">Anand Prakash</a>
@@ -94,6 +96,7 @@ sets:
               against the timing requirements. Finally, the talk concludes with the importance on designing an ADAS with a 
               model-based approach. This will enable a better, faster and modular analysis of a safety critical ADAS application.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D1-03-ESAAMM_2021_paper_7_wBG.pdf">Conference handout - not for distribution</a></p>
+      slides: presentations/D1-03-Presentation.pdf
 
     - name: 'Break'
       type: break
@@ -110,6 +113,7 @@ sets:
               development and education organizations, the cluster is one of the fastest growing 
               ecosystems in Finland. Oulu Automotive Cluster is run by BusinessOulu, the business 
               development agency of City of Oulu. <a href="http://www.automotive.oulu.com">www.automotive.oulu.com</a></p>
+      slides: presentations/D1-04-Presentation.pdf
         
     - name: 'PANORover: Autonomous Driving System Development Platform'
       presenter: <a href="speakers/#marc_zeller">Marc Zeller</a>
@@ -123,6 +127,7 @@ sets:
               (SOTIF, ISO 21448) with the model-based Component Fault Tree (CFT) methodology using a self-driving toy vehicle 
               (the PANORover).<br/><br/>
               <strong>Demo::</strong> <a href="temp-papers/D1-05D-ESAAMM_2021_paper_12_wBG.pdf">Conference handout - not for distribution</a></p>
+      slides: presentations/D1-05-Presentation.pdf
 
     - name: 'Benefits of Usability and User Experience in Automated Driving'
       presenter: <a href="speakers/#mikko_rajanen">Mikko Rajanen</a>
@@ -141,6 +146,7 @@ sets:
               context as well as application development context through competitive advantage, reduced risks, and reduced development 
               costs.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D1-06-ESAAMM_2021_paper_9_wBG.pdf">Conference handout - not for distribution</a></p>
+      slides: presentations/D1-06-Presentation.pdf
 
     - name: 'Open discussion and announcements'
       presenter: Philippe Krief 
@@ -178,6 +184,7 @@ sets:
               a city? The Eclipse SUMO project is used as an example to illustrate how to build digital twins of smart cities. 
               Moreover, results from recent research projects are used to discuss the effectiveness and efficiency of applying 
               artificial intelligence to optimize transportation systems.</p>
+      slides: presentations/D2-01-Presentation.pdf
 
     - name: 'Break'
       type: break
@@ -197,6 +204,7 @@ sets:
               and the KUKSA.cloud components can be used to collect relevant data from a real heavy-duty truck and send them to the 
               cloud for further analysis.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D2-02-ESAAMM_2021_paper_3_wBG.pdf">Conference handout - not for distribution</a></p>
+      slides: presentations/D2-02-Presentation.pdf
 
     - name: 'Utilizing Eclipse Kuksa framework to build an intelligent moving test platform to support vehicle related research'
       presenter: <a href="speakers/#pertti_seppanen">Pertti Seppänen</a>, <br/><a href="speakers/#harri_hirvonsalo">Harri Hirvonsalo</a>
@@ -210,6 +218,7 @@ sets:
               though with a considerable learning needs. We present the experience gained during this study and demonstrate some of the 
               functionality provided by a minimum-viable system we implemented in the study.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D2-03-ESAAMM_2021_paper_8_wBG.pdf">Conference handout - not for distribution</a></p>
+      slides: presentations/D2-03-Presentation.pdf
 
     - name: 'Hono™ service stack deployment to Azure'
       presenter: <a href="speakers/#mikael_saarinen">Mikael Saarinen</a>
@@ -225,6 +234,7 @@ sets:
               Source: <a href="https://github.com/smaddis/smad-deploy-azure">https://github.com/smaddis/smad-deploy-azure<a/><br/>
               Demo video: <a href="https://youtu.be/SF46X0i_hJU">https://youtu.be/SF46X0i_hJU</a><br/><br/>
               <strong>Demo:</strong> <a href="temp-papers/D2-04P-ESAAMM_2021_paper_11_wBG.pdf">Conference handout - not for distribution</a></p>
+      slides: presentations/D2-04-Presentation.pdf
 
     - name: 'Break'
       type: break
@@ -247,6 +257,7 @@ sets:
               and show its effectiveness in parking allocation in terms of vehicular emission, utilisation rate, and revenue as metrics 
               considering all the stakeholders. A simulation based on a district of Dublin provides quantitative instances for these metrics.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D2-05-ESAAMM_2021_paper_6_wBG.pdf">Conference handout - not for distribution</a></p>
+      slides: presentations/D2-05-Presentation.pdf
 
     - name: 'Towards a Domain-specific Language for the Virtual Validation of Cloud-native Mobility Services'
       presenter: <a href="speakers/#philipp_heisig">Philipp Heisig</a>
@@ -268,6 +279,7 @@ sets:
               support the setup of minimal traffic scenarios, it already helps to abstract complexity and ease the set-up of simulation 
               environments for connected vehicle scenarios.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D2-06-ESAAMM_2021_paper_5_wBG.pdf">Conference handout - not for distribution</a></p>
+      slides: presentations/D2-06-Presentation.pdf
 
 
     - name: 'Morphemic Cloud Application Models Design'
@@ -283,6 +295,7 @@ sets:
               Modelio. CAMEL Designer is an open source module for graphically creating, editing and exporting CAMEL Models in XMI 
               format. <br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D2-07-ESAAMM_2021_paper_10_wBG.pdf">Conference handout - not for distribution</a></p>
+      slides: presentations/D2-07-Presentation.pdf
 
 
     - name: 'Open channel discussion and close'
