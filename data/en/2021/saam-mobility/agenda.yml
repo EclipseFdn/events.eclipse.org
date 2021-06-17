@@ -263,7 +263,7 @@ sets:
       presenter: <a href="speakers/#philipp_heisig">Philipp Heisig</a>
       type: session
       time: 11:10 - 11:30
-      abstract: |
+      abstract: |   
               <p><strong>Authors:</strong> Philipp Heisig and Christoph Flick<br/><br/>
               <strong>Abstract:</strong> Future vehicles can be considered as ”IoT devices on wheels” as they exhibit high-performance computation resources, 
               various sensing devices, and a data-driven software architecture. While the availability of automotive big data provides 
