@@ -49,6 +49,7 @@ sets:
               demands on the existing tools and frameworks. Instead of solving these challenges alone, partnering in
               non-differentiating areas and collaborating is the path forward.</p>
       slides: presentations/D1-01-Presentation.pdf
+      vod: https://youtu.be/1vpO09-v9Kk
 
     - name: 'Break'
       type: break
@@ -75,6 +76,7 @@ sets:
               define context-aware personalized & dynamically provisioned capabilities, applications & services to autonomous vehicles.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D1-02-ESAAMM_2021_paper_4_wBG.pdf">Conference handout - not for distribution</a></p>
       slides: presentations/D1-02-Presentation.pdf
+      vod: https://youtu.be/Z0KZNvokGew
 
     - name: 'APP4MC RaceCar: A Practical ADAS Demonstrator for Evaluating and Verifying Timing Behavior'
       presenter: <a href="speakers/#anand_prakash">Anand Prakash</a>
@@ -97,6 +99,7 @@ sets:
               model-based approach. This will enable a better, faster and modular analysis of a safety critical ADAS application.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D1-03-ESAAMM_2021_paper_7_wBG.pdf">Conference handout - not for distribution</a></p>
       slides: presentations/D1-03-Presentation.pdf
+      vod: https://youtu.be/M0QzR4vIO5g
 
     - name: 'Break'
       type: break
@@ -114,6 +117,7 @@ sets:
               ecosystems in Finland. Oulu Automotive Cluster is run by BusinessOulu, the business 
               development agency of City of Oulu. <a href="http://www.automotive.oulu.com">www.automotive.oulu.com</a></p>
       slides: presentations/D1-04-Presentation.pdf
+      vod: https://youtu.be/KyAav2OZqiU
         
     - name: 'PANORover: Autonomous Driving System Development Platform'
       presenter: <a href="speakers/#marc_zeller">Marc Zeller</a>
@@ -128,6 +132,7 @@ sets:
               (the PANORover).<br/><br/>
               <strong>Demo::</strong> <a href="temp-papers/D1-05D-ESAAMM_2021_paper_12_wBG.pdf">Conference handout - not for distribution</a></p>
       slides: presentations/D1-05-Presentation.pdf
+      vod: https://youtu.be/RFOjGpvkWzs
 
     - name: 'Benefits of Usability and User Experience in Automated Driving'
       presenter: <a href="speakers/#mikko_rajanen">Mikko Rajanen</a>
@@ -147,6 +152,7 @@ sets:
               costs.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D1-06-ESAAMM_2021_paper_9_wBG.pdf">Conference handout - not for distribution</a></p>
       slides: presentations/D1-06-Presentation.pdf
+      vod: https://youtu.be/pgldkRxpPu8
 
     - name: 'Open discussion and announcements'
       presenter: Philippe Krief 
@@ -185,6 +191,7 @@ sets:
               Moreover, results from recent research projects are used to discuss the effectiveness and efficiency of applying 
               artificial intelligence to optimize transportation systems.</p>
       slides: presentations/D2-01-Presentation.pdf
+      vod: https://youtu.be/EWAc75ZBISc
 
     - name: 'Break'
       type: break
@@ -205,6 +212,7 @@ sets:
               cloud for further analysis.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D2-02-ESAAMM_2021_paper_3_wBG.pdf">Conference handout - not for distribution</a></p>
       slides: presentations/D2-02-Presentation.pdf
+      vod: https://youtu.be/20U8bWwWfgw
 
     - name: 'Utilizing Eclipse Kuksa framework to build an intelligent moving test platform to support vehicle related research'
       presenter: <a href="speakers/#pertti_seppanen">Pertti Seppänen</a>, <br/><a href="speakers/#harri_hirvonsalo">Harri Hirvonsalo</a>
@@ -219,6 +227,7 @@ sets:
               functionality provided by a minimum-viable system we implemented in the study.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D2-03-ESAAMM_2021_paper_8_wBG.pdf">Conference handout - not for distribution</a></p>
       slides: presentations/D2-03-Presentation.pdf
+      vod: https://youtu.be/0ZY2geZ7UjE
 
     - name: 'Hono™ service stack deployment to Azure'
       presenter: <a href="speakers/#mikael_saarinen">Mikael Saarinen</a>
@@ -235,6 +244,7 @@ sets:
               Demo video: <a href="https://youtu.be/SF46X0i_hJU">https://youtu.be/SF46X0i_hJU</a><br/><br/>
               <strong>Demo:</strong> <a href="temp-papers/D2-04P-ESAAMM_2021_paper_11_wBG.pdf">Conference handout - not for distribution</a></p>
       slides: presentations/D2-04-Presentation.pdf
+      vod: https://youtu.be/IiFtfx7oBuo
 
     - name: 'Break'
       type: break
@@ -258,6 +268,7 @@ sets:
               considering all the stakeholders. A simulation based on a district of Dublin provides quantitative instances for these metrics.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D2-05-ESAAMM_2021_paper_6_wBG.pdf">Conference handout - not for distribution</a></p>
       slides: presentations/D2-05-Presentation.pdf
+      vod: https://youtu.be/XI2_rldWfZQ
 
     - name: 'Towards a Domain-specific Language for the Virtual Validation of Cloud-native Mobility Services'
       presenter: <a href="speakers/#philipp_heisig">Philipp Heisig</a>
@@ -280,7 +291,7 @@ sets:
               environments for connected vehicle scenarios.<br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D2-06-ESAAMM_2021_paper_5_wBG.pdf">Conference handout - not for distribution</a></p>
       slides: presentations/D2-06-Presentation.pdf
-
+      vod: https://youtu.be/G0_XfHYdsRs
 
     - name: 'Morphemic Cloud Application Models Design'
       presenter: <a href="speakers/#alessandra_bagnato">Alessandra Bagnato</a>
@@ -296,6 +307,7 @@ sets:
               format. <br/><br/>
               <strong>Paper:</strong> <a href="temp-papers/D2-07-ESAAMM_2021_paper_10_wBG.pdf">Conference handout - not for distribution</a></p>
       slides: presentations/D2-07-Presentation.pdf
+      vod: https://youtu.be/blh85VrGVvc
 
 
     - name: 'Open channel discussion and close'
