@@ -11,9 +11,9 @@ hide_breadcrumb: true
 container: "container-fluid saam-2021-event"
 summary: "The Eclipse SAAM Mobility 2021 virtual conference, June 15-16, will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges."
 layout: single
-links: [[href: "https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097",text: "Register"]]
 ---
 <!-- Introduction -->
+<!--
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
 	{{< grid/div class="margin-top-0 margin-bottom-0 background-color-yellow" isMarkdown="false">}}
 	    {{< grid/div class="col-xs-24 col-sm-24 text-center" isMarkdown="false">}}
@@ -22,10 +22,19 @@ links: [[href: "https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-
 	    {{</ grid/div >}}
 	{{</ grid/div >}}
 {{</ grid/section-container >}}
+-->
 
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
 {{< events/registration event="saam-mobility" year="2021" title="About the Event">}}
-Eclipse SAAM Mobility 2021, takes place June 15-16. The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.
+
+### The SAM IoT conference is now over! Thank you for your interest and attendance!
+
+<!-- The conference proceedings are available on [the CEUR portal](http://ceur-ws.org/Vol-2739). -->
+
+#### You can also enjoy the video recordings and slides of the talks. Check the Agenda section.
+
+<!-- Eclipse SAAM Mobility 2021, takes place June 15-16. The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.
+-->
 
 {{</ events/registration >}}
 {{</ grid/section-container >}}
@@ -91,6 +100,7 @@ Modelling for Mobility
 
 
 [//]: # (Dates)
+<!-- 
 {{< grid/section-container class="featured-section-row" isMarkdown="true">}}
 
 ## Important Dates
@@ -101,6 +111,7 @@ Modelling for Mobility
 
 
 {{</ grid/section-container >}}
+-->
 
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
 
