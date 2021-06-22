@@ -24,7 +24,7 @@ layout: single
 {{</ grid/section-container >}}
 -->
 
-{{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg" isMarkdown="true">}}
+{{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 
 # About the Event
 
@@ -169,8 +169,8 @@ The Technical Program Committee is an independent panel of expert volunteers and
 {{</ grid/section-container >}}
 
 [//]: # (Register)
-
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
+<!--
 
 	{{< grid/div class="margin-top-30" isMarkdown="false">}}
 	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-2 text-center" isMarkdown="false">}}
@@ -180,9 +180,9 @@ The Technical Program Committee is an independent panel of expert volunteers and
 	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="/code-of-conduct/">}}Code of Conduct{{</bootstrap/button>}}
 	    {{</ grid/div >}}
 	{{</ grid/div >}}
+-->
 
 {{</ grid/section-container >}}
-
 
 [//]: # (Organizing Committee)
 {{< grid/section-container id="organizing-committee" class="featured-section-row featured-section-row-dark-bg text-center" isMarkdown="true">}}
