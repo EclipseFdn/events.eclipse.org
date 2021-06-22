@@ -24,7 +24,7 @@ layout: single
 {{</ grid/section-container >}}
 -->
 
-{{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
+{{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg" isMarkdown="true">}}
 
 # About the Event
 
@@ -113,7 +113,6 @@ Modelling for Mobility
 
 
 {{</ grid/section-container >}}
--->
 
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
 
@@ -124,6 +123,7 @@ Modelling for Mobility
 	{{</ grid/div >}}
 
 {{</ grid/section-container >}}
+-->
 
 [//]: # (TCP)
 {{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg">}}  
