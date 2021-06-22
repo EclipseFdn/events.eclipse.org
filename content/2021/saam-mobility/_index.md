@@ -27,11 +27,13 @@ layout: single
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
 {{< events/registration event="saam-mobility" year="2021" title="About the Event">}}
 
-### The SAM IoT conference is now over! Thank you for your interest and attendance!
+### The SAAM Mobility conference is now over! Thank you for your interest and attendance!
+
+#### You can already enjoy the video recordings and slides of the talks. Check the Agenda section.
+
+#### The conference proceedings will come soon. Stay tuned!
 
 <!-- The conference proceedings are available on [the CEUR portal](http://ceur-ws.org/Vol-2739). -->
-
-#### You can also enjoy the video recordings and slides of the talks. Check the Agenda section.
 
 <!-- Eclipse SAAM Mobility 2021, takes place June 15-16. The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.
 -->
