@@ -104,7 +104,7 @@ Modelling for Mobility
 [//]: # (Best Paper Award)
 {{< grid/section-container class="featured-section-row text-center" isMarkdown="true">}}
 # Best Paper Award
-We are pleased to be able to announce that the SAAM Mobility Best Paper Award for 2021 has been awarded to **Junhyung Ki, Sebastian Schildt, Andreas Hastall, Sven Erik Jeroschewski and Robert Höttger** for their paper on 'Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles'. 
+We are pleased to announce that the **SAAM Mobility Best Paper Award** for 2021 has been awarded to **Junhyung Ki, Sebastian Schildt, Andreas Hastall, Sven Erik Jeroschewski and Robert Höttger** for their paper on 'Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles'. 
 
 
 ![Best Paper Award](images/best_paper_award.png)
