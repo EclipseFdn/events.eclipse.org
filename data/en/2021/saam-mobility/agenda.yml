@@ -20,13 +20,6 @@ sets:
   - name: Day 1 -- Tuesday, June 15
     items:
         
-    - name: 'Introduction and Welcome'
-      presenter: Pasi Kuvaja 
-      type: staff
-      time: 13:00 CEST
-      abstract: |
-              <p></p>
-        
 
     - name: 'Mobility of the Future and Open Collaboration – A good Idea?'
       presenter: <a href="speakers/#andreas_riexinger">Andreas Riexinger</a>
@@ -50,10 +43,6 @@ sets:
               non-differentiating areas and collaborating is the path forward.</p>
       slides: presentations/D1-01-Presentation.pdf
       vod: https://youtu.be/1vpO09-v9Kk
-
-    - name: 'Break'
-      type: break
-      time: 13:40 - 13:50
 
     - name: 'Context Aware Software Stacks for Mobility: Composive.ai Overview'
       presenter: <a href="speakers/#deniz_memis">Deniz Memis</a>
@@ -98,10 +87,6 @@ sets:
               model-based approach. This will enable a better, faster and modular analysis of a safety critical ADAS application.<br/><br/></p>
       slides: presentations/D1-03-Presentation.pdf
       vod: https://youtu.be/M0QzR4vIO5g
-
-    - name: 'Break'
-      type: break
-      time: 14:30 - 14:40
 
     - name: 'Co-creating automotive innovations'
       presenter: <a href="speakers/#eija_hamalainen">Eija Hämäläinen</a> 
@@ -150,22 +135,8 @@ sets:
       slides: presentations/D1-06-Presentation.pdf
       vod: https://youtu.be/pgldkRxpPu8
 
-    - name: 'Open discussion and announcements'
-      presenter: Philippe Krief 
-      type: staff
-      time: 15:30 - 15:45
-      abstract: |
-              <p></p>
-
   - name: Day 2 -- Wednesday, June 16
     items:
-        
-    - name: 'Summary and updates'
-      presenter: Philippe Krief
-      type: staff
-      time: 9:00 CEST
-      abstract: |
-              <p></p>
       
     - name: 'The Importance of Open Simulators and AI in a Changing Mobility Landscape'
       presenter: <a href="speakers/#robert_hilbrich">Robert Hilbrich</a>
@@ -188,10 +159,6 @@ sets:
               artificial intelligence to optimize transportation systems.</p>
       slides: presentations/D2-01-Presentation.pdf
       vod: https://youtu.be/EWAc75ZBISc
-
-    - name: 'Break'
-      type: break
-      time: 9:40 - 9:50
 
     - name: 'Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles'
       presenter: <a href="speakers/#sebastian_schildt">Sebastian Schildt</a>
@@ -239,10 +206,6 @@ sets:
               <strong>Demo:</strong> <a href="temp-papers/D2-04P-ESAAMM_2021_paper_11_wBG.pdf">Conference handout - not for distribution</a></p>
       slides: presentations/D2-04-Presentation.pdf
       vod: https://youtu.be/IiFtfx7oBuo
-
-    - name: 'Break'
-      type: break
-      time: 10:35 - 10:50
 
     - name: 'Algorithmic Planning, Simulation and Validation of Smart, Shared Parking Services using Edge Hardware'
       presenter: <a href="speakers/#murali_raman">Muralikrishna Thulasi Ramann</a>
@@ -300,10 +263,3 @@ sets:
       slides: presentations/D2-07-Presentation.pdf
       vod: https://youtu.be/blh85VrGVvc
 
-
-    - name: 'Open channel discussion and close'
-      presenter: Pasi Kuvaja  and Philippe Krief
-      type: staff
-      time: 11:50 - 12:05
-      abstract: |
-              <p></p>
