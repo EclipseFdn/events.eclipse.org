@@ -24,7 +24,7 @@ layout: single
 {{</ grid/section-container >}}
 -->
 
-{{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
+{{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg text-center">}}
 {{< events/registration event="saam-mobility" year="2021">}}
 
 
