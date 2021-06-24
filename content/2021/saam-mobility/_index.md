@@ -24,7 +24,7 @@ layout: single
 {{</ grid/section-container >}}
 -->
 
-{{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg text-center">}}
+{{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
 {{< events/registration event="saam-mobility" year="2021">}}
 
 
@@ -40,16 +40,7 @@ layout: single
 
 # About the Event
 
-Increasingly autonomous, connected, intelligent and sustainable mobility in the future societies requires drastic
-software innovations that cross several research and innovation domains. This contributes to the rapid digitalization
-of contemporary societies. Current scenarios are characterized by constantly increasing demands of managing
-complex software constellations, rapid development cycles, while retaining high quality requirements for functional
-and non-functional requirements alike. A multitude of novel technologies – such as Edge Computing, Artificial
-Intelligence, Big Data Analytics, Digital Twins, and Security, Privacy, and Trust Schemes – are being investigated in
-order to be adopted in the current ecosystem-wide arrangements, standards, and tool chains. The role of open source
-software and tool chains, such as OpenADx, is also emerging powerfully. Hence, designing, managing, and
-governing the next generation systems, software and services for the future autonomous and connected mobility
-solutions is set to become even more complex.
+Increasingly autonomous, connected, intelligent and sustainable mobility in the future societies requires drastic software innovations that cross several research and innovation domains. This contributes to the rapid digitalization of contemporary societies. Current scenarios are characterized by constantly increasing demands of managing complex software constellations, rapid development cycles, while retaining high quality requirements for functional and non-functional requirements alike. A multitude of novel technologies – such as Edge Computing, Artificial Intelligence, Big Data Analytics, Digital Twins, and Security, Privacy, and Trust Schemes – are being investigated in order to be adopted in the current ecosystem-wide arrangements, standards, and tool chains. The role of open source software and tool chains, such as OpenADx, is also emerging powerfully. Hence, designing, managing, and governing the next generation systems, software and services for the future autonomous and connected mobility solutions is set to become even more complex.
 
 {{</ events/registration >}}
 {{</ grid/section-container >}}
