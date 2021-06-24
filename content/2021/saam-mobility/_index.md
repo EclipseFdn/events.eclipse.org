@@ -11,9 +11,9 @@ hide_breadcrumb: true
 container: "container-fluid saam-2021-event"
 summary: "The Eclipse SAAM Mobility 2021 virtual conference, June 15-16, will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges."
 layout: single
-links: [[href: "https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-147743604097",text: "Register"]]
 ---
 <!-- Introduction -->
+<!--
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
 	{{< grid/div class="margin-top-0 margin-bottom-0 background-color-yellow" isMarkdown="false">}}
 	    {{< grid/div class="col-xs-24 col-sm-24 text-center" isMarkdown="false">}}
@@ -22,12 +22,23 @@ links: [[href: "https://www.eventbrite.com/e/eclipse-saam-mobility-2021-tickets-
 	    {{</ grid/div >}}
 	{{</ grid/div >}}
 {{</ grid/section-container >}}
+-->
 
-{{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
-{{< events/registration event="saam-mobility" year="2021" title="About the Event">}}
-Eclipse SAAM Mobility 2021, takes place June 15-16. The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.
+{{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 
-{{</ events/registration >}}
+# About the Event
+
+### The SAAM Mobility conference is now over! Thank you for your interest and attendance!
+
+#### You can already enjoy the video recordings and slides of the talks. Check the Agenda section.
+
+#### The conference proceedings will be available soon. Stay tuned!
+
+<!-- The conference proceedings are available on [the CEUR portal](http://ceur-ws.org/Vol-2739). -->
+
+<!-- Eclipse SAAM Mobility 2021, takes place June 15-16. The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.
+-->
+
 {{</ grid/section-container >}}
 
 [//]: # (Speakers)
@@ -90,9 +101,18 @@ Modelling for Mobility
 {{</ grid/section-container >}}
 
 
-[//]: # (Dates)
-{{< grid/section-container class="featured-section-row" isMarkdown="true">}}
+[//]: # (Best Paper Award)
+{{< grid/section-container class="featured-section-row text-center" isMarkdown="true">}}
+# Best Paper Award
+We are pleased to announce that the **SAAM Mobility Best Paper Award** for 2021 has been awarded to **Junhyung Ki, Sebastian Schildt, Andreas Hastall, Sven Erik Jeroschewski and Robert Höttger** for their paper on 'Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles'. 
 
+
+![Best Paper Award](images/best_paper_award.png)
+{{</ grid/section-container >}}
+
+[//]: # (Dates)
+<!-- 
+{{< grid/section-container class="featured-section-row" isMarkdown="true">}}
 ## Important Dates
 
 | Paper submission deadline       | Acceptance Notification | Poster, Demo, Research Brief Submission |    Conference Dates   |
@@ -111,6 +131,7 @@ Modelling for Mobility
 	{{</ grid/div >}}
 
 {{</ grid/section-container >}}
+-->
 
 [//]: # (TCP)
 {{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg">}}  
@@ -156,8 +177,8 @@ The Technical Program Committee is an independent panel of expert volunteers and
 {{</ grid/section-container >}}
 
 [//]: # (Register)
-
 {{< grid/section-container class="featured-section-row" isMarkdown="false">}}
+<!--
 
 	{{< grid/div class="margin-top-30" isMarkdown="false">}}
 	    {{< grid/div class="col-xs-24 col-sm-8 col-sm-offset-2 text-center" isMarkdown="false">}}
@@ -167,9 +188,9 @@ The Technical Program Committee is an independent panel of expert volunteers and
 	        {{< bootstrap/button linkClass="btn-primary btn-wide" href="/code-of-conduct/">}}Code of Conduct{{</bootstrap/button>}}
 	    {{</ grid/div >}}
 	{{</ grid/div >}}
+-->
 
 {{</ grid/section-container >}}
-
 
 [//]: # (Organizing Committee)
 {{< grid/section-container id="organizing-committee" class="featured-section-row featured-section-row-dark-bg text-center" isMarkdown="true">}}
