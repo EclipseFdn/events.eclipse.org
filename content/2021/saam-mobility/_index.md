@@ -25,6 +25,7 @@ layout: single
 -->
 
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
+{{< events/registration event="saam-mobility" year="2021">}}
 
 # About the Event
 
@@ -36,9 +37,20 @@ layout: single
 
 <!-- The conference proceedings are available on [the CEUR portal](http://ceur-ws.org/Vol-2739). -->
 
-<!-- Eclipse SAAM Mobility 2021, takes place June 15-16. The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.
--->
+---
 
+Increasingly autonomous, connected, intelligent and sustainable mobility in the future societies requires drastic
+software innovations that cross several research and innovation domains. This contributes to the rapid digitalization
+of contemporary societies. Current scenarios are characterized by constantly increasing demands of managing
+complex software constellations, rapid development cycles, while retaining high quality requirements for functional
+and non-functional requirements alike. A multitude of novel technologies – such as Edge Computing, Artificial
+Intelligence, Big Data Analytics, Digital Twins, and Security, Privacy, and Trust Schemes – are being investigated in
+order to be adopted in the current ecosystem-wide arrangements, standards, and tool chains. The role of open source
+software and tool chains, such as OpenADx, is also emerging powerfully. Hence, designing, managing, and
+governing the next generation systems, software and services for the future autonomous and connected mobility
+solutions is set to become even more complex.
+
+{{</ events/registration >}}
 {{</ grid/section-container >}}
 
 [//]: # (Speakers)
