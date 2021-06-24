@@ -27,7 +27,6 @@ layout: single
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg text-center" isMarkdown="true">}}
 {{< events/registration event="saam-mobility" year="2021">}}
 
-# About the Event
 
 ### The SAAM Mobility conference is now over! Thank you for your interest and attendance!
 
@@ -38,6 +37,8 @@ layout: single
 <!-- The conference proceedings are available on [the CEUR portal](http://ceur-ws.org/Vol-2739). -->
 
 ---
+
+# About the Event
 
 Increasingly autonomous, connected, intelligent and sustainable mobility in the future societies requires drastic
 software innovations that cross several research and innovation domains. This contributes to the rapid digitalization
