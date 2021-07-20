@@ -1,18 +1,4 @@
+
 {
-  "presets":[
-     [
-        "@babel/preset-env",
-        {
-           "useBuiltIns":"entry",
-           "targets":{
-              "ie":"11"
-           }
-        }
-     ],
-     "@babel/preset-react"
-  ],
-  "plugins":[
-     "@babel/plugin-proposal-class-properties",
-     "@babel/proposal-object-rest-spread"
-  ]
+	"extends": "./node_modules/eclipsefdn-solstice-assets/babel.config.json",
 }
