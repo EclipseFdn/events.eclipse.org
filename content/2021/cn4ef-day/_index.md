@@ -7,6 +7,7 @@ date: 2021-10-11T12:00:00-04:00
 hide_page_title: true
 hide_sidebar: true
 header_wrapper_class: "header-cn4ef-day-2021-event"
+jumbotron_tagline_class: "col-sm-18 col-sm-offset-3 orange"
 custom_jumbotron_class: "col-sm-24"
 hide_breadcrumb: true
 # container: "container-fluid"
