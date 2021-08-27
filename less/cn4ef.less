@@ -23,14 +23,12 @@
 }
 
 .cn4ef-logos {
-  display: table;
-
   margin: 10px auto 30px auto;
   li {
     vertical-align: middle;
-    display: table-cell;
-
-    border-right: 2px solid @brand-primary;
+    @media (min-width: @screen-md-min) {
+      border-right: 2px solid @brand-primary;
+    }
     padding: 20px;
     &:last-child {
       border-right: none;
@@ -38,6 +36,6 @@
   }
 
   img {
-    max-width: 200px;
+    height: 27px;
   }
 }
