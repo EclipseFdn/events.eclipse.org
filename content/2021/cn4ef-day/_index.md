@@ -12,7 +12,7 @@ custom_jumbotron_class: " "
 hide_breadcrumb: true
 # container: "container-fluid"
 summary: "Cloud Native for Eclipse Foundation (CN4EF) Day 2021 is a full-day of expert talks, demos, and thought-provoking sessions focused on enterprise applications implemented using Eclipse Foundation projects on Kubernetes -- from the cloud and all the way to the edge. The Eclipse Cloud Development Tools, Jakarta EE, MicroProfile, and Eclipse Edge Native communities will all be represented. CN4CF Day is co-located with KubeCon / CloudNativeCon North America 2021."
-#links: [[href: "#speakers", text: "Speakers"], [href: "#agenda", text: "Agenda"], [href: "#registration", text: "Registration"]]
+links: [[href: "https://www.crowdcast.io/e/CN4EF", text: "Register"]]
 layout: single
 custom_jumbotron: '
 <ul class="list-inline cn4ef-logos">
@@ -21,6 +21,6 @@ custom_jumbotron: '
 <li data-mh="asd"><a href="https://jakarta.ee"><img src="images/logos/jakarta-ee.png"></a></li>
 <li data-mh="asd"><a href="https://microprofile.io/workinggroup/"><img src="images/logos/microprofile.png"></a></li>
 </ul>
-<p><span class="fw-700">Agenda and registration information is coming soon!</span></p>
+<p><span class="fw-700">Agenda information is coming soon!</span></p>
 '
 ---
