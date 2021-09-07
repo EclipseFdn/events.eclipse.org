@@ -11,19 +11,38 @@
  * SPDX-License-Identifier: EPL-2.0
 */
 
+.jumbotron {
+  padding-bottom: 10px;
+}
+
 .header-cn4ef-day-2021-event {
   background-image: url('images/cn4f-day/jumbotron.jpg');
   background-size: cover;
   text-shadow: 1px 1px #000;
+  h1 {
+    margin-bottom: 0;
+    &:after {
+      border: none;
+    }
+  }
   h2 {
+    margin: 0 0 20px 0;
     font-size: 25px;
     font-weight: bold;
     line-height: 30px;
+    color: @orange;
+  }
+  .btn {
+    text-shadow: none;
+  }
+  .register-btn {
+    margin-top: 15px;
+    border-radius: 4px;
   }
 }
 
 .cn4ef-logos {
-  margin: 10px auto 30px auto;
+  margin: 80px 0 20px 0;
   li {
     padding: 20px;
     @media (min-width: @screen-md-min) {
