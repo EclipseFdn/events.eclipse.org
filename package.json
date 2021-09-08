@@ -45,5 +45,9 @@
     "last 1 firefox version",
     "last 1 safari version"
   ],
-  "browserslist": "last 5 version, > 0.2%, not dead, IE 11"
+  "browserslist": "last 5 version, > 0.2%, not dead, IE 11",
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120
+  }
 }

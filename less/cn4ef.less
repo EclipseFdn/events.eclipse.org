@@ -71,3 +71,37 @@
     color: #6a6661;
   }
 }
+
+.event-hosted-by-section {
+  .ef-logo-ctn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    .ef-logo {
+      width: 150px;
+    }
+  }
+
+  .wg-ctn {
+    & {
+      box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.1);
+      height: 180px;
+      @media only screen and (min-width: 768px) and (max-width: 925px) {
+        height: 220px;
+      }
+    }
+    .logo-header {
+      height: 56px;
+      background-color: @orange;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 120px;
+      }
+      .small-height-logos {
+        width: 170px;
+      }
+    }
+  }
+}

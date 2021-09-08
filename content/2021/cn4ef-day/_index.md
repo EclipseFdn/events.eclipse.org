@@ -26,3 +26,5 @@ custom_jumbotron: '
 ---
 
 {{< cn4ef-day/about-the-event >}}
+
+{{< cn4ef-day/event-hosted-by >}}
