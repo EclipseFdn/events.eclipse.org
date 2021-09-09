@@ -23,6 +23,7 @@ custom_jumbotron: '
 </ul>
 <p><span class="fw-700">Agenda information is coming soon!</span></p>
 '
+footer_class: "footer-darker"
 ---
 
 {{< cn4ef-day/about-the-event >}}
