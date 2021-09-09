@@ -16,9 +16,14 @@
 }
 
 .header-cn4ef-day-2021-event {
-  background-image: url('images/cn4f-day/jumbotron.jpg');
-  background-size: cover;
-  text-shadow: 1px 1px #000;
+  & {
+    background-image: url('images/cn4f-day/jumbotron.jpg');
+    background-size: cover;
+    text-shadow: 1px 1px #000;
+  }
+  .dropdown-menu {
+    text-shadow: none;
+  }
   h1 {
     margin-bottom: 0;
     &:after {
