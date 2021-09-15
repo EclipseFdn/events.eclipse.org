@@ -48,8 +48,14 @@
 
 .cn4ef-logos {
   margin: 80px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   li {
     padding: 20px;
+    display: flex;
+    align-items: center;
     @media (min-width: @screen-md-min) {
       border-right: 2px solid @brand-primary;
       &:last-child {
@@ -59,7 +65,8 @@
   }
 
   img {
-    height: 27px;
+    max-height: 30px;
+    max-width: 155px;
   }
 }
 
