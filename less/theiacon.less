@@ -1,20 +1,27 @@
 .header-theiacon-2021-event {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url('images/theiacon/theia-background-image.jpg');
   background-size: cover;
-  height: 600px;
+  height: 610px;
 }
 
 .featured-jumbotron {
+  text-shadow: 2px 2px #000;
   h1 {
-    @media only screen and (min-width: 768px) {
+    @media (min-width: 768px) {
       margin-right: -85px;
     }
+    margin-top: 60px;
     text-align: end;
-    margin-top: 80px;
-    text-shadow: 2px 2px #000;
     &:after {
       border: none;
     }
+  }
+  h2 {
+    margin-top: 80px;
+  }
+  .btn {
+    text-shadow: none;
+    margin-bottom: 15px;
   }
 }
