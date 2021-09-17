@@ -1,5 +1,5 @@
 ---
-logo: 'images/theiacon-logo.svg'
+logo: '2021/theiacon/images/logos/theiacon-logo.svg'
 title: 'TheiaCon 2021'
 seo_title: 'TheiaCon 2021'
 headline: 'Jump Aboard the <br> Theia Rocketship'
