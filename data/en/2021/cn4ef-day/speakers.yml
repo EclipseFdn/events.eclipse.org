@@ -1,0 +1,51 @@
+items:
+  - name: 'Brian King'
+    title: 'Program Manager - Cloud Dev Tools, Eclipse Foundation'
+    img: 'brian-king.jpg'
+    bio: |
+      <p>As the Community Manager for Cloud Dev Tools at the Eclipse Foundation, Brian King is responsible for driving community growth, adoption and evolution around open source cloud-based development tools including Eclipse Che and Eclipse Theia at a worldwide level. Working closely with members and developers from Red Hat, IBM, Intel, SAP and other industry giants, Brian leads strategic planning, organizational decision making, and new project execution for one of the industry’s fastest growing working groups. Before joining Eclipse, Brian led communities thousands strong at Toptal and co-built the Mozilla Reps program with the Mozilla Corporation.</p>
+  - name: 'Luca Cominardi'
+    title: 'Senior Technologist, ADLINK Technology'
+    img: 'luca-cominardi.jpg'
+    bio: |
+      <p>Dr. Luca Cominardi is a Senior Technologist at ADLINK Technology, working on Edge Computing and Distributed Systems technologies. He is an active contributor to the Eclipse Edge Native Working Group and Committer to Eclipse zenoh. Luca holds degrees in Computer Science and Telematics Engineering from University of Brescia, Italy, and the University Carlos III of Madrid (UC3M), Spain.</p>
+  - name: 'Kilton Hopkins'
+    title: 'Co-Founder and CTO, Edgeworx'
+    img: 'kilton-hopkins.jpg'
+    bio: |
+      <p>Kilton Hopkins is the co-founder and CTO of Edgeworx, a startup that provides enterprise-scale edge computing. He is the creator of the Eclipse ioFog open source edge computing technology. Kilton is a former IoT advisor to the City of San Francisco and recently served as IoT program director for the Level program at Northeastern University.</p>
+  - name: 'Robert Andres'
+    title: 'Chief Strategy Officer, Eurotech'
+    img: 'robert-andres.jpg'
+    bio: |
+      <p>Robert Andres is the Chief Strategy Officer at Eurotech Group, where he is responsible for driving Edge Computing M2M, and IIoT initiatives within a wide range of markets and applications. Robert is an active contributor to the Eclipse IoT and Edge Native Working Groups at the Eclipse Foundation.</p>
+  - name: 'Frédéric Desbiens'
+    title: 'Program Manager - IoT and Edge Computing, Eclipse Foundation'
+    img: 'frederic-desbiens.jpg'
+    bio: |
+      <p>Frédéric Desbiens is the program manager for IoT and Edge Computing at the Eclipse Foundation where he helps drive community and open source innovation. Previously, he worked as a product manager, solutions architect, and developer for companies as diverse as Pivotal, Cisco, and Oracle. Frédéric holds an MBA in electronic commerce, a BASc in Computer Science, and a BEd, all from Université Laval.</p>
+  - name: 'Dmitry Aleksandrov'
+    title: 'Software Developer, Oracle'
+    img: 'dmitry-aleksandrov.jpg'
+    bio: |
+      <p>Dmitry Aleksandrov is a software developer at Oracle as well as a Java Champion and an Oracle Groundbreaker. While he has more than a decade of experience in Java Enterprise for the banking and communications industries, Dmitry is most interested in dynamic languages on Java Virtual Machines and features such as massive computations on graphics processing units. A true believer in open source and community-driven initiatives, he is a co-leader of the Bulgarian Java User Group and co-organizer of the jPrime conference. Dmitry is also a blogger and a frequent speaker at local events and conferences such as JavaOne, Oracle Code One, Devoxx, Voxxed Days, Joker, and JPoint.</p>
+  - name: 'David Cabelus'
+    title: 'Senior Principal Project Manager, Oracle'
+    img: 'david-cabelus.jpg'
+    bio: |
+      <p>Dave Cabelus is a senior principal product manager in the enterprise cloud native Java group at Oracle. Dave’s responsibilities include product strategy and direction for Verrazzano, an open source enterprise container management platform. In the industry since 1996 and involved in Java since 1999, Dave worked at various software companies including Logic Works, Platinum Software, Kana, and a few startups before coming to Oracle via the BEA acquisition in 2001. He is based in New Jersey and lives in eastern Pennsylvania.</p>
+  - name: 'Emily Jiang'
+    title: 'Liberty Microservices Architect and Advocate, Senior Technical Staff Member, IBM'
+    img: 'emily-jiang.jpg'
+    bio: |
+      <p>Emily Jiang is Liberty Architect for MicroProfile and CDI in IBM. Based at IBM's Hursley laboratory in the UK, she has worked on the WebSphere Application Server since 2006 and is heavily involved in Java EE implementation in WebSphere Application Server releases. She is a key member of MicroProfile and CDI Expert Group, and leads the specification of MicroProfile Config and Fault Tolerance. Emily is also Config JSR co-spec lead. She regularly speaks at conferences, such as JAX, Voxxed, Devoxx US, Devoxx UK, Devoxx France, DevNexus and EclipseCon.</p>
+  - name: 'Rudy DeBusscher'
+    title: 'Product Manager, Payara'
+    img: 'rudy-debusscher.jpg'
+    bio: |
+      <p>Rudy loves to create (web) applications with the Jakarta EE platform and Eclipse MicroProfile implementations and is currently working for Payara Services as Project Manager. He helps customers, prospects, writes technical content, is part of some MicroProfile implementations, and advocates the Payara Products in various ways. He is active in the IT industry for more than 20 years and has created many applications for customers. He is also a big fan of OpenSource and helped in various open source projects like DeltaSpike, PrimeFaces, and Apache Myfaces. He is also passionate about Web Application Security using OAuth2, OpenId Connect, and JWT. He maintains the Octopus Open Source project and is a member of the Jakarta EE Security API team.</p>
+  - name: 'Tetiana Fydorenchyk'
+    title: 'VP of Marketing, Jelestic'
+    img: 'tetiana-fydorenchyk.jpg'
+    bio: |
+      <p>Tetiana Fydorenchyk is a Vice President of Marketing in Jelastic, a multi-cloud PaaS provider serving developers and hosting companies around the world. Responsible for providing executive leadership and management of the Jelastic inbound and out-bound marketing activities worldwide, which include: corporate, partner/channel, PR, content and product marketing. Producing articles on tech and business topics connected with cloud computing, containers, DevOps, microservices, multi-cloud, Java and others. Actively organizes and participates at targeted online conferences, partners and users webinars. Involved in Java community growth by participating in Jakarta EE and MicroProfile Working Groups.</p>

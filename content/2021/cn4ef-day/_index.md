@@ -28,4 +28,15 @@ footer_class: "footer-darker"
 
 {{< cn4ef-day/about-the-event >}}
 
+<!-- Add user carousel for speaker -->
+{{< grid/section-container id="speakers" class="featured-section-row text-center featured-section-row-dark-bg eclipsefdn-user-display-circle" >}}
+  {{< events/user_display event="cn4ef-day" year="2021" title="Speakers" source="speakers" imageRoot="/2021/cn4ef-day/images/speakers/" subpage="speakers" displayLearnMore="false" />}}
+{{</ grid/section-container >}}
+
+
+<!-- Add Agenda -->
+{{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" >}}
+  {{< events/agenda event="cn4ef-day" year="2021" >}}
+{{</ grid/section-container >}}
+
 {{< cn4ef-day/event-hosted-by >}}
