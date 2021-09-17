@@ -33,10 +33,10 @@ footer_class: "footer-darker"
   {{< events/user_display event="cn4ef-day" year="2021" title="Speakers" source="speakers" imageRoot="/2021/cn4ef-day/images/speakers/" subpage="speakers" displayLearnMore="false" />}}
 {{</ grid/section-container >}}
 
-
 <!-- Add Agenda -->
 {{< grid/section-container id="agenda" class="featured-section-row featured-section-row-light-bg" >}}
   {{< events/agenda event="cn4ef-day" year="2021" >}}
 {{</ grid/section-container >}}
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
 
 {{< cn4ef-day/event-hosted-by >}}
