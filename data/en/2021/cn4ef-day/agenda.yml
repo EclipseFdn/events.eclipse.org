@@ -4,7 +4,7 @@ types:
       color: "#d1d2d4"
     - name: Panel
       id: panel
-      color: "#818285"
+      color: "#f79623"
     - name: Break
       id: break
       color: "#000"
