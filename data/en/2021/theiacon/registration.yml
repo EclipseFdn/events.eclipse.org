@@ -1,0 +1,10 @@
+end_date: 2021-11-18
+# end_text: | 
+# "THE EVENT HAS NOW CONCLUDED! 
+# Thank You for making the first annual TheiaCon event a great success!
+# This milestone would not be possible without the collective efforts of our dedicated community."
+title: "Call for Presentations"
+links:
+  - url: https://forms.gle/M3ckHPmjFpop6FzdA
+    text: Paper Call Link
+    external: true

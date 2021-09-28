@@ -21,3 +21,7 @@ hide_breadcrumb: true
 container: 'container-fluid'
 layout: 'single'
 ---
+
+{{< events/registration event="theiacon" year="2021">}}
+The TheiaCon 2021 Call for Presentations (CFP) is now open. We will be offering a broad range of opportunities to present and share all things Theia. The program will include 45 minute presentations (including demos), expert panel discussions and 5 minute “lightning talks.”  Potential topics include: Adopter Profiles, How To Build and Deploy Products and/or Services with Theia, How To Extend Theia, How You Have Used Theia or feel free to propose any interesting topic you are passionate about as a Theia Developper. 
+{{</ events/registration >}}
