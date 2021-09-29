@@ -8,4 +8,4 @@ hide_breadcrumb: false
 layout: "program-committee"
 ---
 
-{{< events/user_bios event="theiacon" year="2021"  source="committee" >}}
+{{< events/user_bios event="theiacon" year="2021" source="committee" imgRoot="/2021/theiacon/images/committee/" >}}
