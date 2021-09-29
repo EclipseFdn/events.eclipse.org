@@ -1,0 +1,14 @@
+items:
+  - name: "Marc Dumais"
+    title: "Software Developer at Ericsson AB, Canada"
+    img: "marc-dumais.jpg"
+    bio: |
+      <p>Marc Dumais has been working at Ericsson for over 20 years, developing tools that help boost the productivity of colleagues developing cellular infrastructure. In the last 10 years he has been involved in open-source software, leveraging the vast bounty of community-contributed software, to help fulfil his employer's needs. He has been involved early-on, co-leading the Eclipse Theia project and leading the internal Ericsson Team that contributes to the project daily.</p>
+  - name: "Artem Zatsarynnyi"
+    title: "Senior Software Engineer at Red Hat"
+    img: "artem-zatsarynnyi.jpg"
+    bio: "<p>Artem Zatsarynnyi is a long-term Eclipse Theia contributor. He joined the Theia community in 2018. Also, he leads one of Red Hat's teams that works on the Eclipse Che project. His team mainly focused on Che-Theia, the main IDE for Che, built on top of the Theia framework. Artem's team has been involved in the Theia community for a couple of years and they have made a lot of great contributions since then. Artem has worked on Eclipse Che since the beginning of the project and he is involved in building online IDEs for about 10 years.</p>"
+  - name: "Charaf Eddine Cheraa"
+    title: "Engineer at Evolved Binary Limited"
+    img: "charaf-cheraa.jpg"
+    bio: "<p>Charaf Eddine Cheraa is an Engineer at Evolved Binary. He started developing as a hobby using QBasic in 2004, and since then has used many development languages for different purposes. Recently, he has been working mostly on web apps.</p>"

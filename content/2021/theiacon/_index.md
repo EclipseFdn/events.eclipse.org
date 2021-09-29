@@ -12,8 +12,8 @@ links:
   [
     [href: 'https://www.crowdcast.io/e/theiacon2021', text: 'REGISTER'],
     [href: 'https://forms.gle/M3ckHPmjFpop6FzdA', text: 'Call for Papers'],
-    [href: '#', text: 'Speakers'],
-    [href: '#', text: 'Agenda'],
+    [href: '#committee', text: 'Program Committee'],
+    [href: '#', text: 'Speakers and Agenda'],
   ]
 hide_page_title: true
 hide_sidebar: true
@@ -25,3 +25,11 @@ layout: 'single'
 {{< events/registration event="theiacon" year="2021">}}
 The TheiaCon 2021 Call for Presentations (CFP) is now open. We will be offering a broad range of opportunities to present and share all things Theia. The program will include 45 minute presentations (including demos), expert panel discussions and 5 minute “lightning talks.”  Potential topics include: Adopter Profiles, How To Build and Deploy Products and/or Services with Theia, How To Extend Theia, How You Have Used Theia or feel free to propose any interesting topic you are passionate about as a Theia Developper. 
 {{</ events/registration >}}
+
+<!-- Add user carousel for committee -->
+{{< grid/section-container>}}
+  {{< grid/div class="padding-top-40" id="committee" isMarkdown="false">}}
+    {{< events/user_display event="theiacon" year="2021"  source="committee" subpage="program-committee" >}}
+    {{</ events/user_display >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
