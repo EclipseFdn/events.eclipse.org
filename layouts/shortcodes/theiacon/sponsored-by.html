@@ -1,0 +1,41 @@
+{{ $currLang:=.Page.Lang }}
+{{ $event_id := .Get "event" | default "default" }}
+{{ $year := .Get "year" }}
+{{ if $year }}
+  {{ .Scratch.Set "base" (index (index .Site.Data $currLang) $year) }}
+{{ else }}
+  {{ .Scratch.Set "base" (index .Site.Data $currLang) }}
+{{ end }}
+{{ $base := .Scratch.Get "base" }}
+{{ $event := .Get "event" | default "default" }}
+{{ $source := .Get "source" | default "members" }}
+
+<div class="row white-row">
+  <div class="container">
+    <div class="theiacon-sponsored-by-section">
+      <h2 class="text-center margin-bottom-20">Sponsors</h2>
+      <p class="text-center margin-bottom-20">
+        This event is sponsored by the Eclipse Foundation and the Eclipse Cloud DevTools Working Group.
+      </p>
+      <div class="logos-ctn margin-bottom-30">
+        <img class="ef-logo" src="{{"/images/eclipse-foundation-grey-orange.svg" | absURL }}" alt="Eclipse Foundation
+        Logo" /> 
+        <img class="ecd-logo" src="{{"/2021/theiacon/images/logos/ecdtools-logo.svg" | absURL }}" alt="Eclipse
+        Clound DevTools Logo" />
+      </div>
+
+      <div>
+        <p class="text-center margin-bottom-20">Thank you to our members!</p>
+        <ul class="list-inline">
+          {{ range (index (index $base $event) $source).items }}
+          <li class="margin-10">
+            <a href="{{ .link }}"
+              ><img width="{{ .img_width }}" alt="{{ .title }}" src="{{ .image }}"
+            /></a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -22,14 +22,20 @@ container: 'container-fluid'
 layout: 'single'
 ---
 
+{{< grid/div isMarkdown="false" class="row white-row" >}}
+{{< grid/div isMarkdown="false" class="container theiacon-ctn" >}}
 {{< events/registration event="theiacon" year="2021">}}
 The TheiaCon 2021 Call for Presentations (CFP) is now open. We will be offering a broad range of opportunities to present and share all things Theia. The program will include 45 minute presentations (including demos), expert panel discussions and 5 minute “lightning talks.”  Potential topics include: Adopter Profiles, How To Build and Deploy Products and/or Services with Theia, How To Extend Theia, How You Have Used Theia or feel free to propose any interesting topic you are passionate about as a Theia Developper. 
 {{</ events/registration >}}
+{{</ grid/div >}}
+{{</ grid/div >}}
 
 <!-- Add user carousel for committee -->
 {{< grid/section-container>}}
   {{< grid/div class="padding-top-40" id="committee" isMarkdown="false">}}
-    {{< events/user_display event="theiacon" year="2021"  source="committee" subpage="program-committee" >}}
+    {{< events/user_display event="theiacon" year="2021"  source="committee" imageRoot="/2021/theiacon/images/committee/" subpage="program-committee" >}}
     {{</ events/user_display >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
+
+{{< theiacon/sponsored-by event="theiacon" year="2021" source="members">}}

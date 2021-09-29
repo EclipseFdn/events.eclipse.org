@@ -8,52 +8,85 @@
     url('images/theiacon/theia-mobile-background-image.jpg');
   background-position: top 20% left;
   background-size: cover;
+
+  .featured-jumbotron {
+    text-shadow: 2px 2px #000;
+    h1 {
+      margin-bottom: 0;
+      &:after {
+        border: none;
+      }
+    }
+    .headerCtn {
+      h1 {
+        @media (min-width: 768px) {
+          text-align: end;
+          margin: 60px 0 0;
+        }
+        margin-top: -25px;
+        text-align: center;
+      }
+      h2 {
+        @media (min-width: 992px) {
+          font-size: 26px;
+        }
+        @media (min-width: 768px) {
+          text-align: end;
+          margin: 0 0 40px;
+        }
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 150px;
+      }
+    }
+
+    .list-inline {
+      & {
+        @media (min-width: 768px) {
+          display: block;
+        }
+        display: flex;
+        flex-direction: column;
+      }
+      .btn {
+        width: 220px;
+        text-shadow: none;
+        margin-bottom: 15px;
+      }
+    }
+  }
 }
 
-.featured-jumbotron {
-  text-shadow: 2px 2px #000;
-  h1 {
-    margin-bottom: 0;
-    &:after {
-      border: none;
-    }
-  }
-  .headerCtn {
-    h1 {
-      @media (min-width: 768px) {
-        text-align: end;
-        margin: 60px 0 0;
-      }
-      margin-top: -25px;
-      text-align: center;
-    }
-    h2 {
-      @media (min-width: 992px) {
-        font-size: 26px;
-      }
-      @media (min-width: 768px) {
-        text-align: end;
-        margin: 0 0 40px;
-      }
-      text-align: center;
-      font-size: 20px;
-      font-weight: 500;
-      margin-top: 150px;
-    }
-  }
+.theiacon-ctn .eclipsefdn-registration {
+  margin: 40px 0;
+}
 
-  .list-inline {
-    & {
-      @media (min-width: 768px) {
-        display: block;
+.theiacon-sponsored-by-section {
+  & {
+    margin: 40px 0;
+  }
+  .logos-ctn {
+    display: flex;
+    justify-content: center;
+    img {
+      margin: 25px;
+      width: 160px;
+      &:last-child {
+        width: 200px;
       }
-      display: flex;
-      flex-direction: column;
     }
-    .btn {
-      width: 200px;
-      text-shadow: none;
-      margin-bottom: 15px;
+  }
+  .list-inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+      height: 80px;
+      width: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
