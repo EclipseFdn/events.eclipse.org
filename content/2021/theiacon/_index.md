@@ -38,4 +38,10 @@ The TheiaCon 2021 Call for Presentations (CFP) is now open. We will be offering 
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+<!-- Add user carousel for speakers -->
+{{< grid/section-container id="speakers" class="featured-section-row text-center featured-section-row-dark-bg eclipsefdn-user-display-circle" >}}
+  {{< events/user_display event="theiacon" year="2021" title="Speakers" source="speakers" imageRoot="/2021/theiacon/images/committee/" displayLearnMore="false" />}}
+{{</ grid/section-container >}}
+
+<!-- Add sponsors section -->
 {{< theiacon/sponsored-by event="theiacon" year="2021" source="members">}}

@@ -1,0 +1,10 @@
+items:
+  - name: "Marc Dumais"
+    title: "Software Developer at Ericsson AB, Canada"
+    img: "marc-dumais.jpg"
+  - name: "Jonas Helming"
+    title: "Software Engineer at EclipseSource"
+    img: "jonas-helming.jpg"
+  - name: "Thomas Mäder"
+    title: "Principal Software Developer at Red Hat"
+    img: "thomas-mader.jpg"
