@@ -13,7 +13,7 @@ links:
     [href: 'https://www.crowdcast.io/e/theiacon2021', text: 'REGISTER'],
     [href: 'https://forms.gle/M3ckHPmjFpop6FzdA', text: 'Call for Papers'],
     [href: '#committee', text: 'Program Committee'],
-    [href: '#', text: 'Speakers and Agenda'],
+    [href: '#speakers', text: 'Speakers and Agenda'],
   ]
 hide_page_title: true
 hide_sidebar: true
