@@ -1,3 +1,4 @@
+complete: true
 types:
     - name: Session
       id: session
@@ -14,6 +15,7 @@ items:
       presenter: Brian King
       type: session
       time: 09:00 - 09:30 (PDT)
+      vod: https://www.youtube.com/watch?v=db-S1M8vJ2I&list=PLy7t4z5SYNaRV5A0rKaeWlHpfMXSuHio2&index=1
     - name: 'Expert Panel: What Is EdgeOps and Why Should You Care?'
       presenter: Luca Cominardi, Kilton Hopkins, Robert Andres, Frédéric Desbiens
       type: panel
@@ -22,12 +24,14 @@ items:
         <p>Devops radically transformed the way we build and deliver software. If you are building Cloud Native applications today, you probably leverage a DevOps approach. The rise of Edge computing, however, challenges the status quo. Edge Computing complements Cloud computing by deploying hardware resources and software components in the real world, as close to the source of the data as possible. At the Edge, a pure DevOps approach is doomed to failure. Why is that? The Cloud is homogeneous and centralized; the Edge is heterogeneous and distributed. They are nothing alike.
         <br>EdgeOps is a vision for Edge Computing proposed by the Edge Native working group at the Eclipse Foundation. EdgeOps aims to tailor the basic principles of DevOps in an approach more suited to the specificities of the Edge environment. One of its tenets is that the components of the data, control and monitoring planes can be placed anywhere on the edge-to-cloud continuum. This kind of flexibility requires protocols, platforms and tooling built from the ground up for the Edge. 
         <br>In this session, you will learn what EdgeOps is and why it matters to you from a panel of edge computing veterans.</p>
+      vod: https://www.youtube.com/watch?v=WudoKT3Vlrg&list=PLy7t4z5SYNaRV5A0rKaeWlHpfMXSuHio2&index=2
     - name: Take Your Microservices to the Next Level with Helidon and Verrazzano
       presenter: Dmitry Aleksandrov, David Cabelus
       type: session
       time: 10:30 - 11:00 (PDT)
       abstract: |
         <p>Want to easily write cloud native microservices? The combination of Helidon and Verrazzano enterprise container platform   provides everything you need—from development of microservices to full scale operation in the cloud, all using modern, open source technologies. Hear how Helidon enables you to write tiny microservices with a small memory footprint and distribution size yet with ultimate performance. Learn about the powerful Helidon tooling that supports GraalVM. See how Verrazzano enables you to manage modern applications with portability and consistency across cloud environments while also making it easy to manage both traditional applications and microservices in Kubernetes.</p>
+      vod: https://www.youtube.com/watch?v=xYVS9zK-EUg&list=PLy7t4z5SYNaRV5A0rKaeWlHpfMXSuHio2&index=3
     - name: 'Live Coding: Cloud-native Application Development with MicroProfile and Open Liberty'
       presenter: Emily Jiang
       type: session
@@ -35,6 +39,7 @@ items:
       abstract: |
         <p>Planning to build a cloud-native application? MicroProfile and Open Liberty are here to help you with the easy-to-use APIs so that you can focus on business logic.
         <br>Come to this session to watch the live coding of building cloud-native applications using MicroProfile programming mode (microprofile.io) and get them running Open Liberty (openliberty.io). Finally, deploy them to Kubernetes to see how they function natively in the cloud!</p>
+      vod: https://www.youtube.com/watch?v=uTGDciJnnwo&list=PLy7t4z5SYNaRV5A0rKaeWlHpfMXSuHio2&index=4
     - name: Break
       presenter: 
       type: break
@@ -45,18 +50,21 @@ items:
       time: 12:00 - 12:30 (PDT)
       abstract: |
         <p>Kubernetes can manage the containers that run your application more easily than if you need to handle them individually. A Platform as a Service (PAAS) solution takes away the burden to deep dive into a framework and can handle many tasks for you. Since Kubernetes has its own challenges, is a PAAS solution preferred? The answer to this question depends on your situation, of course. In this demo we go a bit deeper in comparing the process of setting up a Kubernetes Cluster yourself with using a PAAS that manages it for you. We will also demonstrate the simple steps to bring your Jakarta EE application to the cloud with Payara Cloud, with no Kubernetes knowledge needed.</p>
+      vod: https://www.youtube.com/watch?v=TNBuwQmWcZ0&list=PLy7t4z5SYNaRV5A0rKaeWlHpfMXSuHio2&index=5
     - name: Running Jakarta EE Applications Like Cargo Tracker Inside Kubernetes with Nested Container Architecture
       presenter: Tetiana Fydorenchyk
       type: session
       time: 12:35 - 13:05 (PDT)
       abstract: |
         <p>Kubernetes enables possibilities to develop cloud native microservices or decompose traditional applications making them more technologically advanced with the help of containers. Currently, most of the Kubernetes solutions are offered on top of VMs and there is room for further improvements. Implementing nested architecture of application containers running inside system containers opens additional flexibility of resource allocation and management, accelerates provisioning of the clusters and pods, as well as cuts the overall costs. During this session we’ll review the possibilities of running a Jakarta EE application, using Cargo Tracker as an example, inside Kubernetes cluster with nested container architecture, what configurations should be taken into account, and how to overcome the barriers on the way to more efficient Kubernetes hosting.</p>
+      vod: https://www.youtube.com/watch?v=MYQT9hi-ecE&list=PLy7t4z5SYNaRV5A0rKaeWlHpfMXSuHio2&index=6
     - name: Do We Really Need Kubernetes at the Edge?
       presenter: Frédéric Desbiens 
       type: session
       time: 13:10 - 14:00 (PDT)
       abstract: |
         <p>At its core, Edge Computing is about the distribution of computational power and data storage wherever they are needed. In a developer perspective, the whole point is to bring cloud native tools and techniques outside of the data center. Naturally, this includes Kubernetes. But is Kubernetes really needed on the Edge? Many of the open source and commercial edge platforms available right now orchestrate applications and services in their own way. Others, on the other hand, integrate with Kubernetes. Which one is the right approach? In this session, you will learn how to answer this question for yourself through examples related to industrial automation, artificial intelligence and connected vehicles.</p>
+      vod: https://www.youtube.com/watch?v=u8BDtSP7Dfg&list=PLy7t4z5SYNaRV5A0rKaeWlHpfMXSuHio2&index=7
     - name: Wrap-up and Questions
       presenter: Brian King
       type: session
