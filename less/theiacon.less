@@ -1,12 +1,20 @@
 .header-theiacon-2021-event {
-  @media (min-width: 768px) {
-    background-image: url('images/theiacon/theia-background-image.jpg');
-    background-position: center;
-  }
-  background-image: url('images/theiacon/theia-mobile-background-image.jpg');
-  background-position: top 20% left;
+  background-image: url('images/theiacon/theia-background-image.jpg');
   background-size: cover;
-
+  background-position: center;
+  img.img-responsive {
+    @media (min-width: 768px) {
+      width: 200px;
+      margin-top: 10px;
+    }
+    @media (min-width: 992px) {
+      width: 260px;
+      margin-top: 5px;
+    }
+    margin-top: 5px;
+    width: 180px;
+    max-width: 260px;
+  }
   .featured-jumbotron {
     & {
       text-shadow: 2px 2px #000;
@@ -27,36 +35,57 @@
       @media (min-width: 768px) {
         align-items: flex-end;
       }
+      position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
+      .rocketCtn {
+        @media (min-width: 768px) {
+          right: 400px;
+          top: 0;
+        }
+        @media (min-width: 992px) {
+          right: 510px;
+          width: 450px;
+          height: 320px;
+        }
+        right: calc(50vw - 175px);
+        top: 90px;
+        width: 350px;
+        height: 240px;
+        position: absolute;
+        background-image: url('images/theiacon/theia-rocket-whitefonts.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
       h1 {
         @media (min-width: 768px) {
           margin: 60px 0 0;
-          width: 260px;
+          width: 380px;
           text-align: left;
         }
         @media (min-width: 992px) {
-          width: 355px;
+          width: 480px;
         }
         margin-top: -15px;
         text-align: center;
       }
       h2 {
         @media (min-width: 768px) {
-          margin: 0 0 90px;
+          margin: 0 0 40px;
           text-align: left;
-          width: 260px;
+          width: 380px;
         }
         @media (min-width: 992px) {
-          margin: 0 0 40px;
           font-size: 26px;
-          width: 355px;
+          width: 480px;
         }
         text-align: center;
         font-size: 20px;
         font-weight: 500;
-        margin-top: 40vw;
+        margin-top: 230px;
+        color: #00e2ff;
       }
     }
 
