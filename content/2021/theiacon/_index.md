@@ -3,7 +3,7 @@ logo: '2021/theiacon/images/logos/theiacon-logo.svg'
 title: 'TheiaCon 2021'
 seo_title: 'TheiaCon 2021'
 headline: |
-  <div class='headerCtn'><div class="rocketCtn"></div><h1>Leading the Next <br> Generation of Cloud <br> IDE Development</h1> <h2>Virtual Conference | November 17, 2021</h2></div>
+  <div class='headerCtn'><div class="rocketCtn"></div><h1>Leading the Next <br> Generation of Cloud <br> IDE Development</h1> <h2>Virtual Conference | November 17-18, 2021</h2></div>
 tagline: ''
 summary: 'TheiaCon is a virtual conference focused around the Eclipse Theia IDE ecosystem. It brings together a diverse group of Theia developers, adopters, and other contributors. The program will feature a mix of full-length talks, expert panel discussions and short ”lightning talks” focused on project insider, adopter, and broader ecosystem stories. This event is hosted by the Eclipse Foundation’s Cloud DevTools Working Group and is open to anyone interested in learning more about Cloud IDE development and the Theia project.'
 date: 2021-11-17
